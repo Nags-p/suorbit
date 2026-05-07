@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suorbit | Building Digital Products</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Inter, Arial, sans-serif;
+      background: #f8fafc;
+      color: #0f172a;
+      line-height: 1.6;
+    }
+
+    .suorbit-page {
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at top right, rgba(37, 99, 235, 0.16), transparent 35%),
+        linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
+    }
+
+    .container {
+      width: min(1180px, 92%);
+      margin: auto;
+    }
+
+    header {
+      padding: 28px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      color: #0f172a;
+    }
+
+    .logo span {
+      color: #2563eb;
+    }
+
+    .nav-btn {
+      text-decoration: none;
+      background: #0f172a;
+      color: #ffffff;
+      padding: 12px 22px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    .hero {
+      padding: 95px 0 80px;
+      text-align: center;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      padding: 8px 18px;
+      border-radius: 999px;
+      font-size: 14px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+
+    .hero h1 {
+      font-size: clamp(42px, 7vw, 76px);
+      line-height: 1.05;
+      letter-spacing: -2px;
+      max-width: 900px;
+      margin: 0 auto 24px;
+    }
+
+    .hero h1 span {
+      color: #2563eb;
+    }
+
+    .hero p {
+      font-size: 19px;
+      color: #475569;
+      max-width: 760px;
+      margin: 0 auto 34px;
+    }
+
+    .hero-actions {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+      text-decoration: none;
+      padding: 15px 28px;
+      border-radius: 999px;
+      font-weight: 700;
+      transition: 0.25s ease;
+    }
+
+    .primary-btn {
+      background: #2563eb;
+      color: #ffffff;
+      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
+    }
+
+    .secondary-btn {
+      background: #ffffff;
+      color: #0f172a;
+      border: 1px solid #cbd5e1;
+    }
+
+    .primary-btn:hover,
+    .secondary-btn:hover {
+      transform: translateY(-2px);
+    }
+
+    .section {
+      padding: 70px 0;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 45px;
+    }
+
+    .section-title h2 {
+      font-size: clamp(30px, 4vw, 46px);
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+
+    .section-title p {
+      color: #64748b;
+      font-size: 17px;
+      max-width: 680px;
+      margin: auto;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 32px;
+      border-radius: 24px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.06);
+    }
+
+    .icon {
+      width: 52px;
+      height: 52px;
+      border-radius: 16px;
+      background: #eff6ff;
+      color: #2563eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .card h3 {
+      font-size: 21px;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      color: #64748b;
+      font-size: 15px;
+    }
+
+    .products {
+      background: #0f172a;
+      color: #ffffff;
+      border-radius: 34px;
+      padding: 55px;
+    }
+
+    .products h2 {
+      font-size: clamp(30px, 4vw, 44px);
+      margin-bottom: 12px;
+    }
+
+    .products p {
+      color: #cbd5e1;
+      max-width: 700px;
+      margin-bottom: 35px;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .product-card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      padding: 24px;
+      border-radius: 20px;
+    }
+
+    .product-card h3 {
+      margin-bottom: 8px;
+      font-size: 19px;
+    }
+
+    .product-card a {
+      color: #93c5fd;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .coming {
+      opacity: 0.75;
+    }
+
+    .cta {
+      text-align: center;
+      background: #ffffff;
+      padding: 60px 30px;
+      border-radius: 30px;
+      border: 1px solid #e2e8f0;
+      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.06);
+    }
+
+    .cta h2 {
+      font-size: clamp(30px, 4vw, 44px);
+      margin-bottom: 14px;
+    }
+
+    .cta p {
+      color: #64748b;
+      max-width: 650px;
+      margin: 0 auto 28px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 0;
+      color: #64748b;
+      font-size: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .cards,
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .products {
+        padding: 35px 24px;
+      }
+
+      header {
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="suorbit-page">
+    <div class="container">
+      <header>
+        <div class="logo">Suorbit<span>.</span></div>
+        <a href="#products" class="nav-btn">Explore Products</a>
+      </header>
+
+      <section class="hero">
+        <div class="badge">Parent Company for Digital Products</div>
+        <h1>Building simple products for real-world <span>digital needs.</span></h1>
+        <p>
+          Suorbit is a product studio creating focused web-based tools, platforms, and digital experiences.
+          Each product lives under the Suorbit ecosystem through dedicated subdomains.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#products" class="primary-btn">View Products</a>
+          <a href="mailto:hello@suorbit.top" class="secondary-btn">Contact Suorbit</a>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-title">
+          <h2>What Suorbit Does</h2>
+          <p>
+            We create lightweight, useful, and scalable digital products that solve specific problems without unnecessary complexity.
+          </p>
+        </div>
+
+        <div class="cards">
+          <div class="card">
+            <div class="icon">🚀</div>
+            <h3>Product Experiments</h3>
+            <p>
+              Launching small, focused product ideas quickly and validating them with real users.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="icon">🌐</div>
+            <h3>Subdomain-Based Products</h3>
+            <p>
+              Each product gets its own identity using subdomains like product.suorbit.top.
+            </p>
+          </div>
+
+          <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Fast Digital Solutions</h3>
+            <p>
+              Building practical tools for communities, creators, businesses, and everyday users.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="products">
+        <div class="products">
+          <h2>Suorbit Product Ecosystem</h2>
+          <p>
+            This page acts as the central home for all current and upcoming products under Suorbit.
+          </p>
+
+          <div class="product-grid">
+            <div class="product-card">
+              <h3>Match by Intent</h3>
+              <p class="coming">Connect with people based on specific intent.</p>
+              <a href="#">Coming Soon →</a>
+            </div>
+
+            <div class="product-card">
+              <h3>Product 02</h3>
+              <p class="coming">A future digital product from Suorbit.</p>
+              <a href="#">Coming Soon →</a>
+            </div>
+
+            <div class="product-card">
+              <h3>Product 03</h3>
+              <p class="coming">Another product will be added here soon.</p>
+              <a href="#">Coming Soon →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="cta">
+          <h2>One ecosystem. Multiple products.</h2>
+          <p>
+            Suorbit is built to grow as a parent brand while allowing each product to have its own focused purpose and audience.
+          </p>
+          <a href="mailto:hello@suorbit.top" class="primary-btn">Get in Touch</a>
+        </div>
+      </section>
+
+      <footer>
+        © 2026 Suorbit. All rights reserved.
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
