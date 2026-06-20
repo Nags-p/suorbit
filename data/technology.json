@@ -1,47 +1,69 @@
 [
   {
-    "id": "article-tec-mqmv1qca-000",
-    "title": "AMD Reverses Course: Ryzen 9000 CPUs to Regain Critical Memory Encryption Feature Next Month",
-    "summary": "AMD is reinstating its Transparent Secure Memory Encryption (TSME) feature on non-PRO Ryzen 9000 desktop CPUs through a BIOS update arriving in July. This crucial security capability, which was initially removed, is returning due to significant community feedback, safeguarding user data at a hardware level.",
-    "content": "In a move that underscores the power of user feedback, AMD has announced it will reinstate Transparent Secure Memory Encryption (TSME) on its non-PRO Ryzen 9000 desktop processors this July. This essential security feature, designed to protect sensitive data in memory, makes a welcome return after its unexpected absence caused a stir among the enthusiast community.\n\nTSME, often branded as 'Memory Guard' in AMD's PRO lineup, provides hardware-level encryption for system memory. This means data is encrypted as it moves through the system, offering a robust shield against sophisticated attacks like cold boot attacks or physical memory tampering. Its initial removal from the mainstream Ryzen 9000 chips, which include some of AMD’s most powerful CPUs, was a peculiar decision that left many users concerned about the platform's security posture.\n\nFortunately, AMD appears to have listened intently to the chorus of voices from its user base and hardware critics. The company explicitly cited \"valuable community feedback\" as the driving force behind this reinstatement. It's a clear signal that the chipmaker is committed to both performance and security, recognizing that advanced hardware demands comprehensive protection.\n\nThe reintroduction of TSME will arrive via a routine BIOS update, making it accessible to all eligible Ryzen 9000 desktop users. This proactive step not only restores a critical layer of defense but also reinforces AMD's dedication to supporting the long-term integrity and security of its platforms. For users, it means an enhanced peace of mind, knowing their data is better secured at the foundation of their PC.",
+    "id": "article-tec-mqmyzsvt-000",
+    "title": "Brad Feld & AI Co-Author 'Zero Knowledge' in Radical Open Publishing Experiment",
+    "summary": "Venture capitalist Brad Feld is co-authoring a crypto-thriller, \"Zero Knowledge,\" with an AI, and is publishing it live online chapter-by-chapter. This radical approach allows readers to actively participate in the creation process, challenging traditional publishing models and exploring the future of human-AI creative collaboration.",
+    "content": "Brad Feld, a name synonymous with venture capital and startup innovation, is now venturing into fiction, but not in the way one might expect. He's co-authoring a crypto-thriller titled \"Zero Knowledge\" – and his collaborator is an artificial intelligence.\n\nThe project’s genesis saw Feld grapple with a fundamental author’s dilemma: follow the conventional path of publishing a completed manuscript, or embrace radical transparency by releasing the work chapter-by-chapter as it’s written? His decision landed firmly on the latter, a move that aligns perfectly with the open-source ethos prevalent in the tech world he knows so well.\n\nHoused at zeroknowledge.ink, the burgeoning novel offers a unique, interactive reading experience. Six chapters are already live, inviting readers not just to consume the story, but to become an integral part of its development. The platform allows for sentence-level markups, effectively turning every reader into a potential editor and co-creator. This dynamic blurs the traditional lines between author, editor, and audience, fostering a community-driven narrative.\n\n\"Zero Knowledge\" itself promises a thrilling dive into the intricate world of cryptocurrency, cyberespionage, and digital intrigue. The AI's role isn't merely a gimmick; it's an integral partner in shaping the narrative alongside Feld. This experiment doesn't just challenge traditional publishing models; it pushes the boundaries of authorship itself in an AI-assisted era. Feld's audacious step offers a compelling glimpse into a future where creative works are not static products, but evolving, collaborative digital entities.",
     "keyTakeaways": [
-      "AMD is bringing back Transparent Secure Memory Encryption (TSME) to non-PRO Ryzen 9000 desktop CPUs.",
-      "The reinstatement, due in July via a BIOS update, is a direct response to 'valuable community feedback'.",
-      "TSME is a vital hardware-level security feature that encrypts system memory, protecting against advanced data theft and physical attacks."
+      "Venture capitalist Brad Feld is co-authoring a crypto-thriller, \"Zero Knowledge,\" with an artificial intelligence.",
+      "The novel is being published in real-time on zeroknowledge.ink, allowing readers to provide direct feedback and markups.",
+      "This project represents a significant experiment in open publishing, challenging traditional authorship and exploring human-AI collaboration in creative fields."
     ],
-    "source": "Tom's Hardware UK",
-    "author": "Jake Roach",
-    "publishedAt": "2026-06-19 21:02",
+    "source": "Feld.com",
+    "author": "Brad Feld",
+    "publishedAt": "2026-06-19 23:04",
     "category": "Technology",
-    "image": "https://cdn.mos.cms.futurecdn.net/yQxDP9b5mwjEYZ4Y37kD7X-1999-80.jpg",
-    "originalUrl": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
+    "image": "https://feld.com/og-default.png",
+    "originalUrl": "https://feld.com/archives/2026/06/read-zero-knowledge-as-i-write-it/",
     "tags": [
       "Technology",
-      "reinstate",
-      "memory"
+      "Knowledge"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mqmv2542-002",
-    "title": "Forget Rebooting: Your Motherboard Can Transform That Old Reset Button into a Powerhouse",
-    "summary": "The once-essential PC reset button is largely obsolete in modern systems due to stable OS and fast SSDs, leading many new cases to omit it. However, modern motherboards are ingeniously repurposing this dormant physical input, allowing users to remap it for various functions like RGB control, fan speed adjustments, or even direct BIOS access.",
-    "content": "Remember the PC reset button? For decades, it was a ubiquitous presence on computer cases, a quick, albeit sometimes drastic, fix for a frozen system. But in an era of lightning-fast SSDs and increasingly stable operating systems, that dedicated reboot method has quietly faded into obscurity. Many modern chassis don't even bother including one, viewing it as an unnecessary relic of a bygone era.\n\nYet, even if your case *does* have this physical relic, chances are it sits dormant, an unused port to a functionality you rarely, if ever, need. This isn't just about nostalgia; it’s about a valuable, tactile input left untapped. Fortunately, motherboard manufacturers, ever keen on extracting maximum utility from every component, are stepping in to give this obsolete button a surprising second life.\n\nModern motherboards are increasingly offering the ability to repurpose that old reset switch, transforming it from a simple \"off-and-on-again\" trigger into a versatile command center. Imagine pressing a physical button to cycle through your RGB lighting profiles, instantly adjust fan speeds for quiet operation or maximum cooling, or even trigger a safe boot directly into your BIOS settings.\n\nThe possibilities extend further. Some boards allow it to initiate a direct power cycle, bypassing software altogether, or even run custom scripts for advanced users. It's a brilliant blend of old-school physical control and cutting-edge customization, turning a forgotten feature into a direct line to your system's core functions. This ingenuity reclaims valuable case real estate and offers PC enthusiasts a new level of immediate, physical command over their build.\n\nSo, while the reset button may be dead in its original form, its spirit, and indeed its physical presence, are being resurrected. It’s a testament to how even the most mundane components can find renewed relevance through clever design, giving users more control and convenience than ever before.",
+    "id": "article-tec-mqmyzzry-001",
+    "title": "From Racetrack to Rocket: F1 Tech Unleashes New British Missiles for Ukraine",
+    "summary": "British defense innovators are integrating cutting-edge Formula 1 technology, including advanced aerodynamics and carbon composite materials, to develop a new class of faster, lighter missiles for Ukraine. This strategic move aims to equip Ukraine with high-performance, domestically-produced weaponry, potentially sidestepping restrictions on how foreign-supplied armaments can be used in the conflict.",
+    "content": "In a surprising fusion of high-speed sport and high-stakes conflict, British missile developers are channeling the relentless innovation of Formula 1 into the grim realities of the Ukrainian battlefield. For the first time, the precision engineering and material science perfected in Grand Prix racing are being directly applied to military hardware, promising a new generation of agile, potent missiles.\n\nAt the heart of this technological leap are two F1 hallmarks: advanced aerodynamics and ultralight carbon composite chassis. Engineers are leveraging race car design principles to sculpt missile bodies that cut through the air with unprecedented efficiency, translating directly into greater speed, extended range, and enhanced maneuverability. The use of robust yet featherlight carbon fiber, a staple in F1 car construction, significantly reduces the missile's overall weight, allowing for higher payloads or further flight on the same amount of propellant.\n\nThis isn't just about raw performance; it's a strategic play. By developing these sophisticated armaments without relying on American components, Britain is fostering a sovereign capability. This independence could prove crucial for Ukraine, potentially offering a pathway to employ these advanced missiles against targets within Russian territory without the political caveats often attached to US-supplied weapons.\n\nSuch an agile approach, moving from drawing board to battlefield with F1's characteristic speed, underscores a broader trend of commercial innovation influencing defense. This initiative not only equips Ukraine with a potentially game-changing tool but also solidifies Britain's position as a leader in innovative defense technology, demonstrating how breakthroughs from one high-performance domain can decisively impact another.",
     "keyTakeaways": [
-      "The traditional PC reset button is becoming obsolete as operating systems stabilize and SSDs make reboots quick.",
-      "Many modern PC cases no longer include a dedicated reset button, rendering any existing ones dormant.",
-      "New motherboards offer a clever solution, allowing users to repurpose the reset button for custom functions like RGB control, fan speed, or direct BIOS access."
+      "British missile innovators are integrating Formula 1 aerodynamics and carbon composite materials to create lighter, faster missiles.",
+      "This new generation of weaponry is destined for Ukraine, promising enhanced speed, range, and maneuverability on the battlefield.",
+      "Developing these missiles independently of US components provides strategic autonomy, potentially allowing Ukraine greater flexibility in targeting decisions."
     ],
-    "source": "XDA Developers",
-    "author": "Rich Edmonds",
-    "publishedAt": "2026-06-19 21:00",
+    "source": "Dailymail.com",
+    "author": "Mark Nicol",
+    "publishedAt": "2026-06-19 23:01",
     "category": "Technology",
-    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2024/06/asus-rog-strix-x570-e-gaming-front-io-header.jpg?w=1600&h=900&fit=crop",
-    "originalUrl": "https://www.xda-developers.com/your-motherboard-unused-headers-can-do-this-no-extra-hardware/",
+    "image": "https://i.dailymail.com/1s/2026/06/19/20/109476989-0-image-a-8_1781898830411.jpg",
+    "originalUrl": "https://www.dailymail.com/news/article-15914027/Britain-uses-F1-technology-produce-faster-lighter-missiles-without-US-parts-Ukraine-beat-restrictions-fire-Russian-territory.html",
     "tags": [
       "Technology",
-      "button",
-      "motherboard"
+      "Britain",
+      "technology"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqmz096s-002",
+    "title": "Australia's Loudest Wake-Up Call: Emergency Alert System Gets a Trial Run",
+    "summary": "Australia is actively testing a new national emergency warning system designed to deliver critical alerts directly to mobile phones. While potentially startling, these ongoing alarms and text messages are crucial drills ensuring public safety and system readiness for future crises.",
+    "content": "Picture this: you're just going about your day, perhaps focused on your tasks, when suddenly, a cacophony erupts – every phone in the vicinity screaming a high-pitched alarm. That was the scene pharmacist Mark Ashton found himself in this week, as he, like countless others in regional Australia, was caught off guard by a new national warning system test.\n\nThis isn't a glitch, nor is it an actual emergency. Instead, it's a deliberate and crucial trial of Australia's revamped national public warning system. Designed to deliver urgent alerts directly to mobile phones in times of crisis – be it bushfires, floods, or other severe threats – these tests are vital to ensure the system functions flawlessly when it truly matters. The objective is clear: equip citizens with immediate, life-saving information.\n\nFor now, the alarms and accompanying text alerts have been localized to specific regional towns, serving as a phased rollout to fine-tune its capabilities. However, prepare for a potential symphony of shrieks on your own device next month, as the testing regime is set to expand significantly across wider metropolitan and rural areas. The message is clear: when your phone goes off with that distinctive alarm and warning text, remember it’s a drill.\n\nWhile the sudden noise can certainly jolt you, the temporary disruption pales in comparison to the peace of mind knowing that in a real emergency, critical information will reach you swiftly. It’s a small price to pay for a robust system that could one day save lives, turning everyday moments of surprise into crucial steps towards national resilience.",
+    "keyTakeaways": [
+      "Australia is trialing a new national mobile emergency warning system.",
+      "Tests involve a high-pitched phone alarm and text alerts, initially in regional areas.",
+      "Expect wider testing next month; these are drills designed for public safety, not actual emergencies."
+    ],
+    "source": "ABC News (AU)",
+    "author": "Eliza Bidstrup and Piper Duffy",
+    "publishedAt": "2026-06-19 23:00",
+    "category": "Technology",
+    "image": "https://live-production.wcms.abc-cdn.net.au/b0d94a2832570d1bbae2f9de1d8e764f?impolicy=wcms_watermark_news&cropH=2583&cropW=4592&xPos=0&yPos=0&width=862&height=485&imformat=generic",
+    "originalUrl": "https://www.abc.net.au/news/2026-06-20/ausalert-warning-system-testing-regional-australia/106815398",
+    "tags": [
+      "Technology",
+      "alarmed",
+      "warning"
     ],
     "readingTime": "2 min"
   }
