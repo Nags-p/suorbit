@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient for Left Sphere -->
+    <radialGradient id="purpleGrad" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#c084fc" />     <!-- light purple -->
+      <stop offset="40%" stop-color="#8b5cf6" />    <!-- primary purple -->
+      <stop offset="85%" stop-color="#5b21b6" />    <!-- dark purple -->
+      <stop offset="100%" stop-color="#3b0764" />   <!-- deep shadow -->
+    </radialGradient>
+
+    <!-- Glowing Intersection Overlay -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#f5d0fe" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#d8b4fe" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Drop Shadow for Spheres -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Left Sphere (Solid Gradient) with shadow -->
+  <circle cx="220" cy="200" r="150" fill="url(#purpleGrad)" filter="url(#shadow)" />
+
+  <!-- Right Sphere (Halftone Dotted Sphere Projection) with shadow -->
+  <g filter="url(#shadow)">
+    <!-- Latitude curve lines represented as a halftone dotted grid -->
+    <!-- Curved grid of dots with size perspective (larger on the left, smaller on the right) -->
+    
+    <!-- Y = 80 (Top) -->
+    <circle cx="308" cy="100" r="5.5" fill="#ec4899" opacity="0.6" />
+    <circle cx="330" cy="95" r="4.8" fill="#e84e9e" opacity="0.6" />
+    <circle cx="352" cy="92" r="4.0" fill="#e254a3" opacity="0.5" />
+    <circle cx="374" cy="92" r="3.2" fill="#d95ba8" opacity="0.5" />
+    <circle cx="396" cy="95" r="2.5" fill="#cf62ad" opacity="0.4" />
+    <circle cx="418" cy="100" r="1.8" fill="#c469b2" opacity="0.4" />
+
+    <!-- Y = 110 -->
+    <circle cx="285" cy="130" r="6.2" fill="#ec4899" opacity="0.8" />
+    <circle cx="310" cy="125" r="5.6" fill="#e74da0" opacity="0.8" />
+    <circle cx="335" cy="120" r="4.8" fill="#e153a5" opacity="0.7" />
+    <circle cx="360" cy="118" r="4.0" fill="#d95aaa" opacity="0.7" />
+    <circle cx="385" cy="118" r="3.2" fill="#d061ae" opacity="0.6" />
+    <circle cx="410" cy="120" r="2.5" fill="#c668b2" opacity="0.5" />
+    <circle cx="435" cy="125" r="1.8" fill="#b970b7" opacity="0.4" />
+    <circle cx="455" cy="132" r="1.2" fill="#ab78bc" opacity="0.3" />
+
+    <!-- Y = 140 -->
+    <circle cx="265" cy="165" r="7.0" fill="#ec4899" opacity="0.9" />
+    <circle cx="292" cy="160" r="6.2" fill="#e64ea1" opacity="0.9" />
+    <circle cx="320" cy="155" r="5.4" fill="#df54a7" opacity="0.8" />
+    <circle cx="348" cy="152" r="4.6" fill="#d75bad" opacity="0.8" />
+    <circle cx="376" cy="152" r="3.8" fill="#cf62b2" opacity="0.7" />
+    <circle cx="404" cy="155" r="3.0" fill="#c569b7" opacity="0.6" />
+    <circle cx="432" cy="160" r="2.2" fill="#ba70bc" opacity="0.5" />
+    <circle cx="458" cy="168" r="1.5" fill="#ad78c0" opacity="0.4" />
+    <circle cx="480" cy="178" r="1.0" fill="#9f80c4" opacity="0.3" />
+
+    <!-- Y = 200 (Equator) -->
+    <circle cx="255" cy="200" r="7.5" fill="#ec4899" opacity="0.95" />
+    <circle cx="285" cy="200" r="6.8" fill="#e64ea1" opacity="0.95" />
+    <circle cx="315" cy="200" r="6.0" fill="#df54a7" opacity="0.9" />
+    <circle cx="345" cy="200" r="5.2" fill="#d75bad" opacity="0.9" />
+    <circle cx="375" cy="200" r="4.4" fill="#cf62b2" opacity="0.8" />
+    <circle cx="405" cy="200" r="3.5" fill="#c569b7" opacity="0.7" />
+    <circle cx="435" cy="200" r="2.8" fill="#ba70bc" opacity="0.6" />
+    <circle cx="465" cy="200" r="2.0" fill="#ad78c0" opacity="0.5" />
+    <circle cx="490" cy="200" r="1.2" fill="#9f80c4" opacity="0.3" />
+
+    <!-- Y = 260 -->
+    <circle cx="265" cy="235" r="7.0" fill="#ec4899" opacity="0.9" />
+    <circle cx="292" cy="239" r="6.2" fill="#e64ea1" opacity="0.9" />
+    <circle cx="320" cy="243" r="5.4" fill="#df54a7" opacity="0.8" />
+    <circle cx="348" cy="245" r="4.6" fill="#d75bad" opacity="0.8" />
+    <circle cx="376" cy="245" r="3.8" fill="#cf62b2" opacity="0.7" />
+    <circle cx="404" cy="243" r="3.0" fill="#c569b7" opacity="0.6" />
+    <circle cx="432" cy="239" r="2.2" fill="#ba70bc" opacity="0.5" />
+    <circle cx="458" cy="232" r="1.5" fill="#ad78c0" opacity="0.4" />
+    <circle cx="480" cy="222" r="1.0" fill="#9f80c4" opacity="0.3" />
+
+    <!-- Y = 290 -->
+    <circle cx="285" cy="270" r="6.2" fill="#ec4899" opacity="0.8" />
+    <circle cx="310" cy="275" r="5.6" fill="#e74da0" opacity="0.8" />
+    <circle cx="335" cy="280" r="4.8" fill="#e153a5" opacity="0.7" />
+    <circle cx="360" cy="282" r="4.0" fill="#d95aaa" opacity="0.7" />
+    <circle cx="385" cy="282" r="3.2" fill="#d061ae" opacity="0.6" />
+    <circle cx="410" cy="280" r="2.5" fill="#c668b2" opacity="0.5" />
+    <circle cx="435" cy="275" r="1.8" fill="#b970b7" opacity="0.4" />
+    <circle cx="455" cy="268" r="1.2" fill="#ab78bc" opacity="0.3" />
+
+    <!-- Y = 320 (Bottom) -->
+    <circle cx="308" cy="300" r="5.5" fill="#ec4899" opacity="0.6" />
+    <circle cx="330" cy="305" r="4.8" fill="#e84e9e" opacity="0.6" />
+    <circle cx="352" cy="308" r="4.0" fill="#e254a3" opacity="0.5" />
+    <circle cx="374" cy="308" r="3.2" fill="#d95ba8" opacity="0.5" />
+    <circle cx="396" cy="305" r="2.5" fill="#cf62ad" opacity="0.4" />
+    <circle cx="418" cy="300" r="1.8" fill="#c469b2" opacity="0.4" />
+  </g>
+
+  <!-- Glowing Crescent Lens Intersection Overlay -->
+  <!-- Intersection center lies between leftX and rightX -->
+  <path d="M 280,75 A 150,150 0 0,1 328,325 A 150,150 0 0,0 280,75 Z" fill="url(#glowGrad)" opacity="0.85" />
+  <circle cx="300" cy="200" r="45" fill="#ffffff" opacity="0.35" filter="blur(8px)" />
+
+</svg>

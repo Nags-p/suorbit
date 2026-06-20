@@ -4,6 +4,8 @@ on:
   schedule:
     # Run at the start of every hour
     - cron: '0 * * * *'
+  push:
+    branches: [ main ]
   # Allow manual trigger from the Actions tab
   workflow_dispatch:
 
