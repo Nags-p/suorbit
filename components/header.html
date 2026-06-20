@@ -1,0 +1,67 @@
+<!-- Sticky Header -->
+<header class="header-wrapper" id="header-section">
+  <div class="container header-container">
+    <a href="index.html" class="logo-link" id="site-logo">
+      <img src="assets/images/logo.svg" alt="SuOrbit" height="32">
+      SuOrbit
+    </a>
+    <nav class="desktop-nav" aria-label="Main Navigation">
+      <ul>
+        <li><a href="category.html?c=technology" class="nav-link" id="nav-tech">Technology</a></li>
+        <li><a href="category.html?c=ai" class="nav-link" id="nav-ai">AI</a></li>
+        <li><a href="category.html?c=space" class="nav-link" id="nav-space">Space</a></li>
+        <li><a href="category.html?c=science" class="nav-link" id="nav-science">Science</a></li>
+        <li><a href="category.html?c=startups" class="nav-link" id="nav-startups">Startups</a></li>
+        <li><a href="category.html?c=business" class="nav-link" id="nav-business">Business</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn search-toggle-btn" id="header-search-toggle" aria-label="Toggle Search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+      </button>
+      <button class="icon-btn theme-toggle-btn" id="header-theme-toggle" aria-label="Toggle Theme">
+        <span class="theme-toggle-icon"></span>
+      </button>
+      <button class="icon-btn mobile-menu-toggle" id="header-menu-toggle" aria-label="Open Navigation Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Search Overlay -->
+  <div class="search-overlay" id="search-overlay-container">
+    <div class="container search-container">
+      <form class="search-form-element" id="desktop-search-form" style="width: 100%;">
+        <div class="search-input-wrapper">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+          <input type="text" class="search-input-field" id="header-search-input" placeholder="Search by title, keyword, or tag..." aria-label="Search field">
+        </div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Drawer Menu -->
+<div class="drawer-overlay" id="drawer-overlay-bg"></div>
+<aside class="mobile-drawer" id="mobile-drawer-container">
+  <div class="mobile-drawer-header">
+    <a href="index.html" class="logo-link">
+      <img src="assets/images/logo.svg" alt="SuOrbit" height="32">
+      SuOrbit
+    </a>
+    <button class="icon-btn mobile-menu-close" id="header-menu-close" aria-label="Close Navigation Menu">
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+  </div>
+  <nav class="mobile-nav-list" aria-label="Mobile Navigation">
+    <a href="category.html?c=technology" class="mobile-nav-link">Technology</a>
+    <a href="category.html?c=ai" class="mobile-nav-link">AI</a>
+    <a href="category.html?c=space" class="mobile-nav-link">Space</a>
+    <a href="category.html?c=science" class="mobile-nav-link">Science</a>
+    <a href="category.html?c=startups" class="mobile-nav-link">Startups</a>
+    <a href="category.html?c=business" class="mobile-nav-link">Business</a>
+    <hr style="border: 0; border-top: 1px solid var(--border); margin: 0.5rem 0;">
+    <a href="about.html" class="mobile-nav-link">About Us</a>
+    <a href="contact.html" class="mobile-nav-link">Contact</a>
+  </nav>
+</aside>

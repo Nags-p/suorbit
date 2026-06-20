@@ -16,73 +16,8 @@
     <div class="progress-bar" id="progress-bar"></div>
   </div>
 
-  <!-- Sticky Header -->
-  <header class="header-wrapper" id="header-section">
-    <div class="container header-container">
-      <a href="index.html" class="logo-link">
-        <img src="assets/images/logo.svg" alt="SuOrbit" height="32">
-        SuOrbit
-      </a>
-      <nav class="desktop-nav" aria-label="Main Navigation">
-        <ul>
-          <li><a href="category.html?c=technology" class="nav-link">Technology</a></li>
-          <li><a href="category.html?c=ai" class="nav-link">AI</a></li>
-          <li><a href="category.html?c=space" class="nav-link">Space</a></li>
-          <li><a href="category.html?c=science" class="nav-link">Science</a></li>
-          <li><a href="category.html?c=startups" class="nav-link">Startups</a></li>
-          <li><a href="category.html?c=business" class="nav-link">Business</a></li>
-        </ul>
-      </nav>
-      <div class="header-actions">
-        <button class="icon-btn search-toggle-btn" aria-label="Toggle Search">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        </button>
-        <button class="icon-btn theme-toggle-btn" aria-label="Toggle Theme">
-          <span class="theme-toggle-icon"></span>
-        </button>
-        <button class="icon-btn mobile-menu-toggle" aria-label="Open Navigation Menu">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
-        </button>
-      </div>
-    </div>
-    
-    <!-- Search Overlay -->
-    <div class="search-overlay" id="search-overlay-container">
-      <div class="container search-container">
-        <form class="search-form-element" id="desktop-search-form" style="width: 100%;">
-          <div class="search-input-wrapper">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-            <input type="text" class="search-input-field" id="header-search-input" placeholder="Search by title, keyword, or tag..." aria-label="Search field">
-          </div>
-        </form>
-      </div>
-    </div>
-  </header>
-
-  <!-- Mobile Drawer Menu -->
-  <div class="drawer-overlay" id="drawer-overlay-bg"></div>
-  <aside class="mobile-drawer" id="mobile-drawer-container">
-    <div class="mobile-drawer-header">
-      <a href="index.html" class="logo-link">
-        <img src="assets/images/logo.svg" alt="SuOrbit" height="32">
-        SuOrbit
-      </a>
-      <button class="icon-btn mobile-menu-close" aria-label="Close Navigation Menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
-      </button>
-    </div>
-    <nav class="mobile-nav-list" aria-label="Mobile Navigation">
-      <a href="category.html?c=technology" class="mobile-nav-link">Technology</a>
-      <a href="category.html?c=ai" class="mobile-nav-link">AI</a>
-      <a href="category.html?c=space" class="mobile-nav-link">Space</a>
-      <a href="category.html?c=science" class="mobile-nav-link">Science</a>
-      <a href="category.html?c=startups" class="mobile-nav-link">Startups</a>
-      <a href="category.html?c=business" class="mobile-nav-link">Business</a>
-      <hr style="border: 0; border-top: 1px solid var(--border); margin: 0.5rem 0;">
-      <a href="about.html" class="mobile-nav-link">About Us</a>
-      <a href="contact.html" class="mobile-nav-link">Contact</a>
-    </nav>
-  </aside>
+  <!-- Sticky Header & Navigation Placeholder -->
+  <div id="header-placeholder"></div>
 
   <!-- Breaking News Ticker -->
   <section class="ticker-wrapper" aria-label="Breaking News">
@@ -196,42 +131,8 @@
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="site-footer" id="footer-section">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <a href="index.html" class="footer-logo" style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem;">
-          <img src="assets/images/logo.svg" alt="SuOrbit" height="36">
-          SuOrbit
-        </a>
-        <p class="footer-tagline">Technology, AI, Space & Startup News Simplified. Curated insights delivered directly to you.</p>
-      </div>
-      <div class="footer-links-col">
-        <h4 class="footer-links-title">Categories</h4>
-        <ul class="footer-links-list">
-          <li><a href="category.html?c=technology">Technology</a></li>
-          <li><a href="category.html?c=ai">Artificial Intelligence</a></li>
-          <li><a href="category.html?c=space">Space Exploration</a></li>
-          <li><a href="category.html?c=science">Science & Discoveries</a></li>
-          <li><a href="category.html?c=startups">Startups & Capital</a></li>
-          <li><a href="category.html?c=business">Business & Economics</a></li>
-        </ul>
-      </div>
-      <div class="footer-links-col">
-        <h4 class="footer-links-title">Company</h4>
-        <ul class="footer-links-list">
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="contact.html">Get in Touch</a></li>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="terms.html">Terms of Service</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container footer-bottom">
-      <p>&copy; 2026 SuOrbit. All rights reserved. Powered by GitHub Pages.</p>
-      <p style="opacity: 0.7;">News aggregated automatically using GitHub Actions.</p>
-    </div>
-  </footer>
+  <!-- Footer Placeholder -->
+  <div id="footer-placeholder"></div>
 
   <!-- Scripts -->
   <script src="assets/js/main.js"></script>

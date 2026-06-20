@@ -141,7 +141,7 @@ function generateMockNews() {
 }
 
 // Call Gemini API to write human news
-function callGeminiAPI(prompt, apiKey) {
+function callGeminiAPI(prompt, apiKey, modelName = 'gemini-2.5-flash') {
   return new Promise((resolve, reject) => {
     const postData = JSON.stringify({
       contents: [{
@@ -157,7 +157,7 @@ function callGeminiAPI(prompt, apiKey) {
     const options = {
       hostname: 'generativelanguage.googleapis.com',
       port: 443,
-      path: `/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`,
+      path: `/v1beta/models/${modelName}:generateContent?key=${apiKey}`,
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -256,8 +256,8 @@ async function run() {
   const newsApiKey = process.env.NEWS_API_KEY;
   const geminiApiKey = process.env.GEMINI_API_KEY;
 
-  if (!newsApiKey || newsApiKey.trim() === '') {
-    console.log("Missing NEWS_API_KEY environment variable. Falling back to mock data.");
+  if (!newsApiKey || newsApiKey.trim() === '' || !geminiApiKey || geminiApiKey.trim() === '') {
+    console.log("Missing NEWS_API_KEY or GEMINI_API_KEY environment variables. Falling back to clean mock news data.");
     writeOutData(generateMockNews());
     return;
   }
@@ -315,9 +315,8 @@ async function run() {
       ? new Date().toISOString().split('T')[0] + ' 12:00' 
       : publishedDate.toISOString().split('T')[0] + ' ' + publishedDate.toTimeString().split(' ')[0].substring(0, 5);
 
-    // If Gemini key is set, call Gemini to generate human news content
-    if (geminiApiKey && geminiApiKey.trim() !== '') {
-      const prompt = `You are a professional journalist at a premium technology and science publication (like The Verge, Wired, or TechCrunch). 
+    // Call Gemini to generate human news content
+    const prompt = `You are a professional journalist at a premium technology and science publication (like The Verge, Wired, or TechCrunch). 
 Rewrite and expand the following news reporting snippet into a complete, highly engaging, human-written news article of 250 to 350 words.
 Do not use typical artificial intelligence patterns or robotic transitions. Make it sound written by a human. Ensure paragraphs flow naturally.
 
@@ -342,64 +341,89 @@ Provide the output in JSON format matching this schema:
 }
 `;
 
+    const modelsToTry = ['gemini-2.5-flash', 'gemini-1.5-flash', 'gemini-1.5-flash-8b'];
+    let geminiResult = null;
+    let success = false;
+
+    for (let mIdx = 0; mIdx < modelsToTry.length; mIdx++) {
+      const model = modelsToTry[mIdx];
       try {
-        // Enforce throttling: wait 4 seconds between requests to respect 15 RPM limits on free keys
+        // Enforce throttling: wait 4 seconds between requests to respect rate limits
         if (idx > 0) {
-          console.log("Sleeping 4 seconds to respect Gemini rate limits...");
+          console.log(`Sleeping 4 seconds to respect Gemini rate limits for ${model}...`);
           await sleep(4000);
         }
 
-        const geminiResult = await callGeminiAPI(prompt, geminiApiKey);
-        
-        // Calculate dynamic reading time based on rewritten content word count
-        const wordCount = (geminiResult.content || "").split(/\s+/).length;
-        const readingTime = `${Math.max(2, Math.ceil(wordCount / 200))} min`;
-
-        finalArticles.push({
-          id,
-          title: geminiResult.title || original.title,
-          summary: geminiResult.summary || original.description,
-          content: geminiResult.content || original.content || original.description,
-          keyTakeaways: geminiResult.keyTakeaways && geminiResult.keyTakeaways.length > 0 ? geminiResult.keyTakeaways : [original.description],
-          source: original.source ? original.source.name : 'Global News',
-          author: original.author || 'Staff Writer',
-          publishedAt: formattedDate,
-          category,
-          image,
-          originalUrl: original.url,
-          tags: [category, ...(original.title.split(/\s+/).map(w => w.replace(/[^a-zA-Z]/g, '')).filter(w => w.length > 5).slice(0, 2))],
-          readingTime
-        });
-
-        console.log(`--> Successfully generated human article via Gemini.`);
+        geminiResult = await callGeminiAPI(prompt, geminiApiKey, model);
+        success = true;
+        console.log(`--> Successfully generated human article via Gemini model ${model}.`);
+        break; // Exit model loop on success
       } catch (geminiError) {
-        console.error(`--> Gemini failed for this article: ${geminiError.message}. Using NewsAPI fallback.`);
-        // Fallback to basic NewsAPI parsing
-        finalArticles.push(createFallbackArticle(id, original, category, image, formattedDate));
+        console.warn(`--> Model ${model} failed: ${geminiError.message}.`);
       }
+    }
+
+    if (success && geminiResult) {
+      // Calculate dynamic reading time based on rewritten content word count
+      const wordCount = (geminiResult.content || "").split(/\s+/).length;
+      const readingTime = `${Math.max(2, Math.ceil(wordCount / 200))} min`;
+
+      finalArticles.push({
+        id,
+        title: geminiResult.title || original.title,
+        summary: geminiResult.summary || original.description,
+        content: geminiResult.content || original.content || original.description,
+        keyTakeaways: geminiResult.keyTakeaways && geminiResult.keyTakeaways.length > 0 ? geminiResult.keyTakeaways : [original.description],
+        source: original.source ? original.source.name : 'Global News',
+        author: original.author || 'Staff Writer',
+        publishedAt: formattedDate,
+        category,
+        image,
+        originalUrl: original.url,
+        tags: [category, ...(original.title.split(/\s+/).map(w => w.replace(/[^a-zA-Z]/g, '')).filter(w => w.length > 5).slice(0, 2))],
+        readingTime
+      });
     } else {
-      // No Gemini Key - Fallback to basic NewsAPI details immediately
-      finalArticles.push(createFallbackArticle(id, original, category, image, formattedDate));
+      console.error(`--> All Gemini models failed for this article. Skipping this article completely from output database.`);
+      // Do NOT push to finalArticles, skipping this article
     }
   }
 
   // Write files
-  writeOutData(finalArticles);
+  if (finalArticles.length === 0) {
+    console.log("No articles were successfully generated by Gemini. Falling back to clean mock news database.");
+    writeOutData(generateMockNews());
+  } else {
+    writeOutData(finalArticles);
+  }
 }
 
-// Fallback creator
+// Fallback creator (cleans truncated contents)
 function createFallbackArticle(id, original, category, image, formattedDate) {
-  const words = (original.content || original.description || "").split(/\s+/).length;
-  const readingTime = `${Math.max(2, Math.ceil(words / 200))} min`;
+  // Use original.description as content if content contains standard NewsAPI truncation
+  let cleanContent = original.description || original.content || "";
+  if (cleanContent.includes('[+') && original.description) {
+    cleanContent = original.description;
+  }
+  
+  // Clean up any NewsAPI truncation indicators [+XXXX chars] and trailing ellipses
+  cleanContent = cleanContent.replace(/\s*(?:\.\.\.|…)?\s*\[\+\d+\s+chars\].*$/gi, '.').trim();
+  cleanContent = cleanContent.replace(/\s*(?:\.\.\.|…)\s*$/g, '.').trim();
+  if (cleanContent && !cleanContent.endsWith('.')) {
+    cleanContent += '.';
+  }
+
+  const words = cleanContent.split(/\s+/).length;
+  const readingTime = `${Math.max(1, Math.ceil(words / 200))} min`;
   
   return {
     id,
     title: original.title,
-    summary: original.description,
-    content: original.content || original.description,
+    summary: original.description || cleanContent,
+    content: cleanContent,
     keyTakeaways: [
-      original.description,
-      "Live update from the fields of " + category + ".",
+      original.title,
+      original.description || "Live update from the fields of " + category + ".",
       "Review the original publisher's link below for detailed context."
     ],
     source: original.source ? original.source.name : 'Unknown',

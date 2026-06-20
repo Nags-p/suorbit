@@ -4,10 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
   initTheme();
-  initStickyHeader();
-  initMobileMenu();
-  initSearchOverlay();
-  initBreakingNewsTicker();
+  loadHeaderAndFooter();
 });
 
 // Helper: Sanitize string to prevent XSS
@@ -55,12 +52,14 @@ async function fetchNewsData(filePath) {
 // Theme Controller (Dark / Light Mode)
 // ==========================================================================
 function initTheme() {
-  const themeToggleBtns = document.querySelectorAll('.theme-toggle-btn');
   const currentTheme = localStorage.getItem('theme') || 
                        (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-  
   setTheme(currentTheme);
+}
 
+function bindThemeToggle() {
+  const themeToggleBtns = document.querySelectorAll('.theme-toggle-btn');
+  console.log('[Theme Toggle Init] Toggles found:', themeToggleBtns.length);
   themeToggleBtns.forEach(btn => {
     btn.addEventListener('click', () => {
       const activeTheme = document.documentElement.getAttribute('data-theme');
@@ -139,6 +138,13 @@ function initSearchOverlay() {
   const searchOverlay = document.querySelector('.search-overlay');
   const searchInput = document.querySelector('.search-input-field');
   const searchForm = document.querySelector('.search-form-element');
+
+  console.log('[Search Overlay Init] Found:', {
+    toggles: searchToggles.length,
+    overlay: !!searchOverlay,
+    input: !!searchInput,
+    form: !!searchForm
+  });
 
   if (!searchOverlay || !searchInput) return;
 
@@ -231,4 +237,83 @@ function createArticleCardHTML(article) {
       </div>
     </article>
   `;
+}
+
+// ==========================================================================
+// Dynamic Components Loader (Header & Footer)
+// ==========================================================================
+async function loadHeaderAndFooter() {
+  const headerPlaceholder = document.getElementById('header-placeholder');
+  const footerPlaceholder = document.getElementById('footer-placeholder');
+
+  if (headerPlaceholder) {
+    try {
+      const response = await fetch('components/header.html');
+      if (response.ok) {
+        headerPlaceholder.innerHTML = await response.text();
+        
+        // Initialize header-related functionalities once DOM elements exist
+        bindThemeToggle();
+        initStickyHeader();
+        initMobileMenu();
+        initSearchOverlay();
+        initBreakingNewsTicker();
+        highlightActiveLinks();
+      } else {
+        console.error("Failed to load header component: HTTP status " + response.status);
+      }
+    } catch (e) {
+      console.error("Error loading header component:", e);
+    }
+  }
+
+  if (footerPlaceholder) {
+    try {
+      const response = await fetch('components/footer.html');
+      if (response.ok) {
+        footerPlaceholder.innerHTML = await response.text();
+      } else {
+        console.error("Failed to load footer component: HTTP status " + response.status);
+      }
+    } catch (e) {
+      console.error("Error loading footer component:", e);
+    }
+  }
+}
+
+// Dynamically highlight navigation links based on current path and parameters
+function highlightActiveLinks() {
+  const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+  const params = new URLSearchParams(window.location.search);
+  const category = params.get('c');
+
+  const navLinks = document.querySelectorAll('.nav-link, .mobile-nav-link');
+  navLinks.forEach(link => {
+    const href = link.getAttribute('href');
+    if (!href) return;
+    
+    // Parse the link's target path and parameters
+    let linkPath = href;
+    let linkCategory = null;
+
+    if (href.includes('?')) {
+      const parts = href.split('?');
+      linkPath = parts[0];
+      const linkParams = new URLSearchParams(parts[1]);
+      linkCategory = linkParams.get('c');
+    }
+
+    // Clean paths
+    linkPath = linkPath.split('/').pop() || 'index.html';
+
+    if (linkPath === currentPath) {
+      if (linkCategory) {
+        if (linkCategory === category) {
+          link.classList.add('active');
+        }
+      } else if (!category) {
+        link.classList.add('active');
+      }
+    }
+  });
 }

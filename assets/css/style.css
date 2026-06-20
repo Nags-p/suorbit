@@ -194,10 +194,14 @@ h1, h2, h3, h4, h5, h6 {
 /* ==========================================================================
    Header & Navigation
    ========================================================================== */
-.header-wrapper {
+#header-placeholder {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+.header-wrapper {
+  position: relative;
   background-color: var(--glass-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
