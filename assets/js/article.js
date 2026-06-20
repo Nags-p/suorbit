@@ -103,7 +103,8 @@ function renderArticle(article) {
   document.getElementById('article-headline').textContent = safeTitle;
   document.getElementById('article-author-name').textContent = safeAuthor;
   document.getElementById('article-publish-date').textContent = formattedDate;
-  document.getElementById('article-source-name').textContent = safeSource;
+  const sourceEl = document.getElementById('article-source-name');
+  if (sourceEl) sourceEl.textContent = safeSource;
   
   // Set Image
   const imgEl = document.getElementById('article-hero-image');
