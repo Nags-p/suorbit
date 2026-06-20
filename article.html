@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Reader - SuOrbit</title>
+  <meta name="description" content="Read curated tech, AI, space, science, and startup articles simplified by AI on SuOrbit.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Reading Progress Bar -->
+  <div class="progress-bar-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <!-- Sticky Header -->
+  <header class="header-wrapper" id="header-section">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="category.html?c=technology" class="nav-link">Technology</a></li>
+          <li><a href="category.html?c=ai" class="nav-link">AI</a></li>
+          <li><a href="category.html?c=space" class="nav-link">Space</a></li>
+          <li><a href="category.html?c=science" class="nav-link">Science</a></li>
+          <li><a href="category.html?c=startups" class="nav-link">Startups</a></li>
+          <li><a href="category.html?c=business" class="nav-link">Business</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-toggle-btn" aria-label="Toggle Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-toggle-icon"></span>
+        </button>
+        <button class="icon-btn mobile-menu-toggle" aria-label="Open Navigation Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="search-overlay-container">
+      <div class="container search-container">
+        <form class="search-form-element" id="desktop-search-form" style="width: 100%;">
+          <div class="search-input-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" class="search-input-field" id="header-search-input" placeholder="Search by title, keyword, or tag..." aria-label="Search field">
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay" id="drawer-overlay-bg"></div>
+  <aside class="mobile-drawer" id="mobile-drawer-container">
+    <div class="mobile-drawer-header">
+      <a href="index.html" class="logo-link">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <button class="icon-btn mobile-menu-close" aria-label="Close Navigation Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-list" aria-label="Mobile Navigation">
+      <a href="category.html?c=technology" class="mobile-nav-link">Technology</a>
+      <a href="category.html?c=ai" class="mobile-nav-link">AI</a>
+      <a href="category.html?c=space" class="mobile-nav-link">Space</a>
+      <a href="category.html?c=science" class="mobile-nav-link">Science</a>
+      <a href="category.html?c=startups" class="mobile-nav-link">Startups</a>
+      <a href="category.html?c=business" class="mobile-nav-link">Business</a>
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 0.5rem 0;">
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Breaking News Ticker -->
+  <section class="ticker-wrapper" aria-label="Breaking News">
+    <div class="container ticker-container">
+      <span class="ticker-label">Breaking</span>
+      <div class="ticker-scroll" id="ticker-headlines">
+        Loading breaking news feed...
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Article Layout -->
+  <main class="article-container" id="article-content-wrapper">
+    <article>
+      <!-- Header meta tags -->
+      <header class="article-header">
+        <div class="article-header-meta">
+          <a href="#" class="eyebrow" id="article-category-tag" style="margin-bottom: 0;">Technology</a>
+          <span class="meta-dot"></span>
+          <span id="article-reading-time">3 min read</span>
+        </div>
+        <h1 class="article-headline" id="article-headline">Loading article title...</h1>
+        
+        <!-- Author card -->
+        <div class="article-author-card">
+          <div class="author-info">
+            <span class="author-name">By <span id="article-author-name">Staff Writer</span></span>
+            <span class="publish-date">Published <time id="article-publish-date">June 20, 2026</time></span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Hero Image -->
+      <div class="article-hero-img-wrapper">
+        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800" alt="Space" id="article-hero-image">
+      </div>
+
+      <!-- AI Summary (Glowing Block) -->
+      <section class="ai-summary-box" aria-label="AI Generated Summary">
+        <div class="ai-summary-header">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275Z"/></svg>
+          AI Summary
+          <span class="ai-summary-badge">Automated</span>
+        </div>
+        <p class="ai-summary-text" id="ai-summary-text">Generating automated summary insight...</p>
+      </section>
+
+      <!-- Key Takeaways (Bullet block) -->
+      <section class="takeaways-box" aria-label="Key Takeaways">
+        <h3 class="takeaways-title">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 11-4 4 4 4"/><path d="m15 13 4-4-4-4"/><path d="m3 5 3-3 3 3"/><path d="M6 2v14a4 4 0 0 0 4 4h11"/></svg>
+          Key takeaways
+        </h3>
+        <ul class="takeaways-list" id="key-takeaways-list">
+          <li>Analyzing structural context tags...</li>
+        </ul>
+      </section>
+
+      <!-- Article Body -->
+      <section class="article-body" id="article-body-content">
+        <p>Retrieving article documentation contents...</p>
+      </section>
+
+      <!-- Original source block -->
+      <section class="original-source-box" aria-label="Original Publication Reference">
+        <p>This article was originally published on <strong id="original-source-name-link">Source</strong>. To read the complete original story, visit their official page.</p>
+        <a href="#" class="original-source-btn" id="original-source-button">
+          Read Original Publication
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+      </section>
+
+      <!-- Share Tray -->
+      <section class="share-section" aria-label="Share Article">
+        <span class="share-title">Share this article</span>
+        <div class="share-buttons">
+          <a href="#" class="share-btn" id="share-twitter" aria-label="Share on Twitter" title="Share on Twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+          </a>
+          <a href="#" class="share-btn" id="share-linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <button class="share-btn" id="share-copy" aria-label="Copy Article Link" title="Copy Article Link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- Bottom Related Section -->
+      <section class="related-section" aria-label="Related Stories">
+        <h3 class="related-title">Recommended for you</h3>
+        <div class="news-grid" id="related-articles-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+  <!-- Newsletter signup section -->
+  <section class="newsletter-section" aria-label="Newsletter Subscription">
+    <div class="container">
+      <div class="newsletter-card">
+        <h2 class="newsletter-title">Subscribe to SuOrbit Weekly</h2>
+        <p class="newsletter-desc">Join 50,000+ tech leaders, software developers, and space enthusiasts receiving our simplified summary news digest.</p>
+        <form class="newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address field">
+          <button type="submit" class="newsletter-btn">Join Newsletter</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="footer-section">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          SuOrbit<span class="logo-dot"></span>
+        </a>
+        <p class="footer-tagline">Technology, AI, Space & Startup News Simplified. Curated insights delivered directly to you.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Categories</h4>
+        <ul class="footer-links-list">
+          <li><a href="category.html?c=technology">Technology</a></li>
+          <li><a href="category.html?c=ai">Artificial Intelligence</a></li>
+          <li><a href="category.html?c=space">Space Exploration</a></li>
+          <li><a href="category.html?c=science">Science & Discoveries</a></li>
+          <li><a href="category.html?c=startups">Startups & Capital</a></li>
+          <li><a href="category.html?c=business">Business & Economics</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Company</h4>
+        <ul class="footer-links-list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SuOrbit. All rights reserved. Powered by GitHub Pages.</p>
+      <p style="opacity: 0.7;">News aggregated automatically using GitHub Actions.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/article.js"></script>
+</body>
+</html>

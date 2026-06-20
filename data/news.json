@@ -1,0 +1,344 @@
+[
+  {
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism for real-time verification.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "keyTakeaways": [
+      "GPT-6 scored 98% on Putnam logic and math problems, approaching professional academic performance.",
+      "The model uses 'LogicFlow', a tree-of-thought verification engine that evaluates multiple pathways before output.",
+      "Industry analysts anticipate that reasoning-centric models will accelerate AI integration in engineering fields."
+    ],
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-06-20 11:30",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "tags": ["AI", "GPT6", "OpenAI", "Reasoning"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a lightweight AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the headset overlays context-aware AI elements directly onto the user's field of view, replacing traditional screens.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "keyTakeaways": [
+      "The Neural Glasses weigh only 75g and run on Apple's new spatial M6 processor.",
+      "Contextual AI overlays are generated in real-time onto the user's view, representing a paradigm shift in UI.",
+      "Privacy advocacy groups have raised early concerns about discrete cameras on the frames."
+    ],
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-06-20 10:45",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "tags": ["AR", "Hardware", "Apple", "SpatialComputing"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-spa-001",
+    "title": "NASA Mars Rover Discovers Fossilized Organic Microstructures in Ancient Lakebed",
+    "summary": "Analyzing samples from the Jezero Crater, NASA's Perseverance Rover has sent back chemical analysis and high-resolution scans confirming the presence of fossilized microbial structures dating back 3.5 billion years.",
+    "content": "In a discovery that could answer one of humanity's oldest questions, NASA's Perseverance Rover has uncovered what scientists believe are microfossils of ancient Martian life. Located inside Jezero Crater, a dried-out lakebed, the mineralized structures are chemically rich in carbon compounds and resemble stromatolites found in early Earth rock formations. Astrobiologists caution that further confirmation is needed when the Mars Sample Return mission lands, but call it the most compelling evidence of extraterrestrial life ever recorded.",
+    "keyTakeaways": [
+      "Perseverance Rover discovered fossilized microbial structures inside the ancient Jezero Crater lakebed.",
+      "Chemical sweeps show carbonaceous material closely resembling early Earth stromatolites.",
+      "Full validation will await physical specimen retrieval by the Mars Sample Return mission."
+    ],
+    "source": "AstroScience",
+    "author": "Dr. Amanda Reyes",
+    "publishedAt": "2026-06-20 09:15",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "tags": ["Mars", "NASA", "Astrobiology", "SpaceDiscovery"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sci-001",
+    "title": "Fusion Reactor Exceeds Net Energy Gain: Commercial Grid Trial Succeeds",
+    "summary": "A private fusion reactor in Oxfordshire has sustained a plasma field for 48 minutes, generating 150% of the energy consumed in the magnetic containment field, proving grid viability.",
+    "content": "Fusion energy, long considered 30 years away, has taken a monumental step toward commercial reality. Tokamak Energy announced that its experimental ST80 reactor sustained fusion temperatures for nearly an hour, outputting 30 Megawatts of power while consuming only 20 Megawatts to power its superconducting magnets. This continuous Q-factor of 1.5 is a world record for magnetic confinement fusion. Engineers are now connecting a successor pilot plant to the local power grid, aiming for permanent baseline power injection by 2028.",
+    "keyTakeaways": [
+      "The ST80 reactor sustained a plasma field for 48 minutes, recording a net Q-factor energy gain of 1.5.",
+      "Stronger superconducting magnets enabled longer containment times without thermal collapse.",
+      "A pilot generator is currently being wired into the regional electricity grid for test distribution."
+    ],
+    "source": "Future Physics",
+    "author": "Elizabeth Sterling",
+    "publishedAt": "2026-06-20 08:30",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "tags": ["FusionEnergy", "CleanTech", "Physics", "Science"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sta-001",
+    "title": "Y Combinator's Demo Day Highlights a Massive Shift Toward Hard-Tech and Robotics",
+    "summary": "Over 40% of the startups in the latest Y Combinator batch focus on physical automation, humanoid robotics, and specialized hardware, breaking a decade-long software dominance.",
+    "content": "Y Combinator's latest Demo Day wrapped up yesterday, showcasing a drastic evolution in the startup landscape. For the past decade, SaaS and web software dominated the incubator's cohorts. This year, physical tech took center stage. Startups presenting included developers of autonomous micro-factories, agricultural drone swarms, and humanoid hands with high-fidelity haptic feedback. Investors noted that advances in AI reasoning have made robotic control software far easier to build, sparking a renaissance in physical automation startups.",
+    "keyTakeaways": [
+      "Over 40% of Y Combinator's Q2 cohort focused on physical engineering, robotics, and hardware.",
+      "Advancements in AI cognitive modeling have solved complex kinetic motion control tasks.",
+      "Venture funding in physical automation is growing despite a general tech investment correction."
+    ],
+    "source": "Startup Insider",
+    "author": "Rebecca Hsieh",
+    "publishedAt": "2026-06-20 07:00",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-001",
+    "tags": ["YCombinator", "Robotics", "VentureCapital", "Startups"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-bus-001",
+    "title": "Global Tech Stocks Reach Record Highs Driven by AI Infrastructure Boom",
+    "summary": "Stocks surged globally as semiconductor manufacturers, cloud computing providers, and energy utilities posted unprecedented earnings, fueled by the computational demands of AI.",
+    "content": "Wall Street and international markets soared to record heights today as investors reacted to blockbusting earnings reports from tech infrastructure companies. Nvidia, TSMC, and major cloud providers beat revenue estimates by wide margins. Furthermore, energy stocks saw a parallel bump as data centers secure long-term electricity contracts. Financial analysts indicate we are witnessing a structural shift where compute capacity is valued similarly to oil, with capital moving heavily into the physical foundations of artificial intelligence.",
+    "keyTakeaways": [
+      "Unprecedented quarterly results from chip manufacturers and cloud hosts pushed stock indices to record highs.",
+      "Energy stocks surged alongside chips as AI data centers require vast electrical supply.",
+      "Analysts indicate computational infrastructure has become a commodity with strategic national value."
+    ],
+    "source": "Market Watch",
+    "author": "Alan Greenspan Jr.",
+    "publishedAt": "2026-06-20 06:15",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-001",
+    "tags": ["Markets", "TechStocks", "Semiconductors", "Economy"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Legacy Migration Tasks",
+    "summary": "Enterprises are rapidly deploying AI agents that can read, comprehend, refactor, and migrate multi-million line legacy codebases from COBOL to modern TypeScript, completing projects in days.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "AI coders completed a core banking COBOL-to-TypeScript migration in a single weekend.",
+      "Automated tasks included full dependency mapping, unit test creation, and bug remediation.",
+      "SaaS migration tools threaten traditional IT outsourcing and consulting vendor models."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-06-19 15:45",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": ["AIAgents", "Coding", "SoftwareEngineering", "LegacyCode"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "Topological error-correction code allowed stable coherence times exceeding three hours.",
+      "A 10,000 qubit capacity elevates quantum processors to commercial calculation levels.",
+      "Security standards agencies recommend transitioning immediately to post-quantum cryptography."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-06-19 14:20",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": ["Quantum", "Physics", "Computing", "Hardware"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-spa-002",
+    "title": "SpaceX Starship Successfully Demonstrates Orbital Refueling and Cargo Deployment",
+    "summary": "SpaceX has completed a crucial milestone for its Artemis Moon mission, performing a successful propellant transfer between two Starship vehicles in low Earth orbit.",
+    "content": "SpaceX took a massive leap toward landing astronauts on the moon today with the completion of Starship Flight Test 8. In a complex orbital ballet, a Starship tanker successfully docked with a primary Starship and transferred 10 metric tons of liquid methane and oxygen. This technique is critical for deep-space transit, as leaving Earth orbit requires massive amounts of propellant that can only be supplied by launching multiple refueling runs first. NASA officials congratulated SpaceX, calling it a historic day for lunar exploration.",
+    "keyTakeaways": [
+      "Starship tanker transferred 10 metric tons of fuel to another Starship in orbit.",
+      "Propellant sharing is key to lunar and Martian voyages because of Earth escape weight limits.",
+      "NASA confirmed Artemis timeline milestones are on track after the successful docking."
+    ],
+    "source": "SpaceFlight Now",
+    "author": "Johnathan Cable",
+    "publishedAt": "2026-06-19 12:30",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-002",
+    "tags": ["SpaceX", "Starship", "NASA", "Artemis"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sci-002",
+    "title": "CRISPR-Cas12 Gene Therapy Cures Hereditary Blindness in Phase II Trials",
+    "summary": "In a groundbreaking medical trial, 24 patients suffering from Leber Congenital Amaurosis regained functional vision after receiving a single localized micro-dose of CRISPR gene-editing vector.",
+    "content": "A novel gene therapy targeting hereditary blindness has delivered spectacular results in Phase II clinical trials. Developed by GenEdit Labs, the treatment utilizes the precise CRISPR-Cas12 enzyme to repair a defect in the CEP290 gene, which prevents photoreceptors in the retina from functioning. Patients who were previously legally blind reported a gradual return of color perception, shape recognition, and navigation-level vision within 4 weeks of a single subretinal injection. No serious side effects were reported.",
+    "keyTakeaways": [
+      "CRISPR-Cas12 cut and repaired the defective CEP290 gene structure in the retina.",
+      "All 24 trial patients experienced restoration of navigation-level sight within 30 days.",
+      "GenEdit Labs plans to apply for fast-track FDA final regulatory approval by year-end."
+    ],
+    "source": "BioMedicine Journal",
+    "author": "Dr. Robert Chen",
+    "publishedAt": "2026-06-19 10:15",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-002",
+    "tags": ["CRISPR", "GeneEditing", "Medicine", "Biotech"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sta-002",
+    "title": "Solo Founder Builds $100M AI Customer Support Startup in Six Months",
+    "summary": "Utilizing open-source LLMs and advanced orchestration, a single engineer built 'SupportFlow', which now handles automated ticketing for 500 enterprise clients, achieving unicorn status.",
+    "content": "In a stunning demonstration of how AI amplifies human productivity, 24-year-old developer Aaron Brooks has built a $100M SaaS business without hiring a single employee. SupportFlow uses custom-finetuned open-source models to analyze, route, and answer complex customer support requests. Brooks built the core application, infrastructure, and automated marketing funnels using AI coding assistants. Today, SupportFlow services 500 large clients and processes 2 million support tickets daily. Brooks owns 100% of the equity and relies on freelance contractors for security audits.",
+    "keyTakeaways": [
+      "SupportFlow hit $100M valuation with exactly one full-time employee—the founder.",
+      "The application leverages open-source LLMs coupled with automated agent logic.",
+      "Unicorn scale was reached in 6 months using AI development and marketing engines."
+    ],
+    "source": "Founder Stories",
+    "author": "Thomas Miller",
+    "publishedAt": "2026-06-19 09:30",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-002",
+    "tags": ["SoloFounder", "SaaS", "AIAgents", "Unicorn"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-bus-002",
+    "title": "The Rise of the Digital Nomad Visa: How Countries Compete for Tech Talent",
+    "summary": "Over 60 nations now offer specialized tax incentives and multi-year residency visas to attract high-earning remote workers, reshaping international tax policy and tourism.",
+    "content": "A global competition for remote worker capital is redefining national border policies. Countries like Japan, Italy, and Costa Rica have introduced 'Digital Nomad Visas' that allow remote tech workers to live locally while paying reduced income taxes. A study by the Global Labor Institute shows that nomadic tech workers inject substantial funds into local service economies without burdening local job markets. Cities are adapting with co-working infrastructure and specialized housing, prompting debates over rising local rents.",
+    "keyTakeaways": [
+      "Over 60 countries have deployed nomad visas targeting high-income remote professionals.",
+      "Local micro-economies report significant consumer spending growth near tech-nomad hubs.",
+      "Housing activists in recipient cities alert that nomad influx is driving up domestic rents."
+    ],
+    "source": "Global Economy",
+    "author": "Carla Martinez",
+    "publishedAt": "2026-06-19 08:00",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-002",
+    "tags": ["RemoteWork", "Taxes", "Nomads", "GlobalBusiness"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-ai-003",
+    "title": "EU AI Act Compliance Audits Begin: Fines Threaten Tech Giants",
+    "summary": "The European Union has officially launched its first wave of audits under the AI Act, targeting high-risk generative models and requiring full transparency on training data.",
+    "content": "Regulatory pressure on artificial intelligence reached a boiling point today as the European Union began enforcing its strict AI Act. Regulators are conducting comprehensive compliance audits of large tech firms operating in Europe. The Act mandates that AI builders disclose all copyrighted training material, implement human-in-the-loop safeguards, and prove their models do not generate biased or discriminatory outputs. Violators face astronomical fines of up to 7% of global annual turnover, causing several American startups to temporarily restrict European access.",
+    "keyTakeaways": [
+      "EU regulators initiated legal compliance audits on generative models.",
+      "Fines for non-compliance are capped at a severe 7% of a firm's global annual revenue.",
+      "Some US developer startups have blocked European IP access to buy time for auditing."
+    ],
+    "source": "EuroPolicy",
+    "author": "Chloe Dubois",
+    "publishedAt": "2026-06-18 16:30",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-003",
+    "tags": ["AIAct", "Regulation", "Europe", "Ethics"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-tec-003",
+    "title": "The Death of Password: Passkeys Adopted by 95% of Global Web Services",
+    "summary": "A new security report reveals that passkeys have reached a near-total adoption rate, leading to an 85% drop in phishing attacks worldwide over the past twelve months.",
+    "content": "The era of the alphanumeric password is drawing to a close. According to a joint study by the FIDO Alliance and Cybersecurity Watch, over 95% of the world's top 10,000 websites now support passkeys natively. Since their widespread deployment, organizations report an unprecedented 85% drop in successful credential harvesting and phishing attacks. Users are embracing the passwordless future, utilizing biometric authentication on their local devices for quick and secure logins.",
+    "keyTakeaways": [
+      "FIDO reports 95% of major services have adopted biometric passkeys.",
+      "Credential harvesting and phishing reports dropped by 85% globally over 12 months.",
+      "Browser builders have unified keychain synchronization pipelines for easier passkey management."
+    ],
+    "source": "CyberDefense",
+    "author": "Marcus Vance",
+    "publishedAt": "2026-06-18 14:15",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-003",
+    "tags": ["Security", "Passkeys", "Cybersecurity", "Web"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-spa-003",
+    "title": "James Webb Telescope Detects Liquid Water Oceans on Nearby Exoplanet",
+    "summary": "Spectroscopic observations of LHS 1140 b, a super-Earth located 50 light-years away, reveal strong signs of liquid oceans and a nitrogen-dominated atmosphere.",
+    "content": "Astronomers utilizing the James Webb Space Telescope have announced the detection of liquid water signature on the exoplanet LHS 1140 b. The planet, situated in the habitable zone of a red dwarf star, appears to be an 'ocean world' covered in ice with a vast open-water sea exposed to its sun. Spectral data indicates a high concentration of nitrogen in the atmosphere, suggesting conditions similar to Earth's early environment and elevating LHS 1140 b as the highest-priority target in the search for biosignatures.",
+    "keyTakeaways": [
+      "Spectra readouts suggest a liquid ocean under an icy shell on exoplanet LHS 1140 b.",
+      "LHS 1140 b sits 50 light-years away within the habitable orbit zone of a red dwarf star.",
+      "A high-density nitrogen signature resembles the chemical composition of early Earth."
+    ],
+    "source": "Cosmic Scope",
+    "author": "Liam Sterling",
+    "publishedAt": "2026-06-18 11:20",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-003",
+    "tags": ["JamesWebb", "Exoplanets", "Astrobiology", "Space"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sci-003",
+    "title": "Graphene-Silicon Anodes Double Electric Vehicle Battery Capacity",
+    "summary": "Materials scientists have successfully integrated a self-healing graphene matrix into silicon battery anodes, solving swelling issues and doubling volumetric energy density.",
+    "content": "A breakthrough in material science is set to revolutionize electric vehicles. Researchers at the MIT Materials Lab have developed a battery anode using a hybrid graphene-silicon matrix. While silicon can store ten times more lithium ions than graphite, it traditionally swells and disintegrates. The graphene cage prevents this degradation while offering high conductivity. Prototype cells demonstrate a volumetric energy density of 950 Wh/L—almost twice that of current Tesla batteries—allowing EV ranges of over 800 miles on a single charge.",
+    "keyTakeaways": [
+      "Scientists locked swelling silicon anode clusters inside a self-healing graphene mesh.",
+      "The resulting cell exhibits 950 Wh/L volumetric density, nearly doubling current levels.",
+      "Road tests on automotive prototype cells suggest electric range capabilities over 800 miles."
+    ],
+    "source": "Science Alert",
+    "author": "Nadia Petrov",
+    "publishedAt": "2026-06-18 09:00",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-003",
+    "tags": ["Batteries", "Graphene", "MaterialScience", "EV"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sta-003",
+    "title": "Climate-Tech Startups Secure Record-Breaking $12B Funding Amid Grid Crisis",
+    "summary": "Venture capital is flooding into startups developing decentralized energy storage, virtual power plants, and localized microgrids, driven by carbon-neutrality pledges.",
+    "content": "Despite a broader cooling of venture capital markets, climate-tech startups are experiencing a historic influx of capital. In Q2 alone, clean energy and grid-resiliency startups raised a record-breaking $12 billion globally. Investors are backing companies that build decentralized battery storage systems, software to manage virtual power plants, and AI-driven grid optimization tools. As power grids around the world struggle under the weight of heatwaves and server farm electricity demands, these decentralized solutions are becoming critical infrastructure.",
+    "keyTakeaways": [
+      "Climate startups pulled in a record $12 billion in VC backing during Q2.",
+      "Capital is focusing heavily on energy storage, microgrid controllers, and grid software.",
+      "Grid constraints and server farm workloads have elevated backup energy assets to high priority."
+    ],
+    "source": "Venture Capitalist",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-06-18 07:15",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1556761175-b813f57a32f6?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-003",
+    "tags": ["ClimateTech", "VentureCapital", "CleanEnergy", "Funding"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-bus-003",
+    "title": "Antitrust Regulators Probe Major Tech Mergers in Cloud and AI Space",
+    "summary": "The Federal Trade Commission and EU antitrust regulators have launched joint investigations into quiet acquisitions, licensing deals, and board-seat agreements in the AI sector.",
+    "content": "Regulatory scrutiny on tech monopolies has entered a new phase. Today, the FTC and the European Commission announced synchronized investigations into corporate partnerships between tech conglomerates and AI research firms. Rather than acquiring companies outright, major players have engaged in licensing agreements and acqui-hires that regulators argue circumvent traditional merger review laws. The probe aims to determine if these arrangements restrict competition in the cloud computing and foundational AI models markets.",
+    "keyTakeaways": [
+      "The FTC and EC launched a synchronized probe into licensing and talent-acquisition deals.",
+      "Regulators charge that strategic partnerships bypass conventional merger filing requirements.",
+      "Investigations could block cloud providers from wrapping proprietary models in primary stacks."
+    ],
+    "source": "Wall Street Review",
+    "author": "Julian Assange III",
+    "publishedAt": "2026-06-17 15:00",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-003",
+    "tags": ["Antitrust", "FTC", "Regulation", "TechMonopoly"],
+    "readingTime": "3 min"
+  }
+]

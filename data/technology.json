@@ -1,0 +1,59 @@
+[
+  {
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a lightweight AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the headset overlays context-aware AI elements directly onto the user's field of view, replacing traditional screens.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "keyTakeaways": [
+      "The Neural Glasses weigh only 75g and run on Apple's new spatial M6 processor.",
+      "Contextual AI overlays are generated in real-time onto the user's view, representing a paradigm shift in UI.",
+      "Privacy advocacy groups have raised early concerns about discrete cameras on the frames."
+    ],
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-06-20 10:45",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "tags": ["AR", "Hardware", "Apple", "SpatialComputing"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "Topological error-correction code allowed stable coherence times exceeding three hours.",
+      "A 10,000 qubit capacity elevates quantum processors to commercial calculation levels.",
+      "Security standards agencies recommend transitioning immediately to post-quantum cryptography."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-06-19 14:20",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": ["Quantum", "Physics", "Computing", "Hardware"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-tec-003",
+    "title": "The Death of Password: Passkeys Adopted by 95% of Global Web Services",
+    "summary": "A new security report reveals that passkeys have reached a near-total adoption rate, leading to an 85% drop in phishing attacks worldwide over the past twelve months.",
+    "content": "The era of the alphanumeric password is drawing to a close. According to a joint study by the FIDO Alliance and Cybersecurity Watch, over 95% of the world's top 10,000 websites now support passkeys natively. Since their widespread deployment, organizations report an unprecedented 85% drop in successful credential harvesting and phishing attacks. Users are embracing the passwordless future, utilizing biometric authentication on their local devices for quick and secure logins.",
+    "keyTakeaways": [
+      "FIDO reports 95% of major services have adopted biometric passkeys.",
+      "Credential harvesting and phishing reports dropped by 85% globally over 12 months.",
+      "Browser builders have unified keychain synchronization pipelines for easier passkey management."
+    ],
+    "source": "CyberDefense",
+    "author": "Marcus Vance",
+    "publishedAt": "2026-06-18 14:15",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-003",
+    "tags": ["Security", "Passkeys", "Cybersecurity", "Web"],
+    "readingTime": "3 min"
+  }
+]

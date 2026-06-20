@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SuOrbit</title>
+  <meta name="description" content="Reach out to the SuOrbit team for editorial suggestions, press coverage, or general feedback.">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="header-wrapper" id="header-section">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="category.html?c=technology" class="nav-link">Technology</a></li>
+          <li><a href="category.html?c=ai" class="nav-link">AI</a></li>
+          <li><a href="category.html?c=space" class="nav-link">Space</a></li>
+          <li><a href="category.html?c=science" class="nav-link">Science</a></li>
+          <li><a href="category.html?c=startups" class="nav-link">Startups</a></li>
+          <li><a href="category.html?c=business" class="nav-link">Business</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-toggle-btn" aria-label="Toggle Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle-btn" aria-label="Toggle Theme">
+          <span class="theme-toggle-icon"></span>
+        </button>
+        <button class="icon-btn mobile-menu-toggle" aria-label="Open Navigation Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="search-overlay-container">
+      <div class="container search-container">
+        <form class="search-form-element" id="desktop-search-form" style="width: 100%;">
+          <div class="search-input-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" class="search-input-field" id="header-search-input" placeholder="Search by title, keyword, or tag..." aria-label="Search field">
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay" id="drawer-overlay-bg"></div>
+  <aside class="mobile-drawer" id="mobile-drawer-container">
+    <div class="mobile-drawer-header">
+      <a href="index.html" class="logo-link">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <button class="icon-btn mobile-menu-close" aria-label="Close Navigation Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-list" aria-label="Mobile Navigation">
+      <a href="category.html?c=technology" class="mobile-nav-link">Technology</a>
+      <a href="category.html?c=ai" class="mobile-nav-link">AI</a>
+      <a href="category.html?c=space" class="mobile-nav-link">Space</a>
+      <a href="category.html?c=science" class="mobile-nav-link">Science</a>
+      <a href="category.html?c=startups" class="mobile-nav-link">Startups</a>
+      <a href="category.html?c=business" class="mobile-nav-link">Business</a>
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 0.5rem 0;">
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link active">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Breaking News Ticker -->
+  <section class="ticker-wrapper" aria-label="Breaking News">
+    <div class="container ticker-container">
+      <span class="ticker-label">Breaking</span>
+      <div class="ticker-scroll" id="ticker-headlines">
+        Loading breaking news feed...
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact layout -->
+  <main class="container" style="padding: 3rem 1.5rem;">
+    <div style="border-bottom: 1px solid var(--border); padding-bottom: 2rem; margin-bottom: 2.5rem;">
+      <span class="eyebrow">Connect</span>
+      <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 0.5rem;">Get in touch with us</h1>
+      <p style="font-size: 1.15rem; color: var(--text-secondary); max-width: 600px;">Have an editorial tip, feedback on summaries, or advertising inquiries? Use the contact details below or send a message directly.</p>
+    </div>
+
+    <div class="contact-grid">
+      <!-- Left Info -->
+      <section class="contact-card-info" aria-label="Contact Information">
+        <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">SuOrbit Headquarters</h3>
+        <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">Our editorial and technical engineering divisions work remotely across global hubs.</p>
+        
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span class="contact-info-label">General & Press</span>
+            <a href="mailto:press@suorbit.com" style="font-weight: 600; color: var(--primary);">press@suorbit.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span class="contact-info-label">Security & Integrity</span>
+            <a href="mailto:security@suorbit.com" style="font-weight: 600; color: var(--primary);">security@suorbit.com</a>
+          </div>
+        </div>
+
+        <div class="contact-info-item">
+          <div class="contact-info-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="contact-info-text">
+            <span class="contact-info-label">Corporate Address</span>
+            <address style="font-style: normal; color: var(--text-secondary); font-size: 0.9rem;">
+              SuOrbit Media Group LLC<br>
+              1209 Orange Street<br>
+              Wilmington, DE 19801
+            </address>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Form -->
+      <section aria-label="Message Form">
+        <form class="contact-form" id="main-contact-form">
+          <div class="form-status" id="form-status-banner"></div>
+
+          <div class="form-group">
+            <label for="contact-name">Full name</label>
+            <input type="text" class="form-control" id="contact-name" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-email">Email address</label>
+            <input type="email" class="form-control" id="contact-email" placeholder="name@example.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-topic">Reason for inquiry</label>
+            <select class="form-control" id="contact-topic" style="padding-right: 2rem; appearance: none; background-image: url('data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\' width=\'24\' height=\'24\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'%23475569\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-linejoin=\'round\'><path d=\'m6 9 6 6 6-6\'/></svg>'); background-repeat: no-repeat; background-position: right 1rem center; background-size: 1rem;">
+              <option value="editorial">Editorial suggestion or tip</option>
+              <option value="partnership">Advertising & Partnerships</option>
+              <option value="technical">Technical Bug / Issue</option>
+              <option value="other">Other Inquiry</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea class="form-control" id="contact-message" rows="5" placeholder="How can our editorial team help you?" required></textarea>
+          </div>
+
+          <button type="submit" class="form-submit-btn" id="contact-submit-btn">Send Message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="footer-section">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          SuOrbit<span class="logo-dot"></span>
+        </a>
+        <p class="footer-tagline">Technology, AI, Space & Startup News Simplified. Curated insights delivered directly to you.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Categories</h4>
+        <ul class="footer-links-list">
+          <li><a href="category.html?c=technology">Technology</a></li>
+          <li><a href="category.html?c=ai">Artificial Intelligence</a></li>
+          <li><a href="category.html?c=space">Space Exploration</a></li>
+          <li><a href="category.html?c=science">Science & Discoveries</a></li>
+          <li><a href="category.html?c=startups">Startups & Capital</a></li>
+          <li><a href="category.html?c=business">Business & Economics</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Company</h4>
+        <ul class="footer-links-list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SuOrbit. All rights reserved. Powered by GitHub Pages.</p>
+      <p style="opacity: 0.7;">News aggregated automatically using GitHub Actions.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const form = document.getElementById('main-contact-form');
+      const statusBanner = document.getElementById('form-status-banner');
+      const submitBtn = document.getElementById('contact-submit-btn');
+
+      if (!form || !statusBanner || !submitBtn) return;
+
+      form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Perform basic input validation
+        const name = document.getElementById('contact-name').value.trim();
+        const email = document.getElementById('contact-email').value.trim();
+        const message = document.getElementById('contact-message').value.trim();
+
+        if (!name || !email || !message) {
+          statusBanner.className = 'form-status';
+          statusBanner.style.display = 'block';
+          statusBanner.style.backgroundColor = 'rgba(239, 68, 68, 0.15)';
+          statusBanner.style.color = '#dc2626';
+          statusBanner.style.border = '1px solid rgba(239, 68, 68, 0.3)';
+          statusBanner.textContent = 'Please fill out all required fields.';
+          return;
+        }
+
+        // Show sending state
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        // Simulate server communication delay
+        setTimeout(() => {
+          // Success response
+          form.reset();
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Send Message';
+
+          statusBanner.className = 'form-status success';
+          statusBanner.textContent = 'Thank you, ' + name + '! Your inquiry has been received. Our team will contact you shortly.';
+          statusBanner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 1200);
+      });
+    });
+  </script>
+</body>
+</html>

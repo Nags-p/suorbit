@@ -1,0 +1,59 @@
+[
+  {
+    "id": "article-sci-001",
+    "title": "Fusion Reactor Exceeds Net Energy Gain: Commercial Grid Trial Succeeds",
+    "summary": "A private fusion reactor in Oxfordshire has sustained a plasma field for 48 minutes, generating 150% of the energy consumed in the magnetic containment field, proving grid viability.",
+    "content": "Fusion energy, long considered 30 years away, has taken a monumental step toward commercial reality. Tokamak Energy announced that its experimental ST80 reactor sustained fusion temperatures for nearly an hour, outputting 30 Megawatts of power while consuming only 20 Megawatts to power its superconducting magnets. This continuous Q-factor of 1.5 is a world record for magnetic confinement fusion. Engineers are now connecting a successor pilot plant to the local power grid, aiming for permanent baseline power injection by 2028.",
+    "keyTakeaways": [
+      "The ST80 reactor sustained a plasma field for 48 minutes, recording a net Q-factor energy gain of 1.5.",
+      "Stronger superconducting magnets enabled longer containment times without thermal collapse.",
+      "A pilot generator is currently being wired into the regional electricity grid for test distribution."
+    ],
+    "source": "Future Physics",
+    "author": "Elizabeth Sterling",
+    "publishedAt": "2026-06-20 08:30",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "tags": ["FusionEnergy", "CleanTech", "Physics", "Science"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sci-002",
+    "title": "CRISPR-Cas12 Gene Therapy Cures Hereditary Blindness in Phase II Trials",
+    "summary": "In a groundbreaking medical trial, 24 patients suffering from Leber Congenital Amaurosis regained functional vision after receiving a single localized micro-dose of CRISPR gene-editing vector.",
+    "content": "A novel gene therapy targeting hereditary blindness has delivered spectacular results in Phase II clinical trials. Developed by GenEdit Labs, the treatment utilizes the precise CRISPR-Cas12 enzyme to repair a defect in the CEP290 gene, which prevents photoreceptors in the retina from functioning. Patients who were previously legally blind reported a gradual return of color perception, shape recognition, and navigation-level vision within 4 weeks of a single subretinal injection. No serious side effects were reported.",
+    "keyTakeaways": [
+      "CRISPR-Cas12 cut and repaired the defective CEP290 gene structure in the retina.",
+      "All 24 trial patients experienced restoration of navigation-level sight within 30 days.",
+      "GenEdit Labs plans to apply for fast-track FDA final regulatory approval by year-end."
+    ],
+    "source": "BioMedicine Journal",
+    "author": "Dr. Robert Chen",
+    "publishedAt": "2026-06-19 10:15",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-002",
+    "tags": ["CRISPR", "GeneEditing", "Medicine", "Biotech"],
+    "readingTime": "3 min"
+  },
+  {
+    "id": "article-sci-003",
+    "title": "Graphene-Silicon Anodes Double Electric Vehicle Battery Capacity",
+    "summary": "Materials scientists have successfully integrated a self-healing graphene matrix into silicon battery anodes, solving swelling issues and doubling volumetric energy density.",
+    "content": "A breakthrough in material science is set to revolutionize electric vehicles. Researchers at the MIT Materials Lab have developed a battery anode using a hybrid graphene-silicon matrix. While silicon can store ten times more lithium ions than graphite, it traditionally swells and disintegrates. The graphene cage prevents this degradation while offering high conductivity. Prototype cells demonstrate a volumetric energy density of 950 Wh/L—almost twice that of current Tesla batteries—allowing EV ranges of over 800 miles on a single charge.",
+    "keyTakeaways": [
+      "Scientists locked swelling silicon anode clusters inside a self-healing graphene mesh.",
+      "The resulting cell exhibits 950 Wh/L volumetric density, nearly doubling current levels.",
+      "Road tests on automotive prototype cells suggest electric range capabilities over 800 miles."
+    ],
+    "source": "Science Alert",
+    "author": "Nadia Petrov",
+    "publishedAt": "2026-06-18 09:00",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532187643603-ba119ca4109e?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-003",
+    "tags": ["Batteries", "Graphene", "MaterialScience", "EV"],
+    "readingTime": "3 min"
+  }
+]

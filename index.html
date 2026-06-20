@@ -1,386 +1,263 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="google-site-verification" content="L-P5q7WkpsdTzauSTj3dtsSFNXE2TMRABO0tVKPsaGQ" />
-  <title>Suorbit | Building Digital Products</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary SEO Meta Tags -->
+  <title>SuOrbit - Technology, AI, Space & Startup News Simplified</title>
+  <meta name="description" content="SuOrbit aggregates, summarizes, and simplifies the latest news in technology, artificial intelligence, spaceflight, science, startups, and finance. Stay informed with daily AI-assisted coverage.">
+  <link rel="canonical" href="https://nags-p.github.io/suorbit/index.html">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://nags-p.github.io/suorbit/index.html">
+  <meta property="og:title" content="SuOrbit - Technology, AI, Space & Startup News Simplified">
+  <meta property="og:description" content="Stay informed with automated, AI-assisted news curation on tech, space, startups, science, and markets.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&auto=format&fit=crop&q=80">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://nags-p.github.io/suorbit/index.html">
+  <meta property="twitter:title" content="SuOrbit - Technology, AI, Space & Startup News Simplified">
+  <meta property="twitter:description" content="Stay informed with automated, AI-assisted news curation on tech, space, startups, science, and markets.">
+  <meta property="twitter:image" content="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&h=630&auto=format&fit=crop&q=80">
 
-    body {
-      font-family: Inter, Arial, sans-serif;
-      background: #f8fafc;
-      color: #0f172a;
-      line-height: 1.6;
-    }
-
-    .suorbit-page {
-      min-height: 100vh;
-      background:
-        radial-gradient(circle at top right, rgba(37, 99, 235, 0.16), transparent 35%),
-        linear-gradient(180deg, #ffffff 0%, #f1f5f9 100%);
-    }
-
-    .container {
-      width: min(1180px, 92%);
-      margin: auto;
-    }
-
-    header {
-      padding: 28px 0;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo {
-      font-size: 28px;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      color: #0f172a;
-    }
-
-    .logo span {
-      color: #2563eb;
-    }
-
-    .nav-btn {
-      text-decoration: none;
-      background: #0f172a;
-      color: #ffffff;
-      padding: 12px 22px;
-      border-radius: 999px;
-      font-weight: 600;
-      font-size: 14px;
-    }
-
-    .hero {
-      padding: 95px 0 80px;
-      text-align: center;
-    }
-
-    .badge {
-      display: inline-block;
-      background: #dbeafe;
-      color: #1d4ed8;
-      padding: 8px 18px;
-      border-radius: 999px;
-      font-size: 14px;
-      font-weight: 700;
-      margin-bottom: 24px;
-    }
-
-    .hero h1 {
-      font-size: clamp(42px, 7vw, 76px);
-      line-height: 1.05;
-      letter-spacing: -2px;
-      max-width: 900px;
-      margin: 0 auto 24px;
-    }
-
-    .hero h1 span {
-      color: #2563eb;
-    }
-
-    .hero p {
-      font-size: 19px;
-      color: #475569;
-      max-width: 760px;
-      margin: 0 auto 34px;
-    }
-
-    .hero-actions {
-      display: flex;
-      justify-content: center;
-      gap: 14px;
-      flex-wrap: wrap;
-    }
-
-    .primary-btn,
-    .secondary-btn {
-      text-decoration: none;
-      padding: 15px 28px;
-      border-radius: 999px;
-      font-weight: 700;
-      transition: 0.25s ease;
-    }
-
-    .primary-btn {
-      background: #2563eb;
-      color: #ffffff;
-      box-shadow: 0 12px 30px rgba(37, 99, 235, 0.25);
-    }
-
-    .secondary-btn {
-      background: #ffffff;
-      color: #0f172a;
-      border: 1px solid #cbd5e1;
-    }
-
-    .primary-btn:hover,
-    .secondary-btn:hover {
-      transform: translateY(-2px);
-    }
-
-    .section {
-      padding: 70px 0;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 45px;
-    }
-
-    .section-title h2 {
-      font-size: clamp(30px, 4vw, 46px);
-      letter-spacing: -1px;
-      margin-bottom: 12px;
-    }
-
-    .section-title p {
-      color: #64748b;
-      font-size: 17px;
-      max-width: 680px;
-      margin: auto;
-    }
-
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
-
-    .card {
-      background: #ffffff;
-      padding: 32px;
-      border-radius: 24px;
-      border: 1px solid #e2e8f0;
-      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.06);
-    }
-
-    .icon {
-      width: 52px;
-      height: 52px;
-      border-radius: 16px;
-      background: #eff6ff;
-      color: #2563eb;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      margin-bottom: 20px;
-    }
-
-    .card h3 {
-      font-size: 21px;
-      margin-bottom: 10px;
-    }
-
-    .card p {
-      color: #64748b;
-      font-size: 15px;
-    }
-
-    .products {
-      background: #0f172a;
-      color: #ffffff;
-      border-radius: 34px;
-      padding: 55px;
-    }
-
-    .products h2 {
-      font-size: clamp(30px, 4vw, 44px);
-      margin-bottom: 12px;
-    }
-
-    .products p {
-      color: #cbd5e1;
-      max-width: 700px;
-      margin-bottom: 35px;
-    }
-
-    .product-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 18px;
-    }
-
-    .product-card {
-      background: rgba(255, 255, 255, 0.08);
-      border: 1px solid rgba(255, 255, 255, 0.12);
-      padding: 24px;
-      border-radius: 20px;
-    }
-
-    .single-product {
-      grid-template-columns: minmax(280px, 420px);
-      justify-content: center;
-    }
-
-    .product-card h3 {
-      margin-bottom: 8px;
-      font-size: 19px;
-    }
-
-    .product-card a {
-      color: #93c5fd;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 700;
-    }
-
-    .coming {
-      opacity: 0.75;
-    }
-
-    .cta {
-      text-align: center;
-      background: #ffffff;
-      padding: 60px 30px;
-      border-radius: 30px;
-      border: 1px solid #e2e8f0;
-      box-shadow: 0 20px 45px rgba(15, 23, 42, 0.06);
-    }
-
-    .cta h2 {
-      font-size: clamp(30px, 4vw, 44px);
-      margin-bottom: 14px;
-    }
-
-    .cta p {
-      color: #64748b;
-      max-width: 650px;
-      margin: 0 auto 28px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 35px 0;
-      color: #64748b;
-      font-size: 14px;
-    }
-
-    @media (max-width: 900px) {
-      .cards,
-      .product-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .products {
-        padding: 35px 24px;
-      }
-
-      header {
-        gap: 16px;
-      }
-    }
-  </style>
+  <!-- CSS & Favicon -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  
+  <!-- JSON-LD Structured Data Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NewsMediaOrganization",
+    "name": "SuOrbit",
+    "url": "https://nags-p.github.io/suorbit/",
+    "logo": "https://nags-p.github.io/suorbit/assets/images/logo.png",
+    "sameAs": [
+      "https://twitter.com/suorbit",
+      "https://github.com/nags-p/suorbit"
+    ],
+    "publishingPrinciples": "https://nags-p.github.io/suorbit/about.html"
+  }
+  </script>
 </head>
-
 <body>
-  <div class="suorbit-page">
-    <div class="container">
-      <header>
-        <div class="logo">Suorbit<span>.</span></div>
-        <a href="#products" class="nav-btn">Explore Products</a>
-      </header>
 
-      <section class="hero">
-        
-        <h1>Building simple products for real-world <span>digital needs.</span></h1>
-        <p>
-          Suorbit is a product studio creating focused web-based tools, platforms, and digital experiences
-          designed to solve real user problems with clarity and speed.
-        </p>
-
-        <div class="hero-actions">
-          <a href="#products" class="primary-btn">View Products</a>
-          <a href="mailto:support@suorbit.top" class="secondary-btn">Contact Support</a>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="section-title">
-          <h2>What Suorbit Does</h2>
-          <p>
-            We create lightweight, useful, and scalable digital products that solve specific problems without unnecessary complexity.
-          </p>
-        </div>
-
-        <div class="cards">
-          <div class="card">
-            <div class="icon">🚀</div>
-            <h3>Product Experiments</h3>
-            <p>
-              Launching small, focused product ideas quickly and validating them with real users.
-            </p>
-          </div>
-
-          <div class="card">
-            <div class="icon">🌐</div>
-            <h3>User-Focused Platforms</h3>
-            <p>
-              Creating simple, accessible platforms that help users connect, explore, and take action faster.
-            </p>
-          </div>
-
-          <div class="card">
-            <div class="icon">⚡</div>
-            <h3>Fast Digital Solutions</h3>
-            <p>
-              Building practical tools for communities, creators, businesses, and everyday users.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="products">
-        <div class="products">
-          <h2>Suorbit Product Ecosystem</h2>
-          <p>
-            Explore the currently available product from Suorbit.
-          </p>
-
-          <div class="product-grid single-product">
-            <div class="product-card">
-              <h3>Match by Intent</h3>
-              <p>Connect with people based on specific intent, purpose, and shared goals.</p>
-              <a href="https://matchbyintent.suorbit.top/" target="_blank" rel="noopener">Visit Website →</a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="cta">
-          <h2>One ecosystem. Multiple products.</h2>
-          <p>
-            Suorbit is built to create practical digital products that are clear, useful, and easy to access.
-          </p>
-          <a href="mailto:support@suorbit.top" class="primary-btn">Contact Support</a>
-        </div>
-      </section>
-
-      <footer>
-        © 2026 Suorbit. All rights reserved.
-      </footer>
+  <!-- Sticky Header -->
+  <header class="header-wrapper" id="header-section">
+    <div class="container header-container">
+      <a href="index.html" class="logo-link" id="site-logo">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul>
+          <li><a href="category.html?c=technology" class="nav-link" id="nav-tech">Technology</a></li>
+          <li><a href="category.html?c=ai" class="nav-link" id="nav-ai">AI</a></li>
+          <li><a href="category.html?c=space" class="nav-link" id="nav-space">Space</a></li>
+          <li><a href="category.html?c=science" class="nav-link" id="nav-science">Science</a></li>
+          <li><a href="category.html?c=startups" class="nav-link" id="nav-startups">Startups</a></li>
+          <li><a href="category.html?c=business" class="nav-link" id="nav-business">Business</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn search-toggle-btn" id="header-search-toggle" aria-label="Toggle Search">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+        <button class="icon-btn theme-toggle-btn" id="header-theme-toggle" aria-label="Toggle Theme">
+          <span class="theme-toggle-icon"></span>
+        </button>
+        <button class="icon-btn mobile-menu-toggle" id="header-menu-toggle" aria-label="Open Navigation Menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
     </div>
-  </div>
+    
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="search-overlay-container">
+      <div class="container search-container">
+        <form class="search-form-element" id="desktop-search-form" style="width: 100%;">
+          <div class="search-input-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+            <input type="text" class="search-input-field" id="header-search-input" placeholder="Search by title, keyword, or tag..." aria-label="Search field">
+          </div>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="drawer-overlay" id="drawer-overlay-bg"></div>
+  <aside class="mobile-drawer" id="mobile-drawer-container">
+    <div class="mobile-drawer-header">
+      <a href="index.html" class="logo-link">
+        SuOrbit<span class="logo-dot"></span>
+      </a>
+      <button class="icon-btn mobile-menu-close" id="header-menu-close" aria-label="Close Navigation Menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+    <nav class="mobile-nav-list" aria-label="Mobile Navigation">
+      <a href="category.html?c=technology" class="mobile-nav-link">Technology</a>
+      <a href="category.html?c=ai" class="mobile-nav-link">AI</a>
+      <a href="category.html?c=space" class="mobile-nav-link">Space</a>
+      <a href="category.html?c=science" class="mobile-nav-link">Science</a>
+      <a href="category.html?c=startups" class="mobile-nav-link">Startups</a>
+      <a href="category.html?c=business" class="mobile-nav-link">Business</a>
+      <hr style="border: 0; border-top: 1px solid var(--border); margin: 0.5rem 0;">
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html" class="mobile-nav-link">Contact</a>
+    </nav>
+  </aside>
+
+  <!-- Breaking News Ticker -->
+  <section class="ticker-wrapper" aria-label="Breaking News">
+    <div class="container ticker-container">
+      <span class="ticker-label">Breaking</span>
+      <div class="ticker-scroll" id="ticker-headlines">
+        <!-- Rendered dynamically -->
+        Loading breaking news feed...
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Hero Grid -->
+  <main class="container hero-section">
+    <div class="hero-grid">
+      <!-- Left: Featured Story -->
+      <section id="featured-story-wrapper" aria-label="Featured Story">
+        <div style="padding: 4rem 0; text-align: center; border: 1px solid var(--border); border-radius: var(--radius-lg); background-color: var(--bg-secondary);">
+          <p>Loading featured story...</p>
+        </div>
+      </section>
+
+      <!-- Right: Trending News -->
+      <aside class="trending-sidebar" aria-label="Trending News">
+        <h3 class="trending-title">Trending stories</h3>
+        <div class="trending-list" id="trending-list-wrapper">
+          <p style="color: var(--text-muted);">Loading trending list...</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <!-- Divider -->
+  <div class="container"><hr style="border: 0; border-top: 1px solid var(--border);"></div>
+
+  <!-- Latest News Section -->
+  <section class="container" style="padding: 3rem 0;" aria-label="Latest News Grid">
+    <h2 class="section-title" id="latest-heading">Latest in tech</h2>
+    <div class="news-grid" id="latest-news-grid">
+      <!-- Renders article cards -->
+    </div>
+    <!-- Pagination buttons -->
+    <div class="pagination-container" id="grid-pagination" style="display: none;"></div>
+  </section>
+
+  <!-- Divider -->
+  <div class="container"><hr style="border: 0; border-top: 1px solid var(--border);"></div>
+
+  <!-- Category Block Summaries -->
+  <section class="container category-sections-wrapper" aria-label="News Categories">
+    <div class="category-blocks-grid">
+      
+      <!-- AI Category block -->
+      <div class="category-block">
+        <div class="category-block-header">
+          <h3 class="category-block-title">Artificial Intelligence</h3>
+          <a href="category.html?c=ai" class="view-all-link">
+            See all AI
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="news-grid" id="category-preview-ai">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Space Category block -->
+      <div class="category-block">
+        <div class="category-block-header">
+          <h3 class="category-block-title">Space Exploration</h3>
+          <a href="category.html?c=space" class="view-all-link">
+            See all Space
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="news-grid" id="category-preview-space">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+      <!-- Technology Category block -->
+      <div class="category-block">
+        <div class="category-block-header">
+          <h3 class="category-block-title">Technology & Infrastructure</h3>
+          <a href="category.html?c=technology" class="view-all-link">
+            See all Tech
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="news-grid" id="category-preview-technology">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Newsletter signup section -->
+  <section class="newsletter-section" aria-label="Newsletter Subscription">
+    <div class="container">
+      <div class="newsletter-card">
+        <h2 class="newsletter-title">Subscribe to SuOrbit Weekly</h2>
+        <p class="newsletter-desc">Join 50,000+ tech leaders, software developers, and space enthusiasts receiving our simplified summary news digest.</p>
+        <form class="newsletter-form" id="home-newsletter-form">
+          <input type="email" class="newsletter-input" placeholder="Enter your email address" required aria-label="Email address field">
+          <button type="submit" class="newsletter-btn">Join Newsletter</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="footer-section">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="footer-logo">
+          SuOrbit<span class="logo-dot"></span>
+        </a>
+        <p class="footer-tagline">Technology, AI, Space & Startup News Simplified. Curated insights delivered directly to you.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Categories</h4>
+        <ul class="footer-links-list">
+          <li><a href="category.html?c=technology">Technology</a></li>
+          <li><a href="category.html?c=ai">Artificial Intelligence</a></li>
+          <li><a href="category.html?c=space">Space Exploration</a></li>
+          <li><a href="category.html?c=science">Science & Discoveries</a></li>
+          <li><a href="category.html?c=startups">Startups & Capital</a></li>
+          <li><a href="category.html?c=business">Business & Economics</a></li>
+        </ul>
+      </div>
+      <div class="footer-links-col">
+        <h4 class="footer-links-title">Company</h4>
+        <ul class="footer-links-list">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Get in Touch</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Service</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 SuOrbit. All rights reserved. Powered by GitHub Pages.</p>
+      <p style="opacity: 0.7;">News aggregated automatically using GitHub Actions.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/home.js"></script>
 </body>
-
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZL707BH4H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZZL707BH4H');
-</script>
 </html>
