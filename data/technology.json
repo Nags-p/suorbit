@@ -1,23 +1,47 @@
 [
   {
-    "id": "article-tec-mqmr1omd-000",
-    "title": "The Great Unlocking: Caltech's 70-Year Grip on NASA's JPL Faces Unprecedented Challenge",
-    "summary": "For seven decades, Caltech has been the sole steward of NASA's Jet Propulsion Laboratory, a relationship long considered immutable. Now, NASA's decision to open the management contract to competitive bids has thrust the prestigious university into an unexpected and arduous fight to retain control of the storied facility.",
-    "content": "For seven decades, the California Institute of Technology has held an almost celestial grip on NASA’s Jet Propulsion Laboratory. A partnership so entrenched, so intertwined with JPL's very identity and its groundbreaking contributions to space exploration, it felt as permanent as the stars themselves. Yet, the cosmos has a way of throwing curveballs. NASA’s recent announcement to open JPL’s management contract to competitive bidding has sent a palpable shockwave through Pasadena, forcing Caltech to brace for an arduous and entirely unexpected fight to retain control of one of the nation’s most iconic scientific institutions.\n\nThis isn't merely about a contract; it's about a legacy. Since 1959, Caltech has been the driving force behind JPL, a cradle of innovation responsible for pivotal missions from the Voyager probes exploring the solar system's edges to the Mars Curiosity and Perseverance rovers sifting through Martian soil. The university nurtured a culture of audacious engineering and scientific discovery, becoming synonymous with the lab's unparalleled achievements. For Caltech, this relationship was a constant, a bedrock of its institutional identity and a powerful magnet for talent and research funding.\n\nNASA's rationale, while standard procedure for such colossal federal contracts, nonetheless signals a departure from tradition. The agency seeks to ensure best value, foster innovation, and potentially introduce fresh perspectives by inviting bids from outside contenders. While undisclosed, these \"outsiders\" represent formidable challenges, pushing Caltech to articulate its vision for JPL’s future in a way it hasn't had to in generations. The bidding process will undoubtedly scrutinize everything from operational efficiency to strategic scientific direction.\n\nThe stakes couldn't be higher. Losing the JPL contract would be a profound blow to Caltech, impacting its research portfolio, student opportunities, and its standing in the global scientific community. As the university buckles down for what promises to be an intense, high-pressure battle, the question isn't just who will manage JPL next, but what this shift signifies for the future of scientific partnerships in an increasingly competitive technological landscape. An era of assumed permanence has ended, replaced by one of profound uncertainty for a storied institution.",
+    "id": "article-tec-mqmv1qca-000",
+    "title": "AMD Reverses Course: Ryzen 9000 CPUs to Regain Critical Memory Encryption Feature Next Month",
+    "summary": "AMD is reinstating its Transparent Secure Memory Encryption (TSME) feature on non-PRO Ryzen 9000 desktop CPUs through a BIOS update arriving in July. This crucial security capability, which was initially removed, is returning due to significant community feedback, safeguarding user data at a hardware level.",
+    "content": "In a move that underscores the power of user feedback, AMD has announced it will reinstate Transparent Secure Memory Encryption (TSME) on its non-PRO Ryzen 9000 desktop processors this July. This essential security feature, designed to protect sensitive data in memory, makes a welcome return after its unexpected absence caused a stir among the enthusiast community.\n\nTSME, often branded as 'Memory Guard' in AMD's PRO lineup, provides hardware-level encryption for system memory. This means data is encrypted as it moves through the system, offering a robust shield against sophisticated attacks like cold boot attacks or physical memory tampering. Its initial removal from the mainstream Ryzen 9000 chips, which include some of AMD’s most powerful CPUs, was a peculiar decision that left many users concerned about the platform's security posture.\n\nFortunately, AMD appears to have listened intently to the chorus of voices from its user base and hardware critics. The company explicitly cited \"valuable community feedback\" as the driving force behind this reinstatement. It's a clear signal that the chipmaker is committed to both performance and security, recognizing that advanced hardware demands comprehensive protection.\n\nThe reintroduction of TSME will arrive via a routine BIOS update, making it accessible to all eligible Ryzen 9000 desktop users. This proactive step not only restores a critical layer of defense but also reinforces AMD's dedication to supporting the long-term integrity and security of its platforms. For users, it means an enhanced peace of mind, knowing their data is better secured at the foundation of their PC.",
     "keyTakeaways": [
-      "Caltech's 70-year management of NASA's Jet Propulsion Laboratory (JPL) is now open for competitive bidding.",
-      "This unexpected move forces Caltech, which long considered the contract a lock, into an arduous fight to retain control of the prestigious facility.",
-      "The decision by NASA, while standard for federal contracts, signifies a major shift with high stakes for Caltech's legacy and future research."
+      "AMD is bringing back Transparent Secure Memory Encryption (TSME) to non-PRO Ryzen 9000 desktop CPUs.",
+      "The reinstatement, due in July via a BIOS update, is a direct response to 'valuable community feedback'.",
+      "TSME is a vital hardware-level security feature that encrypts system memory, protecting against advanced data theft and physical attacks."
     ],
-    "source": "Medianewsgroup.com",
-    "author": "Pat Maio",
-    "publishedAt": "2026-06-19 19:18",
+    "source": "Tom's Hardware UK",
+    "author": "Jake Roach",
+    "publishedAt": "2026-06-19 21:02",
     "category": "Technology",
-    "image": "https://www.pasadenastarnews.com/wp-content/uploads/2026/06/PAS-L-JPL-MAYOR-06xx-1-HG.jpg?w=1024&h=682",
-    "originalUrl": "https://wpdash.medianewsgroup.com/2026/06/19/caltech-on-edge-as-its-70-year-lock-on-nasas-jpl-goes-up-for-bid/",
+    "image": "https://cdn.mos.cms.futurecdn.net/yQxDP9b5mwjEYZ4Y37kD7X-1999-80.jpg",
+    "originalUrl": "https://www.tomshardware.com/pc-components/cpus/amd-will-reinstate-memory-encryption-on-ryzen-9000-cpus-through-a-bios-update-in-july-tsme-is-coming-back-after-valuable-community-feedback",
     "tags": [
       "Technology",
-      "Caltech"
+      "reinstate",
+      "memory"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqmv2542-002",
+    "title": "Forget Rebooting: Your Motherboard Can Transform That Old Reset Button into a Powerhouse",
+    "summary": "The once-essential PC reset button is largely obsolete in modern systems due to stable OS and fast SSDs, leading many new cases to omit it. However, modern motherboards are ingeniously repurposing this dormant physical input, allowing users to remap it for various functions like RGB control, fan speed adjustments, or even direct BIOS access.",
+    "content": "Remember the PC reset button? For decades, it was a ubiquitous presence on computer cases, a quick, albeit sometimes drastic, fix for a frozen system. But in an era of lightning-fast SSDs and increasingly stable operating systems, that dedicated reboot method has quietly faded into obscurity. Many modern chassis don't even bother including one, viewing it as an unnecessary relic of a bygone era.\n\nYet, even if your case *does* have this physical relic, chances are it sits dormant, an unused port to a functionality you rarely, if ever, need. This isn't just about nostalgia; it’s about a valuable, tactile input left untapped. Fortunately, motherboard manufacturers, ever keen on extracting maximum utility from every component, are stepping in to give this obsolete button a surprising second life.\n\nModern motherboards are increasingly offering the ability to repurpose that old reset switch, transforming it from a simple \"off-and-on-again\" trigger into a versatile command center. Imagine pressing a physical button to cycle through your RGB lighting profiles, instantly adjust fan speeds for quiet operation or maximum cooling, or even trigger a safe boot directly into your BIOS settings.\n\nThe possibilities extend further. Some boards allow it to initiate a direct power cycle, bypassing software altogether, or even run custom scripts for advanced users. It's a brilliant blend of old-school physical control and cutting-edge customization, turning a forgotten feature into a direct line to your system's core functions. This ingenuity reclaims valuable case real estate and offers PC enthusiasts a new level of immediate, physical command over their build.\n\nSo, while the reset button may be dead in its original form, its spirit, and indeed its physical presence, are being resurrected. It’s a testament to how even the most mundane components can find renewed relevance through clever design, giving users more control and convenience than ever before.",
+    "keyTakeaways": [
+      "The traditional PC reset button is becoming obsolete as operating systems stabilize and SSDs make reboots quick.",
+      "Many modern PC cases no longer include a dedicated reset button, rendering any existing ones dormant.",
+      "New motherboards offer a clever solution, allowing users to repurpose the reset button for custom functions like RGB control, fan speed, or direct BIOS access."
+    ],
+    "source": "XDA Developers",
+    "author": "Rich Edmonds",
+    "publishedAt": "2026-06-19 21:00",
+    "category": "Technology",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/wm/2024/06/asus-rog-strix-x570-e-gaming-front-io-header.jpg?w=1600&h=900&fit=crop",
+    "originalUrl": "https://www.xda-developers.com/your-motherboard-unused-headers-can-do-this-no-extra-hardware/",
+    "tags": [
+      "Technology",
+      "button",
+      "motherboard"
     ],
     "readingTime": "2 min"
   }
