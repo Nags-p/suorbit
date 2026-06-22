@@ -1,24 +1,185 @@
 [
   {
-    "id": "article-tec-mqogo5yq-000",
-    "title": "AI on Your Phone: The Skin Cancer Breakthrough Set to Slash Waiting Lists",
-    "summary": "A revolutionary new smartphone app leveraging AI is set to dramatically improve the diagnosis of deadly skin cancers. Building on an earlier NHS-deployed version, this technology promises to significantly reduce healthcare waiting lists and expedite life-saving interventions.",
-    "content": "Imagine a world where your smartphone isn't just for scrolling social media, but a crucial tool in the fight against deadly diseases. That future is rapidly becoming a reality with the advent of revolutionary AI-powered smartphone applications designed to detect serious medical conditions. Leading this charge is a new app poised to dramatically change how we approach skin cancer diagnostics, promising to slash debilitating NHS waiting lists and bring life-saving insights directly to your pocket.\n\nThis innovative technology, an evolution of a system previously deployed by the UK's National Health Service, harnesses advanced artificial intelligence to analyze images of skin lesions. The earlier iteration, known as Derm AI, has already proven its mettle, having identified a staggering 20,000 cancers among more than 230,000 patients. The brilliance lies in its ability to rapidly and accurately flag suspicious moles or growths, alleviating the immense pressure on dermatologists and ensuring that potentially deadly melanomas are caught far sooner. Given that early detection is paramount for successful skin cancer treatment, this shift from traditional, often lengthy, referral pathways could be a game-changer.\n\nThe potential impact of this smartphone-based diagnostic tool cannot be overstated. By empowering general practitioners and and even potentially trained individuals to conduct initial screenings with a high degree of accuracy, the app stands to significantly reduce the bottleneck in specialist clinics. Patients currently enduring agonizing waits for dermatologist appointments could see their diagnostic journey expedited, leading to earlier interventions and vastly improved prognoses. This isn't just about efficiency; it's about saving lives by democratizing access to crucial preliminary screenings, ensuring that geographical location or an overburdened health system no longer stand as barriers to early detection. As AI continues to integrate into healthcare, this app heralds a future where preventative and diagnostic tools are more accessible, efficient, and ultimately, more effective.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "A new AI-powered smartphone app offers rapid and accurate diagnosis of skin cancers.",
-      "An earlier version of the technology (Derm AI) successfully detected 20,000 cancers in over 230,000 NHS patients.",
-      "The app is predicted to drastically reduce healthcare waiting lists, ensuring earlier detection and improving patient outcomes."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Dailymail.com",
-    "author": "Luke Chafer",
-    "publishedAt": "2026-06-21 00:01",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-06-22 02:33",
     "category": "Technology",
-    "image": "https://i.dailymail.com/1s/2026/06/21/01/109493197-0-image-a-99_1782000011466.jpg",
-    "originalUrl": "https://www.dailymail.com/health/article-15916881/AI-smartphone-app-spot-deadly-skin-cancers.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Revolutionary",
-      "smartphone"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-06-21 22:33",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "keyTakeaways": [
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-06-21 18:33",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "tags": [
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-06-21 14:33",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-001",
+    "title": "Latest developments in Space showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
+    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Space experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-21 10:33",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "tags": [
+      "Space",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sci-001",
+    "title": "Latest developments in Science showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
+    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Science experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-21 06:33",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "tags": [
+      "Science",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-001",
+    "title": "Latest developments in Startups showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
+    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Startups experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-21 02:33",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-001",
+    "tags": [
+      "Startups",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-bus-001",
+    "title": "Latest developments in Business showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
+    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Business experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-20 22:33",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-001",
+    "tags": [
+      "Business",
+      "Trends"
     ],
     "readingTime": "2 min"
   }
