@@ -1,47 +1,49 @@
 [
   {
-    "id": "article-tec-mqrt1x02-000",
-    "title": "Gorizia's Masterpieces Go Digital: EU-Funded Platform Unleashes Virtual Art Experience",
-    "summary": "The Borgo Art initiative has launched an innovative virtual platform, transforming Gorizia's historic sites and artistic treasures into an accessible online cultural destination. This EU-funded project provides immersive digital exhibitions, prominently featuring works by artists like Franco Dugo and Roberto Kusterle, alongside the prestigious KB Spa Art Collection.",
-    "content": "In a testament to technology's power in preserving and democratizing culture, Borgo Art has unveiled a groundbreaking virtual platform, catapulting Gorizia's rich artistic heritage into the digital age. This ambitious, EU-funded initiative isn't just creating a website; it's meticulously transforming the Italian city's historic sites and their precious contents into a permanent, immersive online cultural destination.\n\nGone are the days when geographic barriers dictated who could experience Gorizia's artistic soul. The platform promises to open up a new window into a world often confined to physical galleries and specific locales. It's a visionary project, meticulously digitizing and curating works from prominent artists like Franco Dugo and Roberto Kusterle, whose unique visions will now be accessible to a global audience. Moreover, the prestigious KB Spa Art Collection, a cornerstone of the region's cultural identity, will also find a prominent digital home within this innovative space.\n\nThis isn't merely about static images; Borgo Art aims for an immersive experience. Imagine walking through virtual recreations of historic Gorizia, encountering masterpieces as if you were truly there, regardless of whether you're across the street or across the continent. The European Union's backing underscores the significance of this endeavor, recognizing the vital role digital preservation plays in safeguarding our shared cultural patrimony for future generations.\n\nThe launch signifies a pivotal moment for art accessibility, leveraging digital innovation to bridge the gap between historical context and contemporary engagement. For art enthusiasts, researchers, or simply the curious, Borgo Art's platform offers an unparalleled opportunity to delve deep into Gorizia's artistic legacy, all from the comfort of their own screens.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Borgo Art's EU-funded virtual platform digitally preserves Gorizia's artistic heritage through immersive online exhibitions.",
-      "The initiative transforms historic sites into a permanent online cultural destination, making art accessible globally.",
-      "The platform prominently features works by artists like Franco Dugo and Roberto Kusterle, alongside the prestigious KB Spa Art Collection."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "GlobeNewswire",
-    "author": "Borgo Art",
-    "publishedAt": "2026-06-23 08:10",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-06-24 07:49",
     "category": "Technology",
-    "image": "https://ml.globenewswire.com/Resource/Download/e439fcaa-9c68-4e28-b8e9-c832a18d7a34",
-    "originalUrl": "https://www.globenewswire.com/news-release/2026/06/23/3315748/0/en/Borgo-Art-Launches-Virtual-Platform-Preserving-Gorizia-s-Artistic-Heritage-Through-Immersive-Digital-Exhibitions.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Launches",
-      "Virtual"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mqrt2dcl-002",
-    "title": "Beyond Supply: Micron Becomes Strategic Partner in Anthropic's AI Ascent",
-    "summary": "Memory giant Micron Technology and AI leader Anthropic have signed a multi-year strategic agreement, with Micron providing high-bandwidth memory, DRAM, and SSDs for Anthropic's Claude data centers. This partnership deepens further as Micron invests in Anthropic's latest funding round and will integrate Anthropic's AI models internally.",
-    "content": "The burgeoning artificial intelligence landscape just witnessed a significant strategic maneuver: memory giant Micron Technology and leading AI developer Anthropic have forged a multi-year alliance set to bolster the infrastructure powering advanced large language models like Claude. This isn't merely a supply agreement; it's a deep partnership that sees Micron embedding itself firmly into Anthropic's ecosystem.\n\nAt its core, the deal positions Micron as a critical supplier of high-bandwidth memory (HBM), essential DRAM, and high-performance SSDs to power Anthropic's burgeoning data centers. For a company like Anthropic, which is pushing the boundaries of generative AI, securing a consistent and high-quality supply of these components is paramount to scaling its operations and refining its models efficiently. HBM, in particular, is a linchpin for AI accelerators, offering the lightning-fast data throughput necessary for complex neural network computations.\n\nHowever, the collaboration extends far beyond component sales. Micron isn't just selling chips; it's becoming a stakeholder. The company will also take an equity position in Anthropic's latest funding round, signaling a robust long-term commitment. Furthermore, in a fascinating move demonstrating mutual trust and innovation, Micron plans to run Anthropic’s cutting-edge AI models internally. This unique arrangement promises invaluable insights for both parties – Anthropic gains a deeper understanding of real-world hardware integration, while Micron can optimize its memory solutions specifically for advanced AI workloads, potentially accelerating future memory innovations tailored for AI.\n\nThis strategic pact underscores the intense competition and collaboration defining the current AI era. As AI models grow exponentially in complexity and scale, the underlying hardware, especially memory, becomes an even more critical differentiator. For Micron, this partnership solidifies its position as a crucial enabler in the AI supply chain, moving beyond a transactional relationship to a truly strategic one with a key player in the generative AI space. It's a powerful endorsement of both companies' visions for the future of artificial intelligence.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "Micron will supply crucial high-bandwidth memory (HBM), DRAM, and SSDs to power Anthropic's AI data centers for Claude.",
-      "The agreement extends beyond supply, with Micron investing in Anthropic's latest funding round and running Anthropic's AI models internally.",
-      "This strategic partnership solidifies Micron's role in the AI supply chain and ensures Anthropic a stable, high-performance memory foundation for scaling its AI operations."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "The Next Web",
-    "author": "Ana Maria Constantin",
-    "publishedAt": "2026-06-23 08:01",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-06-24 03:49",
     "category": "Technology",
-    "image": "https://media.thenextweb.com/2026/05/Micron.avif",
-    "originalUrl": "https://thenextweb.com/news/micron-and-anthropic-sign-a-multi-year-ai-memory-supply-deal/",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
     "tags": [
-      "Technology",
-      "Micron",
-      "Anthropic"
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
