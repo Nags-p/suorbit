@@ -1,46 +1,70 @@
 [
   {
-    "id": "article-tec-mqrb1m42-000",
-    "title": "Fatal Tesla Crash Ignites Federal Probe into Automated Driving System After Texas Tragedy",
-    "summary": "A Tesla using an automated driving feature slammed into a Texas home, tragically killing a 76-year-old woman and prompting an immediate, high-stakes investigation by the top U.S. auto regulator. This incident escalates concerns and scrutiny surrounding the safety and reliability of advanced driver-assistance systems in the market.",
-    "content": "The quiet rhythm of a Texas neighborhood was shattered this Monday by a horrific incident, once again thrusting the promise — and peril — of automated driving technology into the national spotlight. A Tesla, reportedly engaged with an automated driving feature, careened off the road at high speed, crashing violently into a residential home and claiming the life of a 76-year-old woman who was simply inside her own property.\n\nThe sheer force of the impact left a scene of devastation, transforming a routine afternoon into a tragedy. The National Highway Traffic Safety Administration (NHTSA), the nation's foremost auto safety watchdog, wasted no time in announcing a \"special probe\" into the collision. This isn't just another routine inquiry; a special probe signifies a higher level of scrutiny, indicating the agency's intent to delve deep into every aspect of the incident, from vehicle telemetry data to driver input and the performance of the automated system itself.\n\nThis latest fatality adds a grim chapter to the ongoing debate surrounding the safety of advanced driver-assistance systems (ADAS) like Tesla’s Autopilot or Full Self-Driving (FSD) Beta. While these technologies promise a future of safer roads, their implementation has been met with a series of high-profile crashes, leading to concerns about their limitations, driver understanding, and manufacturer accountability. NHTSA has been increasingly active in investigating such incidents, previously initiating dozens of probes into Tesla crashes involving Autopilot, many of which have involved emergency vehicles or stationary objects.\n\nFor the family of the victim and the residents of this Texas community, the immediate priority is understanding what went wrong. For regulators and the broader automotive industry, this incident serves as a stark reminder of the immense responsibility accompanying the deployment of cutting-edge technology on public roads. The findings of NHTSA's investigation will undoubtedly carry significant weight, potentially influencing future regulations and public trust in the march towards autonomous vehicles.",
+    "id": "article-tec-mqrkbce5-000",
+    "title": "The AI Spending Hangover: Wall Street Pumps the Brakes on Tech Giants",
+    "summary": "Investors are growing wary of the colossal infrastructure spending by tech giants on AI, questioning whether these investments will yield sufficient returns. This skepticism triggered a significant sell-off among major hyperscalers, wiping out hundreds of billions in market value as the initial AI rally faces a reality check.",
+    "content": "Wall Street's dazzling love affair with artificial intelligence hit a snag this Monday, as tech giants watched hundreds of billions vanish from their market caps. The culprit? Not a lack of belief in AI's transformative future, but rather a cold, hard look at its present cost. Investors are increasingly questioning whether the monumental infrastructure spending by hyperscalers can actually deliver proportional returns, or if the current frenzy is just an expensive gamble.\n\nCompanies like Alphabet, Amazon, Meta, and Microsoft have poured untold sums into building the digital backbone for the AI revolution. Yet, this aggressive capital outlay, once seen as a strategic imperative, is now triggering alarm bells. Alphabet, in particular, found itself in the eye of the storm, leading the sell-off as analysts and shareholders alike demand clearer evidence that these vast investments will translate into tangible profits beyond the hype cycle. The market's initial exuberance for all things AI is giving way to a more pragmatic \"show me the money\" attitude.\n\nThis shift in sentiment highlights a critical inflection point for the tech sector. While the hyperscalers felt the brunt of Monday's correction, the broader ecosystem – including semiconductor manufacturers and data storage providers, who are direct beneficiaries of this infrastructure build-out – has also seen varying degrees of pressure. It's a nuanced picture, suggesting that while the foundational demand for AI components remains strong, the valuation of the companies *deploying* that AI is facing a more rigorous examination.\n\nThe current pressure underscores a looming challenge: balancing the imperative to innovate and compete in the AI race with the need to demonstrate clear financial discipline and profitable growth. As investors parse through earnings reports and future projections, the coming quarters will be crucial in determining whether this is a temporary dip or a more fundamental recalibration of AI's economic promise.",
     "keyTakeaways": [
-      "A Tesla operating with an automated driving feature crashed into a Texas home at high speed, tragically killing a 76-year-old woman.",
-      "The National Highway Traffic Safety Administration (NHTSA) has launched a 'special probe' into the incident, indicating a high level of scrutiny.",
-      "This fatal crash intensifies the ongoing debate and regulatory scrutiny surrounding the safety and limitations of advanced driver-assistance systems."
+      "Investor skepticism about the return on investment for massive AI infrastructure spending is growing.",
+      "Major tech hyperscalers like Alphabet, Amazon, Meta, and Microsoft experienced significant market value losses.",
+      "The market is shifting from initial AI hype to demanding tangible profits and financial discipline from tech giants."
     ],
-    "source": "Japan Today",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-22 23:56",
+    "source": "The Times of India",
+    "author": "Anupam Nagar",
+    "publishedAt": "2026-06-23 04:16",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://japantoday.com/category/business/top-auto-regulator-opens-special-probe-after-a-tesla-slams-into-a-texas-home-killing-a-76-year-old",
+    "image": "https://img.etimg.com/thumb/msid-131924999,width-1200,height-630,imgsize-11877,overlay-etmarkets/articleshow.jpg",
+    "originalUrl": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stock-market-ai-spending-fears-hammer-us-tech-giants-alphabet-leads-selloff/articleshow/131925001.cms",
     "tags": [
       "Technology",
-      "regulator",
-      "special"
+      "Market",
+      "spending"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-mqrb2l9t-004",
-    "title": "PraisonAI 4.6.71 Unlocks Simplified, Self-Reflecting AI Agent Development",
-    "summary": "PraisonAI's latest 4.6.71 release introduces a robust framework for building and managing multi-agent LLM systems with critical self-reflection capabilities. This low-code solution integrates prominent frameworks like AutoGen and CrewAI, aiming to make advanced AI development more accessible and efficient for a wider range of developers.",
-    "content": "A significant leap forward in the burgeoning field of artificial intelligence has arrived with the release of PraisonAI 4.6.71. This latest iteration is poised to revolutionize how developers approach and manage multi-agent large language model (LLM) systems, offering a potent blend of sophistication and accessibility.\n\nAt its core, PraisonAI 4.6.71 is an AI Agents Framework that introduces a critical feature: Self Reflection. This capability allows AI agents to independently evaluate their own processes and outputs, leading to more robust, reliable, and intelligent performance. For developers wrestling with the complexities of autonomous systems, this means a significant reduction in oversight needed and a substantial boost in operational efficiency.\n\nThe framework truly shines in its integrated approach. PraisonAI 4.6.71 masterfully combines its own proprietary agents with industry-leading tools like AutoGen and CrewAI. This powerful synergy provides developers with a comprehensive, yet streamlined, toolkit for orchestrating intricate AI workflows. By leveraging existing, battle-tested frameworks, PraisonAI ensures a high level of performance and compatibility, while simultaneously pushing the boundaries of what's possible in multi-agent collaboration.\n\nWhat makes this release particularly exciting is its commitment to a low-code solution. This strategic design choice dramatically lowers the barrier to entry for building and managing complex LLM systems, democratizing access to advanced AI capabilities. With a sharp focus on simplicity, customization, and efficient human-in-the-loop interaction, PraisonAI 4.6.71 empowers developers to rapidly prototype, deploy, and refine sophisticated AI agents without getting mired in exhaustive coding. It’s a compelling step towards making advanced AI not just powerful, but universally attainable.",
+    "id": "article-spa-mqrkderk-008",
+    "title": "Space's New Shield: Prize-Winning Proposal Safeguards Our Orbital Assets",
+    "summary": "For decades, asteroid defense has focused on Earth, but a new prize-winning plan shifts the focus to protecting critical space infrastructure. This innovative proposal, honored with the Schweickart Prize, aims to establish a sophisticated monitoring network to defend thousands of satellites and future off-world assets from cosmic threats.",
+    "content": "For decades, the realm of planetary defense has largely pointed its gaze inward, focused on shielding our home planet from the ominous dance of killer asteroids. This vital work has seen astronomers and policymakers worldwide collaborate on strategies to avert celestial collisions that could devastate life on Earth. But as humanity's footprint extends further into the cosmos, a new, equally critical front in space security is emerging.\n\nWe are entering an era where protecting our planet is no longer enough. The space above us, once a vast emptiness, is now teeming with thousands of satellites, essential for everything from global communication and navigation to scientific research and national security. Beyond Earth orbit, ambitious plans for lunar bases, Martian missions, and deep-space probes are steadily materializing. Each of these represents invaluable infrastructure, economic investment, and scientific endeavor – all vulnerable to the very same cosmic threats astronomers have long tracked.\n\nThis evolving challenge recently took center stage on Asteroid Day, as a groundbreaking proposal won this year’s prestigious Schweickart Prize. The award, celebrating brilliant ideas for planetary defense, went to a plan advocating for the creation of a sophisticated new network specifically designed to monitor cosmic threats to *off-world infrastructure*. No longer just concerned with terrestrial impacts, this vision extends our defensive perimeter to the vast expanse where our space assets reside.\n\nThis shift marks a significant evolution in our approach to space safety. It acknowledges that the burgeoning space economy and our future expansion into the solar system require a more comprehensive protective umbrella. The winning proposal isn't just about spotting potential asteroid collisions; it's about building an early warning system to safeguard the intricate web of technology that underpins modern life and our future among the stars. It signals a future where safeguarding our orbital and deep-space endeavors becomes as crucial as protecting the ground beneath our feet, opening new frontiers in space exploration and defense.",
     "keyTakeaways": [
-      "PraisonAI 4.6.71 is a new AI Agents Framework designed to simplify the development and management of multi-agent LLM systems.",
-      "It introduces 'Self Reflection' capabilities, allowing AI agents to evaluate their own actions for improved reliability and intelligence.",
-      "The framework offers a low-code solution, integrating PraisonAI agents with AutoGen and CrewAI to make advanced AI development more accessible and customizable."
+      "Planetary defense is expanding its focus beyond Earth to protect burgeoning off-world space infrastructure.",
+      "A new Schweickart Prize-winning proposal suggests a sophisticated network to monitor cosmic threats to satellites and deep-space assets.",
+      "This initiative highlights the growing importance of the space economy and humanity's expanding presence beyond Earth orbit."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-22 23:54",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/praisonai/4.6.71/",
+    "source": "Universe Today",
+    "author": "Alan Boyle, Alan Boyle (https://www.universetoday.com/authors/cosmiclog)",
+    "publishedAt": "2026-06-23 04:02",
+    "category": "Space",
+    "image": "https://www.universetoday.com/article_images/260618-satellites2_20260623_033214.jpg",
+    "originalUrl": "https://www.universetoday.com/articles/happy-asteroid-day-prize-winning-plan-focuses-on-space-infrastructure",
     "tags": [
-      "AI",
-      "PraisonAI"
+      "Space",
+      "Asteroid",
+      "PrizeWinning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqrkbjme-001",
+    "title": "Disney and Omnicom Are Finally Making Streaming Ads Smarter",
+    "summary": "In a significant move unveiled at Cannes Lions, Omnicom Media and Disney Advertising are rolling out a new connected TV advertising solution. This innovation enables dynamic, sequential storytelling across both video-on-demand and live streaming, aiming to revolutionize the often-frustrating experience of digital ads.",
+    "content": "For years, the promise of streaming television has been tempered by its frequently jarring ad experience. Viewers have grown accustomed to seeing the same few commercials repeated ad nauseam, creating fatigue and diminishing brand impact. But a fresh collaboration between Omnicom Media Group and Disney Advertising, making waves at the annual Cannes Lions International Festival of Creativity, aims to turn the tide with a sophisticated new approach to Connected TV (CTV) advertising.\n\nThe partnership is implementing a dynamic sequential ad solution designed to transform static, repetitive spots into engaging, multi-part narratives. Instead of blasting the same message, brands can now deliver a series of ads that unfold over time, building a story or revealing different facets of a product or service. This isn't just about VOD either; the technology is robust enough to enable this dynamic storytelling across both on-demand and live programming, a significant technical feat.\n\nThe implications for both advertisers and viewers are considerable. For brands, it offers a more nuanced and memorable way to connect with audiences, fostering deeper engagement and potentially higher recall than traditional interruptive ads. For those of us watching, it promises a less intrusive, more contextually relevant ad break – a welcome reprieve from the relentless sameness that has plagued streaming platforms.\n\nThis initiative marks a crucial step toward a more intelligent and viewer-friendly advertising ecosystem on CTV. As the media landscape continues its rapid evolution, innovations like Omnicom and Disney's sequential storytelling aren't just incremental improvements; they're essential shifts that redefine what's possible for brand communication in the digital age, finally bringing some creative sophistication to the ad breaks we've long tolerated.",
+    "keyTakeaways": [
+      "Omnicom Media Group and Disney Advertising are partnering to implement a new sequential ad solution for Connected TV.",
+      "The technology enables dynamic, multi-part ad storytelling across both video-on-demand and live streaming content.",
+      "This aims to enhance viewer experience and brand engagement by replacing repetitive ads with more narrative and less intrusive campaigns."
+    ],
+    "source": "Digiday",
+    "author": "Michael Bürgi",
+    "publishedAt": "2026-06-23 04:01",
+    "category": "Technology",
+    "image": "https://digiday.com/wp-content/uploads/sites/3/2026/06/cannes-beach-digiday.jpg",
+    "originalUrl": "http://digiday.com/media-buying/omnicom-media-and-disney-advertising-collaborate-to-enable-sequential-ads-in-streaming/",
+    "tags": [
+      "Technology",
+      "Omnicom",
+      "Disney"
     ],
     "readingTime": "2 min"
   }
