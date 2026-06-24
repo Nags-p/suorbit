@@ -1,49 +1,23 @@
 [
   {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "id": "article-ai-mqs69gbu-004",
+    "title": "Anthropic's Claude Gains a Sixth Sense for Code with 'dummyindex'",
+    "summary": "Anthropic's AI, Claude, just got a significant upgrade with \"dummyindex,\" a new code skill designed to expertly navigate and understand complex codebases. This tool indexes entire projects into a .context/ folder, offering Claude an unprecedented, grepless way to access and utilize code information, greatly enhancing AI-driven development.",
+    "content": "In the burgeoning world of AI-assisted development, a persistent challenge has been the ability of large language models to truly grasp the intricate architecture of sprawling codebases. While LLMs excel at generating snippets, providing context-aware solutions across an entire project often required manual guidance or tedious `grep` searches. This bottleneck has historically limited the true potential of AI as a coding partner.\n\nEnter `dummyindex`, a groundbreaking new skill for Anthropic's Claude AI, recently surfaced on Pypi.org. Far from its humble name \"dummyindex 0.29.1,\" this tool promises to fundamentally change how Claude interacts with code. Its primary function is ingenious: to index an entire codebase, creating a meticulously organized `.context/` folder that allows Claude to navigate and understand the project without needing to resort to conventional, often inefficient, search methods.\n\nThe magic lies in its sophisticated approach. `dummyindex` operates on a \"deterministic backbone,\" meticulously mapping out the codebase's tree structure, identifying symbols, understanding internal graphs, and recognizing common conventions. This structured, reliable foundation is then dynamically enriched by the running Claude session itself. This means the AI isn't just sifting through static data; it's leveraging its real-time understanding to further refine and deepen its contextual grasp of the project.\n\nFor developers, this translates to a dramatic boost in efficiency and accuracy when collaborating with Claude. Imagine an AI that can instantly pinpoint relevant functions, trace dependencies, and understand the architectural intent behind a complex system, all without being explicitly told where to look. This \"grepless\" navigation capability transforms Claude from a powerful assistant into a true intellectual partner, capable of providing more nuanced insights, accelerating debugging, and streamlining development cycles. It's a significant leap towards more autonomous and context-aware AI in software engineering.",
     "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
+      "`dummyindex` is a new \"Claude Code skill\" designed for advanced, AI-driven codebase navigation.",
+      "The tool indexes entire projects into a `.context/` folder, allowing Claude to understand code without relying on traditional search methods like `grep`.",
+      "It employs a deterministic backbone (tree, symbols, graph) further enhanced by real-time LLM enrichment, promising significant improvements in developer efficiency and AI accuracy."
     ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-06-23 23:49",
+    "source": "Pypi.org",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-23 14:30",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/dummyindex/0.29.1/",
     "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
-    "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-06-23 19:49",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
-    "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
+      "AI",
+      "dummyindex"
     ],
     "readingTime": "2 min"
   }
