@@ -1,23 +1,70 @@
 [
   {
-    "id": "article-ai-mqs69gbu-004",
-    "title": "Anthropic's Claude Gains a Sixth Sense for Code with 'dummyindex'",
-    "summary": "Anthropic's AI, Claude, just got a significant upgrade with \"dummyindex,\" a new code skill designed to expertly navigate and understand complex codebases. This tool indexes entire projects into a .context/ folder, offering Claude an unprecedented, grepless way to access and utilize code information, greatly enhancing AI-driven development.",
-    "content": "In the burgeoning world of AI-assisted development, a persistent challenge has been the ability of large language models to truly grasp the intricate architecture of sprawling codebases. While LLMs excel at generating snippets, providing context-aware solutions across an entire project often required manual guidance or tedious `grep` searches. This bottleneck has historically limited the true potential of AI as a coding partner.\n\nEnter `dummyindex`, a groundbreaking new skill for Anthropic's Claude AI, recently surfaced on Pypi.org. Far from its humble name \"dummyindex 0.29.1,\" this tool promises to fundamentally change how Claude interacts with code. Its primary function is ingenious: to index an entire codebase, creating a meticulously organized `.context/` folder that allows Claude to navigate and understand the project without needing to resort to conventional, often inefficient, search methods.\n\nThe magic lies in its sophisticated approach. `dummyindex` operates on a \"deterministic backbone,\" meticulously mapping out the codebase's tree structure, identifying symbols, understanding internal graphs, and recognizing common conventions. This structured, reliable foundation is then dynamically enriched by the running Claude session itself. This means the AI isn't just sifting through static data; it's leveraging its real-time understanding to further refine and deepen its contextual grasp of the project.\n\nFor developers, this translates to a dramatic boost in efficiency and accuracy when collaborating with Claude. Imagine an AI that can instantly pinpoint relevant functions, trace dependencies, and understand the architectural intent behind a complex system, all without being explicitly told where to look. This \"grepless\" navigation capability transforms Claude from a powerful assistant into a true intellectual partner, capable of providing more nuanced insights, accelerating debugging, and streamlining development cycles. It's a significant leap towards more autonomous and context-aware AI in software engineering.",
+    "id": "article-tec-mqsbqaj0-000",
+    "title": "Verint Unleashes Agentic AI: The Smart Evolution of Contact Centers Begins",
+    "summary": "Verint has launched a suite of three new Agentic AI tools designed to revolutionize contact centers, moving artificial intelligence from experimental pilots into practical, production-ready applications. These capabilities aim to seamlessly orchestrate work between human and AI agents, enhancing efficiency, improving customer outcomes, and refining agent performance.",
+    "content": "The era of artificial intelligence in customer service is rapidly evolving beyond simple chatbots and into a sophisticated partnership with human agents. Verint is at the forefront of this shift, having just unveiled a powerful trio of Agentic AI capabilities poised to transform how contact centers operate.\n\nMoving firmly past the pilot phase, these new tools — Workforce Intelligence, Desktop Intelligence, and Quality Intelligence — aren't just about automation; they're about orchestration. Verint's vision, embodied by its Agent Factory platform, is to create a harmonious ecosystem where human and AI agents collaborate, each playing to their strengths to deliver superior customer experiences and measurable results.\n\nWorkforce Intelligence is designed to fine-tune agent behavior and optimize scheduling, ensuring the right support is available at the right time. Desktop Intelligence streamlines workflows, providing agents with instantaneous access to critical information and automating routine tasks, freeing them to focus on complex customer needs. Meanwhile, Quality Intelligence elevates performance by continuously monitoring and measuring outcomes, ensuring consistent service quality and identifying areas for improvement.\n\nWhat makes Verint's approach particularly compelling is the emphasis on “agentic” AI. This isn't just AI *doing* tasks; it’s AI *acting* intelligently and autonomously within defined parameters, often in concert with human oversight. This symbiotic relationship promises not only heightened efficiency but also a better working environment for human agents, empowering them with intelligent assistants that handle the grunt work and provide insights. The ultimate goal is a more unified, efficient, and customer-centric service operation, demonstrating that the future of customer interaction is undeniably collaborative.",
     "keyTakeaways": [
-      "`dummyindex` is a new \"Claude Code skill\" designed for advanced, AI-driven codebase navigation.",
-      "The tool indexes entire projects into a `.context/` folder, allowing Claude to understand code without relying on traditional search methods like `grep`.",
-      "It employs a deterministic backbone (tree, symbols, graph) further enhanced by real-time LLM enrichment, promising significant improvements in developer efficiency and AI accuracy."
+      "Verint's new Agentic AI tools signify a major shift in customer service, moving AI from experimentation to core operational use in contact centers.",
+      "The suite, including Workforce, Desktop, and Quality Intelligence, aims to unify and optimize agent behavior, process efficiency, and and outcome measurement.",
+      "These tools are designed to facilitate intelligent collaboration between human and AI agents, enhancing overall service delivery and the agent experience."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-23 14:30",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/dummyindex/0.29.1/",
+    "source": "CMSWire",
+    "author": "pr@cmswire.com (Dom Nicastro)",
+    "publishedAt": "2026-06-23 17:03",
+    "category": "Technology",
+    "image": "https://www.cmswire.com/-/media/1dffec92af2144e4b143840669c494c8.ashx",
+    "originalUrl": "https://www.cmswire.com/contact-center/verint-launches-3-agentic-ai-tools-for-contact-centers/",
     "tags": [
-      "AI",
-      "dummyindex"
+      "Technology",
+      "Verint",
+      "Launches"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-mqsbtpul-013",
+    "title": "Anthropic's Claude Tag Storms Slack, Igniting New Front in Enterprise AI War",
+    "summary": "Anthropic has launched 'Claude Tag,' an AI agent integrated directly into Salesforce's Slack platform, designed to assist employees within group chats. This strategic move significantly deepens Anthropic's push into the lucrative and highly competitive enterprise AI market.",
+    "content": "The battle for enterprise dominance in the burgeoning artificial intelligence sector just heated up considerably. On Tuesday, AI powerhouse Anthropic unveiled 'Claude Tag,' an innovative AI agent now embedded directly within Salesforce's ubiquitous Slack platform, ready to work alongside employees in their daily group chat skirmishes.\n\nThis isn't merely a new feature; it's a strategic declaration. By weaving Claude Tag into the fabric of Slack, Anthropic is making a forceful play for the enterprise market – a segment that has rapidly emerged as the definitive battleground for AI startups vying for supremacy. The ability for Claude Tag to function seamlessly within existing workflows, offering assistance and insights directly in group conversations, positions it as a practical, immediate tool for countless businesses.\n\nFor Anthropic, a firm celebrated for its ethical approach to AI development and its powerful Claude models, this move represents a crucial escalation. As companies increasingly seek to integrate AI to boost productivity and streamline operations, the vendor that can offer the most intuitive and effective solutions within familiar environments stands to gain a monumental advantage. Claude Tag's presence in Slack means Anthropic is now directly at the digital water cooler, ready to solve problems and enhance collaboration in real-time.\n\nWith plans for a wider rollout already on the horizon, this initial foray into Slack signals Anthropic's serious intent to carve out a substantial share of the corporate AI landscape. It’s a testament to the idea that the future of work isn't just about having powerful AI, but about making that power effortlessly accessible where work actually happens.",
+    "keyTakeaways": [
+      "Anthropic launched 'Claude Tag,' an AI agent integrated into Salesforce's Slack for group chat assistance.",
+      "The move signifies Anthropic's aggressive push into the enterprise market, a key battleground for AI companies.",
+      "Claude Tag aims to enhance workplace productivity and collaboration by embedding AI directly into existing workflows."
+    ],
+    "source": "CNA",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-23 17:02",
+    "category": "Startups",
+    "image": "https://dam.mediacorp.sg/image/upload/s--EXDTAJAG--/c_fill,g_auto,h_676,w_1200/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0.1/f_auto,q_auto/v1/one-cms/core/2026-06-23T171544Z_1_LYNXMPEM5M178_RTROPTP_3_USA-CONGRESS-ANTHROPIC.JPG?itok=q7ezKDGW",
+    "originalUrl": "https://www.channelnewsasia.com/business/anthropic-launches-claude-tag-in-slack-plans-wider-rollout-6204406",
+    "tags": [
+      "Startups",
+      "Anthropic",
+      "launches"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-mqsbsbkn-008",
+    "title": "Orbital Blitz: Space Force Drills 'War in Space' with Rocket Lab's Record Dash",
+    "summary": "The U.S. Space Force recently conducted an unprecedented orbital conflict simulation, tasking Rocket Lab to launch its Pioneer satellite in under 17 hours for close-range maneuvers with True Anomaly's Jackal spacecraft. This exercise underscores the critical need for rapid response and advanced maneuver capabilities in an increasingly contested and strategic space domain.",
+    "content": "The heavens just got a little more crowded, and a lot more intense. In a stunning display of agility, Rocket Lab shattered expectations and timelines, propelling a satellite into orbit in less than 17 hours from receiving the launch order. This wasn't just another launch; it was the opening salvo in a simulated orbital conflict, orchestrated by the U.S. Space Force, signaling a new era of space readiness.\n\nDubbed a \"Responsive Space\" mission, the operation saw Rocket Lab's Electron rocket launch its \"Pioneer\" satellite with blazing speed. Its destination? A high-stakes rendezvous with True Anomaly’s Jackal spacecraft, already on orbit. The objective was precise, close-range maneuvers, mirroring the intricate, often high-tension dance that could occur between adversarial assets in a future space scenario. This rapid deployment, from order to orbit in mere hours, redefines what's possible in emergent space operations.\n\nThis wasn't a real battle, but the stakes were anything but pretend. The Space Force is actively preparing for a future where space is not a sanctuary but a contested domain, a geopolitical chessboard above Earth. These \"orbital war games\" are critical for testing capabilities, developing defensive and offensive strategies, and assessing the resilience of vital space infrastructure. The ability to quickly launch, maneuver, and respond to threats is paramount, and this exercise offered invaluable insights into the agility needed to maintain a strategic advantage.\n\nThe implications stretch far beyond military readiness. Such rapid-response capabilities, pioneered by companies like Rocket Lab and validated by exercises like this, accelerate the entire space industry. It signals a future where commercial partners play a pivotal role in national security, blurring the lines between government and private enterprise in an increasingly dynamic orbital environment. As humanity pushes further into space, these kinds of sophisticated, high-speed maneuvers will become the standard, not the exception, for both defense and exploration.",
+    "keyTakeaways": [
+      "Rocket Lab achieved a record-breaking launch, deploying a satellite in under 17 hours from order to orbit.",
+      "The mission was part of a U.S. Space Force exercise simulating orbital conflict, involving close-range maneuvers between satellites.",
+      "This event underscores the growing importance of rapid-response capabilities and the militarization of space as a contested domain."
+    ],
+    "source": "Slashdot.org",
+    "author": "feedfeeder",
+    "publishedAt": "2026-06-23 16:52",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://slashdot.org/firehose.pl?op=view&amp;id=184057562",
+    "tags": [
+      "Space",
+      "pretend",
+      "orbital"
     ],
     "readingTime": "2 min"
   }
