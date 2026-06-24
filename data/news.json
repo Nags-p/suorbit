@@ -1,24 +1,67 @@
 [
   {
-    "id": "article-tec-mqshi36i-000",
-    "title": "SAMDUO Redefines Home Power: Smart Energy Storage Gets a Lifestyle Upgrade",
-    "summary": "SAMDUO unveiled its latest intelligent home energy solutions at Intersolar Europe 2026, repositioning traditional power storage as an integrated, lifestyle-enhancing component of modern homes. Their new offerings emphasize smart management, modularity, and sleek design, aiming to deliver energy independence and sustainability without compromising aesthetics or convenience.",
-    "content": "MUNICH — The future of home energy isn't just about kilowatts and efficiency; it's about seamless integration into the rhythms of modern life. This ethos took center stage at Intersolar Europe 2026, where SAMDUO, a company rapidly making waves in intelligent energy solutions, pulled back the curtain on its groundbreaking product showcase. Far from the utilitarian battery boxes of old, SAMDUO's latest offerings signal a deliberate shift, transforming energy storage from a mere utility into an essential, integrated lifestyle component.\n\nTheir presentation at Messe Munich underscored a vision where homeowners are empowered with genuine energy independence, not through complex systems, but through intuitively designed, smart platforms. While details on specific models were kept tantalizingly brief, the overarching message resonated: SAMDUO is building an ecosystem where AI-driven energy management, modular scalability, and refined aesthetics coalesce. This allows for personalized energy solutions that adapt to individual consumption patterns, grid fluctuations, and even architectural considerations.\n\nImagine a home where your energy system isn't just a hidden appliance, but a thoughtfully designed element that contributes to both sustainability and the overall living experience. SAMDUO’s approach aims to demystify home energy storage, making it accessible, beautiful, and profoundly functional. By prioritizing user experience alongside raw power delivery, they seek to make sustainable living not just a choice, but a seamless and desirable reality for contemporary households. This ambitious repositioning could very well set a new benchmark for how we perceive and interact with our home power infrastructure.",
+    "id": "article-ai-mqskyxqu-003",
+    "title": "Distil-LLM: Shrinking AI's Brains Without Losing Its Mind",
+    "summary": "`distil-llm 0.23.0` introduces a novel context compression technique designed to make AI agents significantly more efficient without sacrificing performance. It employs a \"quality contract,\" rigorously enforced by statistical testing, to ensure compressed data maintains its integrity for sophisticated AI operations.",
+    "content": "The relentless march of artificial intelligence, particularly in the realm of large language models (LLMs), has brought incredible capabilities, but also formidable challenges. Chief among them: the sheer computational cost and memory footprint required to run these behemoths, especially when powering sophisticated AI agents. Enter `distil-llm 0.23.0`, a new update that promises to be a game-changer, offering a sophisticated solution to make advanced AI agents not just smarter, but significantly leaner.\n\nAt its heart, `distil-llm` introduces a pioneering approach: \"compression with a quality contract.\" This isn't your average data shrinking; it's about intelligently reducing the 'context' – the massive amount of information an LLM needs to process – while rigorously ensuring that critical data integrity remains intact. The \"quality contract\" is a crucial innovation, acting as a performance safeguard. It's enforced by a statistical non-inferiority test, which mathematically verifies that the compressed context is not meaningfully worse than the original, preventing any degradation in the agent's decision-making or understanding.\n\nThis intelligent pruning is achieved through \"cache-aware, causally-pruned context compression.\" In simpler terms, the system understands how data is stored and accessed, then selectively removes redundant or less critical information from the LLM's working memory, focusing on what truly drives causal relationships and understanding. This targeted approach is specifically designed for \"agentic runtimes,\" meaning AI systems that actively engage with environments, make decisions, and execute tasks. By making these agents more efficient, `distil-llm` can lead to faster response times, reduced operational expenses, and the ability to deploy more complex AI behaviors in real-world applications.\n\nThe implications are substantial. As AI agents become more prevalent in everything from customer service to autonomous systems, the ability to operate them more efficiently becomes paramount. `distil-llm` represents a significant stride towards democratizing advanced AI, potentially lowering the barrier for entry for developers and organizations looking to build cutting-edge, yet practical, AI solutions. This isn't just about speed; it's about making sophisticated intelligence both powerful and sustainable.",
     "keyTakeaways": [
-      "SAMDUO is redefining home energy storage as an integrated lifestyle component, moving beyond purely utilitarian functions.",
-      "Their new solutions prioritize smart, AI-driven management, modularity, and aesthetic design for seamless home integration.",
-      "The company aims to provide homeowners with intuitive energy independence and sustainability without compromising user experience or home aesthetics."
+      "`distil-llm` employs smart context compression to make AI agents more efficient.",
+      "A \"quality contract\" backed by statistical tests guarantees performance and data integrity.",
+      "The technology significantly reduces computational overhead, enabling more practical and sophisticated AI agent deployment."
     ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-23 19:43",
+    "source": "Pypi.org",
+    "author": "chandu1221@gmail.com",
+    "publishedAt": "2026-06-23 21:21",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/distil-llm/0.23.0/",
+    "tags": [
+      "AI",
+      "distilllm"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqsky5dx-000",
+    "title": "Meta's Bold Bet: 'Social Learning' to Define Smart Glasses Privacy",
+    "summary": "Meta is rolling out new smart glasses, but their biggest gamble isn't on groundbreaking tech; it's on how society will collectively define their privacy boundaries. CTO Andrew Bosworth believes public opinion, not just hardware or policy, will ultimately shape what's acceptable.",
+    "content": "Meta's latest foray into smart glasses arrives not with a bang of revolutionary hardware, but with a quiet, yet profoundly ambitious, gamble on human behavior. While the new wearables might not redefine the tech landscape with groundbreaking features or capabilities, they represent a significant step in Meta's long-term vision for augmented reality – and a thorny privacy challenge that the company hopes the public will solve.\n\nAt the heart of Meta's approach is a concept dubbed \"social learning,\" championed by CTO Andrew Bosworth. He posits that the future of smart glasses privacy won't be dictated solely by regulatory bodies or tech specs, but by the evolving \"court of public opinion.\" This isn't just about embedding indicator lights on recording devices; it's a belief that society will, through collective experience and adaptation, establish new norms around wearable cameras and the expectations of privacy in public and semi-public spaces. Just as the omnipresent smartphone camera eventually became normalized, Bosworth believes smart glasses will follow a similar trajectory, learning what's acceptable through trial and error.\n\nThis perspective, however, isn't without its critics or complexities. The public's willingness to \"learn\" and adapt to constant potential surveillance remains a hotly debated topic. Questions linger: who bears the burden of adapting? Is it the wearer, constantly mindful of ethical recording, or those around them, forced to accept a new reality of potential capture? The success of this \"social contract\" hinges on a delicate balance of transparency, user education, and a hopeful, perhaps optimistic, view of collective societal evolution.\n\nFor Meta, the stakes are incredibly high. The widespread adoption of smart glasses, and indeed the broader AR ecosystem, could well depend on how gracefully this \"social learning\" experiment unfolds. If the public embraces these new devices, establishing clear, comfortable boundaries, Meta's vision moves forward. If not, the technology risks being sidelined by a perpetual privacy backlash, proving that even the most advanced tech needs a solid foundation of social acceptance to truly thrive.",
+    "keyTakeaways": [
+      "Meta is betting on \"social learning\" and public opinion, rather than just technical solutions, to resolve smart glasses privacy issues.",
+      "CTO Andrew Bosworth believes society will collectively establish new norms for wearable cameras, similar to how smartphones became normalized.",
+      "The success of Meta's smart glasses and broader AR vision hinges on this societal acceptance, making privacy a critical social experiment."
+    ],
+    "source": "Gizmodo.com",
+    "author": "James Pero",
+    "publishedAt": "2026-06-23 21:15",
     "category": "Technology",
-    "image": "https://mma.prnewswire.com/media/2999187/Intersolar.jpg?p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/from-power-to-lifestyle-samduo-reimagines-home-energy-storage-for-modern-living-302808272.html",
+    "image": "https://gizmodo.com/app/uploads/2025/09/ray-ban-meta-gen-2-13-1200x675.jpg",
+    "originalUrl": "https://gizmodo.com/meta-thinks-social-learning-can-fix-smart-glasses-privacy-problems-2000776162",
     "tags": [
       "Technology",
-      "Lifestyle",
-      "SAMDUO"
+      "Thinks",
+      "Social"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-mqsl1xr0-014",
+    "title": "The Ride That Launched a Revolution: How Mountain Biking Sparked MIT's Sports Lab",
+    "summary": "The MIT Sports Lab emerged from an unexpected source: Professor Anette Peko Hosoi's personal passion for downhill mountain biking. Her quest for a superior bike ignited a broader scientific inquiry, transforming a hobby into a world-class research institution dedicated to optimizing athletic performance through engineering.",
+    "content": "Every elite athlete knows the relentless pursuit of perfection, a never-ending quest for a fractional advantage. But what happens when that same rigorous drive comes from an MIT mechanical engineering professor who just discovered the thrill of downhill mountain biking? For Anette Peko Hosoi, a distinguished Pappalardo Professor, it led directly to the birth of a groundbreaking research center.\n\nAround 2010, Professor Hosoi's newfound passion for shredding trails quickly ran into an engineer's dilemma: existing bike technology, while impressive, simply wasn't meeting her exacting standards. This wasn't just about needing a new bike; it was about understanding, at a fundamental level, why bikes performed the way they did, and how they could be scientifically engineered for optimal performance, durability, and rider safety. Her personal frustration ignited a far broader scientific curiosity.\n\nThis individual quest for improved gear rapidly expanded beyond her own mountain bike. Hosoi realized that the intricate physics, material science, and biomechanical principles she was dissecting applied not just to two wheels, but across the entire spectrum of athletic endeavor. From the minute stresses on a golfer's swing to the aerodynamic properties crucial for a sprinter, the world of sports was ripe for rigorous, data-driven investigation. This wasn't merely about incremental product improvements; it was about applying MIT's unparalleled engineering prowess to redefine human-machine interaction in high-stakes athletic environments.\n\nThis profound insight sparked the genesis of the MIT Sports Lab. Under Hosoi's visionary leadership, the lab became a dynamic hub where cutting-edge mechanical engineering, advanced data analytics, and innovative material science converge with the raw demands of athletic performance. It’s a place where researchers delve into everything from optimizing equipment design for peak efficiency and preventing injuries through sophisticated biomechanical modeling, to developing entirely new training methodologies. The MIT Sports Lab stands as a powerful testament to how personal curiosity, when filtered through an engineer's rigorous lens, can ignite institutional innovation, pushing the boundaries of what athletes can achieve and how technology can help them get there.",
+    "keyTakeaways": [
+      "The MIT Sports Lab originated from Professor Anette Peko Hosoi's personal passion for downhill mountain biking.",
+      "Her initial quest for a better bike evolved into a broader scientific inquiry into sports engineering and biomechanics.",
+      "The lab applies cutting-edge mechanical engineering, data analytics, and material science to optimize athletic performance and equipment design."
+    ],
+    "source": "MIT Technology Review",
+    "author": "Emiko Pope ’25",
+    "publishedAt": "2026-06-23 21:00",
+    "category": "Startups",
+    "image": "https://wp.technologyreview.com/wp-content/uploads/2026/06/FIFA-main.jpg?resize=1200,600",
+    "originalUrl": "https://www.technologyreview.com/2026/06/23/1138214/heads-in-the-game/",
+    "tags": [
+      "Startups"
     ],
     "readingTime": "2 min"
   }
