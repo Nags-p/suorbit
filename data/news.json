@@ -1,24 +1,93 @@
 [
   {
-    "id": "article-tec-mqtj4s3x-000",
-    "title": "Broadcom and OpenAI Spice Up LLM Inference with Custom 'Jalapeño' Silicon",
-    "summary": "OpenAI and Broadcom have unveiled 'Jalapeño,' a custom-designed intelligence processor specifically engineered for efficient Large Language Model (LLM) inference. This first-generation accelerator demonstrates significantly improved performance per watt compared to current state-of-the-art solutions, developed from concept to production in just nine months.",
-    "content": "In the relentless race for AI dominance, the battle often boils down to raw computational power. Now, OpenAI, the architect behind ChatGPT, has partnered with silicon powerhouse Broadcom to unveil a potent new weapon: 'Jalapeño.' This isn't a new AI model, but a custom-designed intelligence processor aimed squarely at one of the most crucial and costly aspects of modern AI: Large Language Model (LLM) inference.\n\nWhile the industry often fixates on the immense power required to *train* an LLM, the real-world utility comes from *inference*—the process of running a trained model to generate responses. Jalapeño is purpose-built for this task. Early lab results suggest the hardware delivers a performance-per-watt metric that substantially outstrips existing state-of-the-art accelerators. This isn't just an incremental improvement; it signals a potential paradigm shift in the economics and environmental footprint of deploying AI at scale.\n\nWhat’s truly remarkable is the speed of its gestation. From initial design to production, Jalapeño materialized in a blistering nine months – an almost unheard-of timeline for custom silicon development. This aggressive pace underscores the urgency and strategic importance both OpenAI and Broadcom place on optimizing AI's underlying infrastructure. For OpenAI, a custom chip means tighter integration with their models, potentially unlocking new efficiencies and reducing their reliance on general-purpose GPUs, which can be less optimized for specific inference workloads.\n\nThis collaboration heralds a broader trend where leading AI developers are moving beyond off-the-shelf hardware, investing deeply in tailored silicon to push the boundaries of performance and efficiency. Jalapeño won't just make OpenAI's models run faster and cheaper; it could fundamentally reshape the capabilities and accessibility of the next generation of AI applications, proving that sometimes, the hottest innovations are found deep within the hardware.",
+    "id": "article-tec-mqtpqj2v-000",
+    "title": "Unraveling the Digital Thread: Marilou Schultz Weaves Ancient Diné Art into the Computing Age",
+    "summary": "Artist Marilou Schultz is celebrated for her groundbreaking work merging traditional Diné weaving with modern digital principles. Her upcoming retrospective highlights how ancient binary logic in weaving prefigures today's computing, showcasing a profound intersection of culture and technology.",
+    "content": "The world's oldest method of information storage, weaving, has always held a surprising parallel with the newest: computing. Both, at their core, operate on binary logic. It's a profound connection that Diné artist Marilou Schultz has not just understood but actively embodied in her groundbreaking work since the 1960s. Her first major retrospective, opening this week at the Hessel Museum at Bard College, finally brings this visionary tapestry to the forefront.\n\nSchultz’s artistry isn't merely about aesthetic patterns; it’s a living testament to a sophisticated system of information. Traditional Diné weaving, with its intricate interplay of warp and weft, the simple act of thread going \"over\" or \"under\" another, forms a fundamental binary code – a series of ones and zeroes that dictate complex designs. For Schultz, this ancestral knowledge provided a natural bridge to the emerging digital realm, where pixels and data streams began to echo the very structures of her loom.\n\nHer pieces often translate what many perceive as purely digital phenomena – algorithms, screen glitches, data errors – into tangible, textured forms. She sees the grid of a computer screen in the grid of a loom, and the flow of information across a network in the rhythm of weaving. This isn’t a superficial overlay but a deep, conceptual merger, where the tactile tradition of her Diné heritage speaks directly to the abstract language of bytes.\n\nThe Hessel Museum's exhibition offers a crucial opportunity to appreciate Schultz’s enduring impact. It reminds us that innovation isn't solely a product of Silicon Valley but often a reinterpretation of ancient wisdom. Marilou Schultz’s work illuminates a timeless human endeavor to organize and communicate information, proving that even as technology rapidly evolves, some fundamental principles are woven into the very fabric of existence. Her art is a powerful statement on continuity, revealing the digital heart beating within the loom.",
     "keyTakeaways": [
-      "OpenAI and Broadcom have partnered to create 'Jalapeño,' a custom chip specifically optimized for Large Language Model (LLM) inference.",
-      "The chip delivers substantially better performance per watt compared to current accelerators, indicating significant efficiency gains for running AI models.",
-      "Jalapeño was developed from initial design to production in an impressively rapid nine months, highlighting the strategic importance of custom silicon in AI."
+      "Marilou Schultz’s art uniquely merges traditional Diné weaving with modern digital concepts, identifying the inherent binary logic common to both disciplines.",
+      "Her pioneering work translates digital phenomena like algorithms and data into intricate woven patterns, creating a profound synthesis of cultural heritage and technology.",
+      "The opening of her first retrospective at the Hessel Museum at Bard College signifies a major recognition of her lasting contributions and innovative vision."
     ],
-    "source": "4sysops.com",
-    "author": "IT News",
-    "publishedAt": "2026-06-24 13:19",
+    "source": "ARTnews",
+    "author": "Emily Watlington",
+    "publishedAt": "2026-06-24 16:24",
     "category": "Technology",
-    "image": "https://4sysops.com/wp-content/uploads/2026/06/openai-and-broadcom-reveal-jalapeno-chip-to-optimize-large-language-model-inference.png",
-    "originalUrl": "https://4sysops.com/archives/openai-and-broadcom-reveal-jalapeno-chip-to-optimize-large-language-model-inference/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://www.artnews.com/art-in-america/features/marilou-schultz-candice-hopkins-hessel-museum-dine-weaving-1234790145/",
     "tags": [
       "Technology",
-      "OpenAI",
-      "Broadcom"
+      "Marilou",
+      "Schultz"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqtpqxel-001",
+    "title": "Livestock's Digital Leap: Rogue and Lamplight Forge a Smarter Future for Animal Agriculture",
+    "summary": "Rogue Livestock and Lamplight Logistics have announced a pivotal partnership aimed at digitizing and optimizing the livestock industry. This collaboration promises to integrate advanced connectivity and platform infrastructure with deep animal husbandry expertise, fundamentally transforming animal value chains.",
+    "content": "Three Forks, MT, a locale often associated with rugged landscapes and traditional ranching, is now at the heart of an announcement poised to fundamentally reshape animal agriculture. Rogue Livestock and Lamplight Logistics have unveiled a strategic partnership designed to bridge centuries-old husbandry with cutting-edge digital innovation, promising to \"accelerate the future of animal value.\"\n\nThis pivotal alliance marries Rogue Livestock's deep understanding of animal welfare, on-the-ground deployment strategies, and the intricate dynamics of the livestock market with Lamplight Logistics' pioneering solutions in ubiquitous connectivity and robust data platforms. Essentially, Lamplight provides the digital nervous system, while Rogue contributes the vital biological and operational intelligence necessary to bring the industry into the 21st century.\n\nThe implications are vast. Picture a future where every animal's health, growth, and location are monitored in real-time, feeding into predictive analytics that can prevent disease, optimize nutrition, and streamline logistics from pasture to plate. This isn't merely about tracking; it’s about creating a holistic, data-driven ecosystem that ensures healthier animals, more sustainable practices, and unprecedented transparency for consumers regarding the origin and quality of their food.\n\nBy empowering producers with actionable insights derived from comprehensive data, this partnership allows for more informed decisions, reduced waste, and significantly improved animal well-being. From remote grazing lands to global processing facilities, the combined strength of Rogue’s practical know-how and Lamplight’s technological prowess is set to usher in an era of innovation, defining what 'smart farming' truly means for livestock management and global food systems.",
+    "keyTakeaways": [
+      "The partnership merges traditional livestock expertise with advanced digital technology to modernize animal agriculture.",
+      "It aims to create a data-driven ecosystem for real-time animal monitoring, health optimization, and supply chain efficiency.",
+      "The collaboration is poised to enhance animal welfare, promote sustainability, and increase transparency in the livestock industry."
+    ],
+    "source": "GlobeNewswire",
+    "author": "Rogue Livestock",
+    "publishedAt": "2026-06-24 16:23",
+    "category": "Technology",
+    "image": "https://ml.globenewswire.com/Resource/Download/6ac88712-852e-4b74-8f22-c7e356cb739c",
+    "originalUrl": "https://www.globenewswire.com/news-release/2026/06/24/3317091/0/en/Rogue-Livestock-and-Lamplight-Logistics-Announce-Strategic-Partnership.html",
+    "tags": [
+      "Technology",
+      "Livestock",
+      "Lamplight"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-mqtpsv30-008",
+    "title": "Supergirl Takes Flight: Decades in the Making, DCU's New Kryptonian Lands Historic Rotten Tomatoes Verdict",
+    "summary": "Milly Alcock's highly anticipated *Supergirl: Woman of Tomorrow* has officially debuted its Rotten Tomatoes score, marking the character's first solo cinematic critical consensus in 42 years. This significant reception provides crucial early insight into James Gunn's nascent DC Universe and Alcock's compelling portrayal of Kara Zor-El.",
+    "content": "The cosmos is buzzing, and it's not just the usual celestial hum. Forty-two years after her last cinematic solo flight, Kara Zor-El, the Maid of Might, has officially made her grand return to the big screen, ushering in a fresh era for DC Comics' storied universe. *Supergirl: Woman of Tomorrow*, starring Milly Alcock as the titular Kryptonian, has unveiled its Rotten Tomatoes score, immediately igniting critical discourse and setting the stage for what promises to be a pivotal chapter in James Gunn’s burgeoning DC Universe.\n\nFor decades, Supergirl's cinematic presence has been largely confined to ensemble appearances or a single, albeit memorable, 1984 outing. Now, with Alcock donning the iconic cape, the character is being boldly reimagined with a fresh, often grittier sensibility, reportedly drawing significant inspiration from Tom King’s acclaimed comic run. Critics, finally weighing in, are scrutinizing everything from Alcock’s nuanced performance—heralded by many as a powerful blend of raw strength and weary wisdom—to the film's overall tone, which many anticipate to be a darker, more mature exploration of the superhero origin story.\n\nWhile the precise critical aggregate is still solidifying, the initial consensus suggests a robust, if not universally adulatory, reception. Early reactions predominantly highlight a film that bravely grapples with the immense trauma and complex responsibilities of being the last survivor of a doomed planet, positioning Kara not merely as Superman's cousin, but as a formidable and independent force in her own right. The movie’s critical success isn't solely about box office projections; it serves as a crucial early barometer for Gunn's ambitious DCU strategy, demonstrating his vision for seamlessly integrating compelling, yet often underserved, characters into a cohesive and expansive narrative tapestry.\n\nThis historic Rotten Tomatoes debut signifies more than just a critical milestone; it announces Supergirl's definitive re-entry into the cultural lexicon. It’s a powerful testament to the character's enduring appeal and a bold statement about the promising direction of DC Films. As this revitalized universe continues to unfurl, all eyes are now firmly on Alcock’s Kara, poised to forge her own legacy and potentially redefine what it truly means to be a hero in a world still coming to terms with god-like beings. Her critically assessed journey has undeniably just begun.",
+    "keyTakeaways": [
+      "Milly Alcock's *Supergirl: Woman of Tomorrow* marks the character's first solo cinematic Rotten Tomatoes score debut in 42 years.",
+      "Critical reception is keenly focused on Alcock’s nuanced performance and the film’s reportedly darker, more mature tone, positioning Kara as an independent hero.",
+      "The film's critical standing is a crucial early indicator for the overall direction and integration strategy of James Gunn’s new DC Universe."
+    ],
+    "source": "Screen Rant",
+    "author": "Andy Behbakht",
+    "publishedAt": "2026-06-24 16:20",
+    "category": "Space",
+    "image": "https://static0.srcdn.com/wordpress/wp-content/uploads/2026/05/supergirl_zhgc4l.jpg?w=1600&h=900&fit=crop",
+    "originalUrl": "https://screenrant.com/supergirl-movie-rotten-tomatoes-score-debut/",
+    "tags": [
+      "Space",
+      "Supergirl",
+      "Officially"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-mqtpubkd-013",
+    "title": "Hamilton Hits the Brakes on Digital Deluge with Data Center Moratorium",
+    "summary": "Hamilton City Council has moved to temporarily halt new data center developments, signaling a growing urban scrutiny over the tech industry's physical footprint. This pause aims to give the city time to craft sustainable guidelines amidst escalating concerns over energy consumption and environmental impact.",
+    "content": "The digital world, for all its ethereal convenience, demands a formidable physical presence – one increasingly colliding with urban planning. Case in point: Hamilton, Ontario, where city council has taken a significant step towards a temporary moratorium on new data center construction, placing a firm handbrake on the tech sector's seemingly insatiable need for expansion.\n\nFollowing a pivotal Wednesday-afternoon vote, the city is now poised to introduce a bylaw that would impose a development freeze. This isn't just a local quirk; it’s a palpable signal of a broader societal reckoning with the hidden costs of our always-on existence. Data centers, the vast, humming nerve centers of the internet, are notoriously power-hungry and water-intensive, consuming massive resources to keep our cloud services, streaming, and AI models running cool.\n\nHamilton's move suggests a city grappling with the complex calculus of growth. While these facilities bring investment and specialized jobs, their colossal energy demands strain local grids and their cooling systems can guzzle millions of liters of water annually. The temporary pause allows city staff, who are set to report back on July 15, to develop comprehensive bylaws and guidelines. This future framework will likely aim to balance economic opportunity with environmental stewardship, ensuring that Hamilton's digital infrastructure develops sustainably, rather than at any cost.\n\nThis decision could serve as a bellwether for other municipalities worldwide, as cities increasingly question whether the promise of digital prosperity truly outweighs the environmental and infrastructural burdens of hosting the internet's heavy machinery. Hamilton is clearly opting for a thoughtful pause over headlong expansion, a choice that reverberates far beyond its city limits into the broader conversation about tech's sustainable future.",
+    "keyTakeaways": [
+      "Hamilton City Council approved a critical step towards a temporary moratorium on new data center construction.",
+      "The pause aims to allow city staff to develop sustainable guidelines for future data center development, addressing concerns over resource consumption.",
+      "This move highlights a growing urban trend of scrutinizing the environmental and infrastructural impact of the tech industry's physical expansion."
+    ],
+    "source": "CBC News",
+    "author": "Staff Writer",
+    "publishedAt": "2026-06-24 16:20",
+    "category": "Startups",
+    "image": "https://i.cbc.ca/ais/86bff1d9-638e-48d0-9606-3e84bc601da2,1780938463108/full/max/0/default.jpg?im=Crop%2Crect%3D%280%2C0%2C6000%2C3375%29%3BResize%3D620",
+    "originalUrl": "https://www.cbc.ca/news/canada/hamilton/data-centre-moratorium-9.7247233",
+    "tags": [
+      "Startups",
+      "Hamilton",
+      "council"
     ],
     "readingTime": "2 min"
   }

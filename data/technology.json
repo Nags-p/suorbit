@@ -1,24 +1,47 @@
 [
   {
-    "id": "article-tec-mqtj4s3x-000",
-    "title": "Broadcom and OpenAI Spice Up LLM Inference with Custom 'Jalapeño' Silicon",
-    "summary": "OpenAI and Broadcom have unveiled 'Jalapeño,' a custom-designed intelligence processor specifically engineered for efficient Large Language Model (LLM) inference. This first-generation accelerator demonstrates significantly improved performance per watt compared to current state-of-the-art solutions, developed from concept to production in just nine months.",
-    "content": "In the relentless race for AI dominance, the battle often boils down to raw computational power. Now, OpenAI, the architect behind ChatGPT, has partnered with silicon powerhouse Broadcom to unveil a potent new weapon: 'Jalapeño.' This isn't a new AI model, but a custom-designed intelligence processor aimed squarely at one of the most crucial and costly aspects of modern AI: Large Language Model (LLM) inference.\n\nWhile the industry often fixates on the immense power required to *train* an LLM, the real-world utility comes from *inference*—the process of running a trained model to generate responses. Jalapeño is purpose-built for this task. Early lab results suggest the hardware delivers a performance-per-watt metric that substantially outstrips existing state-of-the-art accelerators. This isn't just an incremental improvement; it signals a potential paradigm shift in the economics and environmental footprint of deploying AI at scale.\n\nWhat’s truly remarkable is the speed of its gestation. From initial design to production, Jalapeño materialized in a blistering nine months – an almost unheard-of timeline for custom silicon development. This aggressive pace underscores the urgency and strategic importance both OpenAI and Broadcom place on optimizing AI's underlying infrastructure. For OpenAI, a custom chip means tighter integration with their models, potentially unlocking new efficiencies and reducing their reliance on general-purpose GPUs, which can be less optimized for specific inference workloads.\n\nThis collaboration heralds a broader trend where leading AI developers are moving beyond off-the-shelf hardware, investing deeply in tailored silicon to push the boundaries of performance and efficiency. Jalapeño won't just make OpenAI's models run faster and cheaper; it could fundamentally reshape the capabilities and accessibility of the next generation of AI applications, proving that sometimes, the hottest innovations are found deep within the hardware.",
+    "id": "article-tec-mqtpqj2v-000",
+    "title": "Unraveling the Digital Thread: Marilou Schultz Weaves Ancient Diné Art into the Computing Age",
+    "summary": "Artist Marilou Schultz is celebrated for her groundbreaking work merging traditional Diné weaving with modern digital principles. Her upcoming retrospective highlights how ancient binary logic in weaving prefigures today's computing, showcasing a profound intersection of culture and technology.",
+    "content": "The world's oldest method of information storage, weaving, has always held a surprising parallel with the newest: computing. Both, at their core, operate on binary logic. It's a profound connection that Diné artist Marilou Schultz has not just understood but actively embodied in her groundbreaking work since the 1960s. Her first major retrospective, opening this week at the Hessel Museum at Bard College, finally brings this visionary tapestry to the forefront.\n\nSchultz’s artistry isn't merely about aesthetic patterns; it’s a living testament to a sophisticated system of information. Traditional Diné weaving, with its intricate interplay of warp and weft, the simple act of thread going \"over\" or \"under\" another, forms a fundamental binary code – a series of ones and zeroes that dictate complex designs. For Schultz, this ancestral knowledge provided a natural bridge to the emerging digital realm, where pixels and data streams began to echo the very structures of her loom.\n\nHer pieces often translate what many perceive as purely digital phenomena – algorithms, screen glitches, data errors – into tangible, textured forms. She sees the grid of a computer screen in the grid of a loom, and the flow of information across a network in the rhythm of weaving. This isn’t a superficial overlay but a deep, conceptual merger, where the tactile tradition of her Diné heritage speaks directly to the abstract language of bytes.\n\nThe Hessel Museum's exhibition offers a crucial opportunity to appreciate Schultz’s enduring impact. It reminds us that innovation isn't solely a product of Silicon Valley but often a reinterpretation of ancient wisdom. Marilou Schultz’s work illuminates a timeless human endeavor to organize and communicate information, proving that even as technology rapidly evolves, some fundamental principles are woven into the very fabric of existence. Her art is a powerful statement on continuity, revealing the digital heart beating within the loom.",
     "keyTakeaways": [
-      "OpenAI and Broadcom have partnered to create 'Jalapeño,' a custom chip specifically optimized for Large Language Model (LLM) inference.",
-      "The chip delivers substantially better performance per watt compared to current accelerators, indicating significant efficiency gains for running AI models.",
-      "Jalapeño was developed from initial design to production in an impressively rapid nine months, highlighting the strategic importance of custom silicon in AI."
+      "Marilou Schultz’s art uniquely merges traditional Diné weaving with modern digital concepts, identifying the inherent binary logic common to both disciplines.",
+      "Her pioneering work translates digital phenomena like algorithms and data into intricate woven patterns, creating a profound synthesis of cultural heritage and technology.",
+      "The opening of her first retrospective at the Hessel Museum at Bard College signifies a major recognition of her lasting contributions and innovative vision."
     ],
-    "source": "4sysops.com",
-    "author": "IT News",
-    "publishedAt": "2026-06-24 13:19",
+    "source": "ARTnews",
+    "author": "Emily Watlington",
+    "publishedAt": "2026-06-24 16:24",
     "category": "Technology",
-    "image": "https://4sysops.com/wp-content/uploads/2026/06/openai-and-broadcom-reveal-jalapeno-chip-to-optimize-large-language-model-inference.png",
-    "originalUrl": "https://4sysops.com/archives/openai-and-broadcom-reveal-jalapeno-chip-to-optimize-large-language-model-inference/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://www.artnews.com/art-in-america/features/marilou-schultz-candice-hopkins-hessel-museum-dine-weaving-1234790145/",
     "tags": [
       "Technology",
-      "OpenAI",
-      "Broadcom"
+      "Marilou",
+      "Schultz"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mqtpqxel-001",
+    "title": "Livestock's Digital Leap: Rogue and Lamplight Forge a Smarter Future for Animal Agriculture",
+    "summary": "Rogue Livestock and Lamplight Logistics have announced a pivotal partnership aimed at digitizing and optimizing the livestock industry. This collaboration promises to integrate advanced connectivity and platform infrastructure with deep animal husbandry expertise, fundamentally transforming animal value chains.",
+    "content": "Three Forks, MT, a locale often associated with rugged landscapes and traditional ranching, is now at the heart of an announcement poised to fundamentally reshape animal agriculture. Rogue Livestock and Lamplight Logistics have unveiled a strategic partnership designed to bridge centuries-old husbandry with cutting-edge digital innovation, promising to \"accelerate the future of animal value.\"\n\nThis pivotal alliance marries Rogue Livestock's deep understanding of animal welfare, on-the-ground deployment strategies, and the intricate dynamics of the livestock market with Lamplight Logistics' pioneering solutions in ubiquitous connectivity and robust data platforms. Essentially, Lamplight provides the digital nervous system, while Rogue contributes the vital biological and operational intelligence necessary to bring the industry into the 21st century.\n\nThe implications are vast. Picture a future where every animal's health, growth, and location are monitored in real-time, feeding into predictive analytics that can prevent disease, optimize nutrition, and streamline logistics from pasture to plate. This isn't merely about tracking; it’s about creating a holistic, data-driven ecosystem that ensures healthier animals, more sustainable practices, and unprecedented transparency for consumers regarding the origin and quality of their food.\n\nBy empowering producers with actionable insights derived from comprehensive data, this partnership allows for more informed decisions, reduced waste, and significantly improved animal well-being. From remote grazing lands to global processing facilities, the combined strength of Rogue’s practical know-how and Lamplight’s technological prowess is set to usher in an era of innovation, defining what 'smart farming' truly means for livestock management and global food systems.",
+    "keyTakeaways": [
+      "The partnership merges traditional livestock expertise with advanced digital technology to modernize animal agriculture.",
+      "It aims to create a data-driven ecosystem for real-time animal monitoring, health optimization, and supply chain efficiency.",
+      "The collaboration is poised to enhance animal welfare, promote sustainability, and increase transparency in the livestock industry."
+    ],
+    "source": "GlobeNewswire",
+    "author": "Rogue Livestock",
+    "publishedAt": "2026-06-24 16:23",
+    "category": "Technology",
+    "image": "https://ml.globenewswire.com/Resource/Download/6ac88712-852e-4b74-8f22-c7e356cb739c",
+    "originalUrl": "https://www.globenewswire.com/news-release/2026/06/24/3317091/0/en/Rogue-Livestock-and-Lamplight-Logistics-Announce-Strategic-Partnership.html",
+    "tags": [
+      "Technology",
+      "Livestock",
+      "Lamplight"
     ],
     "readingTime": "2 min"
   }
