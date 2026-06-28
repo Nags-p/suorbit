@@ -1,46 +1,24 @@
 [
   {
-    "id": "article-tec-mqxxo370-000",
-    "title": "Reddit's Secret Spam-Fighter 'Spamurai' Accidentally Leaked Half a Decade Ago",
-    "summary": "Five years ago, Reddit's internal anti-spam system, codenamed \"spamurai,\" was accidentally exposed through a glitch in the \"Relay for Reddit\" app. This brief revelation offered a rare look into the complex and often-hidden mechanisms platforms use to combat digital spam, highlighting the constant challenge of maintaining operational secrecy.",
-    "content": "The digital battle against spam is a relentless, often unseen war, fought deep within the servers of our favorite platforms. Five years ago, Reddit, one of the internet’s largest communities, experienced a momentary lapse in its defenses, accidentally revealing a glimpse into its highly secretive anti-spam arsenal. The incident, unearthed by a sharp-eyed user through the popular third-party app \"Relay for Reddit,\" pulled back the curtain on a system internally known as \"spamurai.\"\n\nIt was an unusual glitch that triggered the revelation. Rather than functioning smoothly, the Relay app began to inundate the user with a barrage of cryptic internal error messages and system flags. These weren't just generic failures; they contained specific, revealing references, including the distinct codename \"spamurai.\" This confirmed that the user had inadvertently stumbled upon Reddit’s hidden layers of digital defense, exposing a crucial part of its infrastructure designed to combat the deluge of unwanted content.\n\nFor a platform constantly battling an ever-evolving ecosystem of bots, trolls, and genuine spam, the accidental exposure of its anti-spam internals was a significant moment. While not a full code dump, this unexpected peek offered rare insight into the creative and complex strategies platforms employ to keep their communities clean. It underscored the sophisticated, sometimes whimsical, naming conventions internal teams use for crucial infrastructure, giving a human face to the constant algorithmic struggle against digital pollution. More importantly, it highlighted the delicate balance between developing robust internal tools and ensuring their complete isolation from public view, especially when third-party integrations are involved. Such an accidental leak, however minor, serves as a stark reminder of the ever-present challenge in maintaining digital security and operational secrecy in an interconnected online world.",
+    "id": "article-tec-mqy1r4m5-000",
+    "title": "The Silicon Curtain Descends: Pax Silica Reshapes Global AI",
+    "summary": "The US-led 'Pax Silica' initiative is strategically reshaping the global artificial intelligence supply chain, explicitly aiming to exclude China from critical technological resources. While bolstering American defense tech firms, the pact also deepens the European Union's reliance on Washington for future AI development.",
+    "content": "A new fault line is emerging in the global technology landscape. The United States has launched 'Pax Silica,' an ambitious initiative poised to fundamentally redraw the map of artificial intelligence development and control, with Europe now officially on board. This isn't just about trade; it's a strategic maneuver to cement Washington’s dominance in the burgeoning AI sector and, crucially, to isolate rivals from its foundational elements.\n\nAt its core, Pax Silica seeks to forge a resilient, US-centric AI supply chain, meticulously designed to bypass and ultimately exclude China. This involves securing access to everything from advanced semiconductors – the very 'silicon' that powers AI – to rare earth minerals and vast datasets. The pact is already a boon for defense technology giants like Palantir, positioning them at the forefront of this new technological arms race and ensuring a flow of resources into American innovation hubs.\n\nThe European Union's decision to align with Pax Silica carries significant weight, signaling a strategic commitment to the US orbit in the escalating tech competition. While it offers a degree of security alignment and access to American technological prowess, it simultaneously risks deepening Europe's dependence on Washington. The long-term implications for European technological sovereignty and its strategic leverage on the global stage are now under intense scrutiny.\n\nThis initiative marks a pivotal moment, ushering in an era of bifurcated technological ecosystems. As nations choose sides in this burgeoning tech Cold War, the trajectory of global innovation, economic power, and international relations will be irrevocably altered, setting the stage for a new geopolitical order defined by who controls the silicon and the data.",
     "keyTakeaways": [
-      "Reddit's internal anti-spam system, \"spamurai,\" was accidentally revealed five years ago.",
-      "The leak occurred via the \"Relay for Reddit\" app, which displayed cryptic internal error messages.",
-      "The incident underscored the complex, often secretive, nature of platforms' spam-fighting technologies and the challenges of digital security."
+      "The 'Pax Silica' initiative aims to create a US-led AI supply chain, strategically excluding China from critical resources and technology.",
+      "Europe's alignment with Pax Silica bolsters US defense technology firms and deepens EU dependence on American AI infrastructure and resources.",
+      "This initiative signals a significant geopolitical shift, potentially leading to a fractured global technology landscape and heightened international competition."
     ],
-    "source": "Lyra.horse",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-27 15:18",
+    "source": "RT",
+    "author": "RT",
+    "publishedAt": "2026-06-27 17:07",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://lyra.horse/blog/2026/06/reddit-spam-internals/",
+    "image": "https://mf.b37mrtl.ru/files/2026.06/article/6a3e843585f5406f1a524326.jpg",
+    "originalUrl": "https://www.rt.com/news/642162-pax-silica-eu-sovereignty/",
     "tags": [
       "Technology",
-      "Reddits",
-      "antispam"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-mqxxp641-004",
-    "title": "Beyond the Glitch: tesserae 0.11.0 Charts a New Course for LLM Knowledge",
-    "summary": "Despite initial access issues on platform portals, the highly anticipated tesserae 0.11.0 has launched, promising a breakthrough for LLM research. This new version introduces a robust typed wiki graph pipeline, set to revolutionize how developers structure and explore knowledge for advanced AI models.",
-    "content": "It’s a scenario all too familiar to the tech-savvy: eagerly anticipating a new release, only to be met with a frustrating 'part of this site couldn't load' message. For many developers and researchers tracking advancements in AI, this was the unwelcome greeting on Pypi.org for the highly anticipated `tesserae 0.11.0`. While network quirks and browser extensions occasionally play spoiler, the underlying buzz surrounding this update quickly overshadowed any momentary digital hiccup.\n\nUnderneath that fleeting error, a significant leap forward in large language model (LLM) development had quietly arrived. `tesserae`, a project gaining traction in the AI community, has unveiled its 0.11.0 version, bringing a sophisticated 'typed LLM wiki graph pipeline' to the forefront. This isn't just another incremental update; it’s designed to provide researchers and developers with a robust framework for structuring complex knowledge bases, making LLM training and deployment far more precise and efficient.\n\nThe 'typed wiki graph' aspect is particularly compelling. Imagine an LLM that doesn't just process raw text, but understands relationships between entities with defined types, akin to a meticulously organized encyclopedia where every piece of information is explicitly linked and categorized. `tesserae 0.11.0` aims to deliver exactly this, moving beyond raw text embedding to enable LLMs to navigate and reason over structured, semantically rich data. This capability holds immense promise for everything from advanced question-answering systems to more accurate knowledge retrieval and even sophisticated AI-driven research assistants.\n\nFor those working at the bleeding edge of AI, this pipeline offers a critical tool for tackling some of the biggest challenges in LLM development, such as hallucination and factual inconsistency. By providing a clearer, more organized knowledge substrate, `tesserae 0.11.0` empowers developers to build more reliable and contextually aware AI applications. It underscores a growing trend in AI development: moving from brute-force data consumption to intelligent, structured knowledge management as the key to unlocking the next generation of truly intelligent systems.",
-    "keyTakeaways": [
-      "`tesserae 0.11.0` introduces a crucial 'typed LLM wiki graph pipeline' for AI research and development.",
-      "This update aims to enhance LLM precision and efficiency by providing a structured framework for complex knowledge bases.",
-      "The new system is expected to help address challenges like LLM hallucination and factual inconsistency by enabling reasoning over semantically rich data."
-    ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-06-27 15:17",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/tesserae/0.11.0/",
-    "tags": [
-      "AI",
-      "tesserae"
+      "Silica",
+      "slavery"
     ],
     "readingTime": "2 min"
   }
