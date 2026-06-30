@@ -1,1 +1,25 @@
-[]
+[
+  {
+    "id": "article-ai-mr16ched-004",
+    "title": "No More Robot Emails: ForthWrite Teaches AI to Master Your Personal Voice",
+    "summary": "ForthWrite aims to solve the problem of generic AI-generated emails by learning a user's unique writing style through their edits. This innovative email assistant employs advanced AI techniques, including RAG with MMR re-ranking and edit-distance scoring, to genuinely adapt to individual voices and phrasing.",
+    "content": "We've all been there: staring at an email drafted by an AI, grammatically perfect, impeccably structured, yet utterly devoid of our personal touch. It’s correct, polished, and obviously not *you*. This pervasive problem – where AI email assistants excel at professionalism but fail at personality – has been a year-long quest for the creators of ForthWrite, and they believe they've finally cracked the code.\n\nForthWrite isn't just another email generator; it's an ingenious system designed to learn your unique voice from every single edit you make. Unlike tools that churn out generic corporate speak, ForthWrite's core innovation lies in its ability to adapt and evolve based on your feedback. Every tweak, every rephrasing, every subtle linguistic choice you make post-generation is a lesson for its sophisticated AI.\n\nThe magic happens through a complex, yet elegant, technical dance. ForthWrite employs techniques like pgvector RAG with MMR re-ranking to grasp the nuanced context of your communication, combined with precise edit-distance scoring to pinpoint exactly how you transform generic prose into your own. A dedicated, deterministic phrasing miner then diligently extracts your unique linguistic patterns, ensuring future suggestions mirror your individual style rather than a generalized archetype.\n\nThis isn't merely about saving time; it's about preserving authenticity and personal brand in a fast-paced digital world. Imagine drafting emails at lightning speed, confident that the final output will sound precisely like you, without the laborious back-and-forth editing to inject your personality. ForthWrite promises to empower users to communicate efficiently while maintaining a consistent, genuine voice across all their correspondence.\n\nForthWrite isn't just an email assistant; it's a testament to a more nuanced future for AI – one where technology adapts to *us*, rather than forcing us to adapt to *it*. It marks a significant step towards truly personalized AI companions that understand and embody our individuality.",
+    "keyTakeaways": [
+      "ForthWrite solves the common issue of generic AI-generated emails by learning a user's unique writing voice.",
+      "The system uses advanced AI techniques, including RAG with MMR re-ranking and edit-distance scoring, to adapt to individual edits and phrasing.",
+      "It promises to deliver efficiency in email drafting while maintaining personal authenticity and a consistent communication style."
+    ],
+    "source": "Forthwrite.ai",
+    "author": "curtisboortz",
+    "publishedAt": "2026-06-29 21:37",
+    "category": "AI",
+    "image": "https://www.forthwrite.ai/og-image.png",
+    "originalUrl": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
+    "tags": [
+      "AI",
+      "ForthWrite",
+      "learns"
+    ],
+    "readingTime": "2 min"
+  }
+]
