@@ -1,70 +1,49 @@
 [
   {
-    "id": "article-ai-mr1szxtd-003",
-    "title": "The Great Pivot: How Ionic Digital is Trading Bitcoin Rigs for AI on the Nasdaq",
-    "summary": "Ionic Digital, a company with ties to the bankrupt Celsius Network, is pursuing a Nasdaq direct listing after pivoting from Bitcoin mining to artificial intelligence infrastructure. This strategic shift offers a potential pathway to liquidity for former Celsius creditors who received shares in the company.",
-    "content": "The world of digital assets is no stranger to dramatic shifts, and now, Ionic Digital is making one of the most compelling pivots yet. The company, formerly a significant Bitcoin miner with deep ties to the now-bankrupt crypto lender Celsius Network, has officially filed for a direct listing on the Nasdaq. But this isn't just about going public; it's about a fundamental reimagining of its business, swapping the volatility of crypto mining for the insatiable demands of artificial intelligence.\n\nThis strategic transformation sees Ionic Digital repurposing its extensive mining infrastructure to power AI and high-performance computing (HPC) workloads. It’s a shrewd move, recognizing that the heavy-duty power grids and cooling systems necessary for crypto mining are surprisingly well-suited for the energy-intensive demands of AI training and inferencing. With the global appetite for AI computing resources skyrocketing, Ionic Digital aims to position itself as a crucial infrastructure provider in this rapidly expanding sector, seeking more stable and potentially lucrative revenue streams than its previous iteration.\n\nFor those still reeling from the collapse of Celsius Network, this listing offers a glimmer of hope. Former Celsius creditors, who received equity shares in Ionic Digital as part of the bankruptcy proceedings, will now have a public market through which to potentially sell their holdings. It’s a vital step towards liquidity for thousands of individuals caught in the crypto downturn, turning what were once illiquid bankruptcy assets into tradable securities.\n\nThe direct listing itself is a statement of confidence, allowing the company to go public without the traditional underwriting process of an IPO. As Ionic Digital sheds its past to embrace the future of AI, its journey to the Nasdaq marks a significant moment, not just for the company and Celsius creditors, but as a compelling example of adaptation within the evolving tech landscape, demonstrating how existing infrastructure can find new life in the next big technological wave.",
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
     "keyTakeaways": [
-      "Ionic Digital, previously a Bitcoin miner, is completely pivoting its business to focus on AI and high-performance computing infrastructure.",
-      "The company is seeking a Nasdaq direct listing, which will provide a public market for shares held by former Celsius Network creditors.",
-      "This strategic shift capitalizes on the growing demand for AI computing power by repurposing existing energy-intensive infrastructure from crypto mining."
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Cointelegraph",
-    "author": "Cointelegraph by Ezra Reguerra",
-    "publishedAt": "2026-06-30 08:16",
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-07-01 00:12",
     "category": "AI",
-    "image": "https://s3-images.ctmedia.io/media/article-covers/hi-is-bitcoin-solo-mining-viable-in-2025.jpg",
-    "originalUrl": "https://cointelegraph.com/news/ionic-digital-nasdaq-direct-listing-ai-pivot",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "Celsiuslinked",
-      "Bitcoin"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-mr1t097s-004",
-    "title": "Beyond E-commerce: Flipkart Foundation Amplifies Impact in Skilling, Education, and Entrepreneurship",
-    "summary": "The Flipkart Foundation recently hosted its third annual Partners’ Meet in Bengaluru, convening ten key organizations dedicated to social development. This strategic gathering highlighted their collaborative efforts in empowering communities through initiatives focused on skilling, education, and fostering entrepreneurship across India.",
-    "content": "Bengaluru played host to a pivotal gathering recently as the Flipkart Foundation convened its third annual Partners’ Meet, a strategic forum underscoring its unwavering commitment to sustainable and inclusive development across India. This wasn't merely a corporate check-in; it was a vibrant confluence of ten diverse partner organizations, each a critical cog in the Foundation’s expansive mission to uplift communities.\n\nThe discussions peeled back the layers of complex social challenges, revealing how these partnerships are actively driving change in crucial sectors: skilling, entrepreneurship, and education. From empowering rural artisans with crucial digital literacy to nurturing budding entrepreneurs in remote villages, and ensuring quality education reaches every corner, the Foundation’s initiatives are a testament to the powerful synergy between technology and grassroots development.\n\nAttendees, representing a rich tapestry of non-profits and community-based organizations, shared insights, celebrated milestones, and strategized for an even greater impact in the coming year. The collaborative spirit discussed during the meet highlighted how Flipkart, through its Foundation, is leveraging its vast ecosystem and deep insights into India’s diverse demographics to foster self-reliance and unlock economic potential in underserved communities. This proactive approach aims to build pathways to sustainable livelihoods and foster innovation, moving beyond traditional philanthropy to systemic transformation.\n\nThe Foundation's continued emphasis on these core pillars demonstrates a long-term vision for a more equitable India. By investing in human capital through targeted skilling programs, supporting local economies via entrepreneurial initiatives, and broadening access to quality learning, Flipkart Foundation is not just offering aid, but building foundational pillars for a future where technology empowers all.",
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
     "keyTakeaways": [
-      "Flipkart Foundation held its third annual Partners’ Meet, strengthening collaborations with ten diverse organizations.",
-      "The Foundation's core focus areas for driving social impact are skilling, entrepreneurship, and education.",
-      "The initiatives leverage Flipkart’s ecosystem to foster self-reliance and unlock economic potential in underserved communities."
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Businessnewsthisweek.com",
-    "author": "Neel Achary",
-    "publishedAt": "2026-06-30 08:16",
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-06-30 20:12",
     "category": "AI",
-    "image": "https://api.newsinpics.com/uploads/business/ggeuc2dwi8.jpg",
-    "originalUrl": "https://businessnewsthisweek.com/business/flipkart-foundation-deepens-partnerships-to-drive-sustainable-and-inclusive-development/",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
     "tags": [
-      "AI",
-      "Flipkart",
-      "Foundation"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-mr1t0jht-005",
-    "title": "Kali Linux 2026.2: Cybersecurity's Favorite OS Just Got a Whole Lot Faster in Your VM",
-    "summary": "Kali Linux 2026.2 is revolutionizing the workflow for penetration testers by significantly cutting virtual machine boot times. This efficiency boost stems from a strategic overhaul in how the operating system handles extensive graphics firmware, ensuring professionals can dive into critical tasks without delay.",
-    "content": "For the cybersecurity professionals and ethical hackers who rely on Kali Linux as their essential toolkit, the latest 2026.2 release brings a much-anticipated performance uplift. The headline feature? Dramatically faster boot times when running Kali inside virtual machines – a crucial optimization for many in the field.\n\nThis isn't just a minor tweak; it's a thoughtful optimization rooted in how the OS manages graphics firmware. Modern GPUs – from NVIDIA to AMD and Intel – come packed with increasingly hefty firmware packages. While essential for native hardware, these extensive data loads can cause unnecessary drag when Kali is virtualized, especially when the VM itself isn't directly interfacing with the discrete GPU in the same way a bare-metal installation would.\n\nThe developers behind Kali Linux recognized this bottleneck. By intelligently trimming down the non-essential graphics firmware components for VM environments, they've managed to shed significant weight from the boot process. Imagine shaving off crucial seconds, or even minutes, from every startup – a subtle yet profound improvement that compounds over a busy workday.\n\nFor penetration testers, time is often of the essence. Quick transitions between tools, rapid reboots during complex engagements, or simply getting started with a fresh environment faster, all contribute to a more fluid and efficient workflow. This seemingly technical adjustment translates directly into enhanced productivity, allowing security experts to focus on vulnerabilities rather than waiting for their tools to load.\n\nBeyond the speed gains, Kali Linux 2026.2 also rolls out a refreshing set of desktop updates, promising a snappier and more polished user experience across the board. From visual refinements to underlying system stability, this release solidifies Kali’s position as the go-to platform for offensive security. It's a testament to the development team's commitment to continuous improvement, ensuring Kali remains at the cutting edge of cybersecurity tooling, both in capability and sheer responsiveness.",
-    "keyTakeaways": [
-      "Kali Linux 2026.2 significantly reduces virtual machine boot times.",
-      "The speed improvement is due to optimized handling of large graphics firmware specifically for VM environments.",
-      "This update enhances productivity and efficiency for penetration testers and cybersecurity professionals."
-    ],
-    "source": "Help Net Security",
-    "author": "Sinisa Markovic",
-    "publishedAt": "2026-06-30 08:16",
-    "category": "AI",
-    "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/06/30095514/kali_linux-1700.webp",
-    "originalUrl": "https://www.helpnetsecurity.com/2026/06/30/kali-linux-2026-2-release/",
-    "tags": [
-      "AI",
-      "refreshes",
-      "desktops"
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
     ],
     "readingTime": "2 min"
   }
