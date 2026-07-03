@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mr593lym-000",
-    "title": "Galaxy S27 Ultra Battery Breakthrough Hits Cost Wall, Samsung Still Chasing More Juice",
-    "summary": "Samsung is reportedly delaying the adoption of silicon-carbon battery technology for the upcoming Galaxy S27 Ultra, not due to technical doubts, but because of significant manufacturing cost hurdles. Despite this, the company remains dedicated to delivering enhanced battery capacity and longevity in its next flagship device.",
-    "content": "The rumor mill surrounding Samsung's Galaxy S27 Ultra has long been buzzing with whispers of next-generation battery technology, specifically the leap to silicon-carbon anodes. This innovative approach promises significantly higher energy density, meaning more power packed into the same or even smaller physical footprint – a holy grail for smartphone makers. However, recent reports suggest that this eagerly anticipated upgrade might be hitting a significant roadblock: the bottom line.\n\nIt appears Samsung is indeed hesitant to fully commit to silicon-carbon batteries for the S27 Ultra, but it’s not for the reasons you might assume. The company isn't questioning the fundamental capabilities or long-term potential of the technology itself. Instead, the primary stumbling block is the prohibitively high manufacturing costs associated with integrating silicon-carbon at scale. Developing and producing these advanced cells comes with a premium that Samsung, for now, seems unwilling to pass directly onto consumers or absorb into its profit margins for a mass-market flagship.\n\nThis strategic pause doesn't mean Samsung is abandoning the quest for superior battery life. On the contrary, sources indicate the tech giant is actively evaluating other avenues to boost capacity and longevity for its upcoming ultra-premium device. While silicon-carbon offers a dramatic leap, incremental improvements through optimized battery architecture, refined materials, or even more efficient software-hardware integration could still yield noticeable gains. The goal remains the same: a phone that can last longer on a single charge.\n\nThis situation underscores the constant tension between cutting-edge innovation and market realities in the smartphone industry. While enthusiasts crave revolutionary leaps, manufacturers must balance technological ambition with production feasibility, supply chain stability, and competitive pricing. For the Galaxy S27 Ultra, it seems a truly game-changing battery might have to wait, but users can still expect Samsung to pull out all the stops to deliver a robust and reliable power experience.",
+    "id": "article-tec-mr5dg175-000",
+    "title": "The AI Hype Machine Just Ate a Sandwich Shop",
+    "summary": "A recent glimpse into Jersey Mike's IPO documents revealed an unexpected emphasis on artificial intelligence, showcasing the astonishing breadth of current AI hype. This surprising inclusion highlights a new peak in 'AI washing,' where even seemingly unrelated businesses leverage the buzz for investor appeal.",
+    "content": "It’s hard to pinpoint the exact moment when excitement for a new technology morphs into full-blown, eye-rolling hype. But surely, when a sandwich chain like Jersey Mike's starts weaving artificial intelligence into its IPO documents, we’ve found a contender for that tipping point.\n\nYes, the purveyor of hot and cold subs, famously fronted by the inimitable Danny DeVito, is apparently all-in on AI. A quick review of their financial filings reveals not just a passing nod, but a strategic embrace of the buzzword. While one might reasonably assume a franchise-based eatery's primary concerns lie with bread freshness, meat slicers, and efficient order fulfillment, the sudden appearance of 'AI' feels less like innovation and more like an obligatory nod to the current investment landscape.\n\nThis isn't an isolated incident; it’s a glaring symptom of what we’ve come to call 'AI washing.' Companies, regardless of their actual technological depth, are increasingly tacking 'AI' onto their business models, products, or strategic outlooks. The motive is clear: AI is the darling of the market, and investors are eager to throw capital at anything remotely connected to it.\n\nHowever, this widespread, often superficial, integration risks diluting the very meaning of artificial intelligence. When everything from advanced analytics to automated customer service is rebranded as AI, it becomes harder to discern genuine breakthroughs from mere marketing fluff. While AI undoubtedly holds transformative potential across various sectors, its gratuitous invocation in contexts like a sub shop's IPO begs a crucial question: are we witnessing true innovation, or just an extreme case of technological cosplay designed to capture investor attention?",
     "keyTakeaways": [
-      "Samsung's Galaxy S27 Ultra is unlikely to feature silicon-carbon batteries due to high manufacturing costs, not technical concerns.",
-      "The decision to delay is primarily a financial one, reflecting Samsung's reluctance to absorb or pass on the high production premium.",
-      "Despite the silicon-carbon hold-up, Samsung is actively exploring alternative methods and optimizations to increase the S27 Ultra's battery capacity and longevity."
+      "AI hype has reached a saturation point, with even traditional businesses like sandwich shops incorporating it into their financial narratives.",
+      "The phenomenon of 'AI washing' is prevalent, where companies use the term 'AI' in documents like IPOs to attract investors, often without significant technological depth.",
+      "This trend risks diluting the true meaning and potential of artificial intelligence, making it difficult to differentiate genuine innovation from marketing tactics."
     ],
-    "source": "Wccftech",
-    "author": "Omar Sohail",
-    "publishedAt": "2026-07-02 18:04",
+    "source": "TechCrunch",
+    "author": "Julie Bort",
+    "publishedAt": "2026-07-02 20:13",
     "category": "Technology",
-    "image": "https://cdn.wccftech.com/wp-content/uploads/2026/07/Galaxy-S27-Ultra-battery.jpg",
-    "originalUrl": "https://wccftech.com/galaxy-s27-ultra-no-silicon-carbon-battery-due-to-manufacturing-costs/",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/07/AI-sandwich-hunger.png?resize=1200,960",
+    "originalUrl": "https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/",
     "tags": [
       "Technology",
-      "Galaxy",
-      "Embrace"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mr593tr9-001",
-    "title": "Amazon Bedrock: Your Digital Shield Against AI's Evolving Phishing Threat",
-    "summary": "AI-powered phishing emails are rapidly escalating cyber security risks, presenting unprecedented challenges for traditional defenses. Amazon's Bedrock platform is emerging as a crucial tool, leveraging advanced AI to identify and neutralize these sophisticated, AI-generated social engineering attacks before they can compromise systems.",
-    "content": "The digital battleground has shifted. Phishing, long a foundational tactic for cybercriminals, has evolved into an even more insidious threat with the rise of artificial intelligence. Forget the clunky, misspelled emails of yesteryear; AI-generated phishing campaigns are now crafting hyper-realistic, contextually relevant, and grammatically flawless messages that can fool even the most vigilant among us, presenting an unprecedented challenge for organizational security teams.\n\nThis new wave of social engineering scales rapidly, personalized for countless targets with a precision previously unimaginable. AI models can analyze publicly available information, mimic writing styles, and craft narratives designed to exploit specific anxieties or professional obligations. Traditional email filters, often reliant on static signatures or known patterns, are increasingly outmatched, leaving enterprises exposed to sophisticated attacks that can lead to devastating data breaches and financial losses.\n\nEnter Amazon Bedrock, Amazon’s generative AI service, which is stepping up to become a critical bulwark against this digital onslaught. Bedrock isn't just another email filter; it's a sophisticated platform that harnesses large language models to analyze incoming communications with a depth and nuance impossible for human analysts or simpler algorithms. By understanding context, identifying subtle linguistic cues, and detecting anomalous patterns that betray an AI's origin or malicious intent, Bedrock can pinpoint these advanced phishing attempts.\n\nThis proactive defense mechanism allows security teams to move beyond reactive patching to a more intelligent, adaptive strategy. Bedrock's ability to process and interpret vast amounts of textual data means it can identify the hallmarks of AI-driven social engineering – even when those hallmarks are designed to be imperceptible to the human eye. As cybercriminals continue to refine their AI tools, platforms like Amazon Bedrock are becoming indispensable, raising the bar for cybersecurity and providing a much-needed layer of protection in an increasingly complex digital landscape.",
-    "keyTakeaways": [
-      "AI-generated phishing represents a significant, sophisticated evolution in cyberattack tactics, making traditional defenses insufficient.",
-      "Amazon Bedrock leverages advanced generative AI to detect and neutralize these highly personalized and grammatically flawless phishing attempts.",
-      "The rise of AI-powered defense mechanisms like Bedrock is critical for organizations to combat the escalating threat of AI-driven social engineering and protect sensitive data."
-    ],
-    "source": "Amazon.com",
-    "author": "Radha Panchap",
-    "publishedAt": "2026-07-02 17:55",
-    "category": "Technology",
-    "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/07/02/ML-19725.png",
-    "originalUrl": "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-catches-ai-generated-phishing/",
-    "tags": [
-      "Technology",
-      "Amazon",
-      "Bedrock"
+      "Jersey",
+      "illustrates"
     ],
     "readingTime": "2 min"
   }
