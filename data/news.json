@@ -1,70 +1,24 @@
 [
   {
-    "id": "article-tec-mr7mupa7-000",
-    "title": "The Trust Trap: Core Security Protocol in 'Confidential Computing' Found Broken, Jeopardizing Europe's Cloud Dream",
-    "summary": "New research has uncovered a critical flaw in Attested TLS, a core security protocol underpinning \"confidential computing,\" rendering it unable to reliably verify the identity of cryptographic endpoints. This vulnerability significantly undermines the technology's promise of secure data processing and poses a major challenge to Europe's ambitious sovereign cloud initiatives.",
-    "content": "Confidential computing, often touted as the impenetrable fortress for sensitive data in the cloud, is facing a stark reality check. Despite its enthusiastic promotion by vendors as the technological bedrock for Europe's sovereign cloud ambitions, recent research has exposed a fundamental flaw at its very core, casting a long shadow over its reliability and future.\n\nThe bombshell finding centers on Attested TLS, a security protocol that is supposed to establish and verify trust in confidential computing environments. Researchers have revealed that this crucial handshake mechanism is fundamentally broken; it simply cannot prove the identity of the cryptographic endpoint it communicates with. In essence, while it might confirm that *some* secure connection exists, it utterly fails to verify *who* is on the other end, leaving the door open for sophisticated impersonation attacks.\n\nThis isn't merely a technical quibble; it's an existential crisis for a technology built entirely on the premise of verifiable trust. Confidential computing promises to protect data even when in use, isolating it within secure enclaves. But if the very mechanism meant to attest to the integrity and identity of these enclaves is compromised, the entire security model collapses. For Europe, aiming to build independent, data-sovereign cloud infrastructure to safeguard citizen data and critical operations, this discovery is particularly troubling.\n\nThe implications are profound. Without robust identity verification, the promise of secure data handling for governments, financial institutions, and healthcare providers becomes tenuous at best. Vendors pushing this technology now face an uphill battle, needing to either patch a flaw that some suggest may be unfixable or entirely rethink their approach to trust. The pursuit of true data sovereignty demands an uncompromising foundation of security, and right now, confidential computing's cornerstone appears to be crumbling.",
+    "id": "article-tec-mr7r9hhl-000",
+    "title": "Meta's Multi-Billion-Dollar AI Pivot: Wall Street Sees a New Gold Rush",
+    "summary": "Meta Platforms is reportedly planning to rent out its vast artificial intelligence infrastructure, a strategic move analysts believe could generate billions in new revenue. This pivot positions the social media giant to capitalize on the burgeoning demand for AI computing power, sparking significant interest and optimism from Wall Street.",
+    "content": "Meta Platforms, the social media behemoth behind Facebook and Instagram, appears to be making a calculated and potentially lucrative shift, reportedly preparing to lease out its formidable artificial intelligence infrastructure. This isn't just a minor internal adjustment; it's a strategic maneuver that has immediately captivated Wall Street, with some analysts predicting a multi-billion-dollar windfall for the company.\n\nThe rumors suggest Meta is looking to monetize its massive investment in cutting-edge GPUs and high-performance computing clusters – the very backbone that powers its own advanced AI models and research. In an era where AI development is bottlenecked by the sheer scarcity and cost of such powerful hardware, Meta's move positions it as a critical supplier, offering much-needed compute power to external clients who might not have the resources or scale to build their own.\n\nProminent voices on Wall Street are already weighing in with palpable excitement. Veteran investor Jim Cramer, known for his bullish calls, has enthusiastically declared that Meta is stepping into the \"most lucrative game\" in the AI arena. This sentiment is echoed by financial giants like JPMorgan, whose analysts project this new venture could evolve into a staggering $20 billion business, injecting a substantial new revenue stream into Meta's historically ad-revenue-dependent portfolio.\n\nThis isn't merely about adding another line to Meta's balance sheet; it represents a significant diversification and a reassertion of its technological prowess. By becoming a foundational provider of AI compute, Meta could solidify its position not just as a consumer-facing platform, but as a critical infrastructure player in the rapidly expanding AI economy, fundamentally altering perceptions of its future growth trajectory.",
     "keyTakeaways": [
-      "A fundamental security flaw has been found in Attested TLS, the core trust mechanism for 'confidential computing,' preventing it from reliably verifying endpoint identities.",
-      "This vulnerability directly undermines the promise of secure data processing and poses a significant risk to the integrity of Europe's sovereign cloud initiatives.",
-      "The discovery calls into question the immediate viability of confidential computing for sensitive applications, demanding urgent solutions or a re-evaluation of its security foundation."
+      "Meta Platforms is reportedly planning to rent out its extensive artificial intelligence infrastructure to external clients.",
+      "Analysts like Jim Cramer and JPMorgan project this move could become a multi-billion-dollar business, potentially generating up to $20 billion in new revenue.",
+      "This strategic pivot signifies a major diversification for Meta, leveraging its compute power to tap into the booming demand for AI resources and solidify its position as a key infrastructure player."
     ],
-    "source": "Theregister.com",
-    "author": "Kim Loohuis",
-    "publishedAt": "2026-07-04 10:03",
+    "source": "Yahoo Entertainment",
+    "author": "Surbhi Jain",
+    "publishedAt": "2026-07-04 12:01",
     "category": "Technology",
-    "image": "https://image.theregister.com/5266120.jpg?imageId=5266120&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-    "originalUrl": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
+    "image": "https://s.yimg.com/lo/mysterio/api/4127134773B940CE079B96E30698A0B1834433E90F621A65104DC8D38065E812/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fbenzinga_79%2Ff3820f6487036147d11e1c0eb8a15f1d",
+    "originalUrl": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-says-meta-entering-120126417.html",
     "tags": [
       "Technology",
-      "Confidential",
-      "computings"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mr7muvc7-001",
-    "title": "Global Pixel, Local Quirks: Navigating the Subtle Differences in Google's Handsets",
-    "summary": "Google's Pixel phones, sold globally, feature subtle but important differences primarily driven by local regulations and network standards. Key variations include specific 5G band compatibility, regional accessory packaging, and crucial warranty limitations, which buyers should consider before purchasing internationally.",
-    "content": "Google's Pixel phones have become a global phenomenon, gracing pockets in over 30 countries. It’s natural to assume that a device sold across such diverse markets would undergo significant regional tailoring. Yet, the truth is far more nuanced, with Google opting for subtle adjustments rather than wholesale overhauls. Understanding these distinctions is crucial for anyone considering a Pixel, especially if buying abroad or importing.\n\nThe primary divergence often lies beneath the surface: network compatibility. Different regions operate on varying 5G and LTE bands, and while many Pixel models offer broad support, an international variant might lack a specific band vital for optimal performance in a region it wasn't originally intended for. This can translate to slower speeds or even dead zones, a frustrating reality for the unprepared.\n\nBeyond connectivity, minor hardware and software tweaks are common. Chargers, for instance, naturally adapt to local power outlets, and certain regulatory labels might appear differently. Software variations are typically minimal, focusing on localized apps, language packs, or carrier-specific pre-loads, though Google generally strives for a consistent Android experience globally. Geo-restricted features, like advanced Call Screen functionality, are also occasional considerations.\n\nPerhaps the most significant, yet often overlooked, difference is warranty support. A Pixel purchased in one country might not be eligible for warranty service in another, even if the device itself functions perfectly. This can turn a minor technical glitch into a costly repair, highlighting the importance of understanding Google's regional service policies before making a purchase outside your home market.\n\nUltimately, while the core Pixel experience remains remarkably consistent worldwide, these seemingly small adjustments carry substantial weight for the discerning consumer. Whether it’s ensuring peak network performance or securing hassle-free support, a quick check of regional specifications and warranty terms can save considerable future headaches. The global Pixel is a testament to meticulous engineering, but a savvy buyer always looks beyond the surface.",
-    "keyTakeaways": [
-      "International Pixel phones primarily differ in network band support, which can impact connectivity in specific regions.",
-      "Warranty coverage is often geo-restricted; a device purchased abroad may not be serviceable in your home country.",
-      "Minor hardware adjustments (like chargers) and subtle software localizations are present, though the core Pixel experience remains consistent."
-    ],
-    "source": "Intomobile.com",
-    "author": "Dusan Belic",
-    "publishedAt": "2026-07-04 09:55",
-    "category": "Technology",
-    "image": "https://www.intomobile.com/wp-content/uploads/2026/07/l-intro-1782917013-eH27X2.jpg",
-    "originalUrl": "https://www.intomobile.com/2026/07/04/how-international-google-pixel-phones-differ-from-us-models/",
-    "tags": [
-      "Technology",
-      "international",
-      "Google"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mr7mv7bt-002",
-    "title": "Microsoft Edge Embraces Google: Seamless Account Sign-In Lands on Desktop",
-    "summary": "Microsoft Edge users on Windows and macOS can now directly sign in with their Google accounts, a significant update in version 150. This integration aims to streamline access to Google services and enhance the browser's appeal as a primary web surfing tool.",
-    "content": "In a move that’s sure to raise a few eyebrows and delight many users, Microsoft has rolled out direct Google account sign-in support for its Edge browser. The feature, confirmed in the stable release notes for version 150, officially launched on July 2, 2026, for both Windows and macOS users.\n\nThis isn't just a minor tweak; it’s a substantial quality-of-life improvement. For years, Edge users who primarily relied on Google services for email, cloud storage, or YouTube often found themselves juggling multiple browser profiles or enduring less-than-seamless experiences. Now, with a single sign-in, the browser promises to integrate more fluidly with the vast Google ecosystem, bringing a layer of convenience that was previously a major differentiator for Chrome itself.\n\nThe update signifies Microsoft's ongoing commitment to making its Chromium-based browser a truly universal tool. By reducing friction for users deeply embedded in Google's world, Edge isn't just competing on features or performance; it's competing on integration and user experience. This strategic embrace of a rival's identity system could be a strong play to lure users who appreciate Edge's performance but couldn't justify the hassle of not having their Google services readily available. Expect quicker access to Gmail, Google Drive, and personalized YouTube feeds, all without ever leaving the comfort of Edge.\n\nWhile the full implications remain to be seen, this integration undoubtedly strengthens Edge's position as a viable, often superior, alternative to Chrome for a broader demographic. It’s a testament to the evolving browser wars, where user convenience is increasingly the ultimate battleground.",
-    "keyTakeaways": [
-      "Microsoft Edge version 150 now supports direct Google Account sign-in on Windows and macOS.",
-      "This feature dramatically improves convenience for users of Google services, offering seamless integration.",
-      "The move is a strategic play by Microsoft to enhance Edge's appeal and competitiveness against Google Chrome."
-    ],
-    "source": "Ghacks Technology News",
-    "author": "Arthur Kay",
-    "publishedAt": "2026-07-04 09:25",
-    "category": "Technology",
-    "image": "https://www.ghacks.net/wp-content/uploads/2026/07/gHacks-articles-2026-07-04T122321.688.png",
-    "originalUrl": "https://www.ghacks.net/2026/07/04/microsoft-edge-150-adds-google-account-sign-in-on-windows-and-macos/",
-    "tags": [
-      "Technology",
-      "Microsoft",
-      "Google"
+      "Cramer",
+      "Entering"
     ],
     "readingTime": "2 min"
   }
