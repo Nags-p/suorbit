@@ -1,70 +1,70 @@
 [
   {
-    "id": "article-tec-mr7gw40u-000",
-    "title": "Goldman Sachs' Bold Bet: Why Traditional Assets Are Stealing the Spotlight From Crypto",
-    "summary": "Investment titan Goldman Sachs is strategically shifting its focus towards North Asian equities, copper, and gold, citing geopolitical volatility as the primary catalyst. This move signals a potential reallocation of significant institutional capital, challenging the growth trajectory of digital assets in favor of more conventional havens.",
-    "content": "In a move that’s sending discernible tremors through the global investment landscape, financial behemoth Goldman Sachs appears to be signaling a pivotal shift in institutional strategy. For now, the breathless hype around the latest digital tokens seems to have taken a backseat as the Wall Street giant quietly, yet firmly, redirects its gaze towards a rather more traditional triumvirate: North Asian equities, raw copper, and the timeless luster of gold. This isn't just market noise; it's a calculated repositioning with significant ramifications.\n\nThis strategic recalibration isn't arbitrary. It’s a direct response to an increasingly unpredictable world, where geopolitical tremors, persistent inflation, and supply chain fragility are fundamentally reshaping how major players manage risk and seek returns. Goldman Sachs is now advising clients to diversify into assets historically known for their resilience and intrinsic value. North Asian markets, often seen as manufacturing powerhouses with robust economic fundamentals, alongside crucial industrial metals like copper (a bellwether for global growth), and the ultimate safe-haven asset, gold, are emerging as preferred havens for capital.\n\nThe implications for the broader investment ecosystem, particularly for emerging asset classes like cryptocurrencies, are profound. This tactical shift by such an influential institution could well divert a substantial stream of institutional capital away from the often-volatile digital asset space, channeling it back into established, tangible assets. It suggests a prevailing sentiment that, in times of heightened uncertainty, stability and proven track records outweigh the speculative upside and nascent infrastructure of newer technologies.\n\nWhile innovation in blockchain and decentralized finance continues its inexorable march forward, Goldman Sachs' latest pronouncement serves as a potent reminder of the gravitational pull of traditional markets. It underscores a cautious, risk-averse posture that many institutional investors may now adopt, potentially recalibrating the timeline for the mainstreaming of digital currencies and highlighting a fundamental re-evaluation of value in an ever-shifting global economy. For a generation accustomed to disruptive tech dictating terms, this pivot is a stark reminder that even Wall Street’s giants are prioritizing prudence.",
+    "id": "article-tec-mr7mupa7-000",
+    "title": "The Trust Trap: Core Security Protocol in 'Confidential Computing' Found Broken, Jeopardizing Europe's Cloud Dream",
+    "summary": "New research has uncovered a critical flaw in Attested TLS, a core security protocol underpinning \"confidential computing,\" rendering it unable to reliably verify the identity of cryptographic endpoints. This vulnerability significantly undermines the technology's promise of secure data processing and poses a major challenge to Europe's ambitious sovereign cloud initiatives.",
+    "content": "Confidential computing, often touted as the impenetrable fortress for sensitive data in the cloud, is facing a stark reality check. Despite its enthusiastic promotion by vendors as the technological bedrock for Europe's sovereign cloud ambitions, recent research has exposed a fundamental flaw at its very core, casting a long shadow over its reliability and future.\n\nThe bombshell finding centers on Attested TLS, a security protocol that is supposed to establish and verify trust in confidential computing environments. Researchers have revealed that this crucial handshake mechanism is fundamentally broken; it simply cannot prove the identity of the cryptographic endpoint it communicates with. In essence, while it might confirm that *some* secure connection exists, it utterly fails to verify *who* is on the other end, leaving the door open for sophisticated impersonation attacks.\n\nThis isn't merely a technical quibble; it's an existential crisis for a technology built entirely on the premise of verifiable trust. Confidential computing promises to protect data even when in use, isolating it within secure enclaves. But if the very mechanism meant to attest to the integrity and identity of these enclaves is compromised, the entire security model collapses. For Europe, aiming to build independent, data-sovereign cloud infrastructure to safeguard citizen data and critical operations, this discovery is particularly troubling.\n\nThe implications are profound. Without robust identity verification, the promise of secure data handling for governments, financial institutions, and healthcare providers becomes tenuous at best. Vendors pushing this technology now face an uphill battle, needing to either patch a flaw that some suggest may be unfixable or entirely rethink their approach to trust. The pursuit of true data sovereignty demands an uncompromising foundation of security, and right now, confidential computing's cornerstone appears to be crumbling.",
     "keyTakeaways": [
-      "Goldman Sachs is strategically shifting its institutional investment focus towards North Asian equities, copper, and gold.",
-      "This significant pivot is primarily driven by escalating geopolitical uncertainty and a pressing need for portfolio diversification into resilient assets.",
-      "The move could redirect substantial institutional capital away from digital assets, challenging their growth and favoring traditional, more stable investments."
+      "A fundamental security flaw has been found in Attested TLS, the core trust mechanism for 'confidential computing,' preventing it from reliably verifying endpoint identities.",
+      "This vulnerability directly undermines the promise of secure data processing and poses a significant risk to the integrity of Europe's sovereign cloud initiatives.",
+      "The discovery calls into question the immediate viability of confidential computing for sensitive applications, demanding urgent solutions or a re-evaluation of its security foundation."
     ],
-    "source": "Crypto Briefing",
-    "author": "Editorial Team",
-    "publishedAt": "2026-07-04 07:05",
+    "source": "Theregister.com",
+    "author": "Kim Loohuis",
+    "publishedAt": "2026-07-04 10:03",
     "category": "Technology",
-    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/04030515/construction-costs-soar-as-goldman-sachs-builds-its-largest--5-800x420.jpeg",
-    "originalUrl": "https://cryptobriefing.com/goldman-sachs-asian-stocks-commodity-diversification/",
+    "image": "https://image.theregister.com/5266120.jpg?imageId=5266120&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "originalUrl": "https://www.theregister.com/security/2026/07/04/confidential-computings-core-trust-mechanism-is-broken-the-fix-may-not-exist/5266056",
     "tags": [
       "Technology",
-      "Goldman",
-      "potential"
+      "Confidential",
+      "computings"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mr7gwd5o-001",
-    "title": "Samsung's Tab S12 Ultra: A Display Revolution Nobody Saw Coming",
-    "summary": "Samsung's upcoming Galaxy Tab S12 Plus and S12 Ultra, slated for September 2026, are poised to shake up the premium tablet market. These flagship devices promise an unprecedented leap in display technology and performance, aiming to redefine the high-end tablet experience.",
-    "content": "Samsung is indeed taking a monumental leap in the premium tablet market with the unveiling of its Galaxy Tab S12 Plus and Galaxy Tab S12 Ultra, set to launch in September 2026. These aren't just incremental updates; they represent a bold declaration of intent from Samsung to redefine what a flagship tablet can achieve, aiming squarely at the top tier of the computing world.\n\nThe real showstopper, and the \"massive upgrade\" that has the tech world buzzing, lies in the display technology. Industry whispers suggest Samsung is equipping these new Tabs with a revolutionary \"Dynamic AMOLED 3.0 XDR\" panel. This isn't merely about brighter colors or deeper blacks; it’s rumored to feature an unprecedented adaptive refresh rate, capable of scaling from a power-sipping 1Hz all the way to a butter-smooth 180Hz. Coupled with quantum dot enhancement and micro-lens array technology, this display promises a visual experience unparalleled in any mobile device, offering breathtaking accuracy for creatives and incredibly fluid motion for entertainment and gaming.\n\nBeyond the visuals, the S12 Ultra is expected to pack a formidable punch with Samsung’s next-generation “Exynos X2” processor, or an equivalent custom Snapdragon chip, ensuring robust performance for even the most demanding multitasking and creative applications. Battery life is also rumored to see significant gains, leveraging the display's newfound efficiency and a larger internal cell. This holistic approach is geared towards elevating the tablet experience, moving beyond mere consumption devices to truly powerful productivity and creative hubs, directly challenging the dominance of Apple’s iPad Pro line.\n\nWith the Galaxy Tab S12 Plus and S12 Ultra, Samsung isn’t just releasing new tablets; it’s making a statement. They’re positioning these devices as the ultimate tools for professionals, artists, and power users who demand the very best, promising to deliver an innovation wave that could truly reshape the premium tablet landscape. The wait until September 2026 feels suddenly much longer.",
+    "id": "article-tec-mr7muvc7-001",
+    "title": "Global Pixel, Local Quirks: Navigating the Subtle Differences in Google's Handsets",
+    "summary": "Google's Pixel phones, sold globally, feature subtle but important differences primarily driven by local regulations and network standards. Key variations include specific 5G band compatibility, regional accessory packaging, and crucial warranty limitations, which buyers should consider before purchasing internationally.",
+    "content": "Google's Pixel phones have become a global phenomenon, gracing pockets in over 30 countries. It’s natural to assume that a device sold across such diverse markets would undergo significant regional tailoring. Yet, the truth is far more nuanced, with Google opting for subtle adjustments rather than wholesale overhauls. Understanding these distinctions is crucial for anyone considering a Pixel, especially if buying abroad or importing.\n\nThe primary divergence often lies beneath the surface: network compatibility. Different regions operate on varying 5G and LTE bands, and while many Pixel models offer broad support, an international variant might lack a specific band vital for optimal performance in a region it wasn't originally intended for. This can translate to slower speeds or even dead zones, a frustrating reality for the unprepared.\n\nBeyond connectivity, minor hardware and software tweaks are common. Chargers, for instance, naturally adapt to local power outlets, and certain regulatory labels might appear differently. Software variations are typically minimal, focusing on localized apps, language packs, or carrier-specific pre-loads, though Google generally strives for a consistent Android experience globally. Geo-restricted features, like advanced Call Screen functionality, are also occasional considerations.\n\nPerhaps the most significant, yet often overlooked, difference is warranty support. A Pixel purchased in one country might not be eligible for warranty service in another, even if the device itself functions perfectly. This can turn a minor technical glitch into a costly repair, highlighting the importance of understanding Google's regional service policies before making a purchase outside your home market.\n\nUltimately, while the core Pixel experience remains remarkably consistent worldwide, these seemingly small adjustments carry substantial weight for the discerning consumer. Whether it’s ensuring peak network performance or securing hassle-free support, a quick check of regional specifications and warranty terms can save considerable future headaches. The global Pixel is a testament to meticulous engineering, but a savvy buyer always looks beyond the surface.",
     "keyTakeaways": [
-      "The Galaxy Tab S12 Plus and Ultra are slated for a September 2026 launch.",
-      "They feature a groundbreaking new display technology, promising unparalleled visual fidelity and efficiency.",
-      "Samsung aims to significantly elevate the premium tablet experience for professionals and creatives with robust performance and innovative features."
+      "International Pixel phones primarily differ in network band support, which can impact connectivity in specific regions.",
+      "Warranty coverage is often geo-restricted; a device purchased abroad may not be serviceable in your home country.",
+      "Minor hardware adjustments (like chargers) and subtle software localizations are present, though the core Pixel experience remains consistent."
     ],
-    "source": "Geeky Gadgets",
-    "author": "Roland Hutchinson",
-    "publishedAt": "2026-07-04 07:00",
+    "source": "Intomobile.com",
+    "author": "Dusan Belic",
+    "publishedAt": "2026-07-04 09:55",
     "category": "Technology",
-    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/07/tab-s12-ultra.jpg",
-    "originalUrl": "https://www.geeky-gadgets.com/galaxy-tab-s12-ultra-oled/",
+    "image": "https://www.intomobile.com/wp-content/uploads/2026/07/l-intro-1782917013-eH27X2.jpg",
+    "originalUrl": "https://www.intomobile.com/2026/07/04/how-international-google-pixel-phones-differ-from-us-models/",
     "tags": [
       "Technology",
-      "Samsungs",
-      "Galaxy"
+      "international",
+      "Google"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mr7gwp7l-002",
-    "title": "Godot Draws a Hard Line: \"Vibe-Coded\" AI Contributions No Longer Welcome",
-    "summary": "The popular Godot game engine has formally banned contributions heavily reliant on AI generation, labeling them \"vibe-coded,\" due to concerns over code quality and maintainer burden. This decisive policy shift reflects a growing frustration among maintainers with submissions from developers who lack a fundamental understanding of their AI-generated code.",
-    "content": "Godot, the popular open-source game engine, has just dropped a bombshell, formally banning \"vibe-coded\" contributions—a thinly veiled reference to code heavily reliant on AI generation. This isn't just a minor policy tweak; it's a declaration of war on superficial understanding in the pursuit of high-quality, maintainable code. The message from maintainers is crystal clear: genuine human insight is non-negotiable.\n\nFor those unfamiliar, \"vibe-coded\" refers to code submitted by individuals who, thanks to AI tools, can generate functional-looking snippets without truly grasping the underlying logic or implications. As one maintainer put it, \"We can't trust heavy users of AI to understand their code enough to fix it.\" This isn't about AI being inherently bad, but rather the disengagement it fosters, leading to pull requests that, while appearing to solve a problem, often introduce new, hidden complexities or fail to adhere to project standards.\n\nThe influx of such submissions has been, in a word, \"demoralizing\" for the dedicated individuals stewarding the Godot project. Imagine sifting through countless contributions that look fine on the surface but crumble under scrutiny, demanding more time and effort to review and debug than if the code had been written with a deeper understanding from the outset. This burden not only slows development but also erodes the collaborative spirit that defines open-source communities. Godot's stance underscores a growing concern across the open-source landscape: how to embrace new tools without sacrificing the core tenets of quality, accountability, and genuine expertise.\n\nThis policy serves as a powerful reminder that while AI can be an invaluable assistant, it cannot replace fundamental coding proficiency and critical thinking. Godot is drawing a line in the sand, prioritizing long-term project health and the integrity of its codebase over the fleeting convenience offered by AI shortcuts. For developers looking to contribute, the message is stark: understand your code, or don't submit it. It's a move that will undoubtedly spark debate, but one that Godot believes is essential for its future.",
+    "id": "article-tec-mr7mv7bt-002",
+    "title": "Microsoft Edge Embraces Google: Seamless Account Sign-In Lands on Desktop",
+    "summary": "Microsoft Edge users on Windows and macOS can now directly sign in with their Google accounts, a significant update in version 150. This integration aims to streamline access to Google services and enhance the browser's appeal as a primary web surfing tool.",
+    "content": "In a move that’s sure to raise a few eyebrows and delight many users, Microsoft has rolled out direct Google account sign-in support for its Edge browser. The feature, confirmed in the stable release notes for version 150, officially launched on July 2, 2026, for both Windows and macOS users.\n\nThis isn't just a minor tweak; it’s a substantial quality-of-life improvement. For years, Edge users who primarily relied on Google services for email, cloud storage, or YouTube often found themselves juggling multiple browser profiles or enduring less-than-seamless experiences. Now, with a single sign-in, the browser promises to integrate more fluidly with the vast Google ecosystem, bringing a layer of convenience that was previously a major differentiator for Chrome itself.\n\nThe update signifies Microsoft's ongoing commitment to making its Chromium-based browser a truly universal tool. By reducing friction for users deeply embedded in Google's world, Edge isn't just competing on features or performance; it's competing on integration and user experience. This strategic embrace of a rival's identity system could be a strong play to lure users who appreciate Edge's performance but couldn't justify the hassle of not having their Google services readily available. Expect quicker access to Gmail, Google Drive, and personalized YouTube feeds, all without ever leaving the comfort of Edge.\n\nWhile the full implications remain to be seen, this integration undoubtedly strengthens Edge's position as a viable, often superior, alternative to Chrome for a broader demographic. It’s a testament to the evolving browser wars, where user convenience is increasingly the ultimate battleground.",
     "keyTakeaways": [
-      "Godot Engine has officially banned 'vibe-coded' contributions, specifically targeting code generated or heavily reliant on AI tools.",
-      "Maintainers expressed deep frustration, stating they 'can't trust heavy users of AI to understand their code,' leading to a demoralizing review process.",
-      "The policy aims to preserve code quality, reduce the burden on human maintainers, and uphold the integrity and collaborative spirit of the open-source project."
+      "Microsoft Edge version 150 now supports direct Google Account sign-in on Windows and macOS.",
+      "This feature dramatically improves convenience for users of Google services, offering seamless integration.",
+      "The move is a strategic play by Microsoft to enhance Edge's appeal and competitiveness against Google Chrome."
     ],
-    "source": "Blogspot.com",
-    "author": "Piyush Gupta",
-    "publishedAt": "2026-07-04 06:33",
+    "source": "Ghacks Technology News",
+    "author": "Arthur Kay",
+    "publishedAt": "2026-07-04 09:25",
     "category": "Technology",
-    "image": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_sulBpTJSuQb57YOju28sqSn6NZ2KQlQDTGbe0wmBf5BkZlbWMaufaHPrvXSlVOvGMoEriO48pMlYOzvIACfbwGjOS7r3EiLjtc_tpF2RAMuRVtyTTz4SXl3XDQ=w1200-h630-p-k-no-nu",
-    "originalUrl": "https://theguptalog.blogspot.com/2026/07/godot-bans-ai-generated-code.html",
+    "image": "https://www.ghacks.net/wp-content/uploads/2026/07/gHacks-articles-2026-07-04T122321.688.png",
+    "originalUrl": "https://www.ghacks.net/2026/07/04/microsoft-edge-150-adds-google-account-sign-in-on-windows-and-macos/",
     "tags": [
       "Technology",
-      "vibecoded",
-      "contributions"
+      "Microsoft",
+      "Google"
     ],
     "readingTime": "2 min"
   }
