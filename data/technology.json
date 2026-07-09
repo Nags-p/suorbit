@@ -1,24 +1,24 @@
 [
   {
-    "id": "article-tec-mrcr2to1-000",
-    "title": "The Future of Video Just Got Clearer: HEVC Advance Adds 28 Industry Powerhouses",
-    "summary": "Access Advance LLC, administrator of the crucial HEVC Advance Patent Pool, has announced a significant expansion, bringing in 28 new licensees across diverse sectors by early 2026. This move solidifies HEVC as a dominant video compression standard, streamlining innovation and paving the way for advanced media experiences across consumer electronics and automotive industries.",
-    "content": "BOSTON – The complex world of video compression just got a little less tangled. Access Advance LLC, the orchestrator behind the HEVC Advance Patent Pool, has announced a substantial expansion, reeling in 28 new licensees set to come on board in the first half of 2026.\n\nThis isn't just bureaucratic paperwork; it’s a powerful signal for the future of High-Efficiency Video Coding (HEVC), a technology critical for delivering crisp, high-resolution content without bogging down networks or devices. For those not immersed in the minutiae of codecs, HEVC, also known as H.265, is the engine powering much of the 4K streaming, ultra-HD broadcasts, and advanced video applications we enjoy daily. Its efficiency allows for significantly smaller file sizes at the same quality as its predecessors, making rich visual experiences accessible even on mobile or bandwidth-constrained connections.\n\nHowever, developing such a foundational technology involves numerous patented inventions from various companies. This is where patent pools like Access Advance step in, offering a streamlined, one-stop shop for licensing. By consolidating rights, they mitigate the risk of costly legal battles and foster wider adoption, accelerating innovation across the board.\n\nThe roster of these 28 new entrants isn't just about raw numbers; it speaks to the technology's broad appeal and necessity. Spanning titans in consumer electronics, major players in the burgeoning automotive sector, and other key industries, their commitment underscores HEVC’s undisputed role in their upcoming product lines and services. This influx of new blood into the pool sends a clear message: HEVC is not merely a transient standard but a foundational pillar. It simplifies the path for manufacturers to embed advanced video capabilities into everything from smart TVs and smartphones to next-generation in-car entertainment systems and autonomous driving sensors, ensuring a consistent, high-quality video experience for end-users globally.\n\nSuch broad industry alignment is crucial. It minimizes fragmentation and ensures that the infrastructure for future video innovations remains robust and predictable. As we move towards even higher resolutions, immersive experiences, and real-time communication demanding ever-greater efficiency, a strong, unified HEVC ecosystem built on collaborative licensing is more vital than ever. Access Advance’s latest triumph isn't just a win for its balance sheet; it's a victory for everyone who consumes or creates digital video, promising a clearer, faster, and more vibrant visual future.",
+    "id": "article-tec-mrd1djf8-000",
+    "title": "Beyond the Docker Hype: Why OCI is the True Foundation of Modern Containers",
+    "summary": "Docker famously brought containerization to the mainstream, but the Open Container Initiative (OCI) is the less-talked-about standard truly driving their portability and interoperability. Understanding OCI images unlocks the full power of modern cloud-native applications, ensuring flexibility beyond any single vendor's ecosystem.",
+    "content": "For many developers, the word \"container\" is synonymous with \"Docker.\" And rightfully so; Docker’s impact on modern software development is undeniable, democratizing a technology that once felt arcane. It transformed how we package, ship, and run applications, ushering in an an era of unprecedented agility. Yet, beneath the familiar Docker whale logo lies a more fundamental, often overlooked, standard that truly underpins the robust, portable nature of today's containerized world: the Open Container Initiative, or OCI.\n\nThink of OCI as the universal language for containers. While Docker popularized the concept, it's OCI that provides the open specifications for both the container image format and its runtime. This crucial distinction means that an image created using Docker can seamlessly run on other OCI-compliant runtimes like containerd or CRI-O, and be orchestrated by platforms like Kubernetes, irrespective of the tool that initially built it. This isn't just a technical nicety; it's the bedrock of true interoperability and prevents vendor lock-in within a rapidly evolving cloud-native landscape.\n\nThe significance of OCI extends far beyond mere compatibility. It fosters a vibrant ecosystem where different tools and platforms can innovate independently while still speaking the same core container language. Developers gain unprecedented flexibility, able to choose the best tools for their specific workflow without fear of creating proprietary silos. This open standard ensures that as cloud-native applications grow in complexity and scope, the underlying container infrastructure remains resilient, adaptable, and fundamentally open. Understanding OCI images means unlocking the full potential of modern application deployment, ensuring your services are truly portable, future-proof, and free from the constraints of any single vendor.",
     "keyTakeaways": [
-      "Access Advance's HEVC Advance Patent Pool significantly expanded, welcoming 28 new licensees by early 2026.",
-      "The new licensees span critical sectors like consumer electronics and automotive, signaling broad industry adoption for HEVC.",
-      "This expansion reinforces HEVC as a dominant video compression standard, simplifying licensing and accelerating future video innovation."
+      "While Docker popularized containers, OCI (Open Container Initiative) is the open standard truly enabling their portability and interoperability.",
+      "OCI provides universal specifications for container image formats and runtimes, allowing images created with one tool (e.g., Docker) to run seamlessly across others (e.g., containerd, Kubernetes).",
+      "Adopting OCI standards prevents vendor lock-in and fosters a flexible, resilient ecosystem crucial for modern cloud-native application deployment."
     ],
-    "source": "Financial Post",
-    "author": "Business Wire",
-    "publishedAt": "2026-07-08 00:05",
+    "source": "C-sharpcorner.com",
+    "author": "noreply@c-sharpcorner.com (Niharika Gupta)",
+    "publishedAt": "2026-07-08 04:53",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://financialpost.com/pmn/business-wire-news-releases-pmn/access-advance-welcomes-wave-of-new-licensees-to-the-hevc-advance-patent-pool",
+    "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+    "originalUrl": "https://www.c-sharpcorner.com/article/understanding-oci-images-beyond-docker-containers/",
     "tags": [
       "Technology",
-      "Access",
-      "Advance"
+      "Understanding",
+      "Images"
     ],
     "readingTime": "2 min"
   }

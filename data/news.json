@@ -1,24 +1,70 @@
 [
   {
-    "id": "article-tec-mrcr2to1-000",
-    "title": "The Future of Video Just Got Clearer: HEVC Advance Adds 28 Industry Powerhouses",
-    "summary": "Access Advance LLC, administrator of the crucial HEVC Advance Patent Pool, has announced a significant expansion, bringing in 28 new licensees across diverse sectors by early 2026. This move solidifies HEVC as a dominant video compression standard, streamlining innovation and paving the way for advanced media experiences across consumer electronics and automotive industries.",
-    "content": "BOSTON – The complex world of video compression just got a little less tangled. Access Advance LLC, the orchestrator behind the HEVC Advance Patent Pool, has announced a substantial expansion, reeling in 28 new licensees set to come on board in the first half of 2026.\n\nThis isn't just bureaucratic paperwork; it’s a powerful signal for the future of High-Efficiency Video Coding (HEVC), a technology critical for delivering crisp, high-resolution content without bogging down networks or devices. For those not immersed in the minutiae of codecs, HEVC, also known as H.265, is the engine powering much of the 4K streaming, ultra-HD broadcasts, and advanced video applications we enjoy daily. Its efficiency allows for significantly smaller file sizes at the same quality as its predecessors, making rich visual experiences accessible even on mobile or bandwidth-constrained connections.\n\nHowever, developing such a foundational technology involves numerous patented inventions from various companies. This is where patent pools like Access Advance step in, offering a streamlined, one-stop shop for licensing. By consolidating rights, they mitigate the risk of costly legal battles and foster wider adoption, accelerating innovation across the board.\n\nThe roster of these 28 new entrants isn't just about raw numbers; it speaks to the technology's broad appeal and necessity. Spanning titans in consumer electronics, major players in the burgeoning automotive sector, and other key industries, their commitment underscores HEVC’s undisputed role in their upcoming product lines and services. This influx of new blood into the pool sends a clear message: HEVC is not merely a transient standard but a foundational pillar. It simplifies the path for manufacturers to embed advanced video capabilities into everything from smart TVs and smartphones to next-generation in-car entertainment systems and autonomous driving sensors, ensuring a consistent, high-quality video experience for end-users globally.\n\nSuch broad industry alignment is crucial. It minimizes fragmentation and ensures that the infrastructure for future video innovations remains robust and predictable. As we move towards even higher resolutions, immersive experiences, and real-time communication demanding ever-greater efficiency, a strong, unified HEVC ecosystem built on collaborative licensing is more vital than ever. Access Advance’s latest triumph isn't just a win for its balance sheet; it's a victory for everyone who consumes or creates digital video, promising a clearer, faster, and more vibrant visual future.",
+    "id": "article-tec-mrd1djf8-000",
+    "title": "Beyond the Docker Hype: Why OCI is the True Foundation of Modern Containers",
+    "summary": "Docker famously brought containerization to the mainstream, but the Open Container Initiative (OCI) is the less-talked-about standard truly driving their portability and interoperability. Understanding OCI images unlocks the full power of modern cloud-native applications, ensuring flexibility beyond any single vendor's ecosystem.",
+    "content": "For many developers, the word \"container\" is synonymous with \"Docker.\" And rightfully so; Docker’s impact on modern software development is undeniable, democratizing a technology that once felt arcane. It transformed how we package, ship, and run applications, ushering in an an era of unprecedented agility. Yet, beneath the familiar Docker whale logo lies a more fundamental, often overlooked, standard that truly underpins the robust, portable nature of today's containerized world: the Open Container Initiative, or OCI.\n\nThink of OCI as the universal language for containers. While Docker popularized the concept, it's OCI that provides the open specifications for both the container image format and its runtime. This crucial distinction means that an image created using Docker can seamlessly run on other OCI-compliant runtimes like containerd or CRI-O, and be orchestrated by platforms like Kubernetes, irrespective of the tool that initially built it. This isn't just a technical nicety; it's the bedrock of true interoperability and prevents vendor lock-in within a rapidly evolving cloud-native landscape.\n\nThe significance of OCI extends far beyond mere compatibility. It fosters a vibrant ecosystem where different tools and platforms can innovate independently while still speaking the same core container language. Developers gain unprecedented flexibility, able to choose the best tools for their specific workflow without fear of creating proprietary silos. This open standard ensures that as cloud-native applications grow in complexity and scope, the underlying container infrastructure remains resilient, adaptable, and fundamentally open. Understanding OCI images means unlocking the full potential of modern application deployment, ensuring your services are truly portable, future-proof, and free from the constraints of any single vendor.",
     "keyTakeaways": [
-      "Access Advance's HEVC Advance Patent Pool significantly expanded, welcoming 28 new licensees by early 2026.",
-      "The new licensees span critical sectors like consumer electronics and automotive, signaling broad industry adoption for HEVC.",
-      "This expansion reinforces HEVC as a dominant video compression standard, simplifying licensing and accelerating future video innovation."
+      "While Docker popularized containers, OCI (Open Container Initiative) is the open standard truly enabling their portability and interoperability.",
+      "OCI provides universal specifications for container image formats and runtimes, allowing images created with one tool (e.g., Docker) to run seamlessly across others (e.g., containerd, Kubernetes).",
+      "Adopting OCI standards prevents vendor lock-in and fosters a flexible, resilient ecosystem crucial for modern cloud-native application deployment."
     ],
-    "source": "Financial Post",
-    "author": "Business Wire",
-    "publishedAt": "2026-07-08 00:05",
+    "source": "C-sharpcorner.com",
+    "author": "noreply@c-sharpcorner.com (Niharika Gupta)",
+    "publishedAt": "2026-07-08 04:53",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://financialpost.com/pmn/business-wire-news-releases-pmn/access-advance-welcomes-wave-of-new-licensees-to-the-hevc-advance-patent-pool",
+    "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+    "originalUrl": "https://www.c-sharpcorner.com/article/understanding-oci-images-beyond-docker-containers/",
     "tags": [
       "Technology",
-      "Access",
-      "Advance"
+      "Understanding",
+      "Images"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-mrd1esnu-005",
+    "title": "Docker Introduced Us, OCI Made it Work: The Open Standard Powering True Container Portability",
+    "summary": "While Docker popularized containers, the Open Container Initiative (OCI) provides the crucial open standards that ensure true portability and interoperability for cloud-native applications. These specifications prevent vendor lock-in and enable images to run seamlessly across diverse runtimes and infrastructures, making OCI the silent backbone of modern containerization.",
+    "content": "When the word \"container\" surfaces in tech conversations, it's almost an instinct to picture Docker. Indeed, Docker single-handedly rocketed container technology into the mainstream, revolutionizing how we package, deploy, and manage applications. Yet, while Docker provided the initial spark, the real architectural muscle supporting today's sprawling cloud-native landscape comes from a less-celebrated but far more foundational standard: OCI, or the Open Container Initiative.\n\nOCI emerged from a crucial realization: relying on a single vendor, even one as dominant as Docker, could stifle innovation and create interoperability headaches down the line. Formed under the Linux Foundation, OCI set out to standardize the core components of container technology. This includes the OCI Image Format Specification, which defines how a container image should be built and stored, and the OCI Runtime Specification, detailing how a container should be executed.\n\nThese open specifications are the silent architects of true container portability. They mean that an image built with Docker can seamlessly run on a container runtime like containerd, Podman, or CRI-O, regardless of the underlying infrastructure. This isn't just about technical elegance; it's about freedom from vendor lock-in and fostering a diverse ecosystem where tools can innovate and specialize without breaking compatibility.\n\nFor developers and enterprises alike, OCI images unlock unprecedented flexibility. They ensure that your cloud-native applications can truly move between different cloud providers, on-premises data centers, and various orchestrators like Kubernetes, without painful refactoring or proprietary dependencies. Docker might have popularized the container, but OCI quietly standardized it, ensuring that the container revolution continues to build on a solid, open foundation for years to come.",
+    "keyTakeaways": [
+      "Docker played a pivotal role in popularizing containers, but OCI provides the open standards crucial for their widespread adoption and utility.",
+      "OCI standardizes both the container image format and runtime specification, ensuring interoperability across different tools and container platforms.",
+      "These open standards are vital for preventing vendor lock-in and enabling true portability of cloud-native applications across diverse environments and orchestrators."
+    ],
+    "source": "C-sharpcorner.com",
+    "author": "noreply@c-sharpcorner.com (Niharika Gupta)",
+    "publishedAt": "2026-07-08 04:53",
+    "category": "AI",
+    "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
+    "originalUrl": "https://www.c-sharpcorner.com/article/understanding-oci-images-beyond-docker-containers/",
+    "tags": [
+      "AI",
+      "Understanding",
+      "Images"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-mrd1flld-008",
+    "title": "Beyond the Snapshot: Why Continuous Offensive Security is the Modern Enterprise's Indispensable Shield",
+    "summary": "Traditional security checks offer only a temporary snapshot of an organization's vulnerabilities, leaving critical decisions about patching or mitigation vulnerable to rapid changes in the threat landscape. Continuous offensive security testing emerges as a vital, dynamic approach, providing real-time insights and enabling proactive risk management in an ever-evolving digital world.",
+    "content": "For too long, cybersecurity has felt like a high-stakes game of whack-a-mole. Organizations diligently conducted penetration tests, breathing a sigh of relief when the report landed, detailing exposures. But that relief was often fleeting. The real Gordian knot wasn't simply unearthing a vulnerability; it was deciding what to do with it. To patch, to mitigate, to merely monitor, or even to accept the risk – and then, to hope that decision would hold up until the next scheduled scan. It's a gamble no modern enterprise can afford.\n\nThe digital landscape shifts at breakneck speed. A decision made yesterday based on a momentary snapshot of an organization's security posture can be rendered obsolete by a new threat vector, a software update, or even a change in internal configurations. Relying on sporadic security assessments is akin to navigating a turbulent ocean with a map drawn on a calm day. The question isn't just \"are we secure today?\" but \"will we be secure tomorrow, next week, next month?\" This constant state of flux necessitates a more agile, persistent defense.\n\nEnter continuous offensive security testing. This isn't just about scheduling more frequent penetration tests; it's a paradigm shift. Imagine an always-on, adaptive system that relentlessly probes your defenses, mimicking the relentless efforts of real-world attackers. It combines automated tools for broad-spectrum scanning with the nuanced, strategic thinking of human ethical hackers, working in concert to identify weaknesses not just once, but continuously. This ongoing engagement provides a living, breathing view of your security posture.\n\nSuch a program transforms risk management from a static, reactive exercise into a dynamic, proactive discipline. It allows organizations to move beyond the guesswork, empowering them to make informed decisions about resource allocation and remediation with real-time data. By embedding security testing into every stage of the development lifecycle and operational framework, businesses can build resilience, anticipating threats before they materialize. In today's interconnected world, continuous vigilance isn't just best practice; it's the bedrock of digital survival.",
+    "keyTakeaways": [
+      "Traditional, one-off penetration tests provide only a temporary view of an organization's security posture.",
+      "The real challenge in cybersecurity is the ongoing decision-making process regarding vulnerability remediation and risk acceptance.",
+      "Continuous offensive security testing offers a dynamic solution, ensuring an adaptive and proactive defense against evolving cyber threats."
+    ],
+    "source": "Help Net Security",
+    "author": "Help Net Security",
+    "publishedAt": "2026-07-08 04:30",
+    "category": "Space",
+    "image": "https://img.helpnetsecurity.com/wp-content/uploads/2026/07/06160545/digital_chain.webp",
+    "originalUrl": "https://www.helpnetsecurity.com/2026/07/08/picus-continuous-offensive-security-testing-program/",
+    "tags": [
+      "Space",
+      "implement",
+      "continuous"
     ],
     "readingTime": "2 min"
   }
