@@ -1,24 +1,70 @@
 [
   {
-    "id": "article-tec-mrd1djf8-000",
-    "title": "Beyond the Docker Hype: Why OCI is the True Foundation of Modern Containers",
-    "summary": "Docker famously brought containerization to the mainstream, but the Open Container Initiative (OCI) is the less-talked-about standard truly driving their portability and interoperability. Understanding OCI images unlocks the full power of modern cloud-native applications, ensuring flexibility beyond any single vendor's ecosystem.",
-    "content": "For many developers, the word \"container\" is synonymous with \"Docker.\" And rightfully so; Docker’s impact on modern software development is undeniable, democratizing a technology that once felt arcane. It transformed how we package, ship, and run applications, ushering in an an era of unprecedented agility. Yet, beneath the familiar Docker whale logo lies a more fundamental, often overlooked, standard that truly underpins the robust, portable nature of today's containerized world: the Open Container Initiative, or OCI.\n\nThink of OCI as the universal language for containers. While Docker popularized the concept, it's OCI that provides the open specifications for both the container image format and its runtime. This crucial distinction means that an image created using Docker can seamlessly run on other OCI-compliant runtimes like containerd or CRI-O, and be orchestrated by platforms like Kubernetes, irrespective of the tool that initially built it. This isn't just a technical nicety; it's the bedrock of true interoperability and prevents vendor lock-in within a rapidly evolving cloud-native landscape.\n\nThe significance of OCI extends far beyond mere compatibility. It fosters a vibrant ecosystem where different tools and platforms can innovate independently while still speaking the same core container language. Developers gain unprecedented flexibility, able to choose the best tools for their specific workflow without fear of creating proprietary silos. This open standard ensures that as cloud-native applications grow in complexity and scope, the underlying container infrastructure remains resilient, adaptable, and fundamentally open. Understanding OCI images means unlocking the full potential of modern application deployment, ensuring your services are truly portable, future-proof, and free from the constraints of any single vendor.",
+    "id": "article-tec-mrd8uk3j-000",
+    "title": "Ireland's Culinary Crossroads: The Vanishing Act of Independent Restaurants",
+    "summary": "Independent restaurants across Ireland are facing an existential crisis, exacerbated by recent VAT rate adjustments and other economic pressures. This decline threatens to homogenize the nation's dining landscape, significantly limiting consumer choice and eroding unique local character.",
+    "content": "A quiet transformation is underway across Ireland's culinary scene, one that spells potential peril for the vibrant tapestry of independent restaurants that have long defined local dining. Earlier this month, the debate around the VAT rate on qualifying restaurant services resurfaced, highlighting just one facet of the immense pressure these unique establishments face.\n\nFrom charming bistros to family-run eateries, independent restaurants are more than just places to eat; they are cornerstones of communities, incubators of culinary innovation, and vital contributors to local economies. They source locally, foster unique dining experiences, and embody the distinct character of Irish hospitality. Yet, they are increasingly vulnerable.\n\nShould this trend of disappearance continue unchecked, the implications for the Irish consumer are stark. Imagine a future where choice is whittled down to a handful of predictable chain establishments, where local flair is replaced by standardized menus, and where the rich diversity of flavors and experiences is sacrificed at the altar of uniformity. This isn't merely about a few less options; it's about a poorer overall quality of life, a less interesting tourism proposition, and a significant blow to the cultural fabric of towns and cities.\n\nThe fight for survival for these businesses is multifaceted, encompassing not only tax policy but also rising operational costs, labor shortages, and fierce competition from larger, often multinational, entities. The conversation around what kind of restaurants we truly want in Ireland is no longer academic; it's an urgent call to action to safeguard the irreplaceable heart of the nation's dining culture.",
     "keyTakeaways": [
-      "While Docker popularized containers, OCI (Open Container Initiative) is the open standard truly enabling their portability and interoperability.",
-      "OCI provides universal specifications for container image formats and runtimes, allowing images created with one tool (e.g., Docker) to run seamlessly across others (e.g., containerd, Kubernetes).",
-      "Adopting OCI standards prevents vendor lock-in and fosters a flexible, resilient ecosystem crucial for modern cloud-native application deployment."
+      "Independent Irish restaurants are facing a severe threat, partly due to VAT rate changes and other economic pressures.",
+      "Their disappearance would drastically reduce consumer choice, leading to a homogenized and less diverse dining landscape across Ireland.",
+      "Beyond economic impact, the loss of independent eateries represents a significant erosion of local culture, community spirit, and culinary innovation."
     ],
-    "source": "C-sharpcorner.com",
-    "author": "noreply@c-sharpcorner.com (Niharika Gupta)",
-    "publishedAt": "2026-07-08 04:53",
+    "source": "RTE",
+    "author": "Catarina Marvão",
+    "publishedAt": "2026-07-08 08:24",
     "category": "Technology",
-    "image": "https://www.c-sharpcorner.com/images/csharp-corner-new.png",
-    "originalUrl": "https://www.c-sharpcorner.com/article/understanding-oci-images-beyond-docker-containers/",
+    "image": "https://www.rte.ie/images/0024a681-1600.jpg",
+    "originalUrl": "https://www.rte.ie/brainstorm/2026/0708/1582026-ireland-independent-restaurants-business-vat-cut-supply-chain-local-issues/",
     "tags": [
       "Technology",
-      "Understanding",
-      "Images"
+      "restaurants",
+      "Ireland"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mrd8uprr-001",
+    "title": "The Cloud Calls: Hosted PBX Poised for $36 Billion Boom as Businesses Embrace Digital Transformation",
+    "summary": "The Hosted Private Branch Exchange (PBX) market is on track to exceed $36 billion by 2032, propelled by a global shift towards digital transformation and widespread cloud adoption. This growth is underpinned by the essential role Hosted PBX plays in facilitating hybrid work models and significantly boosting process efficiency across diverse sectors.",
+    "content": "The corporate world is in the midst of a seismic shift, redefining how we work, where we work, and crucially, how we communicate. At the heart of this evolution lies the unassuming yet powerful Hosted Private Branch Exchange (PBX), a technology now projected to surge past a staggering $36 billion by 2032. This isn't just about replacing an old phone system; it's about building the communication backbone for the modern enterprise.\n\nThis explosive growth isn't a fluke. It's a direct consequence of businesses worldwide doubling down on digital transformation, jettisoning legacy infrastructure for agile, cloud-native solutions. Hosted PBX is proving to be an indispensable ally in this journey, particularly as hybrid work models become the new norm. Whether employees are collaborating from home offices, co-working spaces, or traditional headquarters, Hosted PBX ensures seamless, unified communication, tearing down geographical barriers and fostering unprecedented efficiency.\n\nWhat makes it so compelling? Its inherent flexibility for one. Enterprises are no longer tethered to bulky, on-premise hardware, instead opting for scalable, modular deployments that can adapt on the fly to changing business needs. Security, always a paramount concern, is also a core focus, with providers continually enhancing safeguards for voice and data. This adaptable, secure, and efficient technology is precisely what businesses need to navigate an increasingly complex and competitive landscape, making it a cornerstone for future-proof operations.\n\nAs the global economy continues its rapid digitalization, the demand for robust, cloud-based communication tools will only intensify. Hosted PBX isn't just a market trend; it's an enabler, a silent architect behind the scenes, powering the future of how businesses connect, collaborate, and thrive in the digital age.",
+    "keyTakeaways": [
+      "The Hosted PBX market is projected to reach over $36 billion by 2032, driven by global digital transformation.",
+      "It's crucial for supporting modern hybrid work models and enhancing operational efficiency across diverse industries.",
+      "Its appeal lies in flexible, scalable deployments, robust security, and modular technology that adapts to evolving business needs."
+    ],
+    "source": "GlobeNewswire",
+    "author": "Research and Markets",
+    "publishedAt": "2026-07-08 08:17",
+    "category": "Technology",
+    "image": "https://ml.globenewswire.com/Resource/Download/466c8c77-df9a-4d38-988e-b4c06d8876f9",
+    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/08/3323863/28124/en/Hosted-PBX-Market-to-Surpass-USD-36-Billion-by-2032-Driven-by-Enterprise-Digital-Transformation-and-Cloud-Adoption.html",
+    "tags": [
+      "Technology",
+      "Hosted",
+      "Market"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mrd8v1dn-002",
+    "title": "Autonomous Ambitions Fuel Explosive Growth in Intelligent Driving Systems Market",
+    "summary": "A new market forecast predicts substantial growth for intelligent driving computing systems between 2026 and 2032, highlighting their critical role in the future of autonomous vehicles. This expansion is driven by the need for advanced compute architectures, modular software, and resilient systems to enable widespread deployment, scalability, and regulatory compliance of self-driving technology.",
+    "content": "Dublin, July 08, 2026 – The silent revolution of autonomous driving relies on a sophisticated brain, and a new report from ResearchAndMarkets.com suggests that the market for these 'intelligent driving computing systems' is about to hit hyperdrive. Titled \"Intelligent Driving Computing System Market - Global Forecast 2026-2032,\" the report, added to their offering via GlobeNewswire, paints a vivid picture of a sector poised for significant expansion over the next six years.\n\nThese advanced computing systems are the nerve center of any autonomous vehicle, processing vast amounts of sensor data, making real-time decisions, and ensuring safety and efficiency. As the dream of self-driving cars transitions from concept to commercial reality, the demand for ever more powerful, reliable, and adaptable onboard intelligence becomes paramount.\n\nThe core opportunities driving this forecasted growth lie in integrating cutting-edge compute architectures, developing highly modular software, and engineering exceptionally resilient systems. These technological pillars are not just about raw power; they are fundamental to overcoming the complex challenges of autonomous vehicle deployment, ensuring scalability across diverse vehicle types and regions, and navigating the intricate landscape of global regulatory compliance. Without these robust, intelligent foundations, the widespread adoption of self-driving technology simply isn't possible.\n\nThis isn't merely an incremental bump; it signifies a foundational shift in how vehicles are designed and operated. The market's projected trajectory through 2032 underscores the industry's commitment to building the robust, intelligent infrastructure necessary for a truly autonomous future, transforming mobility as we know it.",
+    "keyTakeaways": [
+      "The global market for intelligent driving computing systems is projected for significant growth from 2026 to 2032.",
+      "Advanced compute architectures, software modularity, and resilient systems are key technological drivers for this market expansion.",
+      "These systems are crucial for enabling autonomous vehicle deployment, ensuring scalability, and achieving regulatory compliance worldwide."
+    ],
+    "source": "GlobeNewswire",
+    "author": "Research and Markets",
+    "publishedAt": "2026-07-08 08:16",
+    "category": "Technology",
+    "image": "https://ml.globenewswire.com/Resource/Download/20a0bba7-953b-4df9-901e-074a778f8849",
+    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/08/3323862/28124/en/Intelligent-Driving-Computing-System-Market-Global-Forecast-2026-2032.html",
+    "tags": [
+      "Technology",
+      "Intelligent",
+      "Driving"
     ],
     "readingTime": "2 min"
   }
