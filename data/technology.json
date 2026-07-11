@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mrgb1f3o-000",
-    "title": "XPENG's Robotaxis Hit the Streets: Ushering in the Era of 'Physical AI'",
-    "summary": "Chinese EV giant XPENG has officially commenced employee testing of its innovative Robotaxi platform, signaling a major leap in its pursuit of autonomous vehicles. This pivotal move underscores XPENG's commitment to translating its \"Physical AI\" vision into tangible, real-world transportation solutions.",
-    "content": "GUANGZHOU, China – The future of urban mobility just took a significant step forward as XPENG, the ambitious Chinese electric vehicle manufacturer, officially kicked off employee testing for its innovative Robotaxi platform on July 10, 2026. This isn't just another self-driving experiment; it's a pivotal moment in the company's grand strategy, marking a clear trajectory from its current lineup of intelligent EVs towards a truly autonomous future, powered by what XPENG calls \"Physical AI.\"\n\nFor years, the promise of robotaxis has danced on the horizon, but XPENG's move brings it sharply into focus. The internal trials are more than just a dry run; they represent the culmination of extensive research and development, aiming to refine the intricate blend of hardware and software needed for vehicles to navigate complex urban environments without human intervention. The term \"Physical AI\" isn't merely jargon; it embodies the company's philosophy of AI systems that don't just process data but actively understand and interact with the physical world, making real-time decisions crucial for safe and efficient autonomous operation.\n\nThis strategic shift positions XPENG not just as an EV maker, but as a holistic technology provider at the forefront of the autonomous revolution. Their journey from smart electric vehicles, already lauded for advanced driver-assistance systems, to full-fledged autonomous ride-hailing services, showcases a methodical approach. By deploying Robotaxis in a controlled employee environment first, XPENG can gather invaluable real-world data, iterate rapidly, and ensure robustness before a wider public rollout. This is a critical proving ground for their vision of intelligent, interconnected urban transport.\n\nThe implications are vast. As companies like XPENG push the boundaries, the concept of vehicle ownership might soon be challenged by on-demand, autonomous services. This employee testing phase is a crucial crucible for XPENG, shaping not only their commercial viability but also laying down critical foundations for how AI will integrate with the physical world in ways we're only just beginning to imagine.",
+    "id": "article-tec-mrge5xzk-000",
+    "title": "Silver Fox Unleashes MODBEACON: A Rust-Based RAT Cloaked in gRPC Encryption",
+    "summary": "The China-linked cybercrime group Silver Fox has deployed a new Rust-based remote access trojan (RAT) called MODBEACON. This malware leverages gRPC streaming for encrypted command and control traffic, making it particularly challenging to detect and monitor.",
+    "content": "A potent new digital threat has emerged from the shadows, attributed to the China-linked cybercrime collective known as Silver Fox. Dubbed MODBEACON, this sophisticated remote access trojan (RAT) stands out not only for its modern Rust-based architecture but, more notably, for leveraging gRPC streaming to encrypt its command and control (C2) communications. This innovative approach makes it a formidable challenge for even the most vigilant cybersecurity defenses.\n\nThe adoption of Rust, a modern programming language praised for its performance and memory safety, is a growing trend among malware developers seeking to craft more resilient and harder-to-detect tools. For MODBEACON, this choice, coupled with the implementation of gRPC — Google's high-performance open-source RPC framework — for its C2 traffic, represents a significant leap. This strategy effectively cloaks the malware's communications in a layer of encryption and obfuscation, allowing Silver Fox to operate with greater stealth. Silver Fox itself is a persistent threat actor, often associated with espionage or financially motivated cyber activities originating from China.\n\nChinese cybersecurity firm QiAnXin, which uncovered MODBEACON, highlights a peculiar duality: while the threat cluster might appear to be of \"low-sophistication\" in some aspects, its \"high-activity\" and technical choices like gRPC streaming tell a different story. This suggests a group that may prioritize broad, persistent campaigns but isn't afraid to integrate advanced techniques to ensure their tools remain effective. The use of encrypted gRPC streaming means traditional network monitoring tools will struggle to identify and intercept MODBEACON's malicious communications, making detection and mitigation significantly more complex.\n\nThe emergence of MODBEACON underscores a concerning evolution in cyber warfare, where threat actors are continuously adapting their methodologies to exploit modern protocols and programming languages. Organizations worldwide must remain vigilant, enhancing their endpoint detection and response capabilities and employing deeper traffic analysis to unmask such stealthy threats. As Silver Fox continues its activities, MODBEACON serves as a stark reminder that even seemingly \"low-sophistication\" groups can wield potent, evasive tools.",
     "keyTakeaways": [
-      "XPENG has begun employee testing of its Robotaxi platform, marking a significant milestone.",
-      "This move signals XPENG's strategic progression from intelligent EVs to fully autonomous vehicles.",
-      "The initiative is central to XPENG's vision of \"Physical AI,\" where AI systems actively interact with the real world."
+      "MODBEACON is a new Rust-based Remote Access Trojan (RAT) linked to the China-based Silver Fox cybercrime group.",
+      "Its key technical innovation is the use of gRPC streaming for encrypted command and control (C2) communications, significantly enhancing its stealth and evasion capabilities.",
+      "Cybersecurity firm QiAnXin notes MODBEACON combines a 'low-sophistication, high-activity' approach with advanced evasion techniques, posing a significant challenge for detection."
     ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-07-10 11:50",
+    "source": "Internet",
+    "author": "info@thehackernews.com (The Hacker News)",
+    "publishedAt": "2026-07-10 13:15",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://www.prnewswire.com/news-releases/from-smart-evs-to-autonomous-vehicles-xpeng-positions-robotaxi-as-a-key-milestone-in-bringing-physical-ai-to-the-real-world-302822753.html",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKTCUzhkUq2Y7DPv0yS2FatrHQTcHfupRly6f5kSWyQU-So3FOjpC8pt_VKR4qo1SoUGR65ycOEQonbW5heKWj1g_A8qDy69YtWGZDO4m2t46Sip-jdPAlNs2fpRj-w1yd8WpyJpNFUpj1iTBO0X6fy3n9DJ4aEdsWaQz_tN-VV-PxDrufKZR9wkznmXJQ/s1700-e365/MODBEACON.jpg",
+    "originalUrl": "https://thehackernews.com/2026/07/new-modbeacon-rat-uses-grpc-streaming.html",
     "tags": [
       "Technology",
-      "autonomous",
-      "vehicles"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mrgb1qm3-001",
-    "title": "The Unsung Heroes of Summer 2026 Travel: Gadgets That Sail Through Security (and Shine on Instagram)",
-    "summary": "Forget the last-minute scramble of tangled cables and forgotten chargers; smart travel tech is here to revolutionize your Summer 2026 adventures. These curated gadgets promise not only a smoother journey through airport security but also picture-perfect moments worthy of your social feed.",
-    "content": "That carry-on bag, resting patiently at the gate, tells a story long before the boarding call. More often than not, it whispers tales of last-minute panic: a frantic midnight dash, culminating in a haphazard assortment of electronics – a spaghetti junction of cables, three half-charged power banks, and a forgotten adapter.\n\nThis familiar pre-flight scene isn't just an inconvenience; it's a silent confession of travel unpreparedness, often leading to airport security snags and missed opportunities to capture the journey's magic. But as we look ahead to Summer 2026, a new breed of travel tech is emerging, promising to transform this chaotic ritual into a seamless, even stylish, experience.\n\nThe quest for the ultimate travel companion now goes beyond just functionality. We're talking about gadgets meticulously designed to not only streamline your journey but also to enhance every single moment – from the terminal to the destination. The gold standard for Summer 2026? Tech that effortlessly glides through stringent airport security checks while simultaneously being sleek, intuitive, and, crucially, camera-ready for that perfect Instagram shot.\n\nImagine intelligent organizers that keep your devices charged and cables untangled, portable power solutions that don't raise an eyebrow at TSA, and innovative cameras or accessories that capture breathtaking vistas with effortless flair. These aren't just tools; they’re enablers of richer, stress-free expeditions. They free you from the anxieties of forgetting a crucial charger or fumbling through security, allowing you to fully immerse yourself in the adventure.\n\nThe era of travel stress is giving way to an age of enlightened exploration. By embracing these smart, security-savvy, and aesthetically pleasing gadgets, travelers can finally bid farewell to the midnight packing scramble and embrace a truly elevated journey, where every moment is as smooth as it is memorable.",
-    "keyTakeaways": [
-      "The state of a traveler's carry-on often reveals their level of preparation and organization.",
-      "Next-generation travel gadgets for Summer 2026 are designed to be both airport security-compliant and aesthetically pleasing for social media.",
-      "Embracing smart travel tech can eliminate packing stress, streamline airport experiences, and enhance the ability to capture memorable moments."
-    ],
-    "source": "Yanko Design",
-    "author": "Srishti Mitra",
-    "publishedAt": "2026-07-10 11:40",
-    "category": "Technology",
-    "image": "https://www.yankodesign.com/images/design_news/2026/07/travel-gadgets-for-summer-2026-that-survive-both-airport-security-and-instagram/9_best_travel_gadgets_yanko_design_hero.jpg",
-    "originalUrl": "https://www.yankodesign.com/2026/07/10/9-best-travel-gadgets-for-summer-2026-that-survive-both-airport-security-and-instagram/",
-    "tags": [
-      "Technology",
-      "Travel",
-      "Gadgets"
+      "MODBEACON",
+      "Streaming"
     ],
     "readingTime": "2 min"
   }
