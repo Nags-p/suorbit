@@ -1,70 +1,47 @@
 [
   {
-    "id": "article-tec-mrkkefm2-000",
-    "title": "Web Searches Just Got a Brain Boost: HTTP's QUERY Method Arrives",
-    "summary": "The internet's fundamental protocol, HTTP, is getting a significant upgrade with the introduction of the new QUERY method, designed to revolutionize how complex web searches are handled. This new verb allows sophisticated queries to be safely cached and automatically retried, addressing a long-standing efficiency bottleneck for web infrastructure.",
-    "content": "For years, the internet has been making do with a bit of a hack: when web searches or complex data requests got too big for a simple URL, developers often repurposed the HTTP POST method. While POST works, it was never truly designed for the kind of repeatable, cacheable queries that power much of the modern web. The good news? The internet is finally getting a dedicated, smarter solution: the HTTP QUERY method.\n\nThis isn't just a minor tweak; it's a fundamental improvement. The new QUERY verb allows a request to carry content, much like POST, but critically, it’s designed to be \"idempotent.\" If that sounds like jargon, think of it this way: an idempotent operation is one that can be safely repeated multiple times without changing the server's state beyond the initial execution. This seemingly technical detail is a game-changer for web infrastructure.\n\nBecause QUERY is idempotent, reverse proxies, content delivery networks (CDNs), and gateways can confidently cache its responses. Imagine a massive, frequently requested search result: with QUERY, that response can be stored closer to the user, significantly speeding up delivery and reducing server load. Furthermore, network disruptions become less problematic; if a QUERY request times out, it can be automatically retried without fear of unintended side effects, leading to a more robust and responsive web.\n\nThis move effectively ends the era of complex searches masquerading as POST requests. Developers now have a semantically correct and efficient tool for building sophisticated, data-rich applications. For users, this means a faster, more reliable browsing experience, especially when interacting with data-heavy websites and APIs. The HTTP QUERY method isn't just a new verb; it's a critical step forward in optimizing the foundational language of the web.",
+    "id": "article-tec-mrkpcq1a-000",
+    "title": "Precision Unleashed: Proton Therapy Spearheads a New Era in Cancer Treatment",
+    "summary": "The proton therapy market is poised for significant growth, driven by its unparalleled precision in targeting cancer cells and the global rise in cancer diagnoses. This advanced, minimally invasive treatment offers crucial benefits, especially for vulnerable patient populations, while technological advancements continue to broaden its accessibility and efficacy.",
+    "content": "The fight against cancer has long been a relentless pursuit, marked by continuous innovation. Now, a groundbreaking technology is not just offering hope but actively reshaping the landscape of oncological care: proton therapy. This highly precise radiation treatment is poised for a significant market surge, driven by its unique advantages and the ever-increasing global incidence of cancer.\n\nUnlike traditional radiation therapies that can damage surrounding healthy tissues, proton therapy employs charged particles to deliver a targeted dose directly to the tumor with unparalleled accuracy. This 'Bragg peak' effect minimizes collateral damage, leading to fewer side effects and improved quality of life for patients. Such precision makes it a game-changer, particularly for treating tumors in sensitive areas like the brain, spinal cord, or eyes, and is especially beneficial for pediatric cancer patients, where protecting developing tissues is paramount.\n\nThe global demand for minimally invasive and highly effective cancer treatments is pushing the proton therapy market into a new era of expansion. Advanced technologies are making these complex systems more accessible and efficient, expanding their reach to more healthcare facilities worldwide. This technological evolution, coupled with a rising understanding of its benefits, is fueling investments from leading players like IBA, Hitachi, Siemens Healthineers, and Mevion, who are at the forefront of developing next-generation proton therapy solutions.\n\nAs cancer diagnoses continue to rise globally, the imperative for safer, more effective treatments grows stronger. Proton therapy, with its promise of precision, reduced side effects, and adaptability across various cancer types, represents a critical step forward. It's not just a treatment; it's a testament to how advanced medical technology can fundamentally transform patient outcomes and redefine the future of cancer care.",
     "keyTakeaways": [
-      "The new HTTP QUERY method provides a dedicated, efficient way to handle complex web searches and data requests.",
-      "It is \"idempotent,\" meaning requests can be safely repeated and their responses effectively cached by proxies and CDNs.",
-      "This improvement leads to faster web performance, reduced server load, and more reliable user experiences by enabling automatic retries."
+      "Proton therapy offers superior precision in targeting cancer cells, minimizing damage to surrounding healthy tissues compared to traditional radiation.",
+      "The market for proton therapy is experiencing significant growth, driven by rising global cancer incidence and increasing demand for minimally invasive treatments.",
+      "This advanced therapy is particularly beneficial for pediatric patients and tumors located in sensitive body areas, contributing to fewer side effects and better patient outcomes."
     ],
-    "source": "Theregister.com",
-    "author": "Joab Jackson",
-    "publishedAt": "2026-07-13 11:15",
+    "source": "GlobeNewswire",
+    "author": "Research and Markets",
+    "publishedAt": "2026-07-13 13:41",
     "category": "Technology",
-    "image": "https://image.theregister.com/5270296.jpg?imageId=5270296&x=0&y=24.72&cropw=100&croph=71.67&panox=0&panoy=24.72&panow=100&panoh=71.67&width=1200&height=683",
-    "originalUrl": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
+    "image": "https://ml.globenewswire.com/Resource/Download/908fb457-7f8e-4a08-9081-5565e3dfb3d7",
+    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/13/3326254/28124/en/Proton-Therapy-Market-Global-Forecast-to-2032-Published-Segments-by-Type-Product-Type-Setup-Type-and-7-Applications-Profiles-IBA-Hitachi-Siemens-Healthineers-Mevion-and-6-Others.html",
     "tags": [
       "Technology",
-      "method",
-      "complex"
+      "Proton",
+      "Therapy"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mrkken1i-001",
-    "title": "Warfare's New Architects: How AI and Big Tech Are Redrawing the Battlefield",
-    "summary": "A quiet revolution is transforming modern warfare, driven by artificial intelligence and the growing synergy between armed forces and technology companies. This shift introduces a new \"military-tech complex,\" fundamentally altering military decision-making, accelerating conflict, and raising profound ethical questions about autonomy and accountability on the digital battlefield.",
-    "content": "Forget tanks and fighter jets for a moment. The next frontier of warfare isn't just about hardware; it's about algorithms and data. A profound, often unseen, revolution is reshaping modern conflict, driven by artificial intelligence and the burgeoning influence of Big Tech. No longer merely contractors for bespoke military hardware, companies from Silicon Valley and beyond are increasingly entwined with armed forces, creating a potent new \"military-tech complex.\"\n\nThis seismic shift is meticulously explored in works like \"AI, Automation and War,\" which details how AI is fundamentally altering military decision-making. We're talking about systems that can process vast quantities of intelligence data in milliseconds, identify patterns human analysts might miss, and even suggest optimal courses of action – or execute them autonomously. This accelerates the tempo of conflict to unprecedented levels, demanding a re-evaluation of command structures and ethical guidelines.\n\nThe implications extend far beyond mere efficiency. These new alliances see tech giants bringing their cutting-edge research in machine learning, robotics, and big data analytics directly to the battlefield. This isn't just about faster drones; it's about predictive logistics, advanced reconnaissance, and potentially even autonomous weapon systems that make life-or-death decisions without direct human intervention. The sociological dimension, as highlighted by experts, raises critical questions about accountability, the nature of human oversight, and the very definition of war in an age where algorithms might dictate strategy.\n\nAs nations vie for technological supremacy, the lines between civilian innovation and military application blur further. This transformation isn't just an upgrade; it's a fundamental re-architecture of how wars are fought, who fights them, and the ethical quandaries that arise when the battlefield becomes a digital proving ground for the most advanced algorithms humanity has ever conceived.",
+    "id": "article-tec-mrkpcwlq-001",
+    "title": "From Courtroom to X: Musk and Altman's Weekend AI Brawl Erupts Publicly",
+    "summary": "Following a recent legal setback against Sam Altman, Elon Musk ignited a public war of words on X, transforming the social media platform into a battleground over the weekend. The heated exchange saw the two titans of AI, both co-founders of OpenAI, trade accusations of fraud in real-time, captivating millions of onlookers.",
+    "content": "The simmering tensions between tech's most prominent figures, Elon Musk and Sam Altman, erupted into a full-blown public spectacle this past weekend, turning X (formerly Twitter) into an unlikely arena for a high-stakes AI feud. Fresh off a legal defeat against OpenAI CEO Sam Altman, a visibly disgruntled Musk wasn't content to let the courts have the final say. Instead, he took his grievances straight to the public square, launching a barrage of accusations against his former co-founder.\n\nThe digital battlefield quickly ignited as Musk, not one to shy away from controversy, leveraged his preferred platform to air his discontents. The exchange wasn't merely a war of words; it was a no-holds-barred public shaming, with both men — instrumental in OpenAI's inception — reportedly trading insults and labeling each other 'frauds.' This played out in real-time, a raw and unfiltered drama unfolding before millions of followers eager to witness the Silicon Valley equivalent of a gladiatorial contest.\n\nWhile the specifics of the recent court case remain somewhat veiled from the public eye, the underlying friction stems from the evolving mission and structure of OpenAI, a company Musk helped found before his dramatic departure. His long-standing criticism of OpenAI's pivot from its original non-profit, open-source ethos to a for-profit, Microsoft-backed entity has been a recurring theme. This weekend, however, the professional disagreements devolved into deeply personal attacks, blurring the lines between legitimate critique and public insult.\n\nThe highly visible spat serves as a stark reminder of the intense rivalries and deeply personal stakes in the burgeoning AI industry. As these two titans continue their public sparring, the world watches, not just for the drama, but for what these very public battles signify for the future direction and control of artificial intelligence.",
     "keyTakeaways": [
-      "AI is fundamentally reshaping military decision-making processes and the pace of modern conflict.",
-      "A new \"military-tech complex\" is emerging, characterized by deep alliances between armed forces and technology companies.",
-      "This transformation raises significant ethical and sociological questions regarding autonomous systems, accountability, and the nature of future warfare."
+      "Elon Musk escalated his feud with Sam Altman onto X following a recent legal defeat.",
+      "The public spat involved accusations of fraud and played out in real-time, drawing millions of viewers.",
+      "The conflict highlights deep-seated tensions over OpenAI's direction and the competitive nature of the AI industry."
     ],
-    "source": "Lse.ac.uk",
-    "author": "Dalton,A",
-    "publishedAt": "2026-07-13 11:11",
+    "source": "The Next Web",
+    "author": "Ana Maria Constantin",
+    "publishedAt": "2026-07-13 13:40",
     "category": "Technology",
-    "image": "https://blogsmedia.lse.ac.uk/blogs.dir/30/files/2026/07/shutterstock_2805086907.747.jpg",
-    "originalUrl": "https://blogs.lse.ac.uk/lsereviewofbooks/2026/07/13/book-review-ai-automation-and-war-the-rise-of-a-military-tech-complex-anthony-king/",
+    "image": "https://media.thenextweb.com/2026/04/musk-altman-openai-trial-opening-arguments.avif",
+    "originalUrl": "https://thenextweb.com/news/musk-altman-scam-altman-fight-on-x/",
     "tags": [
       "Technology",
-      "reshaping",
-      "modern"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mrkkexnl-002",
-    "title": "Victoria's WFH Gambit: A Global Blueprint or a Business Exodus?",
-    "summary": "Victoria, Australia, is on the verge of enacting landmark legislation to enshrine work-from-home rights, a move that could set a significant national and international precedent for flexible employment. However, employer groups are fiercely opposing the reforms, warning that nearly half of the state's businesses might relocate to avoid the proposed new obligations.",
-    "content": "Victoria, Australia, is poised to redefine the modern workplace, moving to enshrine \"work from home\" rights directly into law. This isn't just a minor tweak; it's a significant legislative stride, positioning the state as a potential trailblazer in the global shift towards flexible work. However, this progressive move has ignited a fierce debate, drawing sharp criticism from employer groups who warn of dire economic consequences.\n\nAt the heart of the contention lies the fear that these landmark changes could compel businesses to pack up and leave. Employer associations are sounding the alarm, projecting that nearly half of Victoria's enterprises might consider relocating across state borders. Their concerns aren't merely hypothetical; they cite potential administrative burdens, increased operational costs, and a perceived loss of managerial flexibility as key drivers for such a drastic exodus. The prospect of a state-mandated WFH framework, they argue, could stifle innovation and collaboration, making Victoria less competitive on the national and international stages.\n\nThis legislative showdown in Victoria isn't just a local skirmish; it's a test case for the future of work everywhere. If successful, it could embolden other Australian states and even international jurisdictions to follow suit, fundamentally reshaping employee-employer dynamics globally. The pandemic undeniably accelerated the adoption of remote work, proving its viability for countless roles. Now, the challenge is balancing employee well-being and autonomy with the practical realities and economic health of businesses. Victoria's decision will likely serve as a crucial benchmark, illustrating either a forward-thinking blueprint or a cautionary tale for how governments can (or can't) legislate flexibility.\n\nAs the world grapples with hybrid models and the evolving demands of the modern workforce, the eyes of the tech and business communities will undoubtedly be on Victoria. The outcome here won't just impact local businesses and employees; it will offer valuable insights into the delicate interplay between policy, prosperity, and the pursuit of a more adaptable, human-centric future of work.",
-    "keyTakeaways": [
-      "Victoria is set to implement groundbreaking laws enshrining the right for employees to work from home, potentially making it a global leader in flexible work policy.",
-      "Employer groups are strongly resisting these changes, warning that they could force almost 50% of Victorian businesses to relocate due to increased burdens and reduced flexibility.",
-      "The outcome in Victoria will serve as a critical precedent, influencing how other regions globally might approach legislating remote work and the balance between employee rights and business needs."
-    ],
-    "source": "Dailymail.com",
-    "author": "Burney Wong",
-    "publishedAt": "2026-07-13 11:07",
-    "category": "Technology",
-    "image": "https://i.dailymail.com/1s/2026/07/13/07/109978285-0-image-a-7_1783923238953.jpg",
-    "originalUrl": "https://www.dailymail.com/news/article-15972561/Victoria-work-home-laws-businesses.html",
-    "tags": [
-      "Technology",
-      "warning",
-      "businesses"
+      "Altman",
+      "inside"
     ],
     "readingTime": "2 min"
   }
