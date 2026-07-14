@@ -1,70 +1,70 @@
 [
   {
-    "id": "article-tec-mrkfdq4n-000",
-    "title": "The Great American Job Shuffle: A Mesmerizing Look at 166 Years of Labor Transformation",
-    "summary": "A captivating animated bar chart from Geeksaresexy.net provides a dynamic visual history of America's evolving job market from 1860 to 2026. It compellingly illustrates the rise, dominance, and eventual decline of professions, reflecting profound technological and societal shifts over 166 years.",
-    "content": "What if you could fast-forward through 166 years of American economic history, watching the very fabric of its workforce evolve before your eyes? A mesmerizing animated bar chart, surfacing from Geeksaresexy.net, offers precisely that, telling a story more vividly and compellingly than any static textbook could. It’s an enthralling visual journey charting the rise and eventual decline of America's most popular jobs from 1860 right up to a projected 2026.\n\nAs the years race across the screen, the data doesn't just display numbers; it unfolds a saga of profound societal and technological transformation. We witness the colossal dominance of agricultural labor gradually cede its ground, first to the titans of industrial manufacturing, then to the burgeoning service sector, and ultimately to the intricate web of information and technology-driven professions that define our modern era. Each fleeting bar represents not just a statistic, but countless human lives, evolving skills, and shifting economic landscapes.\n\nThis animated chronicle isn't merely a historical curiosity; it's a powerful mirror reflecting the impact of monumental shifts – from the mechanization of farming and the dawn of mass production to the digital revolution and the rise of artificial intelligence. Professions once central to daily life, like blacksmiths or telephone operators, elegantly shrink into obscurity, replaced by software developers, data scientists, and specialized healthcare roles. The visualization highlights the relentless, often brutal, march of progress and the constant demand for adaptability in the face of innovation.\n\nBeyond illustrating the past, the chart subtly hints at the future, projecting current trends to offer a glimpse into the evolving landscape of work. It’s a sobering reminder that the job market is a living, breathing entity, perpetually in flux, pushing individuals and societies alike to anticipate change. This single animation distills centuries of human endeavor into a few captivating minutes, emphasizing the transient nature of even the most dominant professions and the enduring imperative for resilience and re-skilling.",
+    "id": "article-tec-mrkkefm2-000",
+    "title": "Web Searches Just Got a Brain Boost: HTTP's QUERY Method Arrives",
+    "summary": "The internet's fundamental protocol, HTTP, is getting a significant upgrade with the introduction of the new QUERY method, designed to revolutionize how complex web searches are handled. This new verb allows sophisticated queries to be safely cached and automatically retried, addressing a long-standing efficiency bottleneck for web infrastructure.",
+    "content": "For years, the internet has been making do with a bit of a hack: when web searches or complex data requests got too big for a simple URL, developers often repurposed the HTTP POST method. While POST works, it was never truly designed for the kind of repeatable, cacheable queries that power much of the modern web. The good news? The internet is finally getting a dedicated, smarter solution: the HTTP QUERY method.\n\nThis isn't just a minor tweak; it's a fundamental improvement. The new QUERY verb allows a request to carry content, much like POST, but critically, it’s designed to be \"idempotent.\" If that sounds like jargon, think of it this way: an idempotent operation is one that can be safely repeated multiple times without changing the server's state beyond the initial execution. This seemingly technical detail is a game-changer for web infrastructure.\n\nBecause QUERY is idempotent, reverse proxies, content delivery networks (CDNs), and gateways can confidently cache its responses. Imagine a massive, frequently requested search result: with QUERY, that response can be stored closer to the user, significantly speeding up delivery and reducing server load. Furthermore, network disruptions become less problematic; if a QUERY request times out, it can be automatically retried without fear of unintended side effects, leading to a more robust and responsive web.\n\nThis move effectively ends the era of complex searches masquerading as POST requests. Developers now have a semantically correct and efficient tool for building sophisticated, data-rich applications. For users, this means a faster, more reliable browsing experience, especially when interacting with data-heavy websites and APIs. The HTTP QUERY method isn't just a new verb; it's a critical step forward in optimizing the foundational language of the web.",
     "keyTakeaways": [
-      "The American job market has undergone relentless transformation over 166 years, visualized compellingly through an animated chart.",
-      "Technological advancements and societal shifts are the primary drivers behind the rise and fall of dominant professions.",
-      "The visualization underscores the critical importance of adaptability and re-skilling in an ever-evolving global economy."
+      "The new HTTP QUERY method provides a dedicated, efficient way to handle complex web searches and data requests.",
+      "It is \"idempotent,\" meaning requests can be safely repeated and their responses effectively cached by proxies and CDNs.",
+      "This improvement leads to faster web performance, reduced server load, and more reliable user experiences by enabling automatic retries."
     ],
-    "source": "Geeksaresexy.net",
-    "author": "Geeks are Sexy",
-    "publishedAt": "2026-07-13 09:00",
+    "source": "Theregister.com",
+    "author": "Joab Jackson",
+    "publishedAt": "2026-07-13 11:15",
     "category": "Technology",
-    "image": "https://i0.wp.com/www.geeksaresexy.net/wp-content/uploads/2026/07/jobs.jpg?fit=1200%2C630&ssl=1",
-    "originalUrl": "https://www.geeksaresexy.net/2026/07/13/the-rise-and-fall-of-americas-most-popular-jobs-1860-2026/",
+    "image": "https://image.theregister.com/5270296.jpg?imageId=5270296&x=0&y=24.72&cropw=100&croph=71.67&panox=0&panoy=24.72&panow=100&panoh=71.67&width=1200&height=683",
+    "originalUrl": "https://www.theregister.com/devops/2026/07/13/http-gets-a-query-method-so-complex-searches-can-stop-pretending-to-be-post/5270192",
     "tags": [
       "Technology",
-      "Americas",
-      "Popular"
+      "method",
+      "complex"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mrkfdyyr-001",
-    "title": "Galaxy Z Fold 8 Ultra Leaks Hint at Samsung's Next Foldable Frontier",
-    "summary": "Samsung's upcoming Galaxy Z Fold 8 Ultra is poised to redefine the foldable smartphone landscape with a significant generational leap. Anticipated upgrades span display quality, structural durability, raw performance, and crucial battery life, aiming to deliver an unparalleled premium user experience.",
-    "content": "The rumor mill is abuzz with details surrounding the Samsung Galaxy Z Fold 8 Ultra, a device that appears set to not just iterate, but redefine expectations within the increasingly competitive foldable smartphone market. Far from a mere spec bump, early insights suggest Samsung is targeting a monumental leap forward, positioning the 'Ultra' moniker as a true statement of intent for the brand's foldable future.\n\nAt the core of these anticipated advancements lies a relentless focus on the user experience. Industry whispers point to a radically enhanced display quality, promising not only sharper visuals and more vibrant colors but potentially a further reduction in the visible crease that has been a hallmark, and often a criticism, of foldable technology. This display will likely be paired with significant gains in structural durability, addressing long-standing concerns about the longevity of flexible screens and intricate hinge mechanisms. Samsung seems to be listening intently to power users demanding a device that feels as robust as it is innovative.\n\nBeyond the visual and tactile, the Z Fold 8 Ultra is expected to deliver a substantial upgrade in raw performance. We're talking about the kind of next-generation processing power that makes seamless multitasking, graphically intensive gaming, and demanding productivity tasks feel effortless. Crucially, this power boost will reportedly be complemented by vastly improved battery life, moving past the common trade-off in early foldable designs to offer all-day endurance, even for the most demanding users.\n\nThese combined enhancements aren't just about winning a spec sheet battle; they're about fulfilling the promise of a premium device that genuinely meets the demands of a high-end market segment. The Galaxy Z Fold 8 Ultra appears engineered to be more than just a novelty; it's Samsung's bold play to solidify its dominance, offering a sophisticated, durable, and exceptionally powerful foldable experience that truly blurs the lines between a flagship smartphone and a portable tablet.",
+    "id": "article-tec-mrkken1i-001",
+    "title": "Warfare's New Architects: How AI and Big Tech Are Redrawing the Battlefield",
+    "summary": "A quiet revolution is transforming modern warfare, driven by artificial intelligence and the growing synergy between armed forces and technology companies. This shift introduces a new \"military-tech complex,\" fundamentally altering military decision-making, accelerating conflict, and raising profound ethical questions about autonomy and accountability on the digital battlefield.",
+    "content": "Forget tanks and fighter jets for a moment. The next frontier of warfare isn't just about hardware; it's about algorithms and data. A profound, often unseen, revolution is reshaping modern conflict, driven by artificial intelligence and the burgeoning influence of Big Tech. No longer merely contractors for bespoke military hardware, companies from Silicon Valley and beyond are increasingly entwined with armed forces, creating a potent new \"military-tech complex.\"\n\nThis seismic shift is meticulously explored in works like \"AI, Automation and War,\" which details how AI is fundamentally altering military decision-making. We're talking about systems that can process vast quantities of intelligence data in milliseconds, identify patterns human analysts might miss, and even suggest optimal courses of action – or execute them autonomously. This accelerates the tempo of conflict to unprecedented levels, demanding a re-evaluation of command structures and ethical guidelines.\n\nThe implications extend far beyond mere efficiency. These new alliances see tech giants bringing their cutting-edge research in machine learning, robotics, and big data analytics directly to the battlefield. This isn't just about faster drones; it's about predictive logistics, advanced reconnaissance, and potentially even autonomous weapon systems that make life-or-death decisions without direct human intervention. The sociological dimension, as highlighted by experts, raises critical questions about accountability, the nature of human oversight, and the very definition of war in an age where algorithms might dictate strategy.\n\nAs nations vie for technological supremacy, the lines between civilian innovation and military application blur further. This transformation isn't just an upgrade; it's a fundamental re-architecture of how wars are fought, who fights them, and the ethical quandaries that arise when the battlefield becomes a digital proving ground for the most advanced algorithms humanity has ever conceived.",
     "keyTakeaways": [
-      "The Galaxy Z Fold 8 Ultra is anticipated to be a significant generational leap, not just an incremental upgrade, for Samsung's foldable line.",
-      "Key improvements are expected in display quality (including reduced crease visibility), structural durability, and overall performance.",
-      "Battery life is also slated for a major boost, addressing a critical demand for power users in the premium foldable market."
+      "AI is fundamentally reshaping military decision-making processes and the pace of modern conflict.",
+      "A new \"military-tech complex\" is emerging, characterized by deep alliances between armed forces and technology companies.",
+      "This transformation raises significant ethical and sociological questions regarding autonomous systems, accountability, and the nature of future warfare."
     ],
-    "source": "Geeky Gadgets",
-    "author": "Roland Hutchinson",
-    "publishedAt": "2026-07-13 09:00",
+    "source": "Lse.ac.uk",
+    "author": "Dalton,A",
+    "publishedAt": "2026-07-13 11:11",
     "category": "Technology",
-    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/07/Fold-8-Wide-2.jpg",
-    "originalUrl": "https://www.geeky-gadgets.com/samsung-galaxy-z-fold-8-ultra-13/",
+    "image": "https://blogsmedia.lse.ac.uk/blogs.dir/30/files/2026/07/shutterstock_2805086907.747.jpg",
+    "originalUrl": "https://blogs.lse.ac.uk/lsereviewofbooks/2026/07/13/book-review-ai-automation-and-war-the-rise-of-a-military-tech-complex-anthony-king/",
     "tags": [
       "Technology",
-      "Samsung",
-      "Galaxy"
+      "reshaping",
+      "modern"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mrkfeagg-002",
-    "title": "Rubicon Point Bolsters Silicon Valley Presence with Prime Cupertino Campus Acquisition",
-    "summary": "Rubicon Point Partners has significantly expanded its Bay Area real estate holdings by acquiring Wolfe Square, a substantial 117,795-square-foot Class A office and medical campus in Cupertino. This strategic move underscores continued robust investor confidence in Silicon Valley's diverse commercial property market, securing a high-occupancy asset in a coveted location.",
-    "content": "San Francisco-based Rubicon Point Partners (RPP) made a significant play in the heart of Silicon Valley this week, announcing its acquisition of Wolfe Square, a sprawling 117,795-square-foot Class A office and medical campus in Cupertino, California. The deal, finalized on July 13, 2026, further solidifies RPP's growing Bay Area portfolio with a prime asset nestled in one of the world's most dynamic economic regions.\n\nWolfe Square stands out as a high-quality, institutionally managed property, boasting an enviable high occupancy rate – a critical factor in today's evolving commercial real estate landscape. Its unique dual designation as both an office and medical campus offers a versatile appeal, catering to a broad spectrum of tenants. This includes traditional tech firms seeking premium space adjacent to industry giants, as well as specialized healthcare providers looking for modern facilities within proximity to a highly skilled workforce. Such adaptability is particularly valuable in a market known for its rapid shifts and diverse demands.\n\nFor Rubicon Point Partners, this acquisition isn't merely about adding square footage; it's a strategic deepening of their commitment to the Bay Area. The firm has a strong track record of identifying and investing in high-performing assets that demonstrate long-term growth potential and resilience. Securing an established, high-occupancy property like Wolfe Square in Cupertino, a city synonymous with innovation and economic vitality, speaks volumes about RPP's confidence in the enduring strength and multifaceted nature of the region’s commercial market.\n\nThe move also signals a continued bullish sentiment among sophisticated investors regarding Silicon Valley's real estate. Even as remote and hybrid work models reshape office demand, premium, well-located properties that offer flexible, modern environments remain exceptionally sought after. Wolfe Square’s blend of top-tier amenities and strategic location positions it well to thrive, providing stability and future upside for Rubicon Point Partners as they strategically expand their footprint across the competitive Bay Area. This acquisition underscores a belief that high-quality, versatile assets in prime locations will continue to be invaluable anchors in the vibrant, innovation-driven economy of Silicon Valley.",
+    "id": "article-tec-mrkkexnl-002",
+    "title": "Victoria's WFH Gambit: A Global Blueprint or a Business Exodus?",
+    "summary": "Victoria, Australia, is on the verge of enacting landmark legislation to enshrine work-from-home rights, a move that could set a significant national and international precedent for flexible employment. However, employer groups are fiercely opposing the reforms, warning that nearly half of the state's businesses might relocate to avoid the proposed new obligations.",
+    "content": "Victoria, Australia, is poised to redefine the modern workplace, moving to enshrine \"work from home\" rights directly into law. This isn't just a minor tweak; it's a significant legislative stride, positioning the state as a potential trailblazer in the global shift towards flexible work. However, this progressive move has ignited a fierce debate, drawing sharp criticism from employer groups who warn of dire economic consequences.\n\nAt the heart of the contention lies the fear that these landmark changes could compel businesses to pack up and leave. Employer associations are sounding the alarm, projecting that nearly half of Victoria's enterprises might consider relocating across state borders. Their concerns aren't merely hypothetical; they cite potential administrative burdens, increased operational costs, and a perceived loss of managerial flexibility as key drivers for such a drastic exodus. The prospect of a state-mandated WFH framework, they argue, could stifle innovation and collaboration, making Victoria less competitive on the national and international stages.\n\nThis legislative showdown in Victoria isn't just a local skirmish; it's a test case for the future of work everywhere. If successful, it could embolden other Australian states and even international jurisdictions to follow suit, fundamentally reshaping employee-employer dynamics globally. The pandemic undeniably accelerated the adoption of remote work, proving its viability for countless roles. Now, the challenge is balancing employee well-being and autonomy with the practical realities and economic health of businesses. Victoria's decision will likely serve as a crucial benchmark, illustrating either a forward-thinking blueprint or a cautionary tale for how governments can (or can't) legislate flexibility.\n\nAs the world grapples with hybrid models and the evolving demands of the modern workforce, the eyes of the tech and business communities will undoubtedly be on Victoria. The outcome here won't just impact local businesses and employees; it will offer valuable insights into the delicate interplay between policy, prosperity, and the pursuit of a more adaptable, human-centric future of work.",
     "keyTakeaways": [
-      "Rubicon Point Partners acquired Wolfe Square, a 117,795 sq ft Class A office and medical campus, in Cupertino, CA.",
-      "The acquisition strengthens RPP's Bay Area portfolio with a high-occupancy, institutionally managed, versatile asset.",
-      "This move highlights strong investor confidence in Silicon Valley's diverse and resilient commercial real estate market."
+      "Victoria is set to implement groundbreaking laws enshrining the right for employees to work from home, potentially making it a global leader in flexible work policy.",
+      "Employer groups are strongly resisting these changes, warning that they could force almost 50% of Victorian businesses to relocate due to increased burdens and reduced flexibility.",
+      "The outcome in Victoria will serve as a critical precedent, influencing how other regions globally might approach legislating remote work and the balance between employee rights and business needs."
     ],
-    "source": "GlobeNewswire",
-    "author": "Rubicon Point Partners",
-    "publishedAt": "2026-07-13 09:00",
+    "source": "Dailymail.com",
+    "author": "Burney Wong",
+    "publishedAt": "2026-07-13 11:07",
     "category": "Technology",
-    "image": "https://ml.globenewswire.com/Resource/Download/740a0d6c-4b27-4a44-8332-7b8981fcf8f6",
-    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/13/3325986/0/en/Rubicon-Point-Partners-Acquires-Wolfe-Square-in-Cupertino-CA.html",
+    "image": "https://i.dailymail.com/1s/2026/07/13/07/109978285-0-image-a-7_1783923238953.jpg",
+    "originalUrl": "https://www.dailymail.com/news/article-15972561/Victoria-work-home-laws-businesses.html",
     "tags": [
       "Technology",
-      "Rubicon",
-      "Partners"
+      "warning",
+      "businesses"
     ],
     "readingTime": "2 min"
   }
