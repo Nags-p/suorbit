@@ -1,22 +1,70 @@
 [
   {
-    "id": "article-tec-mrn4bgte-000",
-    "title": "AI Chip Rollercoaster: ASML Soars on EUV Demand While IBM Stumbles",
-    "summary": "The semiconductor industry is navigating extreme volatility, driven by the relentless demand for AI, leading to starkly contrasting fortunes for key players. ASML, the Dutch lithography giant, has defied market jitters with raised guidance thanks to its indispensable extreme ultraviolet (EUV) technology, even as IBM grapples with significant disappointments and SK Hynix shows signs of renewed confidence.",
-    "content": "The global semiconductor market continues its wild ride, a dizzying landscape shaped by the insatiable appetite for artificial intelligence. While some titans are finding themselves caught in the crosscurrents, others are demonstrating remarkable resilience, even accelerating their growth.\n\nAt the forefront of this selective boom is ASML, the Dutch powerhouse synonymous with cutting-edge chip manufacturing. Their specialized extreme ultraviolet (EUV) lithography machines are not merely tools; they are the irreplaceable bedrock upon which the most advanced chips — the very brains of AI — are etched. It's no wonder, then, that ASML has not only navigated the market's turbulence but has also managed to raise its guidance, a testament to the non-negotiable demand for its technology in an increasingly AI-centric world. Their indispensable role in producing next-generation silicon puts them in an enviable, almost unassailable, position.\n\nHowever, the story isn't universally bright. IBM, a venerable name in technology, finds itself wrestling with significant headwinds, delivering results that have widely disappointed investors. While details are still emerging from their full report, the market's reaction suggests that Big Blue is struggling to keep pace or pivot effectively in certain crucial areas, highlighting the fierce competition and rapid shifts within the broader tech landscape.\n\nMeanwhile, South Korean memory giant SK Hynix is experiencing a welcome resurgence. After a period of uncertainty, the company appears to be regaining investor confidence, likely fueled by a recovering demand for high-bandwidth memory (HBM) �� a critical component for AI accelerators. This selective recovery underscores how deeply intertwined the fortunes of chipmakers are with the ongoing AI revolution, rewarding those who can deliver the specialized hardware necessary for its rapid expansion. The volatility isn't slowing; it's simply creating clearer winners and losers.",
+    "id": "article-tec-mrnaldv6-000",
+    "title": "Minisforum MS03 Unleashes Desktop Power in a Surprisingly Tiny Package",
+    "summary": "Minisforum is redefining the compact PC landscape with its new MS03, a mini powerhouse packing desktop-level performance into a surprisingly small chassis. Driven by the potent Intel Core Ultra 9 386H CPU, this device targets professionals and enthusiasts needing serious muscle without the bulk.",
+    "content": "For years, the promise of the mini PC has often come with a tacit understanding: you gain unparalleled compactness, but you inevitably sacrifice raw performance. That paradigm is about to be shattered by the Minisforum MS03, a device that confidently brings genuine desktop-level processing power into a form factor barely larger than a stack of coasters. It’s a compelling proposition for anyone who believes their workstation shouldn't dominate their desk.\n\nAt the heart of this pint-sized titan lies the formidable Intel Core Ultra 9 386H CPU. This isn't just an efficient mobile chip; we're talking about a 16-core architecture designed to handle workloads that would typically send lesser mini PCs sputtering. From intricate video editing and complex 3D rendering to heavy-duty software development and demanding data analysis, the MS03 positions itself as a no-compromise solution for professionals and power users who need every ounce of processing might in the smallest possible footprint.\n\nThis isn't just about raw silicon, though. Minisforum has clearly engineered the MS03 to optimize thermal management and connectivity, ensuring that the powerful Ultra 9 386H can truly stretch its legs without throttling. The result is a machine that’s not just compact but also consistently capable, challenging the very notion that a high-performance PC must be a sprawling tower. The MS03 marks a significant leap, pushing the mini PC category from a niche convenience to a serious contender for the most demanding computing tasks.",
     "keyTakeaways": [
-      "ASML's indispensable extreme ultraviolet (EUV) technology is driving its strong performance and raised guidance, cementing its critical role in advanced AI chip manufacturing.",
-      "The semiconductor sector is experiencing extreme volatility, with clear winners like ASML and a recovering SK Hynix, contrasted by significant disappointments from IBM.",
-      "The global push for AI is the primary catalyst reshaping the chip market, dictating demand and success for companies providing essential hardware components."
+      "The Minisforum MS03 fundamentally redefines the capabilities of mini PCs, offering true desktop-level performance in a compact form factor.",
+      "Equipped with the powerful Intel Core Ultra 9 386H CPU and its 16-core architecture, the MS03 is engineered for intensive workloads.",
+      "This device is a compelling option for professionals and power users who require high-end processing without the bulk of a traditional tower."
     ],
-    "source": "CNBC",
-    "author": "Leonie Kidd",
-    "publishedAt": "2026-07-15 06:15",
+    "source": "Geeky Gadgets",
+    "author": "Julian Horsey",
+    "publishedAt": "2026-07-15 09:13",
     "category": "Technology",
-    "image": "https://image.cnbcfm.com/api/v1/image/106961477-1634330393530-NXE3400_Simplify_seq11_20180130.png?v=1634330967&w=1920&h=1080",
-    "originalUrl": "https://www.cnbc.com/2026/07/15/cnbc-daily-open-chips-asml-earnings.html",
+    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/07/minisforum-ms03-front-view.jpg",
+    "originalUrl": "https://www.geeky-gadgets.com/minisforum-ms03-hands-on-review/",
     "tags": [
-      "Technology"
+      "Technology",
+      "Minisforum",
+      "Handson"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mrnall2b-001",
+    "title": "Global Tech's Achilles' Heel: Why Centralizing Open Source Security Threatens Us All",
+    "summary": "A vital coordinated effort to secure the world's ubiquitous open source software is overdue, but a proposal to route all sensitive security data through a single national jurisdiction is drawing sharp criticism. This approach is seen as recreating the very weakness it aims to fix, introducing immense geopolitical risk and a dangerous single point of failure for our collective digital infrastructure.",
+    "content": "Open source software is the invisible backbone of our digital world, powering everything from government systems to the smartphones in our pockets. Its collaborative nature has fueled unprecedented innovation, yet this very openness also presents a vast attack surface. As cyber threats become more sophisticated and state-sponsored attacks more prevalent, the security of this vital infrastructure has become an urgent global priority.\n\nIndeed, a synchronized, worldwide effort to fortify open source has been long overdue. However, a concerning proposal threatens to undermine this critical mission: the idea of funneling the world's most sensitive security data and coordination through a single national jurisdiction. As Natalia Loungou from Eclipse.org trenchantly observes, such a move paradoxically recreates the very weakness it purports to fix, transforming a distributed ecosystem into a centralized chokepoint.\n\nThis approach isn't just inefficient; it's inherently perilous. Entrusting the global defense of open source to a singular nation introduces immense geopolitical risk and a devastating single point of failure. Imagine the leverage this would grant one government, or the catastrophic fallout if that jurisdiction itself were compromised or weaponized. It flies in the face of the decentralized, community-driven principles that made open source so robust and trustworthy in the first place.\n\nSecuring open source demands a truly global, federated, and transparent model. It requires diverse stakeholders – developers, companies, and governments from every corner of the planet – to collaborate on shared standards, threat intelligence, and remediation efforts without ceding control to a single entity. The stakes are too high to trade one form of vulnerability for another. Our collective digital future depends on building a truly resilient, distributed defense, reflecting the very essence of open source itself.",
+    "keyTakeaways": [
+      "The security of open source software, the backbone of modern tech, is a critical and urgent global priority.",
+      "Proposals to centralize global open source security efforts within a single national jurisdiction risk creating a dangerous single point of failure and geopolitical leverage.",
+      "A truly secure open source future requires a distributed, transparent, and globally collaborative defense model that respects its decentralized ethos."
+    ],
+    "source": "Eclipse.org",
+    "author": "Natalia Loungou",
+    "publishedAt": "2026-07-15 09:06",
+    "category": "Technology",
+    "image": "https://blogs.eclipse.org/sites/default/files/blogs/OG_image_Blog.png",
+    "originalUrl": "https://blogs.eclipse.org/post/catharina-maracke/we-all-depend-open-source-one-country-should-not-hold-keys-defending-it",
+    "tags": [
+      "Technology",
+      "depend",
+      "source"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mrnalw8f-002",
+    "title": "The Automation Illusion: Why Enterprise IT Needs More Than Just 'Set it and Forget it'",
+    "summary": "While IT automation promises unparalleled efficiency for modern enterprises, its implementation is far from straightforward. True success requires a deliberate, step-by-step strategy to scale workflows, ensuring robust governance, improved control, and consistent accuracy across the organization.",
+    "content": "The promise of IT automation often conjures images of seamless, hands-off operations, where complex tasks simply... automate themselves. It’s an alluring vision, indeed. But for any enterprise looking to truly harness its power, the reality is far more nuanced than a simple flip of a switch. While undeniably vital for the modern digital backbone, automation is, ironically, anything but automatic.\n\nIn the relentless churn of enterprise IT, teams grapple with an ever-increasing volume of common workflows and repetitive tasks. Here, automation isn't just a nicety; it's a critical imperative. It promises to execute these tasks with unwavering accuracy, consistent output, and remarkable speed – liberating human talent from the mundane and enabling a sharper focus on innovation and strategic initiatives. The goal is clear: operational excellence forged through precision and pace.\n\nYet, the road to achieving this state is paved with complexity. Many organizations stumble by attempting to implement automation wholesale, only to find themselves entangled in unmanageable, ungoverned processes. Scaling automation effectively at an enterprise level isn't about haphazard deployment; it demands a methodical, step-by-step approach. This strategic pathway ensures that as workflows become automated, they simultaneously improve governance, enhance overall efficiency, and provide greater control over the sprawling IT environment. It's about building a robust framework that supports expansion without introducing chaos.\n\nSuccessful automation isn't just about faster task completion; it's about fundamentally transforming how IT operates, making it more resilient, adaptable, and forward-looking. By meticulously designing and implementing automated systems, enterprises can not only achieve significant operational efficiencies but also unlock new avenues for growth and competitive advantage. The journey to enterprise-scale automation is a strategic investment, one that, when executed thoughtfully, reaps profound rewards in an increasingly automated world.",
+    "keyTakeaways": [
+      "IT automation is vital for enterprise efficiency and task accuracy, but its implementation is inherently complex and non-automatic.",
+      "Successful enterprise-scale automation demands a methodical, step-by-step strategy to ensure safe scaling, robust governance, and improved control.",
+      "Thoughtful automation frees IT talent from mundane tasks, fostering innovation and delivering significant operational and strategic advantages."
+    ],
+    "source": "Techtarget.com",
+    "author": "Stephen J. Bigelow",
+    "publishedAt": "2026-07-15 09:02",
+    "category": "Technology",
+    "image": "https://www.techtarget.com/visuals/searchExchange/exchange_server_migration/exchange_article_016.jpg",
+    "originalUrl": "https://www.techtarget.com/searchitoperations/tip/Follow-these-8-steps-to-implement-automation-in-IT-workflows",
+    "tags": [
+      "Technology",
+      "implement",
+      "automation"
     ],
     "readingTime": "2 min"
   }
