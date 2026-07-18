@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "id": "article-ai-mrq2idcg-003",
+    "title": "Beyond the Black Box: `ctxlineage` Shines a Light on LLM Context Consumption",
+    "summary": "For too long, understanding how Large Language Models process their input has been a frustrating black box for developers. A new local-first tool, `ctxlineage`, aims to change that by offering unprecedented transparency, revealing exactly which parts of an LLM call's context are consumed.",
+    "content": "Building applications with Large Language Models (LLMs) can often feel like peering into a black box. Developers painstakingly craft elaborate prompts, feed in reams of context, and then cross their fingers, hoping the AI utilizes the information as intended. But when an LLM veers off track, hallucinates, or simply ignores crucial data, pinpointing the *why* has been an exercise in frustration and guesswork.\n\nEnter `ctxlineage`, a groundbreaking new tool emerging from the Python Package Index (PyPI) that promises to pull back the curtain on this opaque process. Designed as a local-first utility for LLM applications, `ctxlineage` does precisely what its name implies: it provides a clear \"lineage\" of how context is consumed during each LLM call. This means developers can now see, with granular precision, which specific pieces of information an LLM actually engaged with, and which it overlooked.\n\nThis level of transparency is nothing short of revolutionary for the AI development workflow. Imagine debugging an AI agent that consistently misses key details from a user's query; `ctxlineage` could instantly highlight if that information was simply ignored, or perhaps never even registered as relevant. It's a game-changer for optimizing prompts, reducing unnecessary token usage (and thus costs), and building more reliable and predictable AI interactions. By demystifying the black box, `ctxlineage` empowers developers to iterate faster, debug smarter, and ultimately, construct more robust and trustworthy LLM-powered applications.\n\nThe 'local-first' approach further emphasizes developer control and privacy, ensuring that context analysis happens right where the code lives, without sending sensitive data to external services. This initial release, `ctxlineage 0.1.0`, represents a crucial step forward in making AI systems more understandable and auditable, shifting the paradigm from hopeful guesswork to data-driven insights. It's an indispensable addition to any AI developer's toolkit, paving the way for a new era of transparent LLM development.",
+    "keyTakeaways": [
+      "`ctxlineage` is a new local-first developer tool that provides unprecedented transparency into how LLMs consume input context.",
+      "It allows developers to visualize precisely which parts of the provided information an LLM actually uses during a call.",
+      "This capability is vital for debugging LLM applications, optimizing prompt engineering, and building more reliable AI systems."
+    ],
+    "source": "Pypi.org",
+    "author": "me@masukai.dev",
+    "publishedAt": "2026-07-17 07:46",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/ctxlineage/0.1.0/",
+    "tags": [
+      "AI",
+      "ctxlineage"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-mrq2j5c6-005",
+    "title": "Is Your AI Design System Just a Suggestion? Why 'Evals' Are the Next Frontier.",
+    "summary": "AI agents are increasingly being trained on comprehensive design systems, yet a crucial gap exists in verifying their actual adherence to these guidelines. This oversight highlights an urgent need for robust 'evaluation systems' to ensure consistency and maintain brand integrity in AI-driven design outputs.",
+    "content": "For years, design systems have been on a relentless march towards maturity, drawing heavy inspiration from the meticulous world of software engineering. We've embraced versioning, semantic naming, explicit contracts, and even deprecation cycles – all to build robust, scalable frameworks that ensure consistency across products. The thinking was, if we teach our human designers these principles, and formalize them, then surely our increasingly intelligent AI agents can follow suit.\n\nIndeed, countless hours are now poured into training these agents on our carefully crafted design systems. They're fed component libraries, style guides, and interaction patterns, theoretically equipped to generate compliant interfaces. But here’s the unsettling truth: while we’ve mastered the art of *inputting* knowledge, we’re alarmingly underdeveloped in *evaluating* whether that knowledge is being consistently applied. We're teaching the AI the rules, but we have no reliable mechanism to truly test if it’s following them, beyond manual checks after the fact.\n\nThis isn't just a minor oversight; it’s a gaping blind spot with significant implications. Without rigorous \"evals,\" we risk a creeping inconsistency in brand representation, an erosion of user experience predictability, and ultimately, a fundamental questioning of AI's reliability in design. Imagine an AI generating interfaces that subtly deviate from established accessibility standards or brand aesthetics – potentially damaging trust and user perception, all because we assume adherence rather than verify it.\n\nThe next critical evolution for design systems, especially in the age of AI, must be the development of comprehensive evaluation frameworks. We need sophisticated tools that can automatically audit AI-generated designs against established principles, flagging deviations in real-time. This could involve everything from visual regression testing tailored for design systems to semantic analysis of component usage and even AI-powered evaluation of other AI's output. Just as we rigorously test software, we must now rigorously test the AI that helps build our designs.\n\nMoving beyond the assumption of compliance towards verifiable adherence isn't merely about control; it's about unlocking the true potential of AI as a powerful, trustworthy partner in the creative process. It ensures that innovation remains anchored to consistency, transforming AI from a potentially unpredictable black box into a reliable, accountable collaborator.",
+    "keyTakeaways": [
+      "While AI agents are trained on design systems, there's a significant lack of robust evaluation to ensure consistent adherence.",
+      "This absence of \"evals\" poses risks to brand consistency, predictable user experience, and the overall reliability of AI in design.",
+      "The industry urgently needs to develop sophisticated evaluation frameworks to audit AI-generated designs against established system principles, transforming AI into a more trustworthy design partner."
+    ],
+    "source": "Murphytrueman.com",
+    "author": "Murphy Trueman",
+    "publishedAt": "2026-07-17 07:45",
+    "category": "AI",
+    "image": "https://storage.ghost.io/c/4e/57/4e57da7f-7503-46c8-b61e-0031c03eb394/content/images/size/w1200/2026/07/0_1.jpg",
+    "originalUrl": "https://blog.murphytrueman.com/design-systems-need-evals/",
+    "tags": [
+      "AI",
+      "Design",
+      "systems"
+    ],
+    "readingTime": "2 min"
+  }
+]
