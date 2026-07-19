@@ -1,23 +1,47 @@
 [
   {
-    "id": "article-tec-mrs1v3js-000",
-    "title": "New Powerhouse Pentesting Framework 'Asta' Lands on PyPI, Arming Cyber Defenders",
-    "summary": "An industrial-grade penetration testing framework named Asta has been released on PyPI as `asta-pentest`, offering a comprehensive suite for ethical hackers and red teams. This powerful tool covers reconnaissance, exploitation, command-and-control, post-exploitation, and Active Directory integration, making advanced cybersecurity testing more accessible.",
-    "content": "A new heavyweight has entered the arena of cybersecurity tools: Asta, an \"industrial-grade\" penetration testing framework, has officially landed on PyPI under the name `asta-pentest`. This arrival marks a significant moment for security professionals, providing an accessible, comprehensive suite designed to simulate real-world attacks with remarkable depth and precision.\n\nDeveloped to empower red teams and ethical hackers, Asta aims to streamline the often-complex process of identifying vulnerabilities within systems and networks. Its feature set is remarkably robust, covering the entire lifecycle of a sophisticated cyberattack. From initial reconnaissance, gathering intelligence on target environments, to the execution of exploits against discovered weaknesses, Asta promises a streamlined workflow.\n\nBeyond initial compromise, the framework extends into command-and-control (C2) capabilities, allowing for persistent access and management of compromised systems. It further includes modules for post-exploitation, enabling lateral movement within a network and data exfiltration. Crucially, its integration with Active Directory environments signifies a tool built with enterprise-level targets in mind, allowing for deep dives into an organization's most critical assets.\n\nThe availability of such a potent, full-spectrum tool on PyPI — Python's official package repository — democratizes access to advanced pentesting capabilities. While the initial setup may involve cloning from its GitHub repository for full functionality, its core `pip install` accessibility makes it readily available to a vast community of developers and security researchers. This could accelerate the discovery and patching of vulnerabilities, strengthening overall digital defenses.\n\nHowever, like any powerful security instrument, Asta carries a dual-use potential. While intended for defensive purposes and ethical hacking, its capabilities highlight the increasing sophistication of tools available, necessitating a heightened awareness and proactive security posture across all organizations. Its emergence on PyPI is a call to action for defenders to understand the tactics and tools employed by adversaries.",
+    "id": "article-tec-mrs62wsp-000",
+    "title": "Bespoke Autonomy: Comma AI Unlocks Hands-Free Driving for Fisker Ocean Owners and Beyond",
+    "summary": "After Fisker's abrupt collapse left Ocean owners without promised hands-free driving features, Comma AI has emerged with a robust aftermarket solution. Their open-source system, compatible with over 325 vehicle models, provides advanced driver-assistance capabilities using its own independent hardware, bypassing the car's native sensors.",
+    "content": "The automotive industry is no stranger to unfulfilled promises, but few recent sagas sting as much as Fisker's dramatic exit, leaving countless Ocean owners with a beautiful but ultimately underdeveloped vehicle. Among the dashed hopes was the promise of advanced driver-assistance features, particularly hands-free driving capabilities.\n\nYet, in a remarkable twist of fate, an aftermarket company is now delivering what the manufacturer couldn't. Comma AI, a name increasingly familiar to autonomy enthusiasts, has stepped into the void, offering a third-party solution to bring hands-free driving to the Fisker Ocean – and a rapidly growing list of other vehicles.\n\nWhat makes Comma AI's approach particularly noteworthy is its ingenious independence. Their technology operates entirely with its own hardware suite, meaning it sidesteps the Fisker Ocean's built-in cameras and sensors altogether. This self-contained unit, powered by Comma AI's open-source software, Openpilot, is capable of delivering sophisticated features like adaptive cruise control, lane-keeping assistance, and even stop-and-go traffic capabilities, effectively transforming the driving experience.\n\nBut the story extends far beyond the plight of Fisker owners. Comma AI proudly boasts that its system is currently compatible with an astounding roster of more than 325 car models from various manufacturers and specific model years. This broad compatibility underscores a burgeoning trend where innovative third-party developers are democratizing advanced driving features, offering a lifeline to owners of vehicles whose manufacturers either lagged in development or, in Fisker's case, simply ceased to exist.",
     "keyTakeaways": [
-      "Asta, an industrial-grade penetration testing framework, is now publicly available on PyPI.",
-      "It provides a comprehensive suite for simulating cyberattacks, covering reconnaissance, exploitation, C2, post-exploitation, and Active Directory integration.",
-      "The tool's accessibility on PyPI empowers cybersecurity professionals and ethical hackers with advanced capabilities to strengthen digital defenses."
+      "Comma AI provides an aftermarket solution for hands-free driving, including for Fisker Ocean owners left without the feature.",
+      "The system uses its own independent hardware (cameras/sensors) and open-source software, bypassing the vehicle's native ADAS components.",
+      "Comma AI's technology is broadly compatible with over 325 different car models, extending advanced driving features beyond original manufacturer offerings."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-07-18 17:03",
+    "source": "Jalopnik",
+    "author": "staff@jalopnik.com (Chris Tsui)",
+    "publishedAt": "2026-07-18 19:05",
     "category": "Technology",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "originalUrl": "https://pypi.org/project/asta-pentest/",
+    "image": "https://www.jalopnik.com/img/gallery/fisker-went-out-of-business-before-giving-the-ocean-hands-free-driving-so-now-an-aftermarket-company-is-doing-it/l-intro-1784230814.jpg",
+    "originalUrl": "https://www.jalopnik.com/2216977/fisker-ocean-hands-free-driving-aftermarket-company/",
     "tags": [
       "Technology",
-      "astapentest"
+      "Fisker",
+      "Business"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-mrs66io3-014",
+    "title": "Slack's Unlikely Genesis: How a Failed $17 Million Video Game Forged a Workplace Revolution",
+    "summary": "The ubiquitous workplace communication tool Slack was born from the ashes of Tiny Speck's failed $17 million online video game, 'Glitch,' in 2012. The internal communication system built to manage the game's development proved to be a more valuable product than the game itself, leading to a monumental pivot.",
+    "content": "In the bustling tech hub of Vancouver, late 2012, a company named Tiny Speck was staring down the barrel of extinction. After pouring nearly four years and an estimated $17 million into an ambitious online multiplayer game called \"Glitch,\" the dream was crumbling. \"Glitch\" was a delightfully whimsical, surreal world, reportedly set within the minds of eleven ancient gods. It was a place of quirky characters, intricate lore, and collaborative exploration, a truly unique vision. Yet, despite its charm and significant investment, it struggled to attract and retain a substantial player base. The servers were quiet, the community sparse, and the financial runway dangerously short.\n\nAs the team grappled with the impending shutdown, they faced a stark reality: their grand creative endeavor was a commercial flop. But amidst the despair, a curious thing happened. The internal communication tool they had painstakingly built to collaborate on \"Glitch\" — a real-time messaging system designed for rapid iteration and shared understanding across a distributed team — began to shine. It was robust, intuitive, and surprisingly effective. This wasn't just a basic chat app; it was a sophisticated hub for discussions, file sharing, and project management, honed through years of intense development on a complex game.\n\nFounder Stewart Butterfield, already known for co-founding Flickr, saw the writing on the wall for Glitch, but also glimpsed a glimmer of potential in their unassuming internal lifeline. What if the product wasn't the fantastical world they were failing to sell, but the very system that allowed them to build it? In a daring pivot, Tiny Speck ceased development on Glitch and refocused entirely on refining this internal tool.\n\nThat tool, of course, became Slack. Launched in 2013, it quickly exploded onto the enterprise software scene, transforming workplace communication for millions. The irony is palpable: a multi-million dollar failure in gaming inadvertently created one of the most indispensable business applications of the modern era. It stands as a powerful testament to the idea that sometimes, the most revolutionary innovations emerge not from grand visions, but from the debris of well-intentioned failures, leaving behind an invaluable byproduct ready for discovery.",
+    "keyTakeaways": [
+      "Slack emerged from the failure of Tiny Speck's ambitious online game, \"Glitch,\" which cost approximately $17 million and took four years to develop.",
+      "The company pivoted after realizing their internal communication tool, built to coordinate \"Glitch's\" development, held significant commercial potential.",
+      "This origin story highlights how valuable innovations can arise unexpectedly from projects that are otherwise considered failures, especially in the tech industry."
+    ],
+    "source": "MakeUseOf",
+    "author": "Oluwademilade Afolabi",
+    "publishedAt": "2026-07-18 19:00",
+    "category": "Startups",
+    "image": "https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2026/07/slack-banner-displayed-on-new-york-stock-exchange.jpg?w=1600&h=900&fit=crop",
+    "originalUrl": "https://www.makeuseof.com/slack-started-as-a-video-game-that-nobody-wanted-to-play/",
+    "tags": [
+      "Startups",
+      "started",
+      "nobody"
     ],
     "readingTime": "2 min"
   }
