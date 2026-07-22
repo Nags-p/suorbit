@@ -1,70 +1,49 @@
 [
   {
-    "id": "article-tec-mrw0parp-000",
-    "title": "AI Takes Flight: ZenaDrone Kicks Off Pivotal U.S. Defense Demonstrations",
-    "summary": "ZenaTech's ZenaDrone subsidiary has commenced scheduling critical demonstrations of its AI-powered unmanned aerial systems for various U.S. government defense agencies, securing its first confirmed engagement. This move positions ZenaTech as a significant contender in the evolving landscape of defense technology, signaling a potential new era for autonomous military operations.",
-    "content": "The skies over the United States are set to become a proving ground for the next generation of defense technology, as ZenaTech, Inc. (Nasdaq: ZENA) officially announced that its ZenaDrone subsidiary has begun scheduling demonstrations of its advanced AI-powered unmanned aerial systems (UAS) for U.S. government defense agencies. This pivotal development, highlighted by a confirmed initial agency engagement, marks a significant leap for the Vancouver-based tech solution provider into the high-stakes realm of national security.\n\nZenaDrone’s offerings are more than just flying cameras; they represent the sharp edge of autonomous intelligence. These AI-driven platforms are designed to revolutionize everything from precision reconnaissance and secure logistics to complex situational awareness in the field. The upcoming demonstrations are not merely sales pitches but crucial assessments of how ZenaDrone’s capabilities can enhance operational efficiency, reduce human risk in hazardous zones, and provide a decisive technological advantage to the armed forces.\n\nThe timing of ZenaTech’s foray into the defense sector couldn't be more critical. Global powers are increasingly investing in autonomous systems and artificial intelligence to redefine modern warfare and maintain strategic superiority. By securing these key demonstrations, ZenaTech is positioning itself as a vital player in this accelerating arms race for technological dominance. Success here could translate into substantial government contracts and cement ZenaDrone’s role in shaping the future of defense operations for years to come. The industry will be watching closely as these cutting-edge drones take to the air, potentially ushering in a new chapter for military intelligence and deployment.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "ZenaTech's ZenaDrone subsidiary is entering the U.S. government defense market with scheduled demonstrations of its AI-powered drones.",
-      "The company has secured its first confirmed agency engagement, signifying a crucial step towards potential defense contracts.",
-      "This move underscores the growing importance of advanced AI and autonomous systems in modern military strategy and operations."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "GlobeNewswire",
-    "author": "ZenaTech Inc.",
-    "publishedAt": "2026-07-21 11:45",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-07-22 09:57",
     "category": "Technology",
-    "image": "https://ml.globenewswire.com/Resource/Download/76d0c807-d331-4d2f-94f8-1697c3623a8f",
-    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/21/3330355/0/en/ZenaTech-s-ZenaDrone-Subsidiary-Begins-Scheduling-U-S-Government-Defense-Demonstrations-Starting-with-First-Confirmed-Agency-Engagement.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "ZenaTechs",
-      "ZenaDrone"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mrw0pjog-001",
-    "title": "SkyPilot Takes Flight: Databricks Co-founder Nabs $20M to Free AI from Cloud Lock-in",
-    "summary": "SkyPilot, a new venture from Databricks co-founder Ion Stoica, has successfully raised $20 million to address the persistent challenge of cloud vendor lock-in for artificial intelligence workloads. The startup aims to simplify the orchestration of AI compute across various cloud platforms, empowering businesses to optimize resource usage and mitigate escalating GPU costs.",
-    "content": "The world of artificial intelligence, for all its revolutionary promise, often comes with a significant and growing headache: cloud vendor lock-in and the relentless ascent of GPU costs. But now, a seasoned tech veteran is stepping into the fray with a fresh solution and a substantial war chest. Ion Stoica, the visionary co-founder behind data giant Databricks, has announced that his latest venture, SkyPilot, has secured a hefty $20 million in funding to tackle these very issues head-on.\n\nSkyPilot isn't just another startup; it's an ambitious effort to democratize AI compute. For companies deep into machine learning and complex AI models, the current reality often means being tethered to a single cloud provider, leading to limited flexibility, escalating expenses, and a frustrating lack of choice. SkyPilot aims to sever these ties by enabling the seamless orchestration of AI workloads across multiple cloud platforms. Imagine running your demanding AI tasks wherever resources are most efficient or cost-effective, without the friction of migrating data or reconfiguring entire systems.\n\nThis isn't Stoica's first rodeo in building foundational enterprise technology, and his track record with Databricks lends immediate credibility to SkyPilot's mission. The startup’s core offering provides a streamlined, intelligent layer that abstracts away the complexities of different cloud infrastructures. By doing so, it promises to free AI developers and enterprises from the shackles of proprietary ecosystems, allowing them to truly optimize their GPU utilization and minimize operational overheads.\n\nThe $20 million investment signals a strong market belief in SkyPilot’s potential to become a critical piece of the modern AI infrastructure puzzle. As AI continues its rapid expansion across industries, the need for agile, cost-efficient, and vendor-agnostic compute solutions will only intensify. SkyPilot's approach offers a tantalizing glimpse into a future where AI innovation is less constrained by infrastructure limitations and more driven by pure computational power and ingenious application.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "SkyPilot, founded by Databricks co-founder Ion Stoica, has raised $20M to tackle cloud vendor lock-in and rising GPU costs for AI workloads.",
-      "The platform aims to simplify AI compute orchestration, allowing businesses to run workloads across multiple cloud providers for optimal flexibility and cost-efficiency.",
-      "This significant investment highlights a growing industry demand for solutions that empower enterprises to manage their AI infrastructure without being tied to a single vendor."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Crypto Briefing",
-    "author": "Editorial Team",
-    "publishedAt": "2026-07-21 11:39",
-    "category": "Technology",
-    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/21073907/images-skypilot-abstractions-long-2-dark-png-800x420.png",
-    "originalUrl": "https://cryptobriefing.com/skypilot-raises-20m-ai-compute-orchestration/",
-    "tags": [
-      "Technology",
-      "SkyPilot",
-      "raises"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mrw0pub1-002",
-    "title": "Canadian Advisors Get a Smarter Edge: Sterling Mutuals Adopts Continuum AI",
-    "summary": "Sterling Mutuals has partnered with Continuum to integrate an AI client intelligence platform across its national advisor network. This strategic move aims to enhance advisor efficiency and client engagement through features like botless meeting capture, compliance-ready summaries, and personalized client microsites.",
-    "content": "TORONTO – In a move set to reshape how financial advisors operate across Canada, Sterling Mutuals Inc. has officially named Continuum its exclusive AI client intelligence platform. This significant integration promises to arm Sterling’s extensive national network of advisors with cutting-edge tools designed to free them from administrative burdens and elevate client engagement.\n\nAt the heart of this partnership lies Continuum’s innovative AI suite, which brings several game-changing capabilities. Advisors will now benefit from “botless meeting capture,” a sophisticated system that accurately transcribes and synthesizes client interactions without the need for a separate bot. This data then seamlessly translates into compliance-ready summaries, drastically reducing the time and effort traditionally spent on meticulous note-taking and regulatory documentation, while ensuring every interaction meets stringent industry standards.\n\nBeyond just efficiency, the platform introduces interactive client microsites. These personalized, secure digital hubs provide clients with a centralized place to access relevant information, review summaries of their meetings, and engage with their advisor on a deeper level. This not only streamlines communication but also enriches the client experience, fostering transparency and stronger relationships.\n\nA key aspect of this rollout is the direct integration of all meeting notes and client data into Sterling’s proprietary OneBoss back office system. This ensures a cohesive workflow, eliminating data silos and allowing advisors to spend less time on manual data entry and more time on high-value tasks like strategic planning and client relationship management. By embracing Continuum’s AI, Sterling Mutuals is not just adopting new technology; it’s investing in a smarter, more compliant, and profoundly human-centric future for financial advice in Canada.",
-    "keyTakeaways": [
-      "Sterling Mutuals Inc. has selected Continuum as its exclusive AI client intelligence platform for its national advisor network.",
-      "The Continuum platform provides botless meeting capture, compliance-ready summaries, and interactive client microsites.",
-      "This integration aims to significantly boost advisor efficiency, ensure regulatory compliance, and enhance overall client engagement by streamlining workflows."
-    ],
-    "source": "Financial Post",
-    "author": "Business Wire",
-    "publishedAt": "2026-07-21 11:37",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-07-22 05:57",
     "category": "Technology",
     "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://financialpost.com/pmn/business-wire-news-releases-pmn/sterling-mutuals-names-continuum-the-exclusive-ai-client-intelligence-platform-for-its-advisor-network",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
     "tags": [
-      "Technology",
-      "Sterling",
-      "Mutuals"
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
