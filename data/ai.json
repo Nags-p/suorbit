@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-ai-mrxeuz1k-005",
-    "title": "Herringbone Forges AI Future, Taps Dan Hinckley to Lead Innovation Charge",
-    "summary": "Digital marketing powerhouse Herringbone has appointed AI veteran Dan Hinckley as its new Head of Artificial Intelligence. This strategic move aims to deeply integrate and accelerate AI capabilities across its platform, enhancing solutions for its unified network of local digital marketing agencies and service providers.",
-    "content": "The increasingly competitive landscape of digital marketing demands intelligent innovation. Signaling a profound commitment to leading this charge, Herringbone, the rapidly expanding digital marketing platform backed by Trinity Hunt Partners, has announced the appointment of Dan Hinckley as its new Head of Artificial Intelligence. This pivotal move is set to supercharge the company’s mission of unifying best-in-class local digital marketing agencies and tech-enabled solutions under one cohesive, intelligent umbrella.\n\nHinckley brings an impressive pedigree to Herringbone, boasting over two decades at the vanguard of machine learning and data science. His previous roles, including a transformative tenure at a major ad-tech firm where he spearheaded predictive analytics engine development, position him perfectly to unlock AI’s vast potential within Herringbone’s expansive ecosystem. His appointment isn't merely adding a new executive; it’s a clear statement: AI will be at the core of Herringbone’s strategic evolution.\n\nIn today's fast-evolving market, AI is no longer a luxury but a necessity for optimizing campaign performance, personalizing customer experiences, and automating complex tasks. Herringbone’s platform, a robust aggregator of marketing talent and technology, will leverage Hinckley's expertise to develop sophisticated algorithms for audience targeting, content optimization, and performance forecasting. This empowers their agencies with cutting-edge tools, delivering superior ROI and deeper client insights.\n\nThe integration of advanced AI promises to streamline operations, reduce manual effort, and significantly enhance the scalability and effectiveness of solutions across Herringbone’s diverse portfolio. Imagine campaigns adapting in real-time to market shifts, or predictive models anticipating client needs – this is the future Herringbone is building. The strategic unification of agencies and tech providers will be further strengthened by an intelligent layer that learns and adapts, ensuring unparalleled service delivery.\n\nUltimately, Hinckley’s leadership is expected to cement Herringbone’s position as an industry trailblazer, not just through aggregation, but through profound technological advancement. As digital marketing continues its inexorable march toward data-driven intelligence, Herringbone is clearly positioning itself to redefine the benchmarks for what a truly unified, AI-powered platform can achieve.",
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
     "keyTakeaways": [
-      "Herringbone has appointed AI veteran Dan Hinckley as its new Head of Artificial Intelligence.",
-      "This strategic move underscores Herringbone's commitment to accelerating AI integration across its entire digital marketing platform.",
-      "The appointment aims to enhance solutions for agencies, improve client ROI, and solidify Herringbone's industry leadership through advanced technological capabilities."
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Associated Press",
-    "author": "Staff Writer",
-    "publishedAt": "2026-07-22 11:08",
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-07-23 02:03",
     "category": "AI",
-    "image": "https://dims.apnews.com/dims4/default/295c329/2147483647/strip/true/crop/675x450+12+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F90%2F29%2F4e3c1cc7446089a9101a7bdff4c8%2Fdefaultshareimage-copy.png",
-    "originalUrl": "https://apnews.com/press-release/business-wire/press-release-e2b6416276f34d1bbaf29a694a5837ff",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "Herringbone",
-      "Hinckley"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-07-22 22:03",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
     ],
     "readingTime": "2 min"
   }
