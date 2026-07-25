@@ -1,24 +1,24 @@
 [
   {
-    "id": "article-tec-ms0ekjpw-000",
-    "title": "Quantum X Labs Cracks Code on Errors, Paving Way for Stable Quantum Computing with NVIDIA CUDA-Q",
-    "summary": "Quantum X Labs has announced significant progress in quantum error correction (QEC) decoders, a crucial step for stable quantum computing. Their work, developed within the NVIDIA CUDA-Q ecosystem, brings the industry closer to building fault-tolerant quantum systems.",
-    "content": "The often-hyped promise of quantum computing hinges on a fundamental challenge: stability. Quantum bits, or qubits, are notoriously fragile, prone to errors from even the slightest environmental interference. This week, Quantum X Labs announced a significant stride in addressing this very issue, revealing \"meaningful error correction decoder results\" developed within the NVIDIA CUDA-Q ecosystem. This isn't just a technical footnote; it's a vital signpost on the road to practical, fault-tolerant quantum computers.\n\nQuantum X Labs' breakthrough centers on quantum error correction (QEC) decoders, the sophisticated computational mechanisms designed to identify and correct errors within quantum operations. Without robust QEC, the highly sensitive nature of qubits limits the complexity and reliability of quantum algorithms, rendering large-scale quantum computers impractical. The Tel Aviv-based company's progress suggests they're moving closer to building the kind of stable quantum infrastructure necessary for real-world applications, from drug discovery to advanced materials science.\n\nTheir work was greatly facilitated by the NVIDIA CUDA-Q ecosystem, a powerful open-source platform that integrates quantum hardware and classical computing resources. This collaborative approach allows researchers to simulate, program, and optimize quantum algorithms with advanced tools, accelerating development cycles. NVIDIA’s robust framework provides the necessary backbone for Quantum X Labs to test and refine their error correction strategies, bridging the gap between theoretical quantum advancements and their practical implementation.\n\nThis development by Quantum X Labs, announced on July 24, 2026, marks another crucial step in the global race for quantum supremacy. While fully fault-tolerant quantum computers remain a future goal, each advancement in error correction brings that future into sharper focus. It underscores the accelerating pace of innovation in the quantum realm and the vital role played by foundational software platforms like NVIDIA CUDA-Q in turning groundbreaking research into tangible progress.",
+    "id": "article-tec-ms0i06p1-000",
+    "title": "Bridging the Chasm: Cisco Unveils 'Logical Air Gap' for Cloud-Native Critical Infrastructure",
+    "summary": "Organizations managing critical infrastructure grapple with a fundamental conflict: how to harness the agility of cloud-native operations without compromising stringent security and isolation requirements. A new 'logically air-gapped' deployment model, leveraging eBPF, Cilium, and Cisco technologies, offers a compelling solution, enabling digital autonomy and robust protection for vital systems.",
+    "content": "The digital backbone of our world, from energy grids to transportation systems, increasingly relies on cloud-native architectures for their agility and scalability. Yet, for organizations managing critical infrastructure, this embrace of the cloud presents a profound paradox: how do you harness the dynamic flexibility of modern software while simultaneously upholding the ironclad security and isolation traditionally associated with physically air-gapped systems? The conventional wisdom of a complete physical disconnect often clashes with the operational demands of today’s interconnected world.\n\nEnter the concept of a \"logically air-gapped\" deployment model, an ingenious solution now being championed by industry leaders like Cisco, leveraging cutting-edge technologies such as eBPF and Cilium. This isn't about severing physical connections; it's about crafting a highly resilient, software-defined isolation layer that provides digital autonomy without sacrificing the benefits of cloud-native operations. It's a sophisticated answer to a critical question: how to achieve true separation in a world built on shared resources.\n\nAt its core, this innovative approach weaves together granular control and deep visibility. eBPF, a powerful technology embedded directly within the Linux kernel, acts as the eyes and ears, providing unparalleled insight and programmability for network and security policies. Cilium then takes this to the next level, leveraging eBPF to enforce dynamic, identity-aware network policies that effectively create virtual security perimeters around critical workloads. Cisco ties these elements together, bringing its enterprise-grade security expertise and integration capabilities to ensure a robust, compliant, and manageable deployment.\n\nThe result is a paradigm shift for critical infrastructure. Organizations can now operate with the agility and efficiency of cloud-native platforms, confident that their most vital systems are protected by an intelligent, dynamic \"air gap\" that adapts to threats in real-time. This model not only bolsters security and ensures regulatory compliance but also delivers true digital autonomy, allowing critical services to function with unprecedented resilience and independence in an otherwise interconnected landscape. It’s a blueprint for the future of secure, agile critical operations.",
     "keyTakeaways": [
-      "Quantum X Labs reported significant advancements in quantum error correction (QEC) decoder results.",
-      "This progress was achieved through development within the NVIDIA CUDA-Q ecosystem, highlighting a collaborative approach to quantum innovation.",
-      "The development marks a critical step towards building more stable and practical fault-tolerant quantum computers."
+      "Critical infrastructure organizations face a paradox: balancing cloud agility with stringent security and isolation needs.",
+      "A 'logically air-gapped' deployment model utilizes eBPF, Cilium, and Cisco to create software-defined, dynamic isolation.",
+      "This approach enables digital autonomy, enhanced security, and regulatory compliance for cloud-native critical operations."
     ],
-    "source": "GlobeNewswire",
-    "author": "Quantum X Labs Inc.",
-    "publishedAt": "2026-07-24 13:26",
+    "source": "Cisco.com",
+    "author": "Michele Festuccia",
+    "publishedAt": "2026-07-24 15:00",
     "category": "Technology",
-    "image": "https://ml.globenewswire.com/Resource/Download/a0abc50a-ff3e-420e-9e21-807bbc6417cd",
-    "originalUrl": "https://www.globenewswire.com/news-release/2026/07/24/3332879/0/en/Quantum-X-Labs-Reports-Meaningful-Error-Correction-Decoder-Results-with-NVIDIA-CUDA-Q-QEC.html",
+    "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/07/FY26_Q4_the-journey-towards-logically-air-gapped-deployment_blog_social_card.jpeg",
+    "originalUrl": "https://blogs.cisco.com/?p=494810",
     "tags": [
       "Technology",
-      "Quantum",
-      "Reports"
+      "Journey",
+      "towards"
     ],
     "readingTime": "2 min"
   }
