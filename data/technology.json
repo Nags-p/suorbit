@@ -1,24 +1,24 @@
 [
   {
-    "id": "article-tec-mrzlwmk0-000",
-    "title": "Cybersecurity's AI Reckoning: Securing the New Software Frontier",
-    "summary": "The cybersecurity landscape has radically transformed in mere months, shifting from simple patch management to a complex battle against threats posed by frontier AI models. Organizations must now adopt proactive, AI-aware strategies to secure their application development processes against these sophisticated, AI-driven attacks.",
-    "content": "The world of cybersecurity has undergone a seismic shift in a blink-and-you'll-miss-it timeframe. Just months ago, the biggest headaches for many organizations involved chasing down overdue Common Vulnerabilities and Exposures (CVE) patches or begrudgingly updating aging application runtimes. A pain, certainly, but a familiar one. But now, the landscape has been fundamentally reshaped, presenting an entirely new class of adversaries and vulnerabilities born from the rapid ascent of frontier AI models. The comfortable rhythm of reactive security is over.\n\nThis isn't just an evolutionary step; it's a paradigm shift that demands urgent attention. The deep integration of powerful, often opaque AI models into critical application development pipelines has opened up unprecedented attack vectors. Threat actors are no longer merely looking for known software flaws; they're leveraging AI itself to discover novel exploits at machine speed, generate hyper-realistic phishing campaigns, or even stealthily poison training data to introduce malicious backdoors directly into the AI components of your applications. The sophistication, speed, and scale at which these AI-powered attacks can be launched render traditional, reactive security measures woefully inadequate, creating 'blind spots' that legacy systems simply cannot see.\n\nFor developers and security teams, this means a complete re-evaluation of their defense strategies, moving beyond perimeter defenses and patch cycles. Securing an application now extends far beyond hardening code and infrastructure; it demands meticulous scrutiny of the entire AI supply chain, from the provenance of models and data to their deployment and ongoing monitoring within applications. Without a proactive, AI-aware security posture embedded throughout the development lifecycle – effectively building security *into* the AI, not just around it – organizations risk becoming blind-sided by threats that are constantly learning and adapting. The stakes have never been higher in the race to secure the future of software in an AI-driven world.",
+    "id": "article-tec-mrzuppkz-000",
+    "title": "AI Strikes Back: Ex-Google Brains Secure $36M to Combat Exploding Spear Phishing Threat",
+    "summary": "As AI-powered email attacks surge fivefold and cybercrime losses hit a record $20.8 billion, a new defense, AegisAI, has secured $36 million in Series A funding to fight back. Founded by former Google reCAPTCHA and Safe Browsing leaders, AegisAI is scaling its platform specifically designed to counter sophisticated AI-generated spear phishing threats.",
+    "content": "The digital battleground has decisively shifted. Artificial intelligence, a tool of immense potential, is now being weaponized by cybercriminals at an alarming rate, fueling a new wave of sophisticated spear phishing attacks that are outmaneuvering traditional defenses. In just one year, AI-generated email attacks have skyrocketed fivefold, contributing to an eye-watering $20.8 billion in FBI-reported cybercrime losses.\n\nBut the fight is on. Enter AegisAI, a promising new player that just closed a robust $36 million Series A funding round, led by Battery Ventures. What makes AegisAI stand out in a crowded cybersecurity market? Its leadership boasts serious pedigree: former Google reCAPTCHA and Safe Browsing leaders are at the helm, bringing battle-tested expertise in large-scale threat detection to the forefront.\n\nThese aren't your typical spam emails; AI-powered spear phishing campaigns are hyper-personalized, context-aware, and incredibly difficult for human employees—even well-trained ones—to spot. They leverage vast amounts of data to craft messages that appear legitimate, often mimicking trusted colleagues or brands, designed to trick targets into revealing sensitive information or compromising systems.\n\nRecognizing that the old playbook no longer cuts it, AegisAI is scaling the first truly modern defense system built for this 'AI-on-AI' era. Their platform is engineered from the ground up to detect and neutralize these next-generation threats, offering a crucial layer of protection against the most cunning attacks. With this significant investment, AegisAI is poised to expand its capabilities and deployment, aiming to protect enterprises from a financially devastating and rapidly evolving threat landscape. It's a clear signal that the cybersecurity industry is finally gearing up to fight fire with fire.",
     "keyTakeaways": [
-      "The cybersecurity landscape has rapidly transitioned from traditional vulnerability management to confronting sophisticated threats from frontier AI models.",
-      "AI models introduce entirely new attack vectors, enabling adversaries to discover novel exploits and inject malicious backdoors into AI-driven applications at unprecedented speed.",
-      "Organizations must adopt proactive, AI-aware security strategies, meticulously scrutinizing the entire AI supply chain within their development processes, to mitigate these evolving risks."
+      "AI-generated spear phishing attacks have increased by 500% in a year, contributing to a record $20.8 billion in cybercrime losses.",
+      "AegisAI, founded by former Google reCAPTCHA and Safe Browsing leaders, has secured $36 million in Series A funding to combat these advanced AI threats.",
+      "The company is developing and scaling the first defense platform specifically designed to counter sophisticated, context-aware AI-powered email attacks that bypass traditional security measures."
     ],
-    "source": "Redhat.com",
-    "author": "Staff Writer",
-    "publishedAt": "2026-07-24 00:00",
+    "source": "Associated Press",
+    "author": "Battery Ventures",
+    "publishedAt": "2026-07-24 04:04",
     "category": "Technology",
-    "image": "https://www.redhat.com/themes/custom/rhdc/img/red-hat-social-share.jpg",
-    "originalUrl": "https://www.redhat.com/en/blog/beyond-blind-spots-defeating-frontier-ai-model-threats-your-application-development-process",
+    "image": "https://dims.apnews.com/dims4/default/0f853d4/2147483647/strip/true/crop/2699x1798+0+68/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F4d%2F56%2F9bfd5ba260a9397b0b37b08b0090%2Ff4d359bb4d0fee56b60e3e773ebd853a",
+    "originalUrl": "https://apnews.com/press-release/pr-newswire/press-release-f0b1b4f8ddf8d44b5437e6c860d2dd98",
     "tags": [
       "Technology",
-      "Beyond",
-      "Defeating"
+      "AegisAI",
+      "Raises"
     ],
     "readingTime": "2 min"
   }
