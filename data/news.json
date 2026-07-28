@@ -1,70 +1,23 @@
 [
   {
-    "id": "article-tec-ms4irwq5-000",
-    "title": "Your Photo Gallery: A New Hunting Ground for Crypto Thieves",
-    "summary": "A potent new Trojan named SparkKitty has infiltrated both the App Store and Google Play, employing optical character recognition (OCR) to scan users' photo galleries for screenshots of cryptocurrency wallet recovery phrases. This insidious attack highlights a critical security gap, urging users to exercise extreme caution with sensitive crypto information and app downloads.",
-    "content": "Imagine the sheer dread of waking up to an empty crypto wallet, only to realize the breach didn't come from a sophisticated hack or phishing scam, but from a picture stored innocently in your phone's photo gallery. That's the chilling reality security researchers at Kaspersky have unveiled with the discovery of SparkKitty, a devious new Trojan now actively stealing cryptocurrency seed phrases.\n\nThis isn't your average malware. SparkKitty has managed to slip through the defenses of both the Apple App Store and Google Play, making its way onto unsuspecting users' devices. Once installed, it doesn't just look for specific files; it actively hunts through your photo gallery, deploying optical character recognition (OCR) technology to scan images for the distinctive patterns of wallet recovery phrases. For anyone who's ever, even temporarily, screenshot a seed phrase for 'safekeeping,' this represents a truly terrifying proposition.\n\nThe implications are profound. With the proliferation of mobile crypto apps, the line between convenience and security often blurs. SparkKitty exploits a common, yet critically insecure, user habit: preserving sensitive information in an easily accessible, unencrypted format. Its success in penetrating major app ecosystems signals a stark warning about the evolving sophistication of mobile malware and the urgent need for enhanced vetting processes from app store operators.\n\nFor crypto holders, the message is clear: never, under any circumstances, store your seed phrase as a photo, text file, or unencrypted digital format on any internet-connected device. This discovery amplifies the necessity of physical security measures, such as hardware wallets or securely written-down backups. The digital wild west of cryptocurrency just got a whole lot wilder, and personal vigilance has never been more paramount.",
+    "id": "article-tec-ms4nqcw9-000",
+    "title": "The Token Trap: Unpacking Generative AI's Hidden Cost Problem",
+    "summary": "Generative AI's current economic model faces a significant challenge, as the value users perceive in its output often doesn't correlate with the underlying token consumption in production. This disconnect is leading to inefficiencies and misaligned expectations in how AI is deployed and costed, presenting a crucial hurdle for businesses.",
+    "content": "The buzz around generative AI is palpable, promising a new era of automated creativity and efficiency. Yet, beneath the dazzling veneer of coherent text and stunning imagery lies a quietly brewing challenge: a fundamental disconnect between how we perceive AI's value and how we actually pay for its output. This isn't just a technical nuance; it's a \"token trap\" that could redefine the economics of AI deployment.\n\nAt its core, the problem stems from the current operational model. Generative AI models largely \"spend\" tokens—the fundamental units of information they process and generate—regardless of the ultimate utility or value of the output. Imagine paying for every brushstroke a painter makes, even those erased or deemed irrelevant to the final masterpiece. While the end product might be brilliant, the intermediate, often redundant, token consumption inflates the cost significantly. Businesses are measuring success by the brilliance of an AI-generated marketing campaign, but paying for the millions of tokens consumed in drafting, revising, and iterating to get there.\n\nThis creates a significant hurdle for businesses moving beyond experimentation to full-scale production. Deploying AI tools in a real-world setting, where efficiency and predictable costs are paramount, exposes this flaw. The \"more tokens, more cost\" equation often doesn't translate into \"more tokens, more value.\" Instead, it leads to spiraling expenses, making it difficult for companies to accurately budget, scale, and justify their AI investments.\n\nThe paradigm shift required is profound. We need to evolve from a metric based purely on raw processing units to one that genuinely reflects the *outcome*. This means rethinking everything from model architecture to pricing strategies, pushing for innovations that minimize token waste and prioritize value extraction. Until then, the generative AI revolution, as transformative as it is, will remain tethered to an economic model struggling to catch up with its own promise.",
     "keyTakeaways": [
-      "SparkKitty malware is actively stealing crypto seed phrases by scanning photo galleries on compromised devices, leveraging OCR technology.",
-      "The Trojan has successfully infiltrated both the Apple App Store and Google Play, indicating a significant security vulnerability in major mobile app ecosystems.",
-      "Users must immediately cease storing sensitive crypto information like seed phrases as photos or on any internet-connected device, prioritizing hardware wallets and robust offline security measures."
+      "Generative AI's current cost model often measures value by token usage, rather than the actual utility or quality of the output.",
+      "This creates a \"token trap\" for businesses, leading to inflated and unpredictable production costs that hinder scalable AI deployment.",
+      "The industry needs to innovate pricing models and improve model efficiency to better align AI's operational cost with its perceived value."
     ],
-    "source": "Crypto Briefing",
-    "author": "Editorial Team",
-    "publishedAt": "2026-07-27 10:32",
+    "source": "Substack.com",
+    "author": "rzwsan",
+    "publishedAt": "2026-07-27 12:46",
     "category": "Technology",
-    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/07/27063227/sparkkitty-malware-infiltrates-app-store-and-google-play-to--800x420.jpeg",
-    "originalUrl": "https://cryptobriefing.com/sparkkitty-malware-steals-crypto-seed-phrases/",
+    "image": "https://substackcdn.com/image/fetch/$s_!xecG!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff005ec69-1b18-4ec4-ba22-485fd6c90582_683x310.png",
+    "originalUrl": "https://raylinement.substack.com/p/the-ai-cycle-and-its-token-usage",
     "tags": [
       "Technology",
-      "SparkKitty",
-      "malware"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-ms4is3va-001",
-    "title": "Sam Altman's AI Ultimatum: A Democratic Future or Autocratic Control?",
-    "summary": "Sam Altman, OpenAI's chief, has presented a stark geopolitical choice regarding artificial intelligence development. He argues that either the U.S. and its allies control and disseminate AI's benefits democratically, or authoritarian regimes will seize the technology for their own ends, creating a critical ideological showdown for the future.",
-    "content": "Sam Altman, the often-polarizing figure at the helm of OpenAI, isn't just building the future of artificial intelligence; he's actively shaping its geopolitical narrative. He has consistently championed a stark, almost Manichean vision for AI's evolution: a contest where the stakes are nothing less than global democratic values. This isn't merely about technological advancement; it’s a high-stakes ideological showdown, framed with an urgency that demands immediate attention from world leaders and technologists alike.\n\nAltman’s argument is straightforward, yet profoundly unsettling: either the United States and its allied nations take the reins, developing and democratically distributing the vast benefits of this transformative technology, or the void will be filled by authoritarian regimes. In his view, the latter path spells a future where powerful AI tools become instruments of state control, surveillance, and oppression, rather than catalysts for human progress and empowerment. This isn't a hypothetical distant future; it's a pressing call to action, demanding Western nations assert their leadership to ensure AI serves an open, free society.\n\nThis bold, binary framing by the OpenAI chief comes amidst a broader, increasingly complex debate within the AI community about responsible development and governance. While some, like Anthropic, lean towards a more cautious, \"harder line\" approach focusing on safety and alignment above all else, Altman consistently circles back to this geopolitical imperative. The underlying question is existential: Will AI become the ultimate tool for liberation and shared prosperity, or will it exacerbate existing power imbalances, cementing control in the hands of a few? The answer, according to Altman, hinges entirely on who builds and controls the foundation.",
-    "keyTakeaways": [
-      "Sam Altman frames AI development as a geopolitical contest between democratic and authoritarian forces.",
-      "He advocates for Western nations to lead AI development and democratically distribute its benefits to prevent authoritarian misuse.",
-      "Altman's perspective highlights a critical ideological battle for AI's future amidst ongoing debates about its governance and ethics."
-    ],
-    "source": "The Next Web",
-    "author": "Alina Maria Stan",
-    "publishedAt": "2026-07-27 10:31",
-    "category": "Technology",
-    "image": "https://media.thenextweb.com/2026/05/Sam-Altman.avif",
-    "originalUrl": "https://thenextweb.com/news/sam-altman-renews-his-democratic-ai-pitch-as-anthropic-holds-a-harder-line/",
-    "tags": [
-      "Technology",
-      "Altman",
-      "renews"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-ms4isfjv-002",
-    "title": "UK Banks Bet Big on AI Security, But Customer Trust Hangs on Human Touch",
-    "summary": "While UK banks are rapidly deploying Anthropic's Claude Mythos AI to bolster cybersecurity and detect threats faster, experts warn that this technological leap alone won't secure customer trust. True confidence hinges on equally swift and transparent communication from banks when incidents occur, ensuring customers are informed and reassured in an increasingly digital financial landscape.",
-    "content": "The landscape of UK banking is experiencing a profound shift, caught between the promise of cutting-edge artificial intelligence and the enduring human need for trust. At the heart of this transformation is Anthropic’s Claude Mythos, an advanced AI model specifically engineered to identify and patch software vulnerabilities with unprecedented speed. Already, some 200 partner organizations, including major financial institutions, are integrating Mythos as part of 'Project Minerva', a significant push to fortify digital defenses against an ever-evolving threat matrix.\n\nMythos's ability to autonomously detect and neutralize potential threats far quicker than traditional methods is undeniably a game-changer for cybersecurity. In an era where data breaches and sophisticated phishing attacks are a constant menace, arming banks with such a powerful tool feels like a necessary step forward. However, experts are quick to point out a critical flaw in this otherwise brilliant strategy: the chasm between technological prowess and customer perception.\n\nWhile AI might be working tirelessly behind the scenes to safeguard our accounts, its effectiveness in maintaining public confidence ultimately depends on something far more human. If banks can detect threats in milliseconds but fail to communicate transparently and rapidly with their customers when issues arise, that technological advantage dissolves into suspicion. Trust is built not just on invulnerability, but on clear, proactive engagement, especially during times of vulnerability. The challenge for UK banks, then, isn't just about deploying the best AI, but about ensuring their communication strategies evolve at the same breakneck speed as their security tech, bridging the gap between machine efficiency and human reassurance.",
-    "keyTakeaways": [
-      "UK banks are deploying Anthropic's Claude Mythos AI for faster threat detection and vulnerability patching.",
-      "Despite AI's advanced capabilities, customer trust is contingent on equally fast and transparent communication from banks during security incidents.",
-      "Maintaining public confidence in the digital banking era requires balancing sophisticated AI security with proactive, human-centric communication strategies."
-    ],
-    "source": "TechRadar",
-    "author": "Cindy Griffin",
-    "publishedAt": "2026-07-27 10:31",
-    "category": "Technology",
-    "image": "https://cdn.mos.cms.futurecdn.net/xHBS5bqnPRLvifkuzjdknM-2560-80.jpg",
-    "originalUrl": "https://www.techradar.com/pro/access-to-mythos-wont-protect-trust-in-uk-banks",
-    "tags": [
-      "Technology",
-      "Access",
-      "Mythos"
+      "market"
     ],
     "readingTime": "2 min"
   }
