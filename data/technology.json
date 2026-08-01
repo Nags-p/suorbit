@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-msawv4ks-000",
-    "title": "Washington's AI Reckoning: Deadline Looms as Tech Titans Descend",
-    "summary": "Federal agencies are facing a critical Saturday deadline to establish a foundational framework for AI regulation, stemming from President Trump's executive order signed in early June. This pivotal moment has drawn tech industry giants like Sam Altman and Jensen Huang to Washington, highlighting the escalating stakes in the global debate over AI's future governance.",
-    "content": "The clock is undeniably ticking. Federal agencies are facing a critical Saturday deadline, marking the culmination of a 60-day sprint mandated by President Donald Trump's executive order on artificial intelligence. Signed in early June, this directive tasked a spectrum of government bodies with forging a foundational framework for AI’s responsible development and deployment, signaling Washington’s nascent, yet urgent, grasp on the burgeoning technology.\n\nThis isn't merely bureaucratic red tape; it's a pivotal moment for the future trajectory of AI. The intensity of this regulatory push is palpable, drawing tech luminaries straight to the nation's capital. Figures like OpenAI CEO Sam Altman and Nvidia chief Jensen Huang have been visible presences in Washington, D.C., their visits underscoring the deep industry interest – and perhaps anxiety – surrounding how the government intends to rein in or foster this rapidly evolving field.\n\nThe global conversation around AI regulation has been heating up significantly, mirroring a wider international effort to navigate the ethical, economic, and national security implications of intelligent machines. From data privacy to algorithmic bias and the very pace of innovation, the framework developed by these agencies is expected to offer crucial initial guidance. Yet, it also serves as a potent flashpoint in the ongoing tug-of-war between fostering innovation and implementing robust safeguards against potential misuse.\n\nAs the deadline arrives, all eyes will be on what emerges from this concentrated effort. Will the resultant framework strike the delicate balance necessary to both protect citizens and propel American leadership in AI? Or will it merely kick off another round in the intensifying debate, leaving the industry and the public eager for more definitive answers? The coming days will offer the first glimpse into how the U.S. government plans to shape the intelligent frontier.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Federal agencies are at a critical deadline for developing an AI regulatory framework mandated by a June executive order.",
-      "The impending framework is sparking intense debate and has drawn top tech leaders like Sam Altman and Jensen Huang to Washington.",
-      "This initial U.S. government effort aims to balance AI innovation with crucial safeguards, setting a precedent for future governance."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "CNBC",
-    "author": "Ashley Capoot",
-    "publishedAt": "2026-07-31 21:46",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-01 19:00",
     "category": "Technology",
-    "image": "https://image.cnbcfm.com/api/v1/image/108323110-1781699541487-gettyimages-2282032931-090a1102_w6yjjkp0.jpeg?v=1781699571&w=1920&h=1080",
-    "originalUrl": "https://www.cnbc.com/2026/07/31/trump-ai-executive-order-nears-key-deadline-regulation-debate-heats-up.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Trumps",
-      "executive"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-01 15:00",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
