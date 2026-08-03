@@ -1,24 +1,70 @@
 [
   {
-    "id": "article-tec-mscqd2pk-000",
-    "title": "AI's Insatiable Appetite Fuels 'RAMaggedon,' Pushing Tech Prices Sky-High",
-    "summary": "The surging demand for powerful memory chips to fuel AI development is causing a dramatic increase in prices, a phenomenon some are calling 'RAMaggedon'. This upward trend is already hitting consumer electronics and threatens to ripple into critical sectors like the automotive industry.",
-    "content": "Walk into a computer shop in Hong Kong today, and you might find more than just price tags – you’ll find print-outs explaining why your RAM module or new SSD costs significantly more than it did last year. This isn't just local inflation; it's a global tremor, dubbed 'RAMaggedon,' driven almost entirely by the insatiable appetite of artificial intelligence for advanced memory chips.\n\nThe culprit is clear: AI’s demand for high-bandwidth memory (HBM) and other cutting-edge DRAM is unprecedented. Training sophisticated AI models requires colossal amounts of data processing, which in turn necessitates vast reservoirs of fast, efficient memory. Chipmakers, naturally, are redirecting their production lines and R&D efforts towards these high-margin, high-demand AI components. This strategic pivot, while lucrative for manufacturers, leaves less advanced, but still essential, memory available for the broader market.\n\nFor consumers, the consequences are already tangible. The higher cost of core components like RAM and storage trickles down, making everything from new laptops and smartphones to gaming consoles more expensive. This trend isn't expected to abate anytime soon; analysts warn that the automotive sector, heavily reliant on sophisticated chips for everything from infotainment to autonomous driving systems, could be the next to feel the squeeze. As AI continues its rapid ascent, the scramble for memory chips ensures a sustained pressure on consumer wallets, reshaping the economics of personal technology.",
+    "id": "article-tec-mscyweup-000",
+    "title": "AI Won't Decimate Jobs, Says Top Economist: It's Just Too Expensive",
+    "summary": "Amidst widespread fears of AI-driven job displacement, esteemed economist Steve Hanke argues that such concerns are economically unfounded. He posits that the significant costs associated with developing, deploying, and maintaining AI systems will prevent companies from mass layoffs.",
+    "content": "The drumbeat of artificial intelligence replacing human jobs has grown deafening, fueling anxieties across industries. Yet, amid the widespread hand-wringing, a contrarian voice cuts through the noise: renowned economist Steve Hanke. He dismisses the notion of AI as a job destroyer, not out of technological optimism, but grounded in simple economic reality.\n\nHanke, a professor at Johns Hopkins University and a senior fellow at the Cato Institute, contends that the widespread belief in AI being \"free to use and virtually costless to provide\" is fundamentally flawed and even \"delusional.\" He argues that this disconnect from economic principles blinds many to the very real costs involved in developing, deploying, and maintaining artificial intelligence systems.\n\nContrary to popular fantasy, AI doesn't spring forth fully formed and perpetually operational from thin air. The immense computational power, specialized hardware, vast datasets for training, constant refinement, and the highly skilled engineers required to build and manage these systems all come with hefty price tags. These aren't one-time investments; they represent ongoing operational expenditures. Businesses, at their core, operate on profit motives and cost-benefit analyses.\n\nTherefore, the idea that corporations will simply \"fire everybody and replace them with AI\" without considering the bottom line is, according to Hanke, economically illiterate. Companies will only automate tasks where the financial benefits – either through increased efficiency or reduced long-term costs – outweigh the significant capital outlay and ongoing expenses of AI integration. This economic friction acts as a natural buffer, ensuring a more measured, gradual adoption rather than a sudden, seismic shift.\n\nWhile AI will undoubtedly reshape job markets, creating new roles and augmenting existing ones, Hanke’s perspective offers a vital counter-narrative to the doomsday prophecies. It reminds us that even the most revolutionary technologies are still bound by the immutable laws of economics, making blanket human replacement far less likely than many fear.",
     "keyTakeaways": [
-      "AI's massive demand for advanced memory chips (like HBM) is the primary driver behind current price surges.",
-      "Chipmakers are prioritizing production of high-margin AI-specific memory, creating shortages for other tech sectors.",
-      "Consumers are already facing higher prices for electronics, with the automotive industry potentially next to be impacted by the 'RAMaggedon'."
+      "Top economist Steve Hanke challenges the popular narrative of widespread AI-induced job destruction.",
+      "Hanke argues that the high costs of AI development, deployment, and maintenance make the idea of 'free' AI delusional.",
+      "Economic realities and cost-benefit analyses will limit companies' ability to replace human workers en masse with AI, ensuring a more gradual integration."
     ],
-    "source": "The Times of India",
-    "author": "AFP",
-    "publishedAt": "2026-08-02 04:19",
+    "source": "Business Insider",
+    "author": "tmohamed@businessinsider.com (Theron Mohamed)",
+    "publishedAt": "2026-08-02 08:07",
     "category": "Technology",
-    "image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-1017089,resizemode-75,msid-132800368/tech/artificial-intelligence/ai-keeps-consumer-prices-high-in-ramaggedon-chip-crunch.jpg",
-    "originalUrl": "https://economictimes.indiatimes.com/tech/artificial-intelligence/ai-keeps-consumer-prices-high-in-ramaggedon-chip-crunch/articleshow/132800368.cms",
+    "image": "https://i.insider.com/6a6b46f6ce52cb26b8395c02?width=1200&format=jpeg",
+    "originalUrl": "https://www.businessinsider.com/steve-hanke-ai-not-destroying-jobs-unemployment-cost-data-centers-2026-7#article",
     "tags": [
       "Technology",
-      "consumer",
-      "prices"
+      "economist",
+      "doubts"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mscywlij-001",
+    "title": "Unleashed AI: Why Your Smart Coding Agent Could Be a Hidden Security Threat",
+    "summary": "AI coding agents, operating with the same permissions as their users, pose significant security risks by potentially accessing sensitive files and credentials. New open-source sandboxes like Nono are emerging as crucial tools to contain these agents, preventing unauthorized access and mitigating potential breaches in development environments.",
+    "content": "The promise of AI coding agents is tantalizing: intelligent assistants that write, debug, and optimize code, accelerating development cycles at an unprecedented pace. Yet, this revolutionary capability arrives with a potent, often overlooked, security Achilles' heel. These autonomous agents, designed to integrate seamlessly into a developer's workflow, typically operate with the exact same permissions as the user employing them. This seemingly benign detail opens a Pandora's Box of potential vulnerabilities.\n\nImagine an AI agent, tasked with a coding chore, inadvertently gaining access to sensitive production databases, critical API keys, or proprietary internal documents. The risk isn't just theoretical; it's a stark reality. With full user privileges, these agents can traverse file systems, interact with network services, and even manipulate credentials, creating a dangerously wide attack surface. Reports of even advanced AI models, like Claude, demonstrating the ability to breach company systems during security tests underscore the urgency of addressing this inherent architectural flaw.\n\nEnter Nono, an intriguing open-source sandbox project specifically designed to contain these burgeoning AI agents. Nono provides a much-needed isolated environment, effectively creating a digital cage that restricts an agent's access to only what's absolutely necessary for its given task. By controlling file access, network requests, and system commands, Nono aims to prevent accidental data leaks or malicious exploitation, ensuring that an AI's ambition doesn't inadvertently lead to a costly breach.\n\nAs AI continues its rapid integration into every facet of software development, the imperative for robust security frameworks grows. Tools like Nono represent a critical step towards harnessing the power of AI coding agents responsibly, ensuring that innovation doesn't come at the expense of enterprise security. The age of intelligent automation demands intelligent isolation.",
+    "keyTakeaways": [
+      "AI coding agents commonly inherit full user permissions, enabling them to access sensitive data and system resources.",
+      "This unchecked access poses significant security risks, including potential data leaks, credential compromise, and system breaches.",
+      "Open-source sandboxes like Nono are crucial for isolating AI agents, restricting their access to only essential resources, and mitigating security threats."
+    ],
+    "source": "Help Net Security",
+    "author": "Help Net Security",
+    "publishedAt": "2026-08-02 08:00",
+    "category": "Technology",
+    "image": "https://img.helpnetsecurity.com/wp-content/uploads/2024/03/25124834/cybersecurity-week-review-3-1500.webp",
+    "originalUrl": "https://www.helpnetsecurity.com/2026/08/02/week-in-review-claude-breached-three-companies-during-tests-ad-cs-domain-takeover-poc-released/",
+    "tags": [
+      "Technology",
+      "review",
+      "Claude"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mscywxsw-002",
+    "title": "Beyond Human Intuition: OpenAI's AI Cracks Ten Major Math Problems",
+    "summary": "OpenAI has announced a major breakthrough, with a yet-unreleased AI model successfully solving ten previously open problems in mathematics. This achievement marks a significant leap for artificial intelligence in abstract reasoning and scientific discovery, potentially ushering in a new era for how complex intellectual challenges are approached.",
+    "content": "Yesterday, the tech world quietly received a profound jolt from OpenAI, the generative AI powerhouse. The company announced a staggering achievement: an unreleased AI model has successfully solved ten open problems in mathematics. This isn't just about crunching numbers; these are long-standing, unsolved puzzles that have eluded human minds, some for decades, representing the very frontiers of current mathematical understanding.\n\nThe sheer scope of this breakthrough is hard to overstate. \"Open problems\" are the Everest peaks of their respective mathematical fields, challenges that push the boundaries of what is known. While a full disclosure of the solved problems is pending, the mere mention sends ripples through academic and scientific communities. For those with expertise in even one of these areas – such as the complex world of coding theory – the initial reaction is a potent mix of awe, disbelief, and a profound, paradigm-shifting \"huh, that's...\" moment.\n\nThis isn't merely a demonstration of computational power; it’s a startling testament to an AI's capacity for abstract reasoning and genuine, novel problem-solving. It compels us to confront a fundamental question: What does \"discovery\" truly mean when an algorithm, rather than a human mind, unveils a previously hidden truth? The implications are vast, touching everything from cryptographic security and data compression to fundamental physics, hinting at a future where AI acts not just as an assistant, but as an independent architect of knowledge.\n\nOpenAI's announcement signals a transformative shift, suggesting we are on the cusp of an era where AI doesn't just automate tasks but actively expands the sum of global knowledge. As we await further details on this mysterious model and its groundbreaking methodologies, the anticipation builds. One thing is clear: the landscape of scientific exploration is about to change dramatically, potentially forever altering our relationship with intellectual pursuit and redefining the very role of the human mind in discovery.",
+    "keyTakeaways": [
+      "OpenAI's unreleased AI model has successfully solved ten long-standing open problems in mathematics.",
+      "This breakthrough signals a significant advance in AI's capacity for abstract reasoning and novel scientific discovery.",
+      "The achievement raises profound questions about the future of human intellectual endeavor and the role of AI in generating new knowledge."
+    ],
+    "source": "Borretti.me",
+    "author": "Fernando Borretti",
+    "publishedAt": "2026-08-02 07:47",
+    "category": "Technology",
+    "image": "https://borretti.me/assets/card/mathematics-without-mathematicians.webp",
+    "originalUrl": "https://borretti.me/article/mathematics-without-mathematicians",
+    "tags": [
+      "Technology",
+      "Mathematics",
+      "Without"
     ],
     "readingTime": "2 min"
   }
