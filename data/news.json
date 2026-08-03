@@ -1,46 +1,24 @@
 [
   {
-    "id": "article-ai-msdefjf7-003",
-    "title": "FortiSOAR Playbooks Get a Brain Boost: AI and YAML Revolutionize Security Automation",
-    "summary": "A new framework, fsr-playbooks, is revolutionizing FortiSOAR's automation capabilities by introducing YAML-based authoring and integrated LLM co-authoring. This empowers security teams to develop sophisticated playbooks more efficiently, leveraging AI to accelerate incident response and reduce manual overhead.",
-    "content": "In the rapidly evolving landscape of cybersecurity, automation is no longer a luxury but a critical necessity. Enter fsr-playbooks, a new framework making waves for FortiSOAR users by significantly streamlining the creation and management of security orchestration, automation, and response (SOAR) playbooks. This latest iteration, version 0.6.12, positions itself as a pivotal tool for security teams aiming to drastically enhance their operational efficiency and accelerate response times.\n\nAt its core, fsr-playbooks provides a robust compiler that intelligently transforms human-readable YAML configurations into FortiSOAR-native FSR-JSON. This shift from potentially complex graphical interfaces to declarative YAML offers a multitude of advantages: easier version control, improved readability, and a more straightforward process for collaborative development. Security analysts can now define intricate automation workflows with greater precision and less room for error, leading to more reliable and maintainable playbooks across their infrastructure.\n\nPerhaps the most groundbreaking addition, however, is the seamless integration of Large Language Models (LLMs) for co-authoring. This isn't just about rudimentary syntax highlighting; it's about intelligent assistance that can actively help generate, suggest, and refine playbook logic. Imagine an AI assistant guiding analysts through complex automation scenarios, suggesting optimal steps for incident response, or even generating entire sections of playbooks based on high-level descriptions. This capability promises to dramatically reduce the time and specialized expertise required to build sophisticated automation, effectively democratizing advanced SOAR playbook development for a wider range of security professionals.\n\nBeyond just authoring, the framework also includes essential MCP server tools, providing a comprehensive ecosystem for deploying and managing these powerful, AI-assisted playbooks. This holistic approach ensures that from initial ideation to final deployment, FortiSOAR users have a complete suite of robust tools at their disposal to combat ever-increasing cyber threats with unparalleled speed and intelligence. The fsr-playbooks framework is poised to fundamentally redefine how security teams approach automation, making complex tasks more accessible and efficient through the transformative power of AI.",
+    "id": "article-tec-msdizdig-000",
+    "title": "Never Delete a Photo Again: Mastering Your Phone's Storage",
+    "summary": "The 'Storage Full' notification doesn't have to mean sacrificing cherished memories. This article reveals practical strategies, primarily leveraging cloud storage, to free up significant phone space without deleting a single photo.\nLearn how to manage apps, clear caches, and utilize optimization features to keep your digital life fully intact.",
+    "content": "The \"Storage Full\" notification is a modern-day digital nightmare, often leading to a painful choice: delete cherished memories or sacrifice app functionality. For many, the idea of purging photos is unthinkable, a digital amputation of personal history. But what if we told you that reclaiming precious gigabytes doesn't have to involve a single tearful deletion of your holiday snaps or baby photos?\n\nThe secret weapon in this digital skirmish is often the cloud. Services like Google Photos, Apple’s iCloud Photos, Dropbox, and OneDrive offer an elegant solution by offloading your full-resolution images to secure online servers. Your phone then keeps smaller, optimized versions, ensuring your memories are always accessible, while freeing up significant local storage. It’s a seamless process that lets you view your entire library without keeping every original file clogging up your device.\n\nBeyond the boundless expanse of cloud storage, other culprits often lurk, silently consuming space. Take a critical look at your installed applications. Many apps, especially social media and gaming titles, accumulate massive caches of data over time. Clearing these caches can instantly free up hundreds of megabytes without affecting app performance. Similarly, offloading rarely used applications – a feature built into modern iOS, for instance – removes the app itself while preserving its data, letting you reinstall it later without losing your settings.\n\nDon't forget the hidden media within messaging apps. Those endless group chat videos, GIFs, and voice notes can quickly add up. Regularly reviewing and deleting unnecessary attachments from apps like WhatsApp or Messenger can make a surprising difference. And for those truly desperate for space, consider transferring older photos and videos to an external hard drive or your computer. With a strategic approach, your phone can breathe again, and your precious photo library remains entirely intact.",
     "keyTakeaways": [
-      "fsr-playbooks introduces YAML-based authoring for FortiSOAR, simplifying playbook creation, version control, and collaboration.",
-      "Integrated Large Language Models (LLMs) provide intelligent co-authoring, accelerating playbook development and democratizing advanced SOAR capabilities.",
-      "The framework, including MCP server tools, enhances FortiSOAR's overall automation efficiency and enables faster, more intelligent cybersecurity responses."
+      "Leverage cloud storage services (e.g., Google Photos, iCloud) to offload full-resolution photos, saving significant local device storage.",
+      "Actively manage applications by clearing app caches and offloading rarely used apps to reclaim space without losing data or functionality.",
+      "Address hidden storage hogs like old media attachments in messaging apps and consider external transfers for long-term storage of older files."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-02 15:41",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/fsr-playbooks/0.6.12/",
-    "tags": [
-      "AI",
-      "fsrplaybooks"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msdeeu4h-000",
-    "title": "Python Security Takes Center Stage: PyCon 2024 Marks a Pivotal Shift",
-    "summary": "For years, software security has been the industry's perennial side dish, acknowledged as vital but rarely given a prime spot. PyCon US 2024 dramatically changed this narrative, hosting its first-ever dedicated, day-long security track to elevate this critical discussion.",
-    "content": "For too long, the security of our software felt like the industry's equivalent of healthy vegetables: everyone agreed it was essential, yet it often struggled to make it onto the main plate. This year, however, at PyCon US 2024, that narrative underwent a significant and welcome transformation.\n\nIn a move that signals a mature and increasingly proactive approach to modern software development, PyCon US dedicated an entire day to security, featuring a comprehensive track focused solely on safeguarding the Python ecosystem. This wasn't a fringe workshop or a fleeting mention; it was a full-fledged, spotlight moment—one of only two dedicated tracks at the entire conference. The message was clear: security is no longer an afterthought, but a foundational pillar.\n\nAt the heart of this landmark initiative were figures like Seth Larson, the Security Developer in Residence at the Python Software Foundation and, notably, a recently appointed CPython core developer. Larson and his colleagues spearheaded the track, bringing together experts and fostering crucial conversations around everything from supply chain vulnerabilities to best practices in secure coding within the vast Python landscape. Their presence underscores a growing institutional commitment from the PSF to bake security deeper into the language's development and community practices.\n\nThis dedicated focus at a premier developer conference reflects a broader industry trend where the escalating sophistication of cyber threats demands a paradigm shift. With Python underpinning so much of the world's infrastructure, data science, and web applications, ensuring its resilience is paramount. PyCon 2024’s security track wasn't just a discussion; it was a rallying cry, setting a precedent for future conferences and, more importantly, for every developer building with Python.",
-    "keyTakeaways": [
-      "PyCon US 2024 featured the conference's first-ever dedicated, day-long security track, marking a significant shift in prioritization.",
-      "This move highlights a growing industry and community recognition that security must be a foundational component, not an afterthought, in Python development.",
-      "The initiative was spearheaded by key figures like Seth Larson, the Python Software Foundation's Security Developer in Residence, signaling institutional commitment to security."
-    ],
-    "source": "Talkpython.fm",
-    "author": "Michael Kennedy",
-    "publishedAt": "2026-08-02 15:37",
+    "source": "Gottabemobile.com",
+    "author": "GBM Staff",
+    "publishedAt": "2026-08-02 17:30",
     "category": "Technology",
-    "image": "https://cdn-podcast.talkpython.fm/episodes/youtube_image/ktEssFryRjY/security-of-everything-at-pycon-2026.jpg?v=1",
-    "originalUrl": "https://talkpython.fm/episodes/show/557/security-of-everything-at-pycon-2026",
+    "image": "https://i0.wp.com/www.gottabemobile.com/wp-content/uploads/2026/07/Full-storage-e1785520159939.png?resize=1000%2C600&ssl=1",
+    "originalUrl": "https://www.gottabemobile.com/free-up-storage-without-deleting-photos/",
     "tags": [
       "Technology",
-      "Python",
-      "Security"
+      "Storage",
+      "Without"
     ],
     "readingTime": "2 min"
   }
