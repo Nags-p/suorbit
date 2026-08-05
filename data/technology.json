@@ -1,24 +1,24 @@
 [
   {
-    "id": "article-tec-msg37130-000",
-    "title": "AI Takes Center Stage: Creatio Reports Staggering 255% Growth in Q1 Bookings",
-    "summary": "Creatio, an AI CRM and workflow platform, announced exceptional results for the first quarter of FY27, with quarterly bookings surging an astounding 255% over the previous year. This remarkable growth signals a clear trend of enterprises rapidly adopting AI solutions at scale, leveraging platforms designed for seamless human-AI collaboration.",
-    "content": "Creatio, a prominent player in the AI CRM and workflow automation space, just dropped some eye-popping numbers for the first quarter of its FY27. The Boston-based firm announced an extraordinary 255% growth in quarterly bookings compared to the prior year, signaling a significant acceleration in enterprise adoption of its AI-powered solutions. This isn't just a bump; it's a surge that underscores a pivotal moment for businesses integrating artificial intelligence at a foundational level.\n\nThe phenomenal growth isn't happening in a vacuum. It directly reflects a rapidly maturing market where businesses are no longer just experimenting with AI but are actively deploying it at scale to transform operations. Creatio's platform, which champions a unique collaborative environment where human teams and AI agents work hand-in-hand, appears perfectly positioned to meet this escalating demand. Its promise of “no limits on users, agents, workflows, or scale” resonates deeply with large organizations grappling with complex digital transformation initiatives.\n\nAt its core, Creatio offers a robust AI CRM and workflow engine designed to streamline everything from customer interactions to complex internal processes. What sets it apart is the seamless integration of AI agents that augment human capabilities rather than replace them, fostering a more intelligent and efficient workforce. This approach minimizes friction and maximizes potential, allowing enterprises to unlock new levels of productivity and personalized service without getting bogged down by traditional software limitations. The company’s Q1 performance is a clear indicator that this blend of human ingenuity and AI horsepower is exactly what modern enterprises are seeking.\n\nCreatio's stellar performance serves as a potent barometer for the broader enterprise AI market. As companies worldwide seek competitive advantages through intelligent automation and hyper-personalization, platforms that can deliver comprehensive, scalable, and user-friendly AI solutions will inevitably lead the charge. The record bookings not only solidify Creatio's position as a frontrunner but also highlight a significant inflection point where AI is moving from a luxury to a necessity in the enterprise tech stack.",
+    "id": "article-tec-msg89lym-000",
+    "title": "AI's Dirty Secret Exposed: Nvidia and DDN Unleash GPUs to Grab Their Own Data",
+    "summary": "Nvidia and DDN are revolutionizing AI infrastructure by enabling GPUs to directly access data, bypassing the CPU bottleneck. This collaboration significantly reduces latency and cost, paving the way for more efficient and scalable AI development.",
+    "content": "The world of artificial intelligence often paints a glamorous picture of rapidly evolving algorithms and groundbreaking discoveries. Yet, lurking beneath the surface of this innovation is a costly, inconvenient truth: expensive GPUs, the workhorses of modern AI, frequently sit idle, patiently waiting for data to arrive. This notorious 'data bottleneck' has plagued AI infrastructure for years, translating directly into wasted resources and slower progress.\n\nEnter a formidable duo: DDN and Nvidia, whose decade-long partnership is now culminating in a solution poised to transform how AI models are trained and deployed. Their latest collaboration tackles this very inefficiency head-on by allowing GPUs to bypass the traditional CPU intermediary and directly access storage. This isn't just a tweak; it's a fundamental shift in data flow, leveraging Nvidia's GPUDirect Storage with DDN's EXAScaler parallel file systems.\n\nImagine a high-performance sports car (the GPU) stuck in traffic, waiting for a pedestrian (the CPU) to hand it packages of fuel. This collaboration essentially gives the sports car its own direct fuel line, cutting out the middleman entirely. By empowering GPUs to pull data themselves, latency — the agonizing delay between requesting and receiving information — is drastically reduced. This translates into tangible benefits: significantly faster training times for complex AI models, lower operational costs due to maximized hardware utilization, and the ability to scale AI projects to unprecedented levels without hitting the usual data roadblocks.\n\nFor data centers and researchers pushing the boundaries of machine learning, this innovation is nothing short of a game-changer. It promises not only to accelerate the development of next-generation AI applications but also to make high-performance AI more accessible and cost-effective. The days of powerful GPUs twiddling their silicon thumbs might just be coming to an end, ushering in an era of truly unleashed AI potential.",
     "keyTakeaways": [
-      "Creatio achieved an extraordinary 255% year-over-year growth in Q1 bookings for FY27.",
-      "The significant growth is driven by the accelerating enterprise-wide adoption of AI solutions for CRM and workflow automation.",
-      "Creatio's platform stands out by enabling seamless collaboration between human teams and AI agents without scalability limitations."
+      "DDN and Nvidia's partnership eliminates GPU idle time by allowing direct data access, bypassing the CPU bottleneck.",
+      "This innovation, leveraging GPUDirect Storage with EXAScaler, significantly reduces data latency and operational costs for AI.",
+      "The collaboration promises to accelerate AI model training, improve hardware utilization, and enhance the scalability of AI infrastructure."
     ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-04 12:51",
+    "source": "Crypto Briefing",
+    "author": "Editorial Team",
+    "publishedAt": "2026-08-04 15:11",
     "category": "Technology",
-    "image": "https://mmx.prnewswire.com/media/MS1962854/Creatios-Quarterly-Bookings.jpg?id=OA2821631&p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/creatios-quarterly-bookings-reach-255-of-prior-year-results-as-enterprises-adopt-ai-at-scale-302842077.html",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/04111114/ddn-and-nvidia-team-up-to-let-gpus-grab-their-own-data-targe-800x420.jpeg",
+    "originalUrl": "https://cryptobriefing.com/ddn-nvidia-gpu-data-access-ai/",
     "tags": [
       "Technology",
-      "Creatios",
-      "Quarterly"
+      "Nvidia",
+      "targeting"
     ],
     "readingTime": "2 min"
   }

@@ -1,70 +1,24 @@
 [
   {
-    "id": "article-tec-msg37130-000",
-    "title": "AI Takes Center Stage: Creatio Reports Staggering 255% Growth in Q1 Bookings",
-    "summary": "Creatio, an AI CRM and workflow platform, announced exceptional results for the first quarter of FY27, with quarterly bookings surging an astounding 255% over the previous year. This remarkable growth signals a clear trend of enterprises rapidly adopting AI solutions at scale, leveraging platforms designed for seamless human-AI collaboration.",
-    "content": "Creatio, a prominent player in the AI CRM and workflow automation space, just dropped some eye-popping numbers for the first quarter of its FY27. The Boston-based firm announced an extraordinary 255% growth in quarterly bookings compared to the prior year, signaling a significant acceleration in enterprise adoption of its AI-powered solutions. This isn't just a bump; it's a surge that underscores a pivotal moment for businesses integrating artificial intelligence at a foundational level.\n\nThe phenomenal growth isn't happening in a vacuum. It directly reflects a rapidly maturing market where businesses are no longer just experimenting with AI but are actively deploying it at scale to transform operations. Creatio's platform, which champions a unique collaborative environment where human teams and AI agents work hand-in-hand, appears perfectly positioned to meet this escalating demand. Its promise of “no limits on users, agents, workflows, or scale” resonates deeply with large organizations grappling with complex digital transformation initiatives.\n\nAt its core, Creatio offers a robust AI CRM and workflow engine designed to streamline everything from customer interactions to complex internal processes. What sets it apart is the seamless integration of AI agents that augment human capabilities rather than replace them, fostering a more intelligent and efficient workforce. This approach minimizes friction and maximizes potential, allowing enterprises to unlock new levels of productivity and personalized service without getting bogged down by traditional software limitations. The company’s Q1 performance is a clear indicator that this blend of human ingenuity and AI horsepower is exactly what modern enterprises are seeking.\n\nCreatio's stellar performance serves as a potent barometer for the broader enterprise AI market. As companies worldwide seek competitive advantages through intelligent automation and hyper-personalization, platforms that can deliver comprehensive, scalable, and user-friendly AI solutions will inevitably lead the charge. The record bookings not only solidify Creatio's position as a frontrunner but also highlight a significant inflection point where AI is moving from a luxury to a necessity in the enterprise tech stack.",
+    "id": "article-tec-msg89lym-000",
+    "title": "AI's Dirty Secret Exposed: Nvidia and DDN Unleash GPUs to Grab Their Own Data",
+    "summary": "Nvidia and DDN are revolutionizing AI infrastructure by enabling GPUs to directly access data, bypassing the CPU bottleneck. This collaboration significantly reduces latency and cost, paving the way for more efficient and scalable AI development.",
+    "content": "The world of artificial intelligence often paints a glamorous picture of rapidly evolving algorithms and groundbreaking discoveries. Yet, lurking beneath the surface of this innovation is a costly, inconvenient truth: expensive GPUs, the workhorses of modern AI, frequently sit idle, patiently waiting for data to arrive. This notorious 'data bottleneck' has plagued AI infrastructure for years, translating directly into wasted resources and slower progress.\n\nEnter a formidable duo: DDN and Nvidia, whose decade-long partnership is now culminating in a solution poised to transform how AI models are trained and deployed. Their latest collaboration tackles this very inefficiency head-on by allowing GPUs to bypass the traditional CPU intermediary and directly access storage. This isn't just a tweak; it's a fundamental shift in data flow, leveraging Nvidia's GPUDirect Storage with DDN's EXAScaler parallel file systems.\n\nImagine a high-performance sports car (the GPU) stuck in traffic, waiting for a pedestrian (the CPU) to hand it packages of fuel. This collaboration essentially gives the sports car its own direct fuel line, cutting out the middleman entirely. By empowering GPUs to pull data themselves, latency — the agonizing delay between requesting and receiving information — is drastically reduced. This translates into tangible benefits: significantly faster training times for complex AI models, lower operational costs due to maximized hardware utilization, and the ability to scale AI projects to unprecedented levels without hitting the usual data roadblocks.\n\nFor data centers and researchers pushing the boundaries of machine learning, this innovation is nothing short of a game-changer. It promises not only to accelerate the development of next-generation AI applications but also to make high-performance AI more accessible and cost-effective. The days of powerful GPUs twiddling their silicon thumbs might just be coming to an end, ushering in an era of truly unleashed AI potential.",
     "keyTakeaways": [
-      "Creatio achieved an extraordinary 255% year-over-year growth in Q1 bookings for FY27.",
-      "The significant growth is driven by the accelerating enterprise-wide adoption of AI solutions for CRM and workflow automation.",
-      "Creatio's platform stands out by enabling seamless collaboration between human teams and AI agents without scalability limitations."
+      "DDN and Nvidia's partnership eliminates GPU idle time by allowing direct data access, bypassing the CPU bottleneck.",
+      "This innovation, leveraging GPUDirect Storage with EXAScaler, significantly reduces data latency and operational costs for AI.",
+      "The collaboration promises to accelerate AI model training, improve hardware utilization, and enhance the scalability of AI infrastructure."
     ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-04 12:51",
+    "source": "Crypto Briefing",
+    "author": "Editorial Team",
+    "publishedAt": "2026-08-04 15:11",
     "category": "Technology",
-    "image": "https://mmx.prnewswire.com/media/MS1962854/Creatios-Quarterly-Bookings.jpg?id=OA2821631&p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/creatios-quarterly-bookings-reach-255-of-prior-year-results-as-enterprises-adopt-ai-at-scale-302842077.html",
+    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/04111114/ddn-and-nvidia-team-up-to-let-gpus-grab-their-own-data-targe-800x420.jpeg",
+    "originalUrl": "https://cryptobriefing.com/ddn-nvidia-gpu-data-access-ai/",
     "tags": [
       "Technology",
-      "Creatios",
-      "Quarterly"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-msg37ryo-003",
-    "title": "Creatio's AI CRM Rides the Enterprise Wave to 255% Growth",
-    "summary": "Creatio, an AI CRM and workflow platform, recently unveiled an astonishing 255% increase in Q1 FY27 bookings compared to the previous year, signaling robust enterprise adoption of its unique human-AI collaborative system. This remarkable surge highlights the growing demand for scalable AI solutions where human intelligence and AI agents seamlessly converge without traditional limitations.",
-    "content": "Boston-based Creatio has just dropped a bombshell on the enterprise software world, announcing a staggering 255% jump in its first-quarter FY27 bookings. This isn't just growth; it's a testament to the seismic shift underway as businesses worldwide accelerate their embrace of artificial intelligence, particularly in critical customer relationship management (CRM) and workflow optimization.\n\nAt the heart of Creatio's success lies its innovative AI CRM and workflow platform, designed around a compelling vision: a truly collaborative environment where human teams and AI agents don't just coexist, but actively work together. Unlike traditional systems that often impose restrictions, Creatio boasts a \"no limits\" philosophy, offering unparalleled scalability across users, agents, workflows, and overall operational scope. This flexibility appears to be resonating deeply with large organizations hungry for unrestricted AI integration.\n\nThe exceptional Q1 FY27 results, unveiled on August 4, 2026, paint a vivid picture of the current enterprise landscape. Companies are no longer cautiously dipping their toes into AI; they're diving headfirst into comprehensive deployments. Creatio’s platform, by enabling this seamless integration of human oversight and AI-driven efficiency, positions itself as a crucial enabler for businesses striving to automate complex processes, enhance customer interactions, and unlock new levels of productivity without hitting artificial ceilings.\n\nThis kind of explosive growth isn't merely a win for Creatio; it’s a powerful indicator for the broader tech industry. It underscores the immense market appetite for sophisticated, yet user-friendly, AI solutions that empower rather than bottleneck operations. As the line between human and artificial intelligence continues to blur in the workplace, Creatio’s model of boundless collaboration could very well set a new standard for how enterprises leverage AI at scale, pushing the boundaries of what's possible in CRM and beyond.",
-    "keyTakeaways": [
-      "Creatio experienced an astonishing 255% increase in Q1 FY27 bookings, reflecting strong market demand.",
-      "Its AI CRM and workflow platform uniquely enables seamless collaboration between human teams and AI agents, offering unlimited scalability.",
-      "The growth signifies a major trend where enterprises are rapidly adopting comprehensive AI solutions to enhance productivity and customer engagement."
-    ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-04 12:51",
-    "category": "AI",
-    "image": "https://mmx.prnewswire.com/media/MS1962854/Creatios-Quarterly-Bookings.jpg?id=OA2821631&p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/creatios-quarterly-bookings-reach-255-of-prior-year-results-as-enterprises-adopt-ai-at-scale-302842077.html",
-    "tags": [
-      "AI",
-      "Creatios",
-      "Quarterly"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sci-msg39pcl-010",
-    "title": "Igniting STEM's Future: Knowles Fellowship Seeks Visionary Math & Science Teachers",
-    "summary": "The Knowles Teacher Initiative has opened applications for its prestigious 2027 Teaching Fellowship, offering a four-year program designed to empower early-career high school math and science educators. This initiative aims to cultivate these teachers into leaders both within their classrooms and the broader educational landscape, fostering innovation in STEM education.",
-    "content": "The future of STEM education in America just got a significant boost. The Knowles Teacher Initiative, a prominent advocate for educational excellence, has officially opened applications for its highly sought-after 2027 Teaching Fellowship. This isn't just another grant program; it's a profound, four-year investment in the next generation of high school math and science teachers, designed to transform them into dynamic leaders who will shape the minds of tomorrow's innovators.\n\nIn an era where robust STEM literacy and a pipeline of skilled professionals are more crucial than ever, the Knowles Fellowship recognizes that the quality of teaching is paramount. The initiative provides comprehensive support to early-career educators, extending far beyond financial aid. Fellows gain access to an unparalleled network of seasoned mentors, bespoke professional development opportunities, and a vibrant community dedicated to pedagogical innovation and collaborative growth. The goal is clear: to equip these talented individuals with the tools, confidence, and vision to excel not only as exceptional classroom instructors but also as influential figures in their schools and the wider educational community.\n\nThis initiative addresses a critical need, moving beyond mere teacher retention to actively elevate the profession. By empowering these emerging leaders, Knowles aims to foster sustained excellence in math and science instruction, fields often grappling with shortages and high turnover rates. The fellowship cultivates a cadre of educators capable of inspiring students through engaging curricula, adapting to the rapid pace of scientific discovery, and advocating for effective, equitable learning environments that truly prepare students for the 21st century.\n\nAspiring high school math and science teachers who are committed to making a lasting impact are strongly encouraged to explore this unique opportunity. The Knowles Teacher Initiative is actively seeking individuals ready to embrace a rigorous yet rewarding journey of professional growth and leadership, promising to equip them to become true catalysts for profound and positive change in classrooms across the nation, ensuring a brighter future for American science and technology.",
-    "keyTakeaways": [
-      "Applications are now open for the Knowles Teacher Initiative's 2027 Teaching Fellowship.",
-      "The four-year program is a significant investment in early-career high school math and science teachers.",
-      "The fellowship aims to develop these educators into leaders within their classrooms and the broader STEM education community through comprehensive support."
-    ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-04 12:44",
-    "category": "Science",
-    "image": "https://mmx.prnewswire.com/media/MS1963240/Knowles-Teacher-Initiative-Four-current-Knowles-photo.jpg?id=OA2822671&p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/knowles-teacher-initiative-opens-application-for-2027-teaching-fellowship-302842014.html",
-    "tags": [
-      "Science",
-      "Knowles",
-      "Teacher"
+      "Nvidia",
+      "targeting"
     ],
     "readingTime": "2 min"
   }
