@@ -1,116 +1,46 @@
 [
   {
-    "id": "article-tec-msipq773-000",
-    "title": "Microsoft's EWS Phase-Out: More Than a Migration, It's a Wake-Up Call for Enterprise Tech",
-    "summary": "Microsoft is phasing out its Exchange Web Services (EWS) API, a critical backend for countless enterprise applications, with a full shutdown expected by April 2027. This move serves as a stark warning for organizations to proactively audit their tech stack and address accumulating tech debt before other foundational services are deprecated.",
-    "content": "October 1st isn't just another date on the calendar for countless organizations; it marks the quiet beginning of a significant transition in their digital infrastructure. Microsoft is officially commencing the phase-out of its venerable Exchange Web Services (EWS) API, a process culminating in its full shutdown by April 2027. For many, EWS has been the unseen backbone, the 'invisible plumbing' facilitating critical email, calendar, and contact integrations across a dizzying array of applications for well over a decade.\n\nThe sheer longevity of EWS is precisely why its deprecation is such a seismic event. Developed in the mid-2000s, it predates many of today's cloud-native paradigms, yet it remains deeply embedded in everything from HR systems to line-of-business applications, often without current IT teams even realizing the full extent of its reach. Migrating away isn't a simple flip of a switch; it involves identifying every integration, assessing its reliance on EWS, and meticulously planning a transition to Microsoft Graph or other modern alternatives – a task that will demand significant resources and strategic foresight.\n\nHowever, viewing the EWS shutdown as a one-off technical migration would be a grave miscalculation. This move by Microsoft serves as a loud, unequivocal warning shot across the bow for enterprise IT everywhere. It underscores a pervasive challenge: the silent accumulation of tech debt and the perilous dependency on legacy APIs that can lie dormant for years, only to surface as critical vulnerabilities when a vendor decides to sunset a service. It's a stark reminder that 'out of sight' certainly doesn't mean 'out of mind' in the world of enterprise architecture.\n\nOrganizations that haven't already begun auditing their internal and external systems for EWS dependencies risk significant operational disruption, security exposure, and a scramble to catch up as the deadline approaches. More broadly, this event should ignite a proactive wave of discovery within IT departments: what other foundational, yet antiquated, services are silently powering your business? The EWS phase-out isn't merely about adapting to Microsoft's roadmap; it's a vital opportunity to fortify digital foundations against future, inevitable vendor-driven shifts and ensure long-term resilience.",
+    "id": "article-tec-msis5e1z-000",
+    "title": "Mobilise Unleashes New Investment Arm to Turbocharge Telecom's Next-Gen Software Stars",
+    "summary": "Telecom software leader Mobilise has unveiled Mobilise Platforms & Investments, a new strategic division aimed at supercharging specialist telecom technology businesses. This initiative combines crucial investment, deep industry expertise, and shared technological resources to help promising firms overcome scaling hurdles and innovate faster.",
+    "content": "In a significant move that could reshape the landscape for emerging telecom technology companies, industry stalwart Mobilise has pulled back the curtain on its ambitious new venture: Mobilise Platforms & Investments. This fresh division isn't just another corporate arm; it's a strategic declaration, signaling Mobilise's intent to actively cultivate and accelerate the growth of specialist telecom software businesses often stifled by the industry's complex and capital-intensive nature.\n\nThe telecom sector, for all its innovation, remains notoriously challenging for smaller, specialized tech firms trying to gain traction. Brilliant ideas often hit a wall when it comes to securing the necessary funding, navigating intricate regulatory environments, or simply accessing the broader market reach enjoyed by established players. Mobilise Platforms & Investments directly addresses these systemic bottlenecks, offering a lifeline to innovators who might otherwise struggle to scale.\n\nAt its core, the new division is designed as a powerful growth engine. It blends three critical components: strategic financial investment to fuel expansion, unparalleled telecom expertise drawn from Mobilise’s own deep bench, and access to a shared technology stack that can dramatically reduce development costs and accelerate time-to-market. By pooling these resources, Mobilise aims to create a more robust ecosystem where specialist providers can thrive, integrate seamlessly, and deliver cutting-edge solutions to a hungry market. The focus will be on identifying high-potential companies whose innovations align with the future of connectivity, from 5G enablement to advanced network virtualization.\n\nThis isn't just about charity; it's smart business. By fostering a network of agile, specialized partners, Mobilise itself stands to benefit from a richer, more diverse portfolio of offerings, solidifying its position at the forefront of telecom innovation. The broader industry, in turn, gains access to a more vibrant and dynamic pool of solutions, potentially driving down costs and speeding up the deployment of next-generation services. This strategic pivot by Mobilise could very well unlock a new era of collaborative growth within the often-siloed telecom software space.",
     "keyTakeaways": [
-      "Microsoft's Exchange Web Services (EWS) API began its phase-out on October 1st, leading to a full shutdown by April 2027.",
-      "The EWS deprecation highlights widespread enterprise reliance on hidden, legacy infrastructure and the dangers of unaddressed tech debt.",
-      "Organizations must proactively audit their systems for dependencies on foundational services and modernize to avoid significant operational disruptions and security risks."
+      "Mobilise has launched Mobilise Platforms & Investments, a new division designed to scale specialist telecom technology companies.",
+      "The initiative leverages strategic investment, deep industry expertise, and shared technology to help promising firms grow.",
+      "This move aims to foster innovation, build a more dynamic telecom software ecosystem, and address scaling challenges faced by smaller tech businesses."
     ],
-    "source": "TechRadar",
-    "author": "Markus Müller",
-    "publishedAt": "2026-08-06 08:57",
+    "source": "Biztoc.com",
+    "author": "tech.eu",
+    "publishedAt": "2026-08-06 10:06",
     "category": "Technology",
-    "image": "https://cdn.mos.cms.futurecdn.net/JpXukHGqkZ8gapEzDQNqRW-1920-80.jpg",
-    "originalUrl": "https://www.techradar.com/pro/microsofts-ews-shutdown-should-be-treated-as-a-warning-not-a-one-off",
+    "image": "https://biztoc.com/cdn/d25afa18d599103c_s.webp",
+    "originalUrl": "https://biztoc.com/x/d25afa18d599103c",
     "tags": [
       "Technology",
-      "Microsofts",
-      "shutdown"
+      "Mobilise",
+      "launches"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-spa-msiprudj-006",
-    "title": "Ad Tech's AI Awakening: A Deep Dive into Contextual Advertising's New Era",
-    "summary": "Industry leaders gathered at Streaming Media Connect to unravel the complex interplay of AI, ad technology, and contextual advertising. The panel explored how these forces are shaping a privacy-first future for digital marketing, moving beyond traditional tracking methods.",
-    "content": "On Tuesday, August 11, Streaming Media Connect is set to host a crucial panel exploring the intricate convergence of artificial intelligence, ad technology, and contextual advertising. Moderated by Ophélie Boucaud, Principal Analyst at Dataxis, this “Match Game” panel promises to be a pivotal discussion for anyone navigating the ever-shifting sands of digital marketing.\n\nThe advertising industry stands at a crossroads. With privacy concerns mounting and the impending deprecation of third-party cookies, advertisers are scrambling for sustainable strategies. Contextual advertising has emerged as a frontrunner, offering a powerful alternative that places ads based on the surrounding content, rather than relying on intrusive personal data. This paradigm shift isn't just about compliance; it's about smarter engagement. AI, in particular, is proving to be the linchpin, enabling advertisers to analyze vast amounts of content with unprecedented speed and accuracy, ensuring relevance without compromising user privacy.\n\nThe panel brings together a formidable lineup of industry stalwarts, each contributing a distinct lens to this complex topic. Alia J. Daniels of Revry offers insights from the content creation and streaming perspective, while Crystal Foote from DCG will illuminate data-driven strategies. Bradley Lewington of Servers.com adds expertise on the infrastructure underpinning these systems, and Sarge Sargent from Sargeway provides a strategic outlook on brand engagement. This diverse assembly guarantees a holistic examination of how these forces reshape digital outreach.\n\nThe discussion is expected to dissect the practical applications and ethical implications of this new advertising frontier. Optimizing campaign performance and building audience trust, understanding AI and contextual targeting is no longer optional—it's imperative. It's a strategic imperative for marketers and brands aiming to thrive in a privacy-centric, intelligence-driven landscape. Expect actionable insights into leveraging these tools for superior engagement and ROI.",
+    "id": "article-tec-msis5ulm-002",
+    "title": "The AI-ristocracy Arrives: How Tech's New Fortunes Are Reshaping Philanthropy",
+    "summary": "A new class of AI billionaires, exemplified by Anthropic CEO Dario Amodei, is emerging with a distinct philanthropic vision to tackle global challenges from animal welfare to health. Their approach promises to significantly alter the landscape of American charity, bringing fresh priorities and substantial resources to the forefront.",
+    "content": "Long before Dario Amodei co-founded Anthropic, now a multi-billion-dollar AI powerhouse, he was a 26-year-old biophysics PhD student at Princeton. Even then, the young academic was wrestling with fundamental questions about how his future wealth, hypothetical at the time, could best serve humanity. This early, deliberate contemplation of impact wasn't just an intellectual exercise; it foreshadowed a profound shift in philanthropy, driven by the rapid ascension of a new class of technology magnates.\n\nIndeed, Amodei stands as a prime example of what’s been dubbed the 'AI-ristocracy' – a cadre of individuals whose fortunes are inextricably linked to the burgeoning field of artificial intelligence. Unlike traditional philanthropists or even the earlier wave of Silicon Valley titans, this generation often brings a distinct philosophical bent to their giving. They aren't just cutting checks; many are deeply embedded in the effective altruism movement, meticulously analyzing the greatest good for the greatest number, often with a global rather than purely local focus.\n\nFrom ambitious projects in global health to pioneering efforts in animal welfare, these AI-driven billionaires are injecting vast sums into areas they believe offer the highest leverage for positive change. Their substantial contributions and analytical approach are poised to redefine what American charity looks like. This isn't just about more money entering the philanthropic ecosystem; it's about a reorientation of priorities, a challenge to established institutions, and an embrace of data-driven impact that could fundamentally alter how we think about saving the world.\n\nThe rise of the AI-ristocracy signals more than just a new source of donations. It represents a potent cultural and economic force, bringing new ideas, scale, and urgency to global problems. As these visionaries translate their AI-fueled wealth into actionable solutions, they are not merely participating in philanthropy; they are actively reshaping its very future, leaving an indelible mark on society's most pressing challenges.",
     "keyTakeaways": [
-      "The advertising industry is rapidly shifting towards contextual advertising due to increasing privacy concerns and the deprecation of third-party cookies.",
-      "Artificial intelligence is critical for effective contextual advertising, enabling precise ad placement by analyzing content rather than relying on personal user data.",
-      "A diverse panel of experts will explore the practical applications, ethical considerations, and strategic imperatives of AI in contextual advertising for improved engagement and ROI."
+      "A new class of AI billionaires, termed the 'AI-ristocracy,' is emerging, driven by the rapid growth of artificial intelligence.",
+      "These philanthropists, exemplified by Anthropic CEO Dario Amodei, bring a distinct, often data-driven and globally focused approach to charity.",
+      "Their substantial wealth and unique priorities are set to fundamentally transform the landscape of American philanthropy, challenging traditional norms and focusing on high-leverage global issues like health and animal welfare."
     ],
-    "source": "Streamingmedia.com",
-    "author": "https://www.streamingmedia.com/Authors/10274-Brandi-Scardilli.htm",
-    "publishedAt": "2026-08-06 08:55",
-    "category": "Space",
-    "image": "https://dzceab466r34n.cloudfront.net/Images/ArticleImages/459807-match-game-ORG.png",
-    "originalUrl": "https://www.streamingmedia.com/Articles/ReadArticle.aspx?ArticleID=176057",
-    "tags": [
-      "Space",
-      "Preview",
-      "Contextual"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-msiprm2e-005",
-    "title": "Nigeria’s Five-Year Void in Technical Education Ends, Board Returns to Steer Industrial Future",
-    "summary": "After a five-year hiatus, Nigeria's Federal Government has finally inaugurated the Governing Board of the National Board for Technical Education (NBTE). This crucial move aims to revitalize technical education, aligning it with modern industrial demands and robust job creation efforts.",
-    "content": "In a move that promises to significantly reshape Nigeria's educational landscape and industrial future, the Federal Government has officially inaugurated the Governing Board of the National Board for Technical Education (NBTE). This long-awaited development comes after a staggering five-year period during which the vital body remained inactive, leaving a critical gap in the strategic direction of technical and vocational education.\n\nThe re-establishment of the NBTE board is not merely a formality; it signifies a serious intent to overhaul and reposition technical education within the nation. At the core of this initiative is a fresh reform agenda designed to bridge the yawning skills gap currently challenging Nigeria’s industrial ambitions. For too long, the disconnect between educational output and industry needs has stifled economic growth and youth employment.\n\nThe newly constituted board is tasked with an ambitious mandate: to modernize curricula, foster deeper collaborations between academia and industry, and ensure that technical training programs are responsive to the demands of a rapidly evolving global economy. The emphasis is squarely on driving industrialization and creating sustainable job opportunities for the teeming youth population, moving beyond theoretical knowledge to practical, sought-after skills that power manufacturing, technology, and service sectors.\n\nThis revitalization is crucial for a nation grappling with unemployment and striving for self-sufficiency in various industries. With the board now in place, stakeholders are optimistic that a coherent, forward-thinking strategy for technical education will emerge, ultimately equipping a new generation with the competencies needed to innovate, build, and contribute meaningfully to Nigeria's economic resurgence. The clock has been reset; the work of building a skilled workforce for the future begins now.",
-    "keyTakeaways": [
-      "The Federal Government has inaugurated the NBTE Board after a significant five-year absence.",
-      "The move aims to reform and reposition technical education to drive national industrialization.",
-      "The new agenda focuses on creating jobs and equipping the youth with modern, relevant skills."
-    ],
-    "source": "The Punch",
-    "author": "Punch Newspapers",
-    "publishedAt": "2026-08-06 08:53",
-    "category": "AI",
-    "image": "https://punchng.com/wp-content/uploads/2026/06/Tunji-Alausa-1062x598-1.webp",
-    "originalUrl": "https://punchng.com/fg-inaugurates-nbte-board-after-five-year-gap/",
-    "tags": [
-      "AI",
-      "inaugurates",
-      "fiveyear"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msipqfya-001",
-    "title": "Motorola's Unfolding Future: Is Your Next Phone Actually a Watch?",
-    "summary": "Motorola has patented an innovative device that aims to merge the functionality of a smartwatch and a smartphone. This concept envisions a watch that can unfold into a larger, full-screen smartphone display, addressing the long-standing inconvenience of managing two separate devices.",
-    "content": "The perennial tech dream of seamlessly merging our most personal gadgets — the smartphone and the smartwatch — has always been just out of reach. For years, the industry has grappled with the inherent redundancy: carrying a powerful mini-computer in your pocket while also sporting a smaller, often limited version on your wrist. The obvious inconvenience of managing two separate screens, two sets of notifications, and often two distinct operating systems, has been a significant hurdle. Until now, perhaps.\n\nMotorola, a company no stranger to groundbreaking mobile form factors, seems poised to tackle this challenge head-on with a fascinating new patent. But forget the clunky \"phone-on-wrist\" concepts of yesteryear. Motorola’s vision isn't about making a phone you wear, but rather a watch you *unfold*. Imagine a sleek smartwatch that, with a simple gesture, transforms into a full-fledged smartphone display, offering ample screen real estate for browsing, messaging, or media consumption, before effortlessly snapping back onto your wrist.\n\nThis ingenious approach could finally bridge the gap between convenience and functionality. Instead of choosing between a minimalist wrist-worn device and a larger, more capable handheld, users could have the best of both worlds. The patent drawings suggest a clever multi-hinge design, allowing the device to curve around the wrist as a compact watch, then unfurl into a larger, flat screen when needed. This isn't just about combining two devices; it's about optimizing the user experience by providing the appropriate screen size for the task at hand, eliminating the friction of switching between gadgets.\n\nWhile still in the patent phase, Motorola's innovative concept hints at a future where our wearables are far more versatile. This could represent a significant leap forward, potentially redefining what a \"mobile device\" truly means. The technical challenges, from battery life to screen durability and hinge mechanisms, are undoubtedly immense. Yet, the prospect of a single device that fluidly transitions from a discreet smartwatch to a powerful smartphone is a tantalizing glimpse into a more integrated and less cluttered technological landscape. It’s a bold move, pushing the boundaries of what’s possible with flexible displays.",
-    "keyTakeaways": [
-      "Motorola has patented a novel hybrid device that transforms from a smartwatch into a smartphone.",
-      "The innovation aims to solve the inconvenience of carrying and managing two separate screens for phone and watch.",
-      "This concept represents a significant step towards more integrated and versatile wearable technology using flexible display advancements."
-    ],
-    "source": "Yanko Design",
-    "author": "JC Torres",
-    "publishedAt": "2026-08-06 08:45",
+    "source": "Vox",
+    "author": "Sara Herschander",
+    "publishedAt": "2026-08-06 10:00",
     "category": "Technology",
-    "image": "https://www.yankodesign.com/images/design_news/2026/08/motorolas-patent-isnt-a-phone-you-wear-its-a-watch-you-unfold/motorola-foldable-smartphone-smartwatch-01.jpg",
-    "originalUrl": "https://www.yankodesign.com/2026/08/06/motorolas-patent-isnt-a-phone-you-wear-its-a-watch-you-unfold/",
+    "image": "https://platform.vox.com/wp-content/uploads/sites/2/2026/08/AIMilliionaires_Vox_Olga.jpg?quality=90&strip=all&crop=0%2C2.7082408857457%2C100%2C78.534031413613&w=1200",
+    "originalUrl": "https://www.vox.com/future-perfect/496834/ai-philanthropy-effective-altruism-billionaires",
     "tags": [
       "Technology",
-      "Motorolas",
-      "Patent"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msipqs03-002",
-    "title": "India's Roads Get Smart: The V2V Mandate Set to Transform Safety and Mobility",
-    "summary": "India's new mandate for Vehicle-to-Vehicle (V2V) communication systems marks a pivotal moment for road safety and connected mobility in the nation. This technology allows vehicles to share real-time data like speed and position, promising a significant reduction in accidents and a more efficient transport ecosystem.",
-    "content": "India’s notoriously challenging roads are on the cusp of a profound transformation, thanks to a groundbreaking mandate pushing for Vehicle-to-Vehicle (V2V) communication systems. This isn't merely a technological upgrade; it represents one of the nation's most ambitious, tech-led initiatives aimed squarely at tackling its alarming road safety crisis head-on. It's a bold step, positioning India at the forefront of countries leveraging smart infrastructure for everyday safety.\n\nSo, what exactly does V2V entail? Imagine a world where every car on the road isn't just an isolated unit, but an active participant in a sophisticated network. V2V systems allow vehicles to constantly exchange critical data — think speed, precise position, direction, and even acceleration — all in real-time. This invisible dialogue between cars creates a 360-degree awareness far beyond what any human driver or individual sensor can achieve, effectively predicting and preventing potential collisions before they even materialize. It’s like equipping every car with a sixth sense for danger.\n\nThe implications for a country like India, grappling with high accident rates and burgeoning traffic congestion, are immense. Beyond the immediate benefit of crash prevention, a widespread V2V network promises to revolutionize traffic flow, optimizing routes, reducing snarls, and even cutting down on fuel consumption and emissions. This mandate isn't just about safer commutes; it’s about architecting a smarter, more efficient, and ultimately more sustainable urban mobility landscape. It lays the groundwork for future innovations, from advanced driver-assistance systems to ultimately, autonomous vehicles.\n\nWhile the vision is compelling, the path ahead will undoubtedly present its own set of hurdles, from infrastructure development and standardization challenges to ensuring data privacy and widespread adoption. Yet, the Centre's clear directive underscores a firm commitment to integrating cutting-edge technology into the very fabric of India's transportation system. This isn't just about a brighter tomorrow; it's about building a fundamentally safer and smarter India, one connected vehicle at a time.",
-    "keyTakeaways": [
-      "India's V2V mandate is a landmark technology-led road safety initiative aimed at tackling the nation's high accident rates.",
-      "V2V systems enable real-time information exchange between vehicles on speed, position, and direction, crucial for preventing collisions.",
-      "The initiative is set to improve overall road safety, optimize traffic flow, and lay the foundation for future connected and autonomous mobility in India."
-    ],
-    "source": "Livemint",
-    "author": "Subhash Narayan",
-    "publishedAt": "2026-08-06 08:34",
-    "category": "Technology",
-    "image": "https://www.livemint.com/lm-img/img/2026/08/06/1600x900/logo/iStock-1872214778_1785855874553_1785855889776_1e07ea6e-d17d-4f7b-b8db-26c88d85156f_1786005133815_b6aededd-47c7-4fc8-a5b3-70484d95ec1b.jpg",
-    "originalUrl": "https://www.livemint.com/industry/vehicle-to-vehicle-v2v-communication-india-new-road-safety-rules-11785990432646.html",
-    "tags": [
-      "Technology",
-      "Explainer",
-      "vehicles"
+      "AIristocracy"
     ],
     "readingTime": "2 min"
   }
