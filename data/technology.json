@@ -1,1 +1,71 @@
-[]
+[
+  {
+    "id": "article-tec-msipq773-000",
+    "title": "Microsoft's EWS Phase-Out: More Than a Migration, It's a Wake-Up Call for Enterprise Tech",
+    "summary": "Microsoft is phasing out its Exchange Web Services (EWS) API, a critical backend for countless enterprise applications, with a full shutdown expected by April 2027. This move serves as a stark warning for organizations to proactively audit their tech stack and address accumulating tech debt before other foundational services are deprecated.",
+    "content": "October 1st isn't just another date on the calendar for countless organizations; it marks the quiet beginning of a significant transition in their digital infrastructure. Microsoft is officially commencing the phase-out of its venerable Exchange Web Services (EWS) API, a process culminating in its full shutdown by April 2027. For many, EWS has been the unseen backbone, the 'invisible plumbing' facilitating critical email, calendar, and contact integrations across a dizzying array of applications for well over a decade.\n\nThe sheer longevity of EWS is precisely why its deprecation is such a seismic event. Developed in the mid-2000s, it predates many of today's cloud-native paradigms, yet it remains deeply embedded in everything from HR systems to line-of-business applications, often without current IT teams even realizing the full extent of its reach. Migrating away isn't a simple flip of a switch; it involves identifying every integration, assessing its reliance on EWS, and meticulously planning a transition to Microsoft Graph or other modern alternatives – a task that will demand significant resources and strategic foresight.\n\nHowever, viewing the EWS shutdown as a one-off technical migration would be a grave miscalculation. This move by Microsoft serves as a loud, unequivocal warning shot across the bow for enterprise IT everywhere. It underscores a pervasive challenge: the silent accumulation of tech debt and the perilous dependency on legacy APIs that can lie dormant for years, only to surface as critical vulnerabilities when a vendor decides to sunset a service. It's a stark reminder that 'out of sight' certainly doesn't mean 'out of mind' in the world of enterprise architecture.\n\nOrganizations that haven't already begun auditing their internal and external systems for EWS dependencies risk significant operational disruption, security exposure, and a scramble to catch up as the deadline approaches. More broadly, this event should ignite a proactive wave of discovery within IT departments: what other foundational, yet antiquated, services are silently powering your business? The EWS phase-out isn't merely about adapting to Microsoft's roadmap; it's a vital opportunity to fortify digital foundations against future, inevitable vendor-driven shifts and ensure long-term resilience.",
+    "keyTakeaways": [
+      "Microsoft's Exchange Web Services (EWS) API began its phase-out on October 1st, leading to a full shutdown by April 2027.",
+      "The EWS deprecation highlights widespread enterprise reliance on hidden, legacy infrastructure and the dangers of unaddressed tech debt.",
+      "Organizations must proactively audit their systems for dependencies on foundational services and modernize to avoid significant operational disruptions and security risks."
+    ],
+    "source": "TechRadar",
+    "author": "Markus Müller",
+    "publishedAt": "2026-08-06 08:57",
+    "category": "Technology",
+    "image": "https://cdn.mos.cms.futurecdn.net/JpXukHGqkZ8gapEzDQNqRW-1920-80.jpg",
+    "originalUrl": "https://www.techradar.com/pro/microsofts-ews-shutdown-should-be-treated-as-a-warning-not-a-one-off",
+    "tags": [
+      "Technology",
+      "Microsofts",
+      "shutdown"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-msipqfya-001",
+    "title": "Motorola's Unfolding Future: Is Your Next Phone Actually a Watch?",
+    "summary": "Motorola has patented an innovative device that aims to merge the functionality of a smartwatch and a smartphone. This concept envisions a watch that can unfold into a larger, full-screen smartphone display, addressing the long-standing inconvenience of managing two separate devices.",
+    "content": "The perennial tech dream of seamlessly merging our most personal gadgets — the smartphone and the smartwatch — has always been just out of reach. For years, the industry has grappled with the inherent redundancy: carrying a powerful mini-computer in your pocket while also sporting a smaller, often limited version on your wrist. The obvious inconvenience of managing two separate screens, two sets of notifications, and often two distinct operating systems, has been a significant hurdle. Until now, perhaps.\n\nMotorola, a company no stranger to groundbreaking mobile form factors, seems poised to tackle this challenge head-on with a fascinating new patent. But forget the clunky \"phone-on-wrist\" concepts of yesteryear. Motorola’s vision isn't about making a phone you wear, but rather a watch you *unfold*. Imagine a sleek smartwatch that, with a simple gesture, transforms into a full-fledged smartphone display, offering ample screen real estate for browsing, messaging, or media consumption, before effortlessly snapping back onto your wrist.\n\nThis ingenious approach could finally bridge the gap between convenience and functionality. Instead of choosing between a minimalist wrist-worn device and a larger, more capable handheld, users could have the best of both worlds. The patent drawings suggest a clever multi-hinge design, allowing the device to curve around the wrist as a compact watch, then unfurl into a larger, flat screen when needed. This isn't just about combining two devices; it's about optimizing the user experience by providing the appropriate screen size for the task at hand, eliminating the friction of switching between gadgets.\n\nWhile still in the patent phase, Motorola's innovative concept hints at a future where our wearables are far more versatile. This could represent a significant leap forward, potentially redefining what a \"mobile device\" truly means. The technical challenges, from battery life to screen durability and hinge mechanisms, are undoubtedly immense. Yet, the prospect of a single device that fluidly transitions from a discreet smartwatch to a powerful smartphone is a tantalizing glimpse into a more integrated and less cluttered technological landscape. It’s a bold move, pushing the boundaries of what’s possible with flexible displays.",
+    "keyTakeaways": [
+      "Motorola has patented a novel hybrid device that transforms from a smartwatch into a smartphone.",
+      "The innovation aims to solve the inconvenience of carrying and managing two separate screens for phone and watch.",
+      "This concept represents a significant step towards more integrated and versatile wearable technology using flexible display advancements."
+    ],
+    "source": "Yanko Design",
+    "author": "JC Torres",
+    "publishedAt": "2026-08-06 08:45",
+    "category": "Technology",
+    "image": "https://www.yankodesign.com/images/design_news/2026/08/motorolas-patent-isnt-a-phone-you-wear-its-a-watch-you-unfold/motorola-foldable-smartphone-smartwatch-01.jpg",
+    "originalUrl": "https://www.yankodesign.com/2026/08/06/motorolas-patent-isnt-a-phone-you-wear-its-a-watch-you-unfold/",
+    "tags": [
+      "Technology",
+      "Motorolas",
+      "Patent"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-msipqs03-002",
+    "title": "India's Roads Get Smart: The V2V Mandate Set to Transform Safety and Mobility",
+    "summary": "India's new mandate for Vehicle-to-Vehicle (V2V) communication systems marks a pivotal moment for road safety and connected mobility in the nation. This technology allows vehicles to share real-time data like speed and position, promising a significant reduction in accidents and a more efficient transport ecosystem.",
+    "content": "India’s notoriously challenging roads are on the cusp of a profound transformation, thanks to a groundbreaking mandate pushing for Vehicle-to-Vehicle (V2V) communication systems. This isn't merely a technological upgrade; it represents one of the nation's most ambitious, tech-led initiatives aimed squarely at tackling its alarming road safety crisis head-on. It's a bold step, positioning India at the forefront of countries leveraging smart infrastructure for everyday safety.\n\nSo, what exactly does V2V entail? Imagine a world where every car on the road isn't just an isolated unit, but an active participant in a sophisticated network. V2V systems allow vehicles to constantly exchange critical data — think speed, precise position, direction, and even acceleration — all in real-time. This invisible dialogue between cars creates a 360-degree awareness far beyond what any human driver or individual sensor can achieve, effectively predicting and preventing potential collisions before they even materialize. It’s like equipping every car with a sixth sense for danger.\n\nThe implications for a country like India, grappling with high accident rates and burgeoning traffic congestion, are immense. Beyond the immediate benefit of crash prevention, a widespread V2V network promises to revolutionize traffic flow, optimizing routes, reducing snarls, and even cutting down on fuel consumption and emissions. This mandate isn't just about safer commutes; it’s about architecting a smarter, more efficient, and ultimately more sustainable urban mobility landscape. It lays the groundwork for future innovations, from advanced driver-assistance systems to ultimately, autonomous vehicles.\n\nWhile the vision is compelling, the path ahead will undoubtedly present its own set of hurdles, from infrastructure development and standardization challenges to ensuring data privacy and widespread adoption. Yet, the Centre's clear directive underscores a firm commitment to integrating cutting-edge technology into the very fabric of India's transportation system. This isn't just about a brighter tomorrow; it's about building a fundamentally safer and smarter India, one connected vehicle at a time.",
+    "keyTakeaways": [
+      "India's V2V mandate is a landmark technology-led road safety initiative aimed at tackling the nation's high accident rates.",
+      "V2V systems enable real-time information exchange between vehicles on speed, position, and direction, crucial for preventing collisions.",
+      "The initiative is set to improve overall road safety, optimize traffic flow, and lay the foundation for future connected and autonomous mobility in India."
+    ],
+    "source": "Livemint",
+    "author": "Subhash Narayan",
+    "publishedAt": "2026-08-06 08:34",
+    "category": "Technology",
+    "image": "https://www.livemint.com/lm-img/img/2026/08/06/1600x900/logo/iStock-1872214778_1785855874553_1785855889776_1e07ea6e-d17d-4f7b-b8db-26c88d85156f_1786005133815_b6aededd-47c7-4fc8-a5b3-70484d95ec1b.jpg",
+    "originalUrl": "https://www.livemint.com/industry/vehicle-to-vehicle-v2v-communication-india-new-road-safety-rules-11785990432646.html",
+    "tags": [
+      "Technology",
+      "Explainer",
+      "vehicles"
+    ],
+    "readingTime": "2 min"
+  }
+]
