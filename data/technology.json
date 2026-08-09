@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-msmdm7re-000",
-    "title": "Beyond the Gamepad: The Magnetic Secret Keeping Your Tech Alive (And Ending Stick Drift)",
-    "summary": "Hall Effect sensors are revolutionizing gaming controllers by eliminating stick drift with their durable, non-contact magnetic sensing technology. This article explores how these precise sensors work and their critical, often unseen, role in a wide range of devices from automotive systems to smart appliances.",
-    "content": "If you've bought a new gaming controller recently, you've likely encountered the buzz around \"Hall Effect sensors.\" Praised for their potential to banish the dreaded \"stick drift\" that plagues traditional joysticks, these tiny technological marvels aren't just revolutionizing gameplay; they're silently powering a surprising array of devices far beyond your console.\n\nAt their heart, Hall Effect sensors are incredibly precise magnetic field detectors. Unlike older joystick potentiometers, which rely on physical contact and wear down over time – leading to imprecise inputs and eventual drift – Hall Effect sensors measure changes in a magnetic field. This non-contact operation means superior durability, pinpoint accuracy, and a lifespan that far outstrips their mechanical predecessors, translating to smoother, more reliable inputs for gamers.\n\nThe principles that make them ideal for high-precision gaming peripherals also make them indispensable in countless other applications. From industrial automation, where they monitor machinery and detect object positions without physical contact, to the automotive sector, where they sense crankshaft and camshaft positions for engine control, these sensors are everywhere. They're in your smartphone, determining screen orientation, and even in smart appliances, detecting lid closures or water levels. Their robustness against dust, moisture, and mechanical wear makes them perfect for harsh environments where reliability is paramount.\n\nThe \"Hall Effect\" itself is a fundamental phenomenon in physics: when an electrical current flows through a conductor and encounters a magnetic field perpendicular to its direction, a voltage difference (the Hall voltage) is generated across the conductor. The strength of this voltage directly correlates with the magnetic field's intensity, providing a precise, wear-free measurement. It's an elegant solution to a host of engineering challenges.\n\nSo while gamers celebrate the end of stick drift and a new era of controller longevity, the quiet revolution of Hall Effect technology is ensuring reliability and precision across a vast spectrum of modern devices, proving that sometimes, the most impactful innovations are the ones you never even see.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Hall Effect sensors use magnetic fields for non-contact measurement, preventing wear and stick drift common in traditional potentiometers.",
-      "Beyond gaming, these sensors are crucial in automotive, industrial, and consumer electronics for their precision and durability.",
-      "Their operation relies on generating a voltage proportional to magnetic field strength, offering reliable and long-lasting performance across diverse applications."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "BGR",
-    "author": "staff@bgr.com (Aaron Greenbaum)",
-    "publishedAt": "2026-08-08 22:17",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-09 19:30",
     "category": "Technology",
-    "image": "https://www.bgr.com/img/gallery/hall-effect-sensors-arent-just-for-gaming-heres-how-they-work/l-intro-1785513234.jpg",
-    "originalUrl": "https://www.bgr.com/2228663/hall-effect-explained/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Effect",
-      "Sensors"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-09 15:30",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
