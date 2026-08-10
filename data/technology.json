@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-msnp9fhi-000",
-    "title": "Beyond Chatbots: Canada Bets on AI Factories for Digital Independence",
-    "summary": "While public discourse often fixates on AI models and chatbots, the true determinant of future AI leadership lies in physical infrastructure and computational power. Canada is now recognizing this shift, with projects like HIVE's Toronto AI factory aiming to build domestic capacity and secure digital sovereignty.",
-    "content": "While the daily headlines often trumpet the latest AI model breakthrough or a new funding round for a generative chatbot, the true battleground for global AI dominance is quietly shifting. Beneath the algorithms and flashy demos lies a far more foundational challenge: physical infrastructure. For nations like Canada, securing a piece of this hardware-heavy future isn't just about economic growth; it's about sovereign control over their digital destiny.\n\nThe idea of \"Sovereign AI\" acknowledges that simply licensing or using foreign-developed models leaves a nation vulnerable. True sovereignty demands ownership of the entire stack – from the algorithms themselves down to the powerful machines that train and run them. These aren't just any machines; we're talking about massive arrays of specialized GPUs, housed in energy-intensive data centers, collectively known as AI factories. Without direct access and control over this hardware, a nation's ability to innovate, secure its data, and even govern its own AI policies remains limited.\n\nFortunately, Canada is beginning to grasp this critical reality. Projects like HIVE Digital Technologies' ambitious plan for an AI factory in Toronto signal a crucial pivot. This isn't just another data center; it's an intentional effort to build domestic capacity, a tangible commitment to housing the computational horsepower needed to develop and deploy cutting-edge AI on Canadian soil. Such initiatives aim to reduce reliance on external providers and ensure that Canada can foster its own AI ecosystem, protecting national interests and fostering local talent.\n\nThis shift underscores a profound evolution in the AI landscape. The future isn't solely about who writes the smartest code; it's increasingly about who owns the foundational assets capable of processing vast datasets and sustaining sophisticated AI operations. By investing in robust, homegrown infrastructure, Canada is laying the groundwork not just for technological advancement, but for true digital autonomy in the age of artificial intelligence. It's a strategic move that recognizes the physical bedrock upon which the virtual world of AI truly rests.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "The future of AI leadership increasingly depends on owning physical infrastructure, not just advanced algorithms.",
-      "\"Sovereign AI\" emphasizes a nation's control over its entire AI stack, from software to hardware, for true digital autonomy.",
-      "Canada is addressing this by investing in domestic \"AI factories\" like HIVE's planned Toronto facility to build essential computational capacity."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Digital Journal",
-    "author": "Dr. Tim Sandle",
-    "publishedAt": "2026-08-09 20:27",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-10 17:44",
     "category": "Technology",
-    "image": "https://www.digitaljournal.com/wp-content/uploads/2026/08/Toronto_Skyline_from_Olympic_Island_June_20_2026_5-3_cropped.jpg",
-    "originalUrl": "https://www.digitaljournal.com/article/sovereign-ai-why-canadas-next-technology-challenge-is-infrastructure/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Sovereign",
-      "Canadas"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-10 13:44",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
