@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-msn8xtvl-000",
-    "title": "From Rocky Mountains to Robust Remote Work: How SD-WAN Tames Rural Internet Woes",
-    "summary": "Moving to a high-altitude retreat presented a couple with the harsh reality of unreliable internet, despite access to Starlink and 5G. Their solution, leveraging SD-WAN technology, bonded these disparate services into a seamless, robust connection vital for remote work.",
-    "content": "For many, the dream of escaping urban sprawl for the serene embrace of nature often collides with the harsh reality of rural internet. Such was the experience for a couple who recently traded the Denver suburbs for the breathtaking, yet digitally challenging, Colorado Rockies. As remote workers, reliable connectivity wasn't a luxury; it was the bedrock of their livelihood.\n\nInitially, the promise of modern satellite broadband like Starlink and the growing footprint of 5G home internet seemed to offer salvation. These technologies, often lauded as critical in bridging the digital divide, delivered impressive speeds on their own. However, in the demanding real-world scenario of professional remote work, their individual imperfections quickly became apparent. Starlink, while revolutionary, could be prone to momentary drops, while 5G’s performance often varied wildly with cell tower load and weather, creating frustrating — and often critical — interruptions during video calls or large file transfers.\n\nThe breakthrough came not from finding a single perfect service, but by ingeniously combining the available, albeit imperfect, options. The solution? SD-WAN (Software-Defined Wide Area Network). This enterprise-grade technology, traditionally used to connect branch offices, proved to be a game-changer. By effectively “gluing” together Starlink and 5G, SD-WAN created a single, far more resilient internet connection.\n\nSD-WAN constantly monitors each connection, intelligently routing traffic, balancing loads, and crucially, offering instantaneous failover if one service falters. This bonding capability transforms two unreliable streams into one robust, dependable pipeline. For the remote worker in the Rockies, this means the seamless reliability usually reserved for metropolitan fiber connections, proving that even in the most idyllic and isolated locales, cutting-edge technology can deliver the stable internet infrastructure essential for our increasingly distributed workforce.",
+    "id": "article-tec-msncvwdf-000",
+    "title": "IBM Langflow's Deep Flaws: Why Its Architecture is the Real Vulnerability",
+    "summary": "IBM Langflow, designed as a workflow builder, critically centralizes highly sensitive foundation model API keys, creating a severe security risk. This fundamental architectural flaw has led to seven critical vulnerabilities in 18 months, with the U.S. CISA identifying one recently exploited flaw and issuing an urgent, now-passed remediation deadline.",
+    "content": "When organizations deploy IBM Langflow, they might see it as just another tool for streamlining workflows. But beneath that veneer of utility lies a far more perilous reality: Langflow acts as a centralized repository for an organization's most sensitive credentials. Its \"Global Variables store\" is, in essence, a digital vault holding critical foundation model API keys — keys that unlock access to powerful AI models and, by extension, potentially vast troves of proprietary data.\n\nThis inherent design choice, while seemingly convenient, has proven catastrophic. In a concerning period of just 18 months, Langflow has been plagued by no less than seven critical vulnerabilities (CVEs). The most recent of these, CVE-2026-9198, was so severe that the U.S. Cybersecurity and Infrastructure Security Agency (CISA) added it to its notorious Known Exploited Vulnerabilities catalog. A federal remediation deadline was set for August 7th, a date that has now come and gone, leaving many deployments exposed.\n\nThe recurring nature of these critical flaws points to a problem far deeper than isolated bugs. Experts suggest that the core issue isn't merely poor coding practices but a fundamental architectural vulnerability. By design, Langflow centralizes high-value targets – those API keys – making it an irresistible honey pot for attackers. Compromise of Langflow doesn't just disrupt workflows; it offers a direct pipeline to an organization's most advanced AI capabilities and the data they process, posing a severe threat of intellectual property theft or broader data breaches.\n\nThis isn't just a call for better patching; it's a stark warning to developers and users of agent infrastructure. The paradigm must shift from simply building powerful tools to architecting them with security as the foundational layer, not an afterthought. For any platform that touches sensitive credentials, architectural integrity must take precedence over convenience, lest the very tools designed for efficiency become an organization's greatest cyber liability.",
     "keyTakeaways": [
-      "Rural internet options like Starlink and 5G, while crucial, often present individual reliability challenges for remote workers.",
-      "SD-WAN technology offers a powerful solution by bonding and managing multiple internet sources, turning individual imperfections into a robust, unified connection.",
-      "This approach enables enterprise-grade internet stability in remote locations, proving vital for the continued growth of the distributed workforce."
+      "IBM Langflow centralizes highly sensitive foundation model API keys, making it a critical security risk despite its workflow builder facade.",
+      "The platform has suffered seven critical vulnerabilities in 18 months, indicating a deep-seated architectural flaw rather than isolated bugs.",
+      "CISA flagged a recent exploited vulnerability (CVE-2026-9198), setting an urgent federal remediation deadline that has already passed, leaving many systems exposed."
     ],
-    "source": "Theregister.com",
-    "author": "Tobias Mann",
-    "publishedAt": "2026-08-09 13:05",
+    "source": "Forkast.news",
+    "author": "Dana Ellison",
+    "publishedAt": "2026-08-09 14:49",
     "category": "Technology",
-    "image": "https://image.theregister.com/5285143.jpg?imageId=5285143&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-    "originalUrl": "https://www.theregister.com/networks/2026/08/09/ive-gone-from-writing-about-sd-wan-to-depending-on-it/5285130",
+    "image": "https://forkast.news/wp-content/uploads/2026/08/langflow-cve-9198-supply-chain-1024x572.jpg",
+    "originalUrl": "https://forkast.news/seven-critical-cves-in-18-months-langflows-architecture-is-the-vulnerability/",
     "tags": [
       "Technology",
-      "writing",
-      "depending"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msn8y01v-001",
-    "title": "King's Cross: London's Gritty Past Gives Way to AI Glory",
-    "summary": "Once notorious for its seedier elements, London's King's Cross has undergone a remarkable transformation, emerging as one of the world's most sought-after hubs for artificial intelligence innovation. The demand for prime office space in the district is now so intense that securing a foothold there has become a crucial competitive advantage for burgeoning AI startups.",
-    "content": "Once the very definition of urban decay, a place where late-night revelers and the city's underbelly often converged, London's King's Cross has orchestrated one of the most astonishing urban redevelopments in recent memory. Fast forward two decades, and the once-notorious red-light district now pulses with a different kind of energy: the electric hum of artificial intelligence. This corner of London has not merely cleaned up its act; it has reinvented itself as a global epicenter for AI innovation, a startling metamorphosis that speaks volumes about the city's dynamic tech landscape.\n\nThe change isn't just cosmetic; it’s fundamental. Today, the burning question among U.K. AI startups isn't about funding models or groundbreaking algorithms, but a far more mundane yet critical one: \"How do we get office space in King's Cross?\" The area has become an undeniable magnet, largely anchored by tech titans like Google's U.K. headquarters and the pioneering AI research powerhouse, DeepMind. This concentration of talent, capital, and groundbreaking research has created an irresistible gravitational pull, drawing in ambitious startups and established players alike, all vying for a slice of the action.\n\nThe scarcity of prime real estate in King's Cross has reached almost mythical proportions. Tales of the fierce competition are abundant, with one particular anecdote making the rounds: a venture capital firm reportedly secured a high-stakes deal by sweetening its investment offer with the promise of guaranteed office space within this coveted district. This isn't just about prestigious addresses; it's about proximity to a world-class talent pool, invaluable networking opportunities, and the vibrant intellectual exchange that only a true innovation hub can foster. For an AI startup, being in King's Cross isn't merely convenient; it’s a strategic imperative, a badge of serious intent.\n\nThe ongoing transformation of King's Cross serves as a powerful testament to London's enduring appeal as a global tech destination. What began as a bold urban regeneration project has blossomed into an organic, self-reinforcing ecosystem, proving that with the right vision and investment, even the most unlikely of places can become fertile ground for the future's defining technologies.",
-    "keyTakeaways": [
-      "King's Cross has undergone a remarkable transformation from a notorious red-light district into one of the world's premier AI innovation hubs.",
-      "The area's appeal is driven by the presence of tech giants like Google and DeepMind, creating an intense demand for office space among AI startups.",
-      "Securing office space in King's Cross has become a critical competitive advantage, with firms reportedly winning deals by offering real estate in this highly coveted district."
-    ],
-    "source": "TechCrunch",
-    "author": "Dominic-madori Davis",
-    "publishedAt": "2026-08-09 13:03",
-    "category": "Technology",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/VladSt.jpg?resize=1200,737",
-    "originalUrl": "https://techcrunch.com/2026/08/09/this-former-notorious-red-light-district-is-now-one-of-the-worlds-top-ai-hubs/",
-    "tags": [
-      "Technology",
-      "former",
-      "notorious"
+      "Critical",
+      "Months"
     ],
     "readingTime": "2 min"
   }
