@@ -1,24 +1,69 @@
 [
   {
-    "id": "article-tec-msp18ek6-000",
-    "title": "Staring Down Danger: Scientists Warn New Satellites Could Pose Eye Damage Risk",
-    "summary": "The Federal Communications Commission recently approved an experimental and controversial new satellite, prompting scientists to raise serious concerns about potential eye damage for people on the ground. Experts suggest intense reflections or specific light emissions from these satellites could harm human vision, demanding urgent re-evaluation of safety protocols.",
-    "content": "Last month, the Federal Communications Commission (FCC) gave the green light to an experimental new satellite, sparking immediate outcry from the scientific community. Developed by a burgeoning venture, this controversial orbiter, while touted as cutting-edge innovation, carries a chilling warning: it could cause eye damage to individuals on Earth.\n\nScientists are not mincing words. Their primary concern revolves around the satellite's design and operational parameters, suggesting it could produce highly intense flashes of light or focused energy bursts. Whether from unusually reflective surfaces, specific materials, or even modulated light signals intended for communication, the potential for these emissions to cause retinal damage or severe ocular discomfort is a very real, and terrifying, prospect for those looking skyward.\n\nThis isn't just about stargazers having their night sky ruined; it’s about public health and safety. The rapid proliferation of satellite constellations, often with minimal public scrutiny or long-term environmental impact studies, has already raised flags regarding light pollution and orbital debris. However, the direct threat of physical harm from a piece of orbiting hardware marks a significant and deeply concerning escalation. The approval process itself is now under fire, with critics questioning if sufficient safety assessments were truly conducted before allowing such a potentially hazardous technology into our skies. The implications for future satellite deployments are profound, demanding a rigorous re-evaluation of how these innovations are vetted before they become a permanent fixture above us.",
+    "id": "article-tec-msp4n0nj-000",
+    "title": "Draganfly's Record Q2 Performance Signals High-Flying Future for Drone Tech",
+    "summary": "Draganfly Inc., a leader in drone solutions, has announced stellar second-quarter results for 2026, showcasing robust underlying gross profit percentages. This strong financial showing underscores the growing demand for advanced drone technology across various sectors and solidifies Draganfly's market position.",
+    "content": "Vancouver-based Draganfly Inc. (NASDAQ: DPRO), a name synonymous with cutting-edge drone technology, just delivered a remarkable second-quarter financial report for 2026. The award-winning drone solutions developer announced record results, providing a significant uplift to its market position and hinting at robust growth within the burgeoning drone industry.\n\nDigging into the financials, the company revealed an impressive underlying gross profit. When factoring out non-cash inventory write-downs of $43,662 and $10,421 for the three-month period ending June 30, Draganfly’s gross profit as a percentage of revenues stood strong at 21.7% and 24.3% respectively. These figures are not just encouraging; they underscore a lean operational efficiency and solid demand for their specialized drone systems, showcasing the true economic health of the company's core business.\n\nThis banner performance for Draganfly isn't just a corporate win; it's a bellwether for the broader unmanned aerial systems market. As industries from agriculture and logistics to public safety and infrastructure inspection increasingly adopt drone technology, companies like Draganfly, known for their industry-leading innovations, are perfectly positioned to capitalize. Their suite of solutions, spanning hardware, software, and services, continues to address complex challenges, driving both revenue and market trust.\n\nThe sustained profitability, even when accounting for the nuances of inventory management, paints a clear picture: Draganfly is not just flying high on current trends but building a sustainable runway for future expansion. This record quarter solidifies its role as a key player in the evolution of drone technology, promising continued innovation and market leadership in a sector ripe with opportunity.",
     "keyTakeaways": [
-      "The FCC approved a new experimental satellite despite scientists' warnings about potential eye damage risks.",
-      "Scientists are concerned the satellite could emit intense light flashes or focused energy, posing a threat to human vision.",
-      "The controversy highlights broader concerns about rapid satellite deployment, insufficient safety assessments, and potential public health implications."
+      "Draganfly Inc. reported record-setting financial results for its second quarter ending June 30, 2026.",
+      "The company's underlying gross profit as a percentage of revenues reached 21.7% and 24.3% when excluding non-cash inventory write-downs.",
+      "Draganfly's strong performance highlights robust demand for advanced drone solutions and solidifies its position as a market leader in the rapidly expanding drone industry."
     ],
-    "source": "Futurism",
-    "author": "Victor Tangermann",
-    "publishedAt": "2026-08-10 19:05",
+    "source": "Financial Post",
+    "author": "GlobeNewswire",
+    "publishedAt": "2026-08-10 20:39",
     "category": "Technology",
-    "image": "https://futurism.com/wp-content/uploads/2026/08/scientists-warn-new-satellites-eye-damage.jpg?w=1200",
-    "originalUrl": "https://futurism.com/space/scientists-warn-new-satellites-eye-damage",
+    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://financialpost.com/globe-newswire/draganfly-announces-record-quarterly-results",
     "tags": [
       "Technology",
-      "Scientists",
-      "Satellites"
+      "Draganfly",
+      "Announces"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-msp4o1b3-004",
+    "title": "NiriZan Unleashed: Continuous Evaluation Becomes a Reality for Production AI",
+    "summary": "NiriZan, a new open-source project, has launched on PyPI, introducing a crucial continuous evaluation infrastructure for production AI systems. It directly addresses the inherent probabilistic nature of modern AI, providing a dynamic framework to monitor and assess performance where traditional, deterministic software testing falls short.",
+    "content": "The relentless march of artificial intelligence into the operational core of countless businesses has brought with it a profound, often overlooked, challenge: how do we truly understand if these complex, often opaque systems are consistently performing as intended, especially when deployed in the wild? This critical question finds a compelling answer in NiriZan, a sophisticated new open-source project that has just made its debut on PyPI, poised to redefine continuous evaluation for production AI.\n\nAt its heart, the 'Why NiriZan?' question stems from the fundamental distinction between traditional software and modern AI. Conventional code operates on deterministic logic; given the same input, it always produces the same output. AI, however, particularly sophisticated models like large language models (LLMs), intricate retrieval pipelines, or autonomous agents, is inherently probabilistic. Its outputs can vary, sometimes subtly, sometimes significantly, depending on a myriad of factors. This inherent uncertainty renders traditional, static software testing methodologies — designed for binary pass/fail scenarios — largely ineffective for gauging true AI performance in dynamic production environments.\n\nNiriZan steps into this crucial void by offering a dedicated, continuous evaluation infrastructure. It’s built to monitor, assess, and iterate on AI performance not just during development, but throughout its entire operational lifecycle. Instead of relying on one-off benchmarks, NiriZan provides a robust framework for real-time vigilance, allowing teams to meticulously scrutinize the evolving precision of a retrieval system, the coherence and safety of an LLM's output, or the decision-making efficacy of an AI agent. This continuous feedback loop is essential for catching performance drifts, regressions, or unexpected behaviors before they impact users.\n\nFor organizations deeply invested in AI, NiriZan represents a significant leap towards greater operational stability, reliability, and ultimately, user trust. By providing the tools to continuously validate AI performance in the real world, it empowers engineering teams to maintain high standards, react swiftly to issues, and confidently deploy more robust intelligent systems. In a landscape where AI promises immense transformation, having a proactive sentinel like NiriZan guarding the gates of production quality is fast becoming indispensable for any serious AI endeavor.",
+    "keyTakeaways": [
+      "NiriZan is a new open-source project on PyPI designed for continuous evaluation of production AI systems.",
+      "It specifically tackles the challenge of assessing probabilistic AI, like LLMs and retrieval pipelines, which traditional testing methods cannot adequately handle.",
+      "The tool enables real-time monitoring of AI performance, helping ensure reliability, detect regressions, and build trust in deployed intelligent systems."
+    ],
+    "source": "Pypi.org",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-10 20:36",
+    "category": "AI",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "originalUrl": "https://pypi.org/project/nirizan/",
+    "tags": [
+      "AI",
+      "nirizan"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-msp4nh02-002",
+    "title": "Meta Unleashes 'Muse Glimmer,' Bringing Powerful AI Directly to Your Desktop — With a Zuckerberg Warning",
+    "summary": "Meta has unveiled Muse Glimmer, an open-source language model with 30 billion parameters capable of running on personal computers, marking a significant step toward democratizing advanced AI. This release coincides with a thoughtful essay from CEO Mark Zuckerberg, addressing the critical risks and responsible development necessary for the future of artificial intelligence.",
+    "content": "Meta is once again shaking up the AI landscape, this time by bringing truly powerful artificial intelligence directly to your personal computer. The company today launched Muse Glimmer, an open-source language model boasting a formidable 30 billion parameters, designed with the audacious goal of running locally on consumer hardware.\n\nThis isn't just another cloud-based behemoth; Muse Glimmer's ability to operate offline signifies a crucial shift toward democratizing AI access. For developers and enthusiasts, it means unprecedented control, enhanced privacy, and the freedom to innovate without constant reliance on remote servers. It’s a bold move that not only fosters a more robust open-source ecosystem but also directly challenges the centralized control often seen with proprietary models.\n\nAccompanying this significant technical release is a lengthy, introspective essay from Meta CEO Mark Zuckerberg himself. In it, Zuckerberg delves deep into the multifaceted risks associated with artificial intelligence, echoing concerns that have become increasingly prominent across the tech world. His candid discussion underscores Meta’s commitment, at least philosophically, to navigating these challenges responsibly, suggesting that open collaboration and transparent development — tenets embodied by Muse Glimmer — are key to building a safer, more beneficial AI future.\n\nMeta's continued push into open-source AI, exemplified by projects like Llama and now Muse Glimmer, positions them as a leading voice in a burgeoning community dedicated to shared innovation. This strategy could empower a new generation of AI applications, moving advanced capabilities out of the data center and into the hands of millions.",
+    "keyTakeaways": [
+      "Meta launched Muse Glimmer, a 30-billion parameter open-source language model designed to run directly on personal computers.",
+      "The release is paired with an essay by CEO Mark Zuckerberg, which openly discusses the inherent risks and the importance of responsible AI development.",
+      "Muse Glimmer signifies a major step towards democratizing AI, offering enhanced privacy and fostering innovation by enabling local, offline operation."
+    ],
+    "source": "SiliconANGLE News",
+    "author": "Maria Deutscher",
+    "publishedAt": "2026-08-10 20:28",
+    "category": "Technology",
+    "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/08/Meta.png",
+    "originalUrl": "https://siliconangle.com/2026/08/10/meta-releases-open-source-muse-glimmer-model-30b-parameters/",
+    "tags": [
+      "Technology",
+      "releases",
+      "opensource"
     ],
     "readingTime": "2 min"
   }
