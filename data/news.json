@@ -1,69 +1,70 @@
 [
   {
-    "id": "article-tec-msp4n0nj-000",
-    "title": "Draganfly's Record Q2 Performance Signals High-Flying Future for Drone Tech",
-    "summary": "Draganfly Inc., a leader in drone solutions, has announced stellar second-quarter results for 2026, showcasing robust underlying gross profit percentages. This strong financial showing underscores the growing demand for advanced drone technology across various sectors and solidifies Draganfly's market position.",
-    "content": "Vancouver-based Draganfly Inc. (NASDAQ: DPRO), a name synonymous with cutting-edge drone technology, just delivered a remarkable second-quarter financial report for 2026. The award-winning drone solutions developer announced record results, providing a significant uplift to its market position and hinting at robust growth within the burgeoning drone industry.\n\nDigging into the financials, the company revealed an impressive underlying gross profit. When factoring out non-cash inventory write-downs of $43,662 and $10,421 for the three-month period ending June 30, Draganfly’s gross profit as a percentage of revenues stood strong at 21.7% and 24.3% respectively. These figures are not just encouraging; they underscore a lean operational efficiency and solid demand for their specialized drone systems, showcasing the true economic health of the company's core business.\n\nThis banner performance for Draganfly isn't just a corporate win; it's a bellwether for the broader unmanned aerial systems market. As industries from agriculture and logistics to public safety and infrastructure inspection increasingly adopt drone technology, companies like Draganfly, known for their industry-leading innovations, are perfectly positioned to capitalize. Their suite of solutions, spanning hardware, software, and services, continues to address complex challenges, driving both revenue and market trust.\n\nThe sustained profitability, even when accounting for the nuances of inventory management, paints a clear picture: Draganfly is not just flying high on current trends but building a sustainable runway for future expansion. This record quarter solidifies its role as a key player in the evolution of drone technology, promising continued innovation and market leadership in a sector ripe with opportunity.",
+    "id": "article-tec-msp6xlcj-000",
+    "title": "Legal Fireworks: Rippling Flips the Script on AI Rival in Trade Secret Spat",
+    "summary": "HR software giant Rippling is embroiled in a heated legal battle with NYC AI startup Runlayer, initially accused of stealing trade secrets. Rippling has fired back with a counter-lawsuit, alleging that Runlayer is actually the true infringer of its intellectual property, framing its rival's claims as hypocritical.",
+    "content": "The normally staid world of HR software has exploded into a dramatic courtroom showdown, pitting industry behemoth Rippling against New York City AI startup Runlayer. What began as a bold accusation from Runlayer, alleging that Rippling swiped its proprietary trade secrets, has rapidly escalated with Rippling launching a powerful counter-offensive, turning the tables with claims of its own.\n\nRunlayer first drew blood, filing a lawsuit that painted Rippling as a corporate pilferer, unlawfully appropriating its innovative AI technologies designed to streamline human resources operations. The specific details of the alleged theft remain under wraps, shrouded in the legal mists of trade secret protection, but the initial salvo suggested a clear intent to disrupt Runlayer's competitive edge.\n\nHowever, Rippling isn't one to shy away from a fight. In a move that smacks of strategic brilliance — or perhaps sheer audacity — the company has not only denied Runlayer's allegations but has filed its *own* separate complaint. Rippling's counter-suit asserts that it is, in fact, Runlayer that has been infringing on *its* inventions, making the startup's original claim a stunning act of hypocrisy.\n\nA spokesperson for Rippling minced no words when speaking to The Post, stating, \"It takes a certain boldness to accuse a competitor of violating intellectual property laws while infringing on that competitor’s inventions. But that’s exactly what Runlayer has done here.\" This statement encapsulates Rippling's defense: not just an outright denial, but a direct attack on the credibility and legal standing of its accuser.\n\nThis messy legal entanglement highlights the cutthroat nature of the technology sector, where intellectual property forms the very bedrock of innovation and competitive advantage. As the two companies prepare for a protracted battle, the courts will be tasked with untangling a web of complex allegations, determining who truly holds the moral and legal high ground in this escalating war over HR tech's future.",
     "keyTakeaways": [
-      "Draganfly Inc. reported record-setting financial results for its second quarter ending June 30, 2026.",
-      "The company's underlying gross profit as a percentage of revenues reached 21.7% and 24.3% when excluding non-cash inventory write-downs.",
-      "Draganfly's strong performance highlights robust demand for advanced drone solutions and solidifies its position as a market leader in the rapidly expanding drone industry."
+      "HR software firm Rippling is facing a trade secret lawsuit from NYC AI startup Runlayer.",
+      "Rippling has retaliated by filing its own complaint, accusing Runlayer of infringing on its inventions.",
+      "The legal battle centers on allegations of intellectual property theft, highlighting intense competition in the tech sector."
     ],
-    "source": "Financial Post",
-    "author": "GlobeNewswire",
-    "publishedAt": "2026-08-10 20:39",
+    "source": "New York Post",
+    "author": "Taylor Herzlich",
+    "publishedAt": "2026-08-10 21:45",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://financialpost.com/globe-newswire/draganfly-announces-record-quarterly-results",
+    "image": "https://nypost.com/wp-content/uploads/sites/2/2026/08/137016969-1.jpg?quality=75&strip=all&w=1200",
+    "originalUrl": "https://nypost.com/2026/08/10/business/rippling-hits-back-at-nyc-ai-startups-trade-secret-lawsuit-in-messy-legal-battle/",
     "tags": [
       "Technology",
-      "Draganfly",
-      "Announces"
+      "Rippling",
+      "startups"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-msp4o1b3-004",
-    "title": "NiriZan Unleashed: Continuous Evaluation Becomes a Reality for Production AI",
-    "summary": "NiriZan, a new open-source project, has launched on PyPI, introducing a crucial continuous evaluation infrastructure for production AI systems. It directly addresses the inherent probabilistic nature of modern AI, providing a dynamic framework to monitor and assess performance where traditional, deterministic software testing falls short.",
-    "content": "The relentless march of artificial intelligence into the operational core of countless businesses has brought with it a profound, often overlooked, challenge: how do we truly understand if these complex, often opaque systems are consistently performing as intended, especially when deployed in the wild? This critical question finds a compelling answer in NiriZan, a sophisticated new open-source project that has just made its debut on PyPI, poised to redefine continuous evaluation for production AI.\n\nAt its heart, the 'Why NiriZan?' question stems from the fundamental distinction between traditional software and modern AI. Conventional code operates on deterministic logic; given the same input, it always produces the same output. AI, however, particularly sophisticated models like large language models (LLMs), intricate retrieval pipelines, or autonomous agents, is inherently probabilistic. Its outputs can vary, sometimes subtly, sometimes significantly, depending on a myriad of factors. This inherent uncertainty renders traditional, static software testing methodologies — designed for binary pass/fail scenarios — largely ineffective for gauging true AI performance in dynamic production environments.\n\nNiriZan steps into this crucial void by offering a dedicated, continuous evaluation infrastructure. It’s built to monitor, assess, and iterate on AI performance not just during development, but throughout its entire operational lifecycle. Instead of relying on one-off benchmarks, NiriZan provides a robust framework for real-time vigilance, allowing teams to meticulously scrutinize the evolving precision of a retrieval system, the coherence and safety of an LLM's output, or the decision-making efficacy of an AI agent. This continuous feedback loop is essential for catching performance drifts, regressions, or unexpected behaviors before they impact users.\n\nFor organizations deeply invested in AI, NiriZan represents a significant leap towards greater operational stability, reliability, and ultimately, user trust. By providing the tools to continuously validate AI performance in the real world, it empowers engineering teams to maintain high standards, react swiftly to issues, and confidently deploy more robust intelligent systems. In a landscape where AI promises immense transformation, having a proactive sentinel like NiriZan guarding the gates of production quality is fast becoming indispensable for any serious AI endeavor.",
+    "id": "article-sta-msp70rmg-012",
+    "title": "Gianni Infantino: The Uncomfortable Crown of Football's Modern Caesar",
+    "summary": "Gianni Infantino has paradoxically cemented his status as a global sports villain while presiding over a financially successful FIFA World Cup, raising stark questions about ethical leadership. His tenure is marked by a perceived untrammelled greed and an alarming willingness to align with controversial regimes, casting a long shadow over the future integrity of global football.",
+    "content": "It’s a peculiar spectacle to watch Gianni Infantino ascend the ranks of global figures widely deemed villainous, all while spearheading what, by many metrics, was an incredibly successful FIFA World Cup. The recent tournament, despite its myriad controversies, delivered record viewership and substantial commercial returns, a testament to FIFA's formidable marketing machine and the enduring global passion for football.\n\nYet, this veneer of success barely conceals the growing disquiet surrounding Infantino's leadership. Critics point to an untrammelled pursuit of power and wealth, exemplified by expansion plans that seem more driven by financial opportunity than sporting merit, and a concerning track record of aligning with regimes known for human rights abuses. His perceived readiness to shrug off severe ethical concerns in pursuit of the game’s commercial amplification has become a defining characteristic of his tenure, sparking outrage among human rights advocates and many football purists alike.\n\nThis uncomfortable paradox—unprecedented financial triumph alongside significant moral erosion—begs a crucial question: What does Infantino's rise and influence signify for the future of global sports governance? His approach, prioritizing unfettered growth and spectacle at virtually any cost, sets a troubling precedent. As football navigates a complex geopolitical landscape, the choices made by its most powerful figure will undoubtedly shape not just the sport's finances, but its very soul.\n\nUltimately, Infantino’s legacy risks becoming one where the cheers of a successful tournament are forever muffled by the whispers of compromised principles. The question isn't merely what becomes of him, but what becomes of the beautiful game under such a conflicted stewardship.",
     "keyTakeaways": [
-      "NiriZan is a new open-source project on PyPI designed for continuous evaluation of production AI systems.",
-      "It specifically tackles the challenge of assessing probabilistic AI, like LLMs and retrieval pipelines, which traditional testing methods cannot adequately handle.",
-      "The tool enables real-time monitoring of AI performance, helping ensure reliability, detect regressions, and build trust in deployed intelligent systems."
+      "Gianni Infantino has achieved significant commercial success with the World Cup while simultaneously attracting widespread criticism for his ethical conduct.",
+      "His leadership is characterized by a perceived pursuit of wealth and power, often at the expense of human rights and sporting integrity.",
+      "Infantino's tenure highlights a troubling paradox in global sports: the conflict between financial success and moral accountability."
     ],
-    "source": "Pypi.org",
+    "source": "Lawyersgunsmoneyblog.com",
+    "author": "Erik Loomis",
+    "publishedAt": "2026-08-10 21:42",
+    "category": "Startups",
+    "image": "https://www.lawyersgunsmoneyblog.com/wp-content/uploads/2026/03/18254411_Trump-FIFA-Peace-Prize-img-1024x576.png",
+    "originalUrl": "https://www.lawyersgunsmoneyblog.com/2026/08/what-will-become-of-gianni-infantino",
+    "tags": [
+      "Startups",
+      "Become",
+      "Gianni"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sci-msp706jr-010",
+    "title": "The Blazing Frontier: FM Acquires FortressFire, Redefining Wildfire Risk for Businesses",
+    "summary": "Commercial property insurer FM has acquired FortressFire, a specialist in physics-based wildfire risk modeling, in a strategic move. This integration aims to equip businesses with advanced predictive analytics and FM's engineering expertise to combat escalating wildfire threats.",
+    "content": "In a strategic move poised to redefine how businesses grapple with escalating climate threats, commercial property insurer FM today announced its acquisition of FortressFire, a pioneering firm renowned for its physics-based wildfire risk modeling platform. The deal, finalized on August 10, 2026, from Johnston, R.I., marks a significant convergence of advanced predictive analytics and deep-seated engineering expertise, aiming to arm commercial enterprises with unprecedented tools against the devastating impact of wildfires.\n\nFortressFire has carved out a niche with its sophisticated platform, which moves beyond traditional statistical models by incorporating granular physics of fire behavior. This means simulating factors like fuel type, topography, weather patterns, and even ignition sources to predict how wildfires might spread and impact specific properties with remarkable accuracy. As climate change intensifies wildfire seasons across the globe, such granular foresight has become not just valuable, but essential for risk mitigation.\n\nThe synergy with FM’s formidable engineering and research capabilities promises a potent combination. FM, long recognized for its rigorous property loss prevention standards and extensive research into industrial hazards, will now infuse FortressFire’s predictive power into its existing framework. This isn't merely about identifying risks; it’s about translating those insights into tangible, proactive strategies for clients – from optimizing building materials and landscaping to developing more robust emergency response plans.\n\nThis acquisition signals a broader shift within the insurance sector, moving from reactive indemnification to proactive, technologically-driven prevention. For commercial property owners, particularly those in high-risk zones, it offers a glimmer of hope: a path to not only understand their vulnerability but actively mitigate it, potentially leading to fewer losses and more resilient operations in the face of an increasingly unpredictable environment. It’s a testament to the idea that the best insurance isn't just financial coverage, but foresight itself.",
+    "keyTakeaways": [
+      "Commercial property insurer FM has acquired FortressFire, a leader in physics-based wildfire risk modeling.",
+      "The acquisition integrates FortressFire's advanced predictive analytics with FM's engineering and research capabilities to enhance commercial property risk management.",
+      "This strategic move signifies a broader industry shift towards proactive, technologically-driven prevention of climate-related property hazards."
+    ],
+    "source": "PRNewswire",
     "author": "Staff Writer",
-    "publishedAt": "2026-08-10 20:36",
-    "category": "AI",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "originalUrl": "https://pypi.org/project/nirizan/",
+    "publishedAt": "2026-08-10 21:30",
+    "category": "Science",
+    "image": "https://mmx.prnewswire.com/media/MS1967277/FM-Logo.jpg?id=OA2853568&p=facebook",
+    "originalUrl": "https://www.prnewswire.com/news-releases/fm-announces-acquisition-of-fortressfire-302847526.html",
     "tags": [
-      "AI",
-      "nirizan"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msp4nh02-002",
-    "title": "Meta Unleashes 'Muse Glimmer,' Bringing Powerful AI Directly to Your Desktop — With a Zuckerberg Warning",
-    "summary": "Meta has unveiled Muse Glimmer, an open-source language model with 30 billion parameters capable of running on personal computers, marking a significant step toward democratizing advanced AI. This release coincides with a thoughtful essay from CEO Mark Zuckerberg, addressing the critical risks and responsible development necessary for the future of artificial intelligence.",
-    "content": "Meta is once again shaking up the AI landscape, this time by bringing truly powerful artificial intelligence directly to your personal computer. The company today launched Muse Glimmer, an open-source language model boasting a formidable 30 billion parameters, designed with the audacious goal of running locally on consumer hardware.\n\nThis isn't just another cloud-based behemoth; Muse Glimmer's ability to operate offline signifies a crucial shift toward democratizing AI access. For developers and enthusiasts, it means unprecedented control, enhanced privacy, and the freedom to innovate without constant reliance on remote servers. It’s a bold move that not only fosters a more robust open-source ecosystem but also directly challenges the centralized control often seen with proprietary models.\n\nAccompanying this significant technical release is a lengthy, introspective essay from Meta CEO Mark Zuckerberg himself. In it, Zuckerberg delves deep into the multifaceted risks associated with artificial intelligence, echoing concerns that have become increasingly prominent across the tech world. His candid discussion underscores Meta’s commitment, at least philosophically, to navigating these challenges responsibly, suggesting that open collaboration and transparent development — tenets embodied by Muse Glimmer — are key to building a safer, more beneficial AI future.\n\nMeta's continued push into open-source AI, exemplified by projects like Llama and now Muse Glimmer, positions them as a leading voice in a burgeoning community dedicated to shared innovation. This strategy could empower a new generation of AI applications, moving advanced capabilities out of the data center and into the hands of millions.",
-    "keyTakeaways": [
-      "Meta launched Muse Glimmer, a 30-billion parameter open-source language model designed to run directly on personal computers.",
-      "The release is paired with an essay by CEO Mark Zuckerberg, which openly discusses the inherent risks and the importance of responsible AI development.",
-      "Muse Glimmer signifies a major step towards democratizing AI, offering enhanced privacy and fostering innovation by enabling local, offline operation."
-    ],
-    "source": "SiliconANGLE News",
-    "author": "Maria Deutscher",
-    "publishedAt": "2026-08-10 20:28",
-    "category": "Technology",
-    "image": "https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2026/08/Meta.png",
-    "originalUrl": "https://siliconangle.com/2026/08/10/meta-releases-open-source-muse-glimmer-model-30b-parameters/",
-    "tags": [
-      "Technology",
-      "releases",
-      "opensource"
+      "Science",
+      "Announces",
+      "Acquisition"
     ],
     "readingTime": "2 min"
   }
