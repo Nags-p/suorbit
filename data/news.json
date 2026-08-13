@@ -1,69 +1,24 @@
 [
   {
-    "id": "article-ai-msr0df4z-003",
-    "title": "Taming the AI Wild West: New Open-Source Tool Stops LLM Agents From Going Rogue",
-    "summary": "A new open-source tool, agentguard-sdk, has launched on PyPI, offering critical guardrails for complex multi-agent LLM systems. It addresses common pain points like runaway costs, infinite loops, and agent conflicts, bringing much-needed stability to advanced AI deployments.",
-    "content": "The promise of multi-agent AI systems is profound, but so too is their potential for chaos. Developers wrestling with sophisticated LLM setups often face a frustrating reality: agents colliding in logic, falling into endless computational loops, or quietly incinerating cloud budgets. Now, a new open-source project, `agentguard-sdk`, has arrived on PyPI, offering a much-needed governance layer to rein in these unruly AI teams.\n\nImagine a scenario where a fleet of AI assistants, tasked with complex problem-solving, suddenly starts working against each other or gets stuck in a recursive loop, each interaction costing more than the last. This isn't theoretical; it's a very real headache for teams pushing the boundaries with frameworks like CrewAI and LangGraph. Without proper oversight, the emergent behaviors of these interconnected LLMs can quickly spiral out of control, turning innovation into an expensive liability.\n\n`agentguard-sdk` tackles this head-on by providing zero-configuration auto-instrumentation. This means it integrates seamlessly, automatically adding essential guardrails and monitoring capabilities to your multi-agent setups. Its core function is to act as a digital traffic cop, preventing those costly collisions, detecting and stopping infinite loops before they eat into your resources, and crucially, keeping a tight leash on your operational spend.\n\nFor developers, this isn't just about debugging; it's about building with confidence. By bringing stability and predictability to multi-agent architectures, `agentguard-sdk` empowers teams to deploy more ambitious and reliable AI solutions. Its open-source nature further ensures transparency and community-driven improvement, paving the way for a future where sophisticated AI agents work harmoniously, rather than chaotically, towards their goals.",
+    "id": "article-tec-msr4k5jk-000",
+    "title": "Analog-Digital: Desimon Revolutionizes Offline File Transfer with QR Codes",
+    "summary": "Evan Cwley's \"Desimon\" project introduces a unique method for transferring files without any internet connection, leveraging optical QR codes and a simple camera. This innovative approach bypasses the need for Wi-Fi, Bluetooth, or physical USB drives, offering a secure and remarkably accessible solution for offline data exchange.",
+    "content": "In an age where seamless connectivity is often taken for granted, the very notion of transferring files without an internet connection might seem like a relic of a bygone era. Yet, precisely this counter-intuitive concept is at the heart of \"Desimon,\" a fascinating new project developed by Evan Cwley. Desimon isn't just an interesting tech demo; it's a bold re-imagining of data transfer, using nothing more than optical QR codes and a standard camera to move information.\n\nDesimon’s genius lies in its simplicity. Instead of relying on Wi-Fi signals, Bluetooth pairing, or the ever-present USB port, a sender device generates a series of high-density QR codes on its screen. The recipient then uses their device's camera to scan these codes in sequence, effectively \"reading\" the data byte by byte. This method bypasses traditional network protocols entirely, creating an air-gapped bridge between devices that’s both direct and refreshingly lo-fi.\n\nThe implications of such a system are surprisingly far-reaching. Imagine sharing documents in areas devoid of internet infrastructure, or securely transferring sensitive files between systems that absolutely cannot touch a network. For environments demanding stringent security – think air-gapped government systems or industrial control networks – Desimon offers an intriguing, visually verifiable pathway for data ingress and egress that sidesteps the vulnerabilities inherent in network connections. It even eliminates the physical security risks associated with USB drives, which can often be vectors for malware.\n\nWhile it won't be replacing high-speed Wi-Fi transfers for large media files anytime soon, Desimon carves out a vital niche. It’s a testament to creative problem-solving, reminding us that sometimes the most innovative solutions emerge from revisiting fundamental principles. Cwley's project demonstrates a refreshing alternative to our hyper-connected default, offering a robust and elegant method for offline data exchange that might just prove indispensable in specific, critical contexts.",
     "keyTakeaways": [
-      "`agentguard-sdk` is a new open-source tool providing crucial governance for multi-agent LLM systems.",
-      "It prevents common issues like agent collisions, infinite loops, and runaway budget consumption.",
-      "The zero-configuration solution integrates with frameworks such as CrewAI and LangGraph, enhancing AI reliability."
+      "Desimon enables completely offline file transfers using optical QR codes and a device camera.",
+      "It eliminates the need for internet, Wi-Fi, Bluetooth, or physical USB drives, offering a unique air-gapped solution.",
+      "The technology presents a secure, accessible method for data exchange in internet-deprived or highly sensitive environments."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-12 04:16",
-    "category": "AI",
-    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
-    "originalUrl": "https://pypi.org/project/agentgaurd-sdk/",
-    "tags": [
-      "AI",
-      "agentgaurdsdk"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msr0cmiw-000",
-    "title": "The Invisible Eye: Ordinary Wi-Fi Signals Now Identify People with Alarming Accuracy",
-    "summary": "Researchers have developed a method where ordinary Wi-Fi networks can identify individuals with near-perfect accuracy, eliminating the need for cameras or even a person carrying a connected device. This breakthrough transforms ubiquitous Wi-Fi signals into a potent, silent surveillance capability, raising significant privacy implications.",
-    "content": "Imagine a world where your every move, your very presence, is cataloged without a single camera lens pointing your way, or a connected device in your pocket. This isn't science fiction anymore. New research reveals that your everyday Wi-Fi network, the very same one that streams your favorite shows, could quietly be identifying you with near-perfect accuracy, transforming into a powerful, invisible surveillance tool.\n\nThe breakthrough hinges on the subtle, yet distinct, ways our bodies interact with ambient Wi-Fi signals. As we move through a space, we create unique patterns of reflection and interference within these unencrypted radio waves routinely exchanged between Wi-Fi devices. Researchers have demonstrated that by observing these minute disturbances, a system can construct a 'signature' unique to each individual, allowing for identification and even mapping of their surroundings.\n\nThis isn't your typical security camera feed or even Bluetooth tracking. The groundbreaking aspect lies in its passive nature: no explicit consent, no visible sensors, no active transmission from the subject required. It turns the very air around us, saturated with Wi-Fi, into an unwitting observer. This means people could be identified, their locations tracked, and their movements mapped without ever carrying a smartphone, a wearable, or stepping into a camera's view.\n\nThe implications are profound, extending far beyond security. From silently monitoring patient activity in hospitals to tracking foot traffic in retail, or even mapping occupants in private residences, the potential for pervasive, invisible surveillance is immense. As our digital environments become ever more intertwined with our physical spaces, this development demands urgent attention to privacy frameworks and ethical guidelines. Our everyday Wi-Fi, once a benign conduit for information, now harbors the power to know who we are, even when we think we’re invisible.",
-    "keyTakeaways": [
-      "Ordinary Wi-Fi networks can now identify individuals with near-perfect accuracy, negating the need for cameras or connected devices.",
-      "The identification method relies on unique signal disturbance patterns created by a person's movement interacting with ambient Wi-Fi waves.",
-      "This passive, invisible surveillance capability raises significant ethical and privacy concerns, demanding new regulatory discussions."
-    ],
-    "source": "Science Daily",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-12 04:07",
+    "source": "Geeky Gadgets",
+    "author": "Julian Horsey",
+    "publishedAt": "2026-08-12 06:15",
     "category": "Technology",
-    "image": "https://www.sciencedaily.com/images/1920/wifi-imaging-secret-spying.webp",
-    "originalUrl": "https://www.sciencedaily.com/releases/2026/08/260811052857.htm",
+    "image": "https://www.geeky-gadgets.com/wp-content/uploads/2026/08/optical-file-transfer.jpg",
+    "originalUrl": "https://www.geeky-gadgets.com/transfer-files-without-internet/",
     "tags": [
       "Technology",
-      "Ordinary",
-      "identify"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msr0cuu8-001",
-    "title": "Silicon Gold Rush or Broad Tech Bet: Navigating the Investor's Dilemma Between SOXX and FTEC",
-    "summary": "The iShares Semiconductor ETF (SOXX) and the Fidelity MSCI Information Technology Index ETF (FTEC) offer distinct avenues for investing in the technology sector. While SOXX provides a focused bet on the foundational semiconductor industry, FTEC delivers broader exposure across the entire digital ecosystem, including software and services.",
-    "content": "In a market perpetually captivated by the relentless march of technological innovation, investors face a fascinating dichotomy when aiming to capitalize on the sector’s growth. At the heart of this choice lie two prominent exchange-traded funds (ETFs): the iShares Semiconductor ETF (NASDAQ:SOXX) and the Fidelity MSCI Information Technology Index ETF (NYSEMKT:FTEC). Both target the expansive technology sector, yet their underlying mechanics and philosophical approaches diverge dramatically, offering distinct pathways to participate in the digital future.\n\nSOXX represents a deep, high-conviction dive into the very bedrock of modern technology: semiconductors. These aren't merely components; they are the indispensable brains behind artificial intelligence, the powerful engines driving cloud computing, the sophisticated core of every smart device, and the essential infrastructure for future breakthroughs. An investment in SOXX is a direct wager on the foundational hardware that enables all digital advancement, often characterized by higher volatility but also the potential for explosive growth tied to breakthrough chip designs and critical supply chain dynamics.\n\nConversely, FTEC offers a panoramic lens on the sprawling information technology landscape. Moving beyond the silicon, FTEC encompasses a diverse array of tech giants, from software innovators and cloud service providers to internet platforms and various digital service firms. This diversified basket aims to spread risk across multiple facets of the digital economy. While still capturing the robust growth trajectory of technology, its broader exposure might temper the extreme highs and lows often associated with the more concentrated semiconductor market, potentially offering a steadier, albeit perhaps slower, growth profile.\n\nUltimately, the choice between SOXX’s laser-focused bet on critical hardware and FTEC’s comprehensive embrace of the digital ecosystem boils down to an investor's appetite for risk and their conviction about specific tech sub-sectors. Are you banking on the foundational, often cyclical yet undeniably powerful bedrock of silicon? Or do you prefer the sprawling, ever-evolving ecosystem of software and services that defines the modern digital age? Both are legitimate plays on technology’s future, but they champion fundamentally different investment philosophies.",
-    "keyTakeaways": [
-      "SOXX offers a concentrated investment in the semiconductor industry, betting on the foundational hardware of technology.",
-      "FTEC provides broader exposure across the entire information technology sector, including software, cloud services, and internet platforms.",
-      "The choice between SOXX and FTEC hinges on an investor's risk tolerance and conviction regarding specific tech sub-sectors."
-    ],
-    "source": "Biztoc.com",
-    "author": "finance.yahoo.com",
-    "publishedAt": "2026-08-12 04:04",
-    "category": "Technology",
-    "image": "https://biztoc.com/cdn/be683f896ace1b03_s.webp",
-    "originalUrl": "https://biztoc.com/x/be683f896ace1b03",
-    "tags": [
-      "Technology",
-      "Should",
-      "Investors"
+      "Transfer",
+      "Optical"
     ],
     "readingTime": "2 min"
   }
