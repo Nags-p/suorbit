@@ -1,49 +1,47 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-tec-mstgga8s-000",
+    "title": "The Invisible Threat: How a Supply Chain Breach Left Steam Customers Exposed",
+    "summary": "A recent data breach affecting Steam's hardware customers via a logistics partner highlights the increasing vulnerability of the modern supply chain. This incident serves as a stark reminder that cybercriminals are now targeting the weakest links in extended business networks, not just the primary organizations themselves.",
+    "content": "Gamers, your Steam account might be secure, but what about the journey your Steam Deck or other hardware took to reach your door? A recent incident impacting Steam hardware customers isn't just another data breach; it's a stark, uncomfortable reminder of the sprawling, interconnected web that powers our digital lives, and just how vulnerable its fringes can be. This time, the hackers didn't target Valve directly, but rather exploited a weakness in one of its logistics partners.\n\nThis sophisticated pivot by cybercriminals underscores a critical shift in tactics. Instead of breaching the heavily fortified walls of a tech titan, they're finding the path of least resistance through the third-party suppliers, payment processors, and shipping companies that handle critical customer data. These partners, often smaller with potentially less robust security infrastructure, become an unwitting backdoor into the primary organization, exposing sensitive information like shipping addresses, purchase histories, and other personal identifiers.\n\nFor Steam users, this meant their trust in a reputable brand was inadvertently undermined by a vulnerability several layers removed. The incident illustrates a chilling reality: businesses no longer operate in isolation. Customer data routinely flows through a complex network of external providers, transforming what was once a company's internal security challenge into a shared ecosystem-wide responsibility.\n\nThe implications are far-reaching. This isn’t just a Steam problem; it’s a systemic vulnerability that demands a complete re-evaluation of cybersecurity strategies across industries. Companies must extend their security perimeters to encompass every vendor and partner, demanding the same rigorous standards they apply to themselves. For consumers, it’s a call for heightened awareness, recognizing that even the most trusted brands can't always shield them from the risks lurking in the extended supply chain.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "Cybercriminals are increasingly targeting third-party logistics and service partners rather than directly attacking primary organizations.",
+      "The Steam breach highlights how customer data can be exposed through vulnerabilities in a company's extended supply chain, even if the main company's systems are secure.",
+      "Businesses must adopt comprehensive cybersecurity strategies that extend to all their vendors and partners, acknowledging the systemic nature of modern data risks."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-08-14 16:34",
+    "source": "Digital Journal",
+    "author": "Dr. Tim Sandle",
+    "publishedAt": "2026-08-13 21:09",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "image": "https://www.digitaljournal.com/wp-content/uploads/2023/09/croppedGettyImages12450647130424jpg-scaled.jpeg",
+    "originalUrl": "https://www.digitaljournal.com/article/steam-customers-caught-in-supply-chain-breach-as-hackers-target-logistics-partner/",
     "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
+      "Technology",
+      "customers",
+      "caught"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "id": "article-tec-mstgglnm-001",
+    "title": "Shiny Code, Hidden Flaws: Why AI's Creations Demand Human Oversight",
+    "summary": "AI coding tools promise unprecedented speed, but new research from Info-Tech Research Group reveals that even polished, AI-generated code still necessitates rigorous human review. Developers remain ultimately accountable for the quality, security, and maintainability of AI-assisted software.",
+    "content": "In the fast-paced world of software development, the allure of AI coding assistants is undeniable. Imagine typing a simple prompt and watching fully functional code materialize instantly, promising to supercharge delivery speeds and clear backlogs with unprecedented efficiency. These tools are marketed as the ultimate shortcut, a magic wand for developers eager to push boundaries and accelerate innovation.\n\nHowever, a recent deep dive by the Info-Tech Research Group introduces a crucial dose of reality into this optimistic narrative. Their findings suggest that while AI-generated code might *look* polished and ready for deployment, it often harbors hidden complexities and potential pitfalls. The gleaming facade, it turns out, frequently masks issues that only a human eye can truly discern.\n\nThe research highlights that despite AI's impressive ability to synthesize code, developers remain the ultimate guardians of their projects. This isn't just about catching syntactic errors; it's about architectural integrity, security vulnerabilities, performance bottlenecks, and the nuanced understanding of a project's broader context. AI might write code, but it doesn't always grasp the 'why' behind the 'what,' leading to technical debt, inefficient solutions, or even critical security flaws that could go unnoticed without meticulous human review.\n\nUltimately, accountability still rests squarely on human shoulders. An AI doesn't bear the consequences of a system crash or a data breach. This means that embracing AI coding tools requires a shift from blind trust to vigilant collaboration. Developers are evolving into expert editors and architects, leveraging AI for initial drafts and boilerplate, but applying their expertise to refine, secure, and truly own the final product. The future of coding isn't about replacing human developers, but empowering them with intelligent assistants who still require a guiding hand.",
     "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
+      "Even 'polished' AI-generated code needs thorough human review before deployment.",
+      "Developers remain ultimately accountable for the quality, security, and maintainability of all code, regardless of its AI origin.",
+      "AI coding tools should be viewed as assistants for initial drafts and boilerplate, not as fully autonomous coders, requiring human expertise for refinement and contextual understanding."
     ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-08-14 12:34",
+    "source": "Digital Journal",
+    "author": "Jennifer Kervin",
+    "publishedAt": "2026-08-13 21:06",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "image": "https://www.digitaljournal.com/wp-content/uploads/2026/08/Photo-by-Getty-Images-on-Unsplash.png",
+    "originalUrl": "https://www.digitaljournal.com/article/polished-ai-generated-code-still-needs-a-real-review/",
     "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
+      "Technology",
+      "Polished",
+      "AIgenerated"
     ],
     "readingTime": "2 min"
   }
