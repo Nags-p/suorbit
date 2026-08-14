@@ -1,24 +1,23 @@
 [
   {
-    "id": "article-tec-mssaqije-000",
-    "title": "Who's Really Deciding Digital Justice? The Fight to Put Forensic Experts Back in Charge",
-    "summary": "Digital forensics faces a critical challenge as vital decisions are made by non-practitioners, leading to potential miscarriages of justice. Companies like Magnet Forensics, backed by experts such as Brett Shavers, are now pushing for field investigators to reclaim their voice in shaping policies and tools, especially as AI integrates into the process.",
-    "content": "In an era where digital footprints often define truth and consequence, the very bedrock of justice—digital forensics—is facing a quiet but profound crisis. Crucial decisions shaping how digital evidence is collected, analyzed, and presented are increasingly being made not by the seasoned investigators in the trenches, but by policymakers and executives far removed from the complex realities of active casework.\n\nThis disconnect is more than just an organizational inefficiency; it's a systemic flaw that directly impacts the innocent and the accused. When theoretical frameworks supersede practical experience, the result can be flawed methodologies, misinterpretations, and ultimately, miscarriages of justice. Errors born in boardrooms land squarely on defendants and victims, distorting narratives and undermining public trust in the legal system.\n\nEnter Magnet Forensics, a key player in the digital investigation space, now spearheading a critical initiative. They're not just building tools; they're asking the right people – the veteran digital forensics examiners like Brett Shavers – where current processes break down. This isn't about minor tweaks; it’s about a fundamental re-evaluation, driven by those who truly understand the nuanced challenges of digital evidence.\n\nShavers, a renowned voice in the field, is a vocal proponent of this practitioner-led pushback. His advocacy underscores the urgent need for policy and tool development to be informed by the frontline experience. This urgency is only amplified by the rapid integration of artificial intelligence into forensic workflows. Without direct input from those who grapple with digital evidence daily, AI-powered solutions risk automating existing flaws or introducing new, complex biases that could irrevocably taint investigations.\n\nThe push is clear: empower the experts. Only by listening intently to those who navigate the digital crime scene can we ensure that the future of digital investigations, increasingly shaped by AI, truly serves justice rather than inadvertently undermining it. It's a call to action for a more informed, practitioner-centric approach to a field where the margins for error are dangerously thin.",
+    "id": "article-ai-mssfn49n-005",
+    "title": "Farsi's AI Frontier: New Open Atlas Aims to Revolutionize LLM Development",
+    "summary": "A critical new open-source project, 'persian-llm-reference,' has launched to provide a structured atlas for researchers and agents working with Persian (Farsi) Large Language Models. This tool aims to standardize resources and accelerate development within the Farsi-speaking AI community, addressing a significant need for language-specific infrastructure.",
+    "content": "The digital world held its breath momentarily when a minor technical hiccup on a prominent package repository obscured access to what promises to be a pivotal tool for the global AI landscape. While the site glitch has since been resolved, the brief unavailability underscored the vital role projects like `persian-llm-reference 0.9.1` play in pushing the boundaries of artificial intelligence beyond English-centric datasets. This new open-source initiative is poised to become an indispensable resource, specifically targeting the burgeoning field of Persian (Farsi) Large Language Models (LLMs).\n\nDubbed a \"structured open atlas,\" `persian-llm-reference` offers more than just a list; it’s a comprehensive framework designed to map out and provide easy access to critical resources for Farsi LLMs. Acting as both a manifest loader and a command-line interface (CLI), it streamlines the often-fragmented process for researchers and developers to discover, compare, and integrate various Persian LLM projects and datasets. In an era where linguistic diversity is crucial for true AI equity, such dedicated infrastructure is not merely convenient — it's foundational for fostering innovation and preventing a knowledge gap for non-English speakers.\n\nThe arrival of `persian-llm-reference` marks a significant step towards democratizing access to cutting-edge AI development. By providing a centralized, organized hub for Farsi LLM resources, the project empowers researchers to build more sophisticated, culturally relevant, and contextually aware models faster. This could dramatically accelerate the creation of practical applications in Farsi, from nuanced language understanding to advanced content generation, ensuring that the benefits of the AI revolution are truly global and inclusive. Its current version, 0.9.1, signals a robust foundation for future expansions and community contributions.",
     "keyTakeaways": [
-      "Decisions in digital investigations are often made by non-practitioners, leading to flawed outcomes and potential miscarriages of justice.",
-      "This disconnect directly impacts defendants and victims through flawed methodologies and misinterpretations of crucial digital evidence.",
-      "Experts like Brett Shavers and companies like Magnet Forensics are advocating for practitioner-led policy and tool development, a critical need amplified by the rapid integration of AI into forensic workflows."
+      "`persian-llm-reference` is an open-source \"structured atlas\" for Persian (Farsi) Large Language Models, currently at version 0.9.1.",
+      "The project provides a manifest loader and CLI to simplify resource discovery, comparison, and integration for researchers and developers in the Farsi LLM space.",
+      "It is crucial for accelerating Farsi LLM development, promoting linguistic diversity, and fostering greater inclusivity within the global AI landscape."
     ],
-    "source": "Forbes",
-    "author": "Lars Daniel, Contributor, \n Lars Daniel, Contributor\n https://www.forbes.com/sites/larsdaniel/",
-    "publishedAt": "2026-08-13 01:43",
-    "category": "Technology",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/6a7d1cdd2cd24ec9e299e592/0x0.jpg?format=jpg&crop=3510,1645,x990,y442,safe&height=900&width=1600&fit=bounds",
-    "originalUrl": "https://www.forbes.com/sites/larsdaniel/2026/08/12/brett-shavers-and-magnet-forensics-ask-where-digital-investigations-break-down-ai-makes-the-answers-urgent/",
+    "source": "Pypi.org",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-13 04:05",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/persian-llm-reference/0.9.1/",
     "tags": [
-      "Technology",
-      "Shavers",
-      "Magnet"
+      "AI",
+      "persianllmreference"
     ],
     "readingTime": "2 min"
   }
