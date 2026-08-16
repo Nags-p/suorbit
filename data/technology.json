@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-msv004wv-000",
-    "title": "AI's Hidden Cost? EPA Faces Lawsuit Over 'Toxic' Chip Chemicals Fueling Tech Boom",
-    "summary": "Environmental advocacy groups have launched a lawsuit against the U.S. Environmental Protection Agency, challenging its approval of two new chemicals vital for semiconductor manufacturing. They contend the EPA greenlit these potentially dangerous substances despite significant data gaps, raising concerns about public health and the environment amidst the surging demand for AI infrastructure.",
-    "content": "The race to power artificial intelligence has hit an unexpected snag: a lawsuit challenging the very chemicals essential to its microchip infrastructure. Environmental groups are taking the U.S. Environmental Protection Agency (EPA) to task, alleging the agency recklessly greenlit two new substances for semiconductor manufacturing, despite acknowledged safety data gaps.\n\nFiled on Friday, the lawsuit by a coalition of advocacy organizations — including Earthjustice, the Environmental Working Group, and the Sierra Club — targets the EPA's approval of the chemicals under the Toxic Substances Control Act (TSCA). The groups argue that the EPA's own assessments revealed \"significant information gaps\" regarding the potential hazards of these substances, yet still allowed them onto the market. This, they claim, constitutes a dereliction of the agency's duty to protect public health and the environment from potentially toxic materials used in a rapidly expanding industry.\n\nThe timing of this legal challenge couldn't be more crucial. The explosion of generative AI and its insatiable demand for processing power is driving an unprecedented boom in semiconductor production and the construction of vast data centers. These facilities rely on a continuous supply of cutting-edge chips, making the manufacturing process — and the chemicals it uses — a critical bottleneck. Environmentalists warn that rushing these chemicals into production without thorough vetting poses long-term risks, from potential groundwater contamination to occupational health hazards for workers in fabrication plants.\n\nThis case highlights a growing tension between technological advancement and environmental stewardship. As the world accelerates its embrace of AI, regulatory bodies face immense pressure to keep pace, but not at the expense of safety. The green groups are calling for the immediate withdrawal of the EPA's approvals, demanding a more rigorous, evidence-based approach to chemical oversight that prioritizes public and planetary health over industrial expediency.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "A coalition of environmental groups has sued the EPA over its approval of two new chemicals used in semiconductor manufacturing.",
-      "The lawsuit alleges the EPA greenlit these substances despite acknowledging \"significant information gaps\" regarding their potential hazards.",
-      "This legal challenge arises amid the booming demand for AI infrastructure, which relies heavily on a continuous supply of cutting-edge microchips."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Common Dreams",
-    "author": "Brett Wilkins",
-    "publishedAt": "2026-08-14 23:14",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-15 21:18",
     "category": "Technology",
-    "image": "https://www.commondreams.org/media-library/image.jpg?id=66700689&width=1200&height=600&coordinates=0%2C152%2C0%2C152",
-    "originalUrl": "https://www.commondreams.org/news/epa-sued-over-semiconductor",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Groups",
-      "Approving"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-15 17:18",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
