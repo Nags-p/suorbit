@@ -1,49 +1,69 @@
 [
   {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "id": "article-ai-msvjmigf-003",
+    "title": "AI Agent Development Gets a Sanity Check: 'skill-inspect' Lands on PyPI",
+    "summary": "A new tool called 'skill-inspect' has been added to PyPI, aiming to streamline the often-frustrating process of developing and integrating AI agent skills. It provides developers with crucial capabilities like scaffolding, validation, linting, and testing, effectively bringing unit-test-like rigor to AI skill definitions.",
+    "content": "Developing intelligent AI agents is a frontier pushing the boundaries of technology, yet the practicalities of building them can often be fraught with unforeseen hurdles. One significant pain point, familiar to many developers, has been the disconnect between writing an agent's skill description and actually getting the agent to reliably load and execute it. While crafting the logic for an AI skill might feel straightforward, ensuring its seamless integration into a complex agent system often resembles navigating a maze without a map.\n\nEnter `skill-inspect`, the latest addition to PyPI that promises to bring much-needed clarity and robustness to AI agent skill development. This open-source tool is designed to address the very challenges that have plagued developers, offering a comprehensive suite of features that act as a quality control gateway for `SKILL.md` descriptions. Think of it as a sophisticated unit testing framework specifically tailored for the intricate definitions that power AI agents.\n\n`skill-inspect` empowers developers with the ability to scaffold new skills, validate existing ones against defined standards, lint for common errors and inconsistencies, and rigorously test their functionality. By providing these capabilities, it not only simplifies the debugging process but also fosters better development practices, leading to more reliable and maintainable AI agents. This marks a crucial step forward in professionalizing AI agent development, transforming a historically trial-and-error process into one that is methodical and assured, much like modern software engineering.",
     "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
+      "The `skill-inspect` tool is now available on PyPI, targeting critical pain points in AI agent skill development.",
+      "It provides a comprehensive suite of features including scaffolding, validation, linting, and testing for AI agent skill descriptions.",
+      "The tool aims to standardize and streamline the creation of reliable AI agent skills, bringing unit-test-like rigor to the process."
     ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-08-15 19:30",
+    "source": "Pypi.org",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-15 08:26",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "image": "https://pypi.org/static/images/twitter.abaf4b19.webp",
+    "originalUrl": "https://pypi.org/project/skill-inspect/",
     "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
+      "AI",
+      "skillinspect"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "id": "article-ai-msvjmr35-004",
+    "title": "Modi's AI Bet: India Targets 10 Million Youth with Free Tech Training and Exam Prep",
+    "summary": "Indian Prime Minister Narendra Modi unveiled a sweeping initiative on Independence Day, promising free online coaching for competitive exams and AI skill training for 10 million youths. This ambitious program arrives just weeks after widespread protests highlighted deep-seated frustrations over alleged exam paper leaks and recruitment irregularities.",
+    "content": "As India celebrated its 77th Independence Day, Prime Minister Narendra Modi unveiled a significant push aimed squarely at the nation's vast youth population. From the ramparts of the Red Fort, Modi pledged an ambitious initiative: free online coaching for high-stakes competitive exams and, notably, cutting-edge artificial intelligence (AI) skills training for an astounding 10 million young people.\n\nThis declaration isn't merely a forward-looking vision; it's also a clear response to simmering discontent. Just weeks prior, India witnessed widespread protests, fueled by allegations of rampant exam paper leaks and recruitment irregularities that have long plagued the nation's job market. For millions of hopeful graduates vying for coveted government positions and career opportunities, these systemic issues represent a betrayal of their hard work and aspirations.\n\nThe inclusion of AI training is particularly noteworthy for a nation striving to cement its position as a global technology powerhouse. By equipping 10 million youths with critical AI competencies, Modi's government aims to future-proof its workforce, aligning with global trends and potentially unlocking new avenues for innovation and economic growth. It signals a recognition that traditional pathways alone are insufficient in a rapidly evolving digital landscape.\n\nWhile the promise of free coaching offers a lifeline to countless students struggling with the financial burden of preparation, the scale of the AI initiative is truly transformative. It positions India to potentially harness its demographic dividend more effectively, turning a massive young population into a skilled digital force. However, the success of these programs will hinge not just on their implementation but also on addressing the deeper structural issues of transparency and fairness in the recruitment ecosystem, which continue to erode public trust.\n\nModi's Independence Day speech, therefore, wasn't just a national address; it was a strategic pivot, an attempt to bridge the gap between youthful ambition and systemic challenges by investing heavily in education and the technologies of tomorrow.",
     "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
+      "Prime Minister Modi announced free online coaching for competitive exams and AI training for 10 million Indian youths.",
+      "The initiative is a direct response to recent nationwide protests concerning alleged exam paper leaks and recruitment irregularities.",
+      "The program aims to upskill India's workforce for the digital age while also addressing long-standing frustrations over employment fairness."
     ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-08-15 15:30",
+    "source": "DW (English)",
+    "author": "Shakeel Sobhan",
+    "publishedAt": "2026-08-15 08:25",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "image": "https://static.dw.com/image/78378822_6.jpg",
+    "originalUrl": "https://www.dw.com/en/india-modi-promises-free-exam-coaching-ai-training-for-youth-after-protests/a-78378982",
     "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
+      "AI",
+      "promises",
+      "coaching"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-msvjn1co-005",
+    "title": "Youth Takes Center Stage: Modi's Strategic Embrace of India's Future",
+    "summary": "Prime Minister Narendra Modi's recent Independence Day address from the Red Fort strategically placed India's youth at its very core, with a remarkable 52 direct references to the younger generation. This linguistic emphasis signaled a clear pivot towards new youth-focused initiatives, underscoring their pivotal role in shaping the nation's future trajectory.",
+    "content": "From the historic ramparts of the Red Fort, Prime Minister Narendra Modi delivered an Independence Day speech that, amidst its broad vision for India, unveiled a strikingly clear and emphatic focus: the nation's youth. Clocking in at 75 minutes, the address was less a mere rundown of achievements and more a rallying cry to the younger generation, underscored by a staggering 52 direct references to them.\n\nModi's linguistic choices were deliberate and telling. He invoked \"yuva\" 20 times, a term signifying spirited youth, while \"naujawanon\" — referring to young people or youngsters — echoed 22 times. An additional 10 mentions of \"saathiyon\" (friends or companions), often directed at a youthful audience, cemented this theme. It wasn't merely a passing mention; the sheer frequency underlined a calculated appeal, painting India's demographic dividend not just as an asset, but as the primary engine for future growth and innovation.\n\nThis sustained emphasis on youth signals a strategic blueprint for India's trajectory, particularly as the nation navigates a rapidly evolving global landscape driven by technology and entrepreneurship. By putting youth at the heart of his vision, Modi is tacitly acknowledging their potential as innovators, job creators, and global leaders. The promise of new youth-focused initiatives, though not detailed in the snippet, invariably points towards investments in skill development, digital literacy, and fostering an environment ripe for start-ups, aligning perfectly with the ambitions of a young, digitally-native population.\n\nThe Prime Minister's speech, therefore, wasn't just a ceremonial address. It was a clear statement of intent, positioning India's youth as the foundational pillar upon which a modern, prosperous, and technologically advanced nation will be built. This narrative shift aims to inspire and mobilize the country's youngest citizens, inviting them to actively participate in shaping India's tomorrow.",
+    "keyTakeaways": [
+      "Prime Minister Modi's Independence Day speech remarkably centered on youth, with 52 direct references to young people.",
+      "Specific terms like 'yuva,' 'naujawanon,' and 'saathiyon' were frequently employed, highlighting a deliberate communication strategy.",
+      "This strong emphasis signals a strategic focus on empowering India's youth as key drivers for the nation's future growth, innovation, and technological advancement."
+    ],
+    "source": "The Times of India",
+    "author": "ET Online",
+    "publishedAt": "2026-08-15 08:17",
+    "category": "AI",
+    "image": "https://img.etimg.com/thumb/msid-133258884,width-1200,height-630,imgsize-9840,overlay-economictimes/articleshow.jpg",
+    "originalUrl": "https://economictimes.indiatimes.com/news/india/yuva-to-naujawan-the-words-modi-kept-coming-back-to-in-his-independence-day-speech/articleshow/133258859.cms",
+    "tags": [
+      "AI",
+      "naujawan",
+      "coming"
     ],
     "readingTime": "2 min"
   }
