@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-ai-msxbwi00-003",
-    "title": "The Quiet Nod: How Kovac's Patience is Forging a New Star in Karetsas",
-    "summary": "Konstantinos Karetsas, a promising new signing, recently captivated fans with a standout performance, earning repeated applause. Coach Niko Kovac, however, is deliberately tempering the immediate hype, emphasizing a long-term developmental approach to nurture the young talent.",
-    "content": "The scene was a subtle yet powerful tableau: Coach Niko Kovac, a man known for his astute tactical mind, gently took Konstantinos Karetsas by the arm. A light pat, a friendly, encouraging look – a moment that transcended the roar of the stadium as the young forward made his way to the bench.\n\nJust moments prior, the new signing had been the architect of a fervent buzz, receiving repeated rounds of applause from an appreciative fanbase. It wasn't merely a fleeting flash of brilliance; Karetsas had demonstrated a captivating blend of skill, vision, and tactical awareness that suggested a player far beyond his years. His impact was palpable, a refreshing jolt of energy that promised exciting times ahead for the squad.\n\nYet, amidst the rising tide of adulation, Kovac’s composed demeanor speaks volumes. The veteran coach isn’t one to rush talent into the harsh glare of constant expectation. His understated gesture and the reported assurances of 'time' signal a deliberate strategy: allowing Karetsas the necessary space to grow, learn, and fully integrate without the pressure of instant stardom. It’s a philosophy that prioritizes sustainable development over fleeting heroics, a calculated investment in the player’s long-term trajectory.\n\nThis considered approach hints at a deep understanding of young athletes' journeys. While the stands may crave immediate spectacle, Kovac understands that true potential is often best unlocked through measured guidance. For Karetsas, it’s a golden opportunity to refine his craft under a mentor who clearly believes in his foundational talent, setting the stage for what could be a truly remarkable career, built on solid ground rather than fleeting cheers.",
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
     "keyTakeaways": [
-      "Coach Niko Kovac is adopting a patient, developmental strategy for promising new signing Konstantinos Karetsas.",
-      "Karetsas's recent performance garnered significant fan appreciation, showcasing his immediate impact and skill.",
-      "Kovac's approach emphasizes long-term growth over immediate pressure, aiming for sustainable success for the young talent."
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Onefootball.com",
-    "author": "Borussia Dortmund",
-    "publishedAt": "2026-08-16 14:25",
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-08-17 03:29",
     "category": "AI",
-    "image": "https://s.yimg.com/lo/mysterio/api/fc932c06894caff123f4681976ed7a1b39184f06e7f40b05aafde1059c74a3fa/lightyear_networkapi/resizefill_w1024_h576%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fborussia_dortmund_articles_399%2F8f8653c8ed859a2f073936d0bd1e355a.jpg",
-    "originalUrl": "https://onefootball.com/en/news/kovac-co-delighted-with-karetsas-will-give-him-time-43286462",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "delighted",
-      "Karetsas"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-08-16 23:29",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
     ],
     "readingTime": "2 min"
   }
