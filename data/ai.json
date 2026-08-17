@@ -1,49 +1,70 @@
 [
   {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "id": "article-ai-msx863zq-003",
+    "title": "Google's AI Leap: AMD Partnership Could Fuse CPU Power into Next-Gen TPUs",
+    "summary": "Google is reportedly collaborating with AMD to develop its 10th-generation Tensor Processing Units (TPUs), aiming for a novel hybrid design. This partnership could see AMD integrating its CPU cores directly onto the TPU package, specifically to accelerate demanding reinforcement learning and agentic AI workloads.",
+    "content": "The race for AI dominance isn't just about software; it's a relentless hardware arms race. Fresh whispers from the tech underground suggest Google is making a bold play, reportedly tapping AMD to co-engineer its upcoming 10th-generation Tensor Processing Units, or TPUs. This isn't just another chip collaboration; it points to a significant strategic pivot in Google's deep learning ambitions.\n\nAccording to insights from industry analysts at SemiAnalysis, the crux of this rumored partnership lies in a fascinating design innovation: integrating AMD’s CPU cores directly onto the TPU package. Why the fusion? The primary beneficiaries appear to be reinforcement learning and the burgeoning field of 'agentic' AI workloads. These complex tasks, where AI models learn through trial and error in simulated environments, demand an incredibly tight coupling between high-throughput compute (TPUs) and efficient, low-latency control logic (CPUs).\n\nCurrent AI setups often involve distinct CPU and accelerator chips, leading to data transfer bottlenecks and latency. By embedding CPU cores right alongside the TPU, Google could dramatically reduce the communication overhead, unlocking unparalleled efficiency for iterative, decision-heavy AI processes. Imagine an AI agent rapidly processing observations, making decisions, and executing actions within a simulated world, all without the traditional delays of shuttling data across separate silicon. This 'on-package' approach promises a tangible boost in both performance and power efficiency for these specialized, high-demand workloads.\n\nFor Google, whose vast AI ecosystem heavily relies on custom hardware, this move underscores a commitment to pushing the boundaries of what's possible. Leveraging AMD's established prowess in x86 CPU design to enhance their proprietary AI accelerators could give Google a distinct edge in areas like advanced robotics, complex simulation, and the next generation of truly intelligent agents. It’s a testament to how crucial specialized hardware has become in shaping the future trajectory of artificial intelligence, signalling Google's intent to craft hardware precisely tuned for the most challenging AI frontiers.",
     "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
+      "Google is reportedly partnering with AMD to develop its 10th-generation Tensor Processing Units (TPUs).",
+      "The collaboration aims for a novel hybrid design, integrating AMD CPU cores directly onto the TPU package.",
+      "This specialized hardware is intended to significantly accelerate reinforcement learning and 'agentic' AI workloads by reducing latency and improving efficiency."
     ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-08-16 23:25",
+    "source": "Tom's Hardware UK",
+    "author": "ashilov@gmail.com (Anton Shilov) , Anton Shilov",
+    "publishedAt": "2026-08-16 12:40",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "image": "https://cdn.mos.cms.futurecdn.net/9yjpJGx28XVepArU3M5vBD-2144-80.jpg",
+    "originalUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
     "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
+      "AI",
+      "Google",
+      "reportedly"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "id": "article-ai-msx86f6r-004",
+    "title": "Pixel 11's Face Unlock Mastered the Dark, Boosting Convenience and Security",
+    "summary": "Google's latest Pixel 11 series significantly upgrades its camera-based Face Unlock, allowing for much easier recognition in low-light conditions. This enhancement builds upon the foundation established by the Pixel 8, which already met Android's stringent highest biometric standards.",
+    "content": "For anyone who's ever fumbled with their phone in a dimly lit room or struggled to unlock it under a starry sky, Google has heard your silent sighs. The tech giant's new Pixel 11 series is set to dramatically improve the everyday experience of biometric authentication, specifically enhancing its camera-based Face Unlock to perform more effectively in low-light environments.\n\nSince the Pixel 8, Google's approach to face recognition has been robust, adhering to Android's most stringent biometric security standards. This commitment ensures that unlocking your device isn't just convenient but also highly secure against spoofing attempts. However, even top-tier systems often hit a snag when the ambient light drops, leaving users to revert to fingerprint sensors or PINs.\n\nThe Pixel 11 aims to eliminate that friction. Google's announcement highlights that the new series will offer Face Unlock that \"recognizes you more easily in low light.\" While the specific technological advancements enabling this leap haven't been fully detailed, it likely involves a combination of improved sensor sensitivity, more sophisticated image processing algorithms, and advanced on-device AI for facial mapping even with minimal visual data.\n\nThis isn't just a minor tweak; it represents a significant quality-of-life upgrade. Imagine unlocking your phone effortlessly at a late-night concert, checking notifications in a movie theater, or simply accessing your device in bed without blasting your eyes with a bright screen just to register your face. It pushes Google's biometrics closer to an 'always-on, always-ready' ideal, reinforcing the Pixel's reputation for smart, user-centric design and powerful, secure authentication.",
     "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
+      "The Pixel 11 series significantly enhances Face Unlock performance in low-light conditions.",
+      "This improvement builds upon Google's existing camera-based face recognition, which already meets Android's highest biometric security standards.",
+      "The upgrade promises a more convenient and reliable user experience for unlocking devices in various dimly lit environments."
     ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-08-16 19:25",
+    "source": "9to5google.com",
+    "author": "Abner Li",
+    "publishedAt": "2026-08-16 12:30",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "image": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-11-Pro-Fold-in-Obsidian.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+    "originalUrl": "http://9to5google.com/2026/08/16/pixel-11-face-unlock/",
     "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
+      "AI",
+      "Unlock",
+      "series"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-msx86no7-005",
+    "title": "Coding's New Frontier: Agentic AI Moves Beyond One-Offs to Transform Development",
+    "summary": "AI-assisted development, known by various names like 'vibing' and 'agentic coding,' has matured significantly, moving past simple, isolated tasks. This evolution promises to redefine how software is created, enabling more complex and integrated applications across industries.",
+    "content": "The discourse around artificial intelligence in software development is evolving rapidly, often encapsulated by a flurry of terms: LLM-assisted development, vibing, agentic coding. These aren't just trendy buzzwords but different lenses on a singular, profound shift. What was once a nascent concept is now a technological force, taking immense strides forward and demonstrating capabilities that continually surprise even industry veterans.\n\nThis isn't merely about automating repetitive functions or providing smart autocomplete. The days when AI's utility was confined to 'one-off' solutions – isolated problems that could be solved with a simple script or a narrow, vertical application – are increasingly in the rearview mirror. The technology has matured to the point where it can handle more intricate, context-aware challenges, effectively learning and adapting within broader development ecosystems. This signifies a pivot from rudimentary tool to a more collaborative, intelligent partner in the coding process.\n\nThe implications of this maturation are vast, promising to revolutionize development workflows and accelerate innovation. Imagine an AI agent capable of not just suggesting code, but understanding project goals, identifying potential issues across an entire codebase, and even proactively proposing architectural improvements. This shift empowers developers to focus on higher-level problem-solving and creative design, offloading significant chunks of repetitive or complex implementation to their AI counterparts. From crafting sophisticated new fitness tracking platforms that learn user habits to optimizing enterprise-level infrastructure, the potential for intelligent, agentic systems to deliver robust, integrated solutions is becoming a tangible reality.\n\nAs we continue to explore the boundaries of what these advanced LLMs can achieve, the landscape of software engineering is undeniably poised for a transformation. The true excitement lies not just in what these tools *can* do now, but in the unfolding possibilities for more intelligent, autonomous, and ultimately more human-centric software creation.",
+    "keyTakeaways": [
+      "LLM-assisted development, also known as agentic coding or 'vibing,' represents a significant advancement in AI's role in software creation.",
+      "The technology has moved beyond solving isolated, 'one-off' problems to handling more complex, integrated development tasks.",
+      "This evolution empowers developers to focus on higher-level design and creative problem-solving, with AI acting as a sophisticated, collaborative partner."
+    ],
+    "source": "Thelins.se",
+    "author": "Johan Thelin",
+    "publishedAt": "2026-08-16 12:28",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://www.thelins.se/johan/blog/2026/08/vibing-fitness-tracking/",
+    "tags": [
+      "AI",
+      "Vibing",
+      "fitness"
     ],
     "readingTime": "2 min"
   }
