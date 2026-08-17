@@ -1,70 +1,24 @@
 [
   {
-    "id": "article-tec-msx852qu-000",
-    "title": "Google's Next-Gen AI Brain Might Have AMD Cores Tucked Inside",
-    "summary": "Google is reportedly tapping AMD to co-develop its 10th-generation Tensor Processing Units (TPUs), with a groundbreaking twist: integrating CPU cores directly onto the AI accelerator package. This hybrid design aims to supercharge advanced AI models, particularly in reinforcement learning and agentic AI.",
-    "content": "A bombshell rumor has shaken the AI hardware landscape, suggesting Google is collaborating with none other than AMD on its cutting-edge 10th-generation Tensor Processing Units (TPUs). This isn't just about another chip; it's about a fundamental shift in AI accelerator design.\n\nAccording to analysts at SemiAnalysis, Google is eyeing AMD's CPU prowess to create a truly hybrid AI ASIC. The audacious plan involves integrating CPU cores directly onto the TPU package. Why the radical departure? The answer lies in the increasingly complex demands of modern artificial intelligence, especially in fields like reinforcement learning and agentic AI.\n\nTraditional AI accelerators excel at raw computational throughput, but workloads like training autonomous agents or complex decision-making algorithms often require substantial CPU-side processing for tasks like environment simulation, data orchestration, and intricate control logic. By bringing CPU cores onto the same package as the TPU, Google could dramatically reduce latency and boost efficiency, creating a seamless, high-bandwidth communication pathway between processing units.\n\nThis strategic partnership with AMD, a company known for its formidable x86 CPU architecture, signals Google's intent to push the boundaries of what's possible in AI hardware. It’s a move that could significantly enhance the performance of Google's internal AI research and product development, giving them an edge in the relentless race for AI supremacy. If true, this collaboration isn't merely about developing a new chip; it's about pioneering a new blueprint for the future of AI acceleration.",
+    "id": "article-tec-msxa4to3-000",
+    "title": "Ukraine's Covert $48,000 Drone: Born from Espionage, Striking Deep into Russian Territory",
+    "summary": "The MICH 2000, a Ukrainian-made long-range drone, was responsible for destroying a Russian Tu-95MS strategic bomber at Engels-2 air base last month. This $48,000 flying-wing drone is a reverse-engineered design, reportedly developed after covertly acquiring factory insights from a Chinese counterpart.",
+    "content": "Last month, a stunning blow rocked Russia's Engels-2 air base: a Tupolev Tu-95MS strategic bomber, a venerable symbol of Moscow's air power, was utterly destroyed. Now, the identity of the culprit has emerged, and it's a testament to audacious ingenuity: the MICH 2000, a Ukrainian-made, long-range attack drone. This isn't just another weapon; it's a narrative of wartime resourcefulness meeting geopolitical friction.\n\nThe MICH 2000's backstory is straight out of a spy thriller. When Beijing reportedly refused to sell its advanced drone technology to Ukraine, Kyiv's engineers took a different path. Rather than giving up, they allegedly reverse-engineered a Chinese flying-wing design, gathering critical insights through covertly obtained factory photographs. This clandestine intelligence operation laid the groundwork for what would become a formidable domestic capability.\n\nWhat makes the MICH 2000 particularly disruptive isn't just its origin, but its potent blend of affordability and reach. With a reported price tag of just $48,000 per unit and a staggering 2,000-kilometer operational range, it represents a highly effective, low-cost solution for deep strikes. The destruction of a strategic bomber by a drone costing less than many luxury cars underscores a significant shift in the dynamics of modern warfare, showcasing Ukraine's ability to develop and deploy advanced weaponry under immense pressure.\n\nThis isn't a one-off project either. Ukraine is reportedly scaling up production, aiming to build an impressive 6,000 of these $48,000 flying-wing drones annually. Such a robust manufacturing pipeline signals a strategic embrace of domestically produced, long-range unmanned aerial vehicles as a cornerstone of their defense strategy. The MICH 2000 thus stands as a symbol of Ukraine's evolving technological prowess and its unwavering determination.",
     "keyTakeaways": [
-      "Google is reportedly partnering with AMD to develop its 10th-generation Tensor Processing Units (TPUs).",
-      "The rumored design involves integrating AMD CPU cores directly onto the TPU package, creating a hybrid AI accelerator.",
-      "This groundbreaking architecture aims to enhance performance and reduce latency for advanced AI workloads, especially reinforcement learning and agentic AI."
+      "Ukraine's MICH 2000 drone, which destroyed a Russian Tu-95MS bomber, was developed by reverse-engineering a Chinese design using covertly acquired factory intelligence.",
+      "Costing only $48,000 per unit, the MICH 2000 offers a significant 2,000 km range, demonstrating an affordable yet potent long-range attack capability.",
+      "Ukraine plans to produce 6,000 of these flying-wing drones annually, highlighting a strategic shift towards large-scale domestic manufacturing of advanced UAVs."
     ],
     "source": "Tom's Hardware UK",
-    "author": "ashilov@gmail.com (Anton Shilov) , Anton Shilov",
-    "publishedAt": "2026-08-16 12:40",
+    "author": "Luke James",
+    "publishedAt": "2026-08-16 13:20",
     "category": "Technology",
-    "image": "https://cdn.mos.cms.futurecdn.net/9yjpJGx28XVepArU3M5vBD-2144-80.jpg",
-    "originalUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+    "image": "https://cdn.mos.cms.futurecdn.net/W4bNjvtdxZJqKsG4ybdwT7-1920-80.jpg",
+    "originalUrl": "https://www.tomshardware.com/tech-industry/drones/ukraine-destroys-tu-95-bomber-using-48000-chinese-drone-clone",
     "tags": [
       "Technology",
-      "Google",
-      "reportedly"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msx858iq-001",
-    "title": "ISP Down? Your Home Server Doesn't Have To Be.",
-    "summary": "Many home server setups grind to a halt when the internet service provider fails, even for seemingly local tasks. This article explores strategies to bolster your home server's resilience, ensuring critical services remain accessible during broadband outages.",
-    "content": "In our increasingly connected homes, a personal server has become the digital backbone for everything from media streaming and smart home orchestration to personal cloud storage. Yet, there’s a common, infuriating vulnerability: the moment your Internet Service Provider (ISP) hiccups, your meticulously crafted local setup often grinds to a halt. It’s a frustrating paradox when your \"local\" server becomes useless, not due to hardware failure, but because a distant network decided to take a coffee break.\n\nWhile many assume their home server operates in splendid isolation, the reality is often more complex. Many services, even those deployed on-premises, carry subtle dependencies. They might require external DNS resolution, reach out for authentication, or expect routine updates from the internet. This isn't always obvious until the lifeline of broadband is severed, revealing how deeply intertwined your local ecosystem is with the outside world.\n\nThe good news is that this common pain point isn't an unsolvable problem. The key lies in designing for resilience, focusing on redundancy and localizing critical functions. Consider investing in a secondary, perhaps cellular-based, internet connection for failover—a crucial lifeline for maintaining essential external communications. More importantly, fortify your server’s internal architecture: implement a local DNS resolver like Pi-hole to cache lookups, ensuring your devices can find each other even when the broader internet is unreachable. Verify that your authentication systems for local services are configured to function entirely offline.\n\nBy proactively addressing these potential weak points, you transform your home server from an internet-dependent glass cannon into a robust, always-on powerhouse. Imagine still accessing your vast movie library, controlling smart lights, or pulling up crucial backups even when your ISP has thrown in the towel. It’s about taking control, ensuring your digital sanctuary remains operational and providing true peace of mind and uninterrupted convenience, come what may.",
-    "keyTakeaways": [
-      "Home servers frequently become unusable during ISP outages due to hidden internet dependencies like DNS or authentication.",
-      "Implementing resilience strategies such as a secondary internet connection and a local DNS resolver can mitigate these vulnerabilities.",
-      "Configuring services for offline authentication ensures continuous access to local resources even without an active internet connection."
-    ],
-    "source": "How-To Geek",
-    "author": "Monica J. White",
-    "publishedAt": "2026-08-16 12:23",
-    "category": "Technology",
-    "image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/wm/2025/08/the-synology-ds425-nas-next-to-a-laptop-comupter-showing-the-dsm-operating-system-2.jpg?w=1600&h=900&fit=crop",
-    "originalUrl": "https://www.howtogeek.com/self-hosting-at-home-wont-survive-your-isps-next-outage-but-this-hybrid-approach-will/",
-    "tags": [
-      "Technology",
-      "server",
-      "moment"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-msx85u7k-002",
-    "title": "Goldman Sachs Unlocks China's AI Hardware Boom: Wall Street Giant Eyes Export-Driven Growth",
-    "summary": "Goldman Sachs is advising investors to target specific Chinese companies poised to benefit from a global surge in AI hardware exports, signaling a shift towards export-driven growth for mainland equity markets. This strategic focus highlights opportunities in power supply chains, PCBs, and humanoid robotics as key drivers for investment.",
-    "content": "The Wall Street behemoth, Goldman Sachs, is making a bold play, redirecting investor attention firmly towards China. But this isn't a general market call; it's a precisely targeted bet on mainland-listed companies primed to capitalize on the burgeoning global demand for AI hardware exports. This move signifies more than just a new investment trend; it points to an emerging, export-driven growth engine within the Chinese economy that could have far-reaching implications.\n\nAs the world accelerates its race to build out robust AI infrastructure, the foundational components are experiencing unprecedented demand. Goldman's strategists are zeroing in on critical sectors, specifically highlighting plays within power supply chains, Printed Circuit Boards (PCBs), and even the cutting-edge field of humanoid robotics. The logic is compelling: as Chinese chip exports continue their upward trajectory, these fundamental industries become indispensable, creating a powerful ripple effect of opportunity for firms providing these essential building blocks.\n\nThis deliberate focus by Goldman Sachs suggests a strong conviction that China's role in the global AI supply chain is set for a dramatic expansion, moving beyond purely domestic consumption. Investors who heed this guidance could be looking at substantial upside, given that a significant increase in export activity traditionally translates into robust performance across mainland equity markets. It represents a strategic reorientation from the influential investment bank, pinpointing specific, often overlooked, niches that stand to gain disproportionately from the accelerating pace of global AI adoption.\n\nThe ramifications extend beyond mere stock picks. This directive underscores a growing acknowledgement of China's evolving industrial landscape, positioning it as a pivotal global supplier for the very infrastructure fueling the AI revolution. For those navigating a dynamic tech environment and seeking substantial growth, Goldman's spotlight on these crucial segments of China's tech ecosystem offers a compelling narrative for future investment strategies.",
-    "keyTakeaways": [
-      "Goldman Sachs is strategically directing investors towards mainland Chinese companies poised to benefit from surging global AI hardware exports.",
-      "Key investment areas identified include power supply chains, Printed Circuit Boards (PCBs), and humanoid robotics, all critical for AI infrastructure.",
-      "This focus indicates a significant shift towards export-driven growth for China's equity markets, potentially boosting specific tech sectors."
-    ],
-    "source": "Crypto Briefing",
-    "author": "Editorial Team",
-    "publishedAt": "2026-08-16 12:09",
-    "category": "Technology",
-    "image": "https://static.cryptobriefing.com/wp-content/uploads/2026/08/16080913/55-broad-st-nbsp-the-former-headquarters-for-goldman-sachs-g-9-800x420.jpeg",
-    "originalUrl": "https://cryptobriefing.com/goldman-sachs-china-ai-hardware-stocks/",
-    "tags": [
-      "Technology",
-      "Goldman",
-      "identifies"
+      "Ukraine",
+      "longrange"
     ],
     "readingTime": "2 min"
   }
