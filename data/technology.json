@@ -1,47 +1,49 @@
 [
   {
-    "id": "article-tec-msyirgwt-000",
-    "title": "The Great Conference Exodus: Why Entrepreneurs Are Trading Ballrooms for Books",
-    "summary": "Amid growing discontent with lavish business conferences, many entrepreneurs are questioning their value proposition following social media backlash from events like InvestFest. This shift highlights a desire for tangible, actionable advice, leading many to seek wisdom in more accessible formats, such as books from seasoned leaders like Daymond John.",
-    "content": "The grand stages of business conferences, once perceived as temples of entrepreneurial wisdom, are increasingly feeling less like Silicon Valley enlightenment and more like a high-priced infomercial. A recent social media storm surrounding InvestFest, a major gathering for Black entrepreneurs and investors, laid bare a simmering discontent. Attendees, having shelled out significant sums, often left feeling short-changed, their expectations for actionable insights unmet. It's a recurring narrative: the glitz promises transformation, but the delivery often falls flat.\n\nIn stark contrast to the fleeting motivational speeches and networking pressures, a more grounded form of guidance is quietly reclaiming its value: the humble book. Take Daymond John, for instance. Far from the roaring crowds, he's often found greeting fans and signing copies of \"The Power of Broke.\" His work, and others like it, offer something deeply appealing: direct, actionable strategies honed by real-world grit, available without a four-figure ticket price or the added expense of travel and lodging.\n\nWhy this shift? It boils down to a fundamental value proposition. Conferences, for all their pomp, often prioritize broad strokes and motivational platitudes. The specific, granular advice needed to navigate the treacherous waters of business rarely fits into a 45-minute keynote. Books, conversely, provide a deep dive, allowing readers to absorb complex ideas at their own pace, offering a detailed blueprint rather than a fleeting glimpse. This unbundling of knowledge reflects a clear desire for substance over spectacle.\n\nThis isn't just about a backlash against one event; it's indicative of a broader recalibration in how aspiring entrepreneurs seek growth. The digital age has democratized access to expertise, making curated, practical wisdom more valuable than ever. As the shine fades from mega-events, the quiet power of a well-written guide, offering genuine strategies for success, is proving to be the real currency in today's entrepreneurial ecosystem. The future of business learning might look less like a crowded convention center and more like a well-stocked bookshelf.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Growing disillusionment with expensive business conferences stems from a perceived lack of tangible value and actionable insights.",
-      "Entrepreneurs are increasingly turning to accessible resources, such as books, for practical and in-depth business guidance.",
-      "This trend signals a broader shift towards democratized, self-paced learning, prioritizing substantive content over the spectacle of large-scale events."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "The Root",
-    "author": "B.Kadijat Towolawi",
-    "publishedAt": "2026-08-17 10:23",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-18 07:25",
     "category": "Technology",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://www.theroot.com/the-ultimate-reading-list-for-building-a-successful-bus-2000120574",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Ultimate",
-      "Reading"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-msyirznj-002",
-    "title": "Intel Flips the Script: Enthusiast Desktops Get Nova Lake-S Before Servers",
-    "summary": "Intel is breaking tradition by launching its next-gen CPU cores, codenamed \"Nova Lake-S,\" on desktop PCs for enthusiasts before making them available for enterprise Xeon servers. This strategic shift, confirmed by Intel's Robert Hallock, aims to prioritize the DIY PC market, a move that starkly contrasts with competitor AMD's usual server-first approach.",
-    "content": "Intel is shaking up its long-standing product launch strategy, announcing a significant shift that prioritizes desktop PC enthusiasts over enterprise servers. In a move confirmed by Robert Hallock, Intel's VP and general manager of the enthusiast business, the company's next-generation CPU cores, codenamed \"Nova Lake-S,\" will make their debut on consumer desktop platforms first, before being integrated into their powerful Xeon server processors. This represents a stark departure from the traditional industry cadence, where server-grade hardware often serves as the proving ground for new architectures.\n\nHistorically, new silicon architectures frequently arrive in data centers first, where the higher margins and demanding workloads justify early adoption and extensive validation. Even rival AMD has often introduced its cutting-edge Zen architectures via server-focused EPYC chips before trickling them down to consumer Ryzen offerings. Intel's decision to flip this script with Nova Lake-S signals a potential re-prioritization of the fiercely competitive DIY PC market, a space where performance leadership and enthusiast loyalty are highly coveted.\n\nFor PC builders and gamers, this means earlier access to Intel’s latest and greatest core technology. While specific details about Nova Lake-S remain under wraps, the promise of a desktop-first launch suggests Intel is keen to arm consumers with its most advanced processing capabilities sooner rather than later. This strategic maneuver could ignite a fresh wave of excitement within the enthusiast community and underscores Intel's commitment to recapturing mindshare and market momentum in a segment that deeply values bleeding-edge innovation. It's a bold play, and one that positions the desktop as a critical showcase for Intel’s future performance.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "Intel will launch its \"Nova Lake-S\" CPU cores on desktop enthusiast PCs before their Xeon server counterparts.",
-      "This strategy marks a significant departure from Intel's traditional release cadence and contrasts with competitor AMD's server-first approach.",
-      "The move underscores Intel's renewed focus on the DIY PC market, promising earlier access to cutting-edge core technology for consumers."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Techpowerup.com",
-    "author": "AleksandarK",
-    "publishedAt": "2026-08-17 10:12",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-18 03:25",
     "category": "Technology",
-    "image": "https://www.techpowerup.com/img/F5ppYyiAApFMYZ8x.jpg",
-    "originalUrl": "https://www.techpowerup.com/351646/intels-new-cpu-cores-debut-on-nova-lake-s-desktop-before-xeon-servers",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
     "tags": [
-      "Technology",
-      "Intels",
-      "Desktop"
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
