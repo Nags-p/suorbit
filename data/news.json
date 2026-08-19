@@ -1,185 +1,47 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-spa-mt036fui-006",
+    "title": "Beyond the Sprawl: NASA's Lens Captures D.C.'s Enduring Green Corridors",
+    "summary": "A recent NASA satellite image offers a striking perspective on Washington D.C.'s sprawling Maryland suburbs, revealing vital green corridors that defy urban expansion. These areas, exemplified by the historic Greenbelt Park, underscore the critical importance of integrating natural habitats and sustainable planning within metropolitan landscapes for both wildlife and human well-being.",
+    "content": "From the vastness of space, a recent NASA satellite image has offered a surprisingly hopeful look at Washington D.C.'s relentless suburban spread into Maryland. What could easily appear as an uninterrupted blanket of concrete and rooftops is, in fact, crisscrossed by verdant veins – enduring green corridors that weave through the urban fabric. This orbital perspective isn't just a pretty picture; it's a powerful reminder of nature's resilience and, crucially, the foresight of sustainable urban planning.\n\nAt the heart of this green network lies gems like Greenbelt Park. Established in 1950, long before 'green infrastructure' became a buzzword, this expansive national park near the nation's capital has grown into an indispensable sanctuary. It's not merely a patch of trees; it's a vibrant ecosystem supporting diverse local wildlife, offering them critical habitat and migratory pathways amidst encroaching development. For the human residents, it provides a much-needed serene escape, a place for recreation, contemplation, and a tangible connection to the natural world.\n\nThe survival and thriving of these green spaces, especially when viewed from above, highlight an urgent lesson for metropolitan areas worldwide. As cities expand, the pressure on natural habitats intensifies, yet these 'green corridors' prove that thoughtful integration is not just possible, but essential. They mitigate the urban heat island effect, improve air quality, manage stormwater, and, perhaps most importantly, provide invaluable psychological benefits to communities navigating the stresses of modern urban life.\n\nNASA's high-altitude vantage point offers more than just data; it provides perspective. It allows us to appreciate how careful land management decisions from decades past continue to shape our environment today. The enduring presence of places like Greenbelt Park, visible even from orbit, serves as both a testament to historical foresight and a potent call to action for future urban planners: prioritize nature, protect these vital arteries, and ensure our expanding cities breathe.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "NASA satellite imagery reveals significant green corridors persisting within Washington D.C.'s expanding Maryland suburbs, challenging typical perceptions of urban sprawl.",
+      "Greenbelt Park, established in 1950, exemplifies these vital spaces, serving as a crucial sanctuary for wildlife and a natural retreat for urban residents.",
+      "The continued presence of these green areas underscores the critical importance of sustainable urban planning for preserving biodiversity, enhancing environmental health, and supporting human well-being in metropolitan regions."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-08-19 07:28",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
-    "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
-    "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-08-19 03:28",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
-    "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
-    "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-08-18 23:28",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
-    "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
-    "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-08-18 19:28",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
-    "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-spa-001",
-    "title": "Latest developments in Space showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
-    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Space experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-18 15:28",
+    "source": "The Times of India",
+    "author": "TOI World Desk",
+    "publishedAt": "2026-08-18 12:44",
     "category": "Space",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "image": "https://static.toiimg.com/thumb/msid-133315546,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+    "originalUrl": "https://timesofindia.indiatimes.com/world/us/washingtons-suburbs-spread-across-maryland-but-a-nasa-image-shows-green-corridors-still-woven-through-the-urban-landscape/articleshow/133315374.cms",
     "tags": [
       "Space",
-      "Trends"
+      "Washingtons",
+      "suburbs"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-sci-001",
-    "title": "Latest developments in Science showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
-    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "id": "article-tec-mt034vgx-000",
+    "title": "The Ultimate Scan: How One Ingenious Project is Turning Railway Networks into Gigantic Flatbeds",
+    "summary": "A groundbreaking project is reimagining photography by converting expansive railway networks into colossal flatbed scanners. Utilizing an industrial linear scanning camera mounted on trains, it captures ultra-wide, incredibly detailed panoramic images of the passing landscape.",
+    "content": "Forget the humble desktop scanner—imagine a device so vast it leverages entire railway networks as its platen. That's the audacious, almost whimsical premise behind a fascinating new tech endeavor, spearheaded by an independent innovator, that’s turning heads in the DIY and imaging communities. Dubbed \"Linecam,\" the project, revealed on Philo.gay, transforms ordinary train journeys into an extraordinary photographic event.\n\nAt its core is an industrial linear scanning camera, a specialized piece of equipment designed to capture continuous strips of an image rather than individual frames. When this high-precision sensor is mounted onto a train, it begins to act like a gigantic, high-speed flatbed scanner. As the train hurtles along the tracks, the camera diligently records the passing scenery, stitching together an unbroken, incredibly wide panorama that defies conventional photography.\n\nThe result is truly astounding: ultra-high-resolution, seamless images that stretch for miles, offering an unprecedented perspective of railway lines and the landscapes they traverse. From the minute details of ballast stones to the sweeping vistas of distant horizons, every element is captured with an almost impossible fidelity. This isn't just about taking wide photos; it's about creating a digital artifact so expansive and detailed it practically redefines what a \"picture\" can be.\n\nWhile still in its early stages, the implications are vast. Beyond artistic expression and novel documentation, such a system could offer new tools for infrastructure monitoring, environmental surveying, or even hyper-detailed virtual tours. The ingenious application of existing technology to create something entirely new highlights the boundless creativity often found at the intersection of engineering and imagination. It’s a compelling vision of what happens when you quite literally think outside the frame.",
     "keyTakeaways": [
-      "The global market for Science experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
+      "A novel project named \"Linecam\" utilizes industrial linear scanning cameras to convert railway networks into massive flatbed scanners.",
+      "Mounted on trains, these cameras capture continuous, ultra-high-resolution, and exceptionally wide panoramic images of the passing landscape.",
+      "The innovation offers potential applications ranging from unique artistic expression to advanced infrastructure monitoring and environmental surveying."
     ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-18 11:28",
-    "category": "Science",
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "source": "Philo.gay",
+    "author": "otherayden",
+    "publishedAt": "2026-08-18 12:43",
+    "category": "Technology",
+    "image": "https://philo.gay/linecam/blogpics_1x/cranes-edit.jpg",
+    "originalUrl": "https://philo.gay/linecam/",
     "tags": [
-      "Science",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sta-001",
-    "title": "Latest developments in Startups showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
-    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Startups experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-18 07:28",
-    "category": "Startups",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sta-001",
-    "tags": [
-      "Startups",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-bus-001",
-    "title": "Latest developments in Business showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
-    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Business experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-18 03:28",
-    "category": "Business",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-bus-001",
-    "tags": [
-      "Business",
-      "Trends"
+      "Technology",
+      "railway",
+      "network"
     ],
     "readingTime": "2 min"
   }
