@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-mt1v5nf1-000",
-    "title": "Uber Unleashes Robotaxis in Europe, Beginning a Cautious Rollout in Croatia",
-    "summary": "Uber has officially launched its first autonomous vehicle (AV) ride-hailing service in Europe, choosing Croatia's capital, Zagreb, as its initial proving ground. Operated in partnership with Chinese AV firm Pony.ai, the service allows riders to book self-driving electric vehicles through the Uber app, with a human safety driver always on board.",
-    "content": "The future of urban transport just took a significant stride onto European soil. Uber has officially launched its first autonomous vehicle (AV) ride-hailing service on the continent, commencing operations this week in the Croatian capital, Zagreb.\n\nBeginning Wednesday, riders in Zagreb can now hail a self-driving car directly through the familiar Uber app. This groundbreaking European debut is a collaborative effort with Chinese autonomous driving technology firm Pony.ai, marking a strategic expansion for both companies. Crucially, and perhaps reassuringly for early adopters, every autonomous ride will still feature a human safety driver behind the wheel, ready to intervene if necessary.\n\nThis pilot program leverages electric vehicles, positioning the service not just at the forefront of autonomy but also within the growing e-mobility trend. The choice of Zagreb as the European launchpad is strategic; while larger markets often present more complex regulatory hurdles, cities like Zagreb can offer a more agile environment for initial trials and data collection.\n\nFor Uber, this move signifies its continued commitment to integrating AV technology into its global network, following deployments in parts of the United States and other regions. While fully driverless operations remain a future aspiration for many, these carefully managed launches with safety drivers are vital steps, allowing the technology to mature, gather real-world data, and build public trust. The road ahead for autonomous vehicles in Europe is long, but with Zagreb now on the map, Uber has truly begun to chart its course.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Uber has launched its first autonomous vehicle (AV) ride-hailing service in Europe, starting in Zagreb, Croatia.",
-      "The service operates in partnership with Chinese firm Pony.ai and includes a mandatory human safety driver.",
-      "This marks a cautious but significant step for AV expansion in Europe, utilizing electric vehicles for initial trials."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "The Next Web",
-    "author": "Darius Popa",
-    "publishedAt": "2026-08-19 18:33",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-20 15:31",
     "category": "Technology",
-    "image": "https://media.thenextweb.com/2026/05/Uber.jpg",
-    "originalUrl": "https://thenextweb.com/news/uber-pony-ai-verne-zagreb-europe-autonomous-rides",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "European",
-      "Zagreb"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-20 11:31",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
