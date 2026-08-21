@@ -1,185 +1,24 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-tec-mt3ca3z0-000",
+    "title": "Missile Gaps and Missing Goods: The Tech Fix for Our Fragile Supply Chains",
+    "summary": "Recent missile shortages serve as a potent warning, exposing the deep fragility within global supply chains that impacts both military readiness and everyday consumer goods. Advanced technologies like automation, additive manufacturing, and flexible production offer critical pathways to build much-needed resilience into these vital systems.",
+    "content": "When a guided-missile destroyer like the USS Laboon unleashes a Tomahawk, the sheer power is undeniable. Less visible, however, is the intricate, often strained, global supply chain that brings such advanced weaponry to life. Recent reports of missile shortages aren't just a national security concern; they serve as a stark, high-stakes mirror reflecting the alarming fragility of the very systems that deliver our everyday goods.\n\nThe threads binding military readiness to consumer shelves are surprisingly strong. From semiconductors and rare earth metals to specialized components and advanced manufacturing machinery, the same choke points and dependencies that delay a crucial missile shipment can just as easily hold up a new smartphone release or even a much-needed medical device. Decades of prioritizing lean, just-in-time efficiency, while economically sound in peacetime, have left these global arteries dangerously susceptible to geopolitical tremors, pandemics, and even localized disruptions.\n\nThe silver lining, however, shines from the very realm of technology itself. Automation stands poised to revolutionize production lines, accelerating output and reducing reliance on manual labor in repetitive, critical tasks. Additive manufacturing, or 3D printing, offers a radical shift towards on-demand, decentralized production, potentially bypassing long international shipping routes and fragile single-source suppliers. Imagine printing a complex missile component or a vital automotive part exactly where and when it's needed.\n\nCoupled with flexible production models – systems capable of rapidly retooling to produce diverse goods – these innovations promise a seismic shift from brittle dependency to robust resilience. The lessons learned from ensuring a steady supply of Tomahawks could, and should, inform how we secure everything from vital medical supplies to the next generation of consumer electronics. Building a truly resilient future means rethinking our supply chains, not just for the battlefield, but for every aspect of our interconnected lives.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "Military missile shortages underscore the profound fragility embedded in global supply chains, revealing vulnerabilities that directly impact everyday consumer goods.",
+      "Decades of focusing on lean, 'just-in-time' manufacturing practices have created easily disrupted single points of failure across critical industries.",
+      "Automation, additive manufacturing (3D printing), and flexible production are essential technological solutions for creating more resilient and adaptable supply chains in the future."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-08-21 14:39",
+    "source": "Forbes",
+    "author": "Dennis Mitzner, Contributor, \n Dennis Mitzner, Contributor\n https://www.forbes.com/sites/dennismitzner/",
+    "publishedAt": "2026-08-20 19:22",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "image": "https://imageio.forbes.com/specials-images/imageserve/6a86a79930c1c2089742756f/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+    "originalUrl": "https://www.forbes.com/sites/dennismitzner/2026/08/20/missile-shortages-expose-the-fragile-supply-chains-behind-everyday-goods/",
     "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
-    "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-08-21 10:39",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
-    "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
-    "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-08-21 06:39",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
-    "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
-    "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-08-21 02:39",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
-    "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-spa-001",
-    "title": "Latest developments in Space showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
-    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Space experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-20 22:39",
-    "category": "Space",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-spa-001",
-    "tags": [
-      "Space",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sci-001",
-    "title": "Latest developments in Science showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
-    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Science experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-20 18:39",
-    "category": "Science",
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sci-001",
-    "tags": [
-      "Science",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sta-001",
-    "title": "Latest developments in Startups showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
-    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Startups experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-20 14:39",
-    "category": "Startups",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sta-001",
-    "tags": [
-      "Startups",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-bus-001",
-    "title": "Latest developments in Business showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
-    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Business experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-20 10:39",
-    "category": "Business",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-bus-001",
-    "tags": [
-      "Business",
-      "Trends"
+      "Technology",
+      "Missile",
+      "Shortages"
     ],
     "readingTime": "2 min"
   }
