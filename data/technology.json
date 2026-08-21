@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-mt2gkbqr-000",
-    "title": "Retail's New Reality: Smart Glasses Spark Surveillance Fears for Frontline Workers",
-    "summary": "Public-facing employees, particularly in retail, are increasingly experiencing discomfort and harassment due to customers filming them with AI-powered smart glasses. This burgeoning trend highlights a critical lack of privacy protections and clear social etiquette around inconspicuous wearable recording devices in workplaces.",
-    "content": "Imagine going about your day, assisting customers, only to realize you're being covertly filmed by a pair of seemingly innocuous glasses. This unsettling scenario is becoming an all too common reality for public-facing workers across the nation, thanks to the rise of AI-powered smart glasses like Meta's offerings. It’s a new frontier of workplace unease, turning everyday interactions into potential surveillance incidents.\n\nThe discomfort isn't just a fleeting feeling; it’s a pervasive sense of being watched, analyzed, and recorded without consent. Employees like Toru Hinkle, a Target worker, have shared experiences of customers engaging them, only for the interaction to feel less like a service request and more like a live recording session. These devices, designed for seamless content capture, blur the lines between public and private, leaving frontline staff feeling vulnerable and exposed. What might seem like a casual interaction to the wearer becomes a data point, potentially shared online, without any control or knowledge from the person being filmed.\n\nThis isn't merely about personal preference; it strikes at the core of worker dignity and privacy. The constant threat of non-consensual filming contributes to heightened stress, anxiety, and a feeling of being 'on display.' It opens the door to potential harassment, doxing, and a pervasive lack of agency over one's own image and interactions in a professional setting. For industries that rely heavily on human interaction, this technological intrusion fundamentally changes the dynamic, fostering distrust where there should be service.\n\nThe onus cannot solely be on individual workers to navigate these murky waters. There's an urgent need for clearer corporate policies from employers, ethical guidelines from device manufacturers like Meta, and perhaps even updated public decency laws that address the implications of ubiquitous, inconspicuous recording devices. As smart glasses become more common, ensuring the safety and privacy of those who serve the public must be a priority, preventing our workplaces from becoming involuntary sets for someone else's content.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "AI-powered smart glasses are enabling customers to covertly record public-facing workers, creating widespread discomfort and a sense of surveillance.",
-      "The lack of consent for filming blurs privacy boundaries, increasing stress and vulnerability for employees, and opening avenues for potential harassment.",
-      "There's an urgent need for updated corporate policies, ethical manufacturing guidelines, and potentially new laws to protect workers' privacy in an era of ubiquitous wearable tech."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "The Verge",
-    "author": "Mia Sato",
-    "publishedAt": "2026-08-20 04:31",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-21 01:35",
     "category": "Technology",
-    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/268688_Smart_glasses_at_work__CVirginia2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-    "originalUrl": "https://www.theverge.com/report/982414/meta-glasses-work-surveillance-labor-security",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "glasses",
-      "workplace"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-20 21:35",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
