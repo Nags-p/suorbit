@@ -1,23 +1,49 @@
 [
   {
-    "id": "article-tec-mt3tziwf-000",
-    "title": "Signal Fortifies Its Privacy Promise with Latest iOS Update",
-    "summary": "Signal's latest iOS update, version 8.25.0.1809, reinforces its commitment to user privacy and secure communication. The open-source messenger continues to offer end-to-end encrypted messaging, voice, and video calls, completely free of analytics or telemetry.",
-    "content": "In an era where digital privacy feels increasingly like a myth, Signal consistently stands out as a beacon of secure communication. The popular open-source messenger has just rolled out its latest update for iOS, version 8.25.0.1809, continuing its unwavering commitment to user confidentiality.\n\nMore than just a messaging app, Signal is a robust fortress designed for truly private conversations. At its core lies the renowned Signal Protocol, a cryptographic marvel that underpins its end-to-end encrypted text, voice, and video calls. This means every message, every call, every shared moment between you and your friends remains exclusively yours, unreadable by anyone — not even Signal itself.\n\nWhat truly sets Signal apart from its competitors isn't just its robust encryption; it’s its transparency. As an open-source project, its code is publicly available for scrutiny, fostering a level of trust rarely seen in proprietary communication platforms. Crucially, the app collects no analytics or telemetry data, ensuring that your digital footprint within the platform is virtually non-existent. This isn't just a feature; it's a foundational promise.\n\nWhile this specific update targets the iOS ecosystem, Signal's dedication to private communication extends across devices. It’s freely available on Android and desktop platforms, providing a seamless and secure experience whether you're chatting with friends on the go or from your computer. In a world grappling with data breaches and pervasive tracking, Signal remains a critical tool for anyone prioritizing genuine digital privacy.\n\nWith each iteration, including this latest iOS release, Signal reaffirms its mission: to provide simple, reliable, and profoundly private communication for everyone. It’s more than an app; it’s a standard-bearer for a more secure digital future.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Signal offers end-to-end encrypted text, voice, and video calls, securing conversations with the robust Signal Protocol.",
-      "As an open-source application, Signal provides transparency and collects no analytics or telemetry data, prioritizing user privacy.",
-      "The messenger is freely available across multiple platforms, including iOS, Android, and desktop, ensuring accessible secure communication."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Kitploit.com",
-    "author": "Kitploit",
-    "publishedAt": "2026-08-21 03:30",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-22 00:31",
     "category": "Technology",
-    "image": "https://assets.kitploit.com/production/public/tools/46965/d3f9e826e77b9d435f6e8b193f9acca1942da767f5db04f81ae591965d24062a.png",
-    "originalUrl": "https://kitploit.com/en/posts/github-signalapp-signal-ios-82501809",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "SignaliOS"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-21 20:31",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
