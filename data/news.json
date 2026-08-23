@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mt5wcpoi-000",
-    "title": "Dashboard Danger: Stealthy Malware Turns Car Infotainment into a Botnet",
-    "summary": "A sophisticated supply-chain attack is compromising Android-based car head units, leveraging seemingly legitimate update applications to infect devices. This malware then enlists the compromised infotainment systems into a proxy botnet or exploits them for illicit ad fraud, transforming personal vehicles into unwitting tools for cybercriminals.",
-    "content": "Your car, once a sanctuary from digital threats, is rapidly becoming a prime target for cybercriminals. A new report from BleepingComputer reveals a sophisticated supply-chain attack actively compromising Android-based car head units, turning thousands of personal vehicles into unwitting cogs in a global botnet or tools for ad fraud.\n\nThe insidious nature of this attack lies in its delivery method. Hackers are exploiting the software supply chain, distributing malware disguised within seemingly legitimate device-update applications. Drivers, seeking performance enhancements or new features, unwittingly download and install these malicious updates, granting attackers a backdoor into their car's infotainment system. It's a classic Trojan horse, but instead of entering a city, it's infiltrating your dashboard.\n\nOnce entrenched, the malware quietly enlists the compromised head unit into a \"proxy botnet.\" This means your car's internet connection can be silently hijacked to route malicious traffic for other cybercriminals, obscuring their origins and enabling activities like credential stuffing or even more sophisticated attacks. Alternatively, the malware can engage in rampant ad fraud, generating fake clicks and impressions without the driver's knowledge, draining resources and potentially impacting device performance and data usage.\n\nFor car owners, the implications are unsettling. While the immediate danger might not be to vehicle operation itself, a compromised head unit can lead to sluggish performance, unexpected data consumption, and a significant security vulnerability. It underscores a growing truth: as our cars become more connected and feature-rich, they also become more exposed to the same threats we face on our smartphones and computers.\n\nThis attack serves as a stark reminder of the evolving threat landscape in the age of connected vehicles. As manufacturers integrate more third-party software and complex operating systems, the onus falls on both developers to harden their supply chains and on consumers to exercise extreme caution with unverified software and updates. Your car's digital security is now as crucial as its mechanical integrity.",
+    "id": "article-tec-mt5ygg27-000",
+    "title": "Huawei Pura 90s Pro Max: A Glimmer of Past Glory, Still Facing Uphill Battles",
+    "summary": "Huawei's Pura 90s Pro Max emerges as a visually striking flagship, boasting a unique design, impressive display, and exceptional cameras, reaffirming the brand's aesthetic and photographic prowess. Yet, under the hood, performance caveats hint at the persistent challenges Huawei faces in reclaiming its former market dominance.",
+    "content": "For years, Huawei’s presence in the global smartphone arena has been a story of resilience amidst unprecedented headwinds. Now, with the launch of the Pura 90s Pro Max, the company attempts to carve out a new chapter, offering a device that is undeniably a testament to its enduring design and imaging engineering. But can sheer elegance and photographic might truly pave the road to a full comeback?\n\nFrom the moment you lay eyes on the Pura 90s Pro Max, its distinctiveness is clear. Huawei has embraced bold color palettes and an instantly recognizable aesthetic that sets it apart from a sea of generic slabs. This isn't just about looks; the large, sharp display, enhanced with an advanced anti-reflective treatment, makes for a sublime viewing experience, even under challenging lighting. Photography, a long-standing Huawei forte, shines brilliantly here; both the main sensor and the telephoto lens capture stunning detail and vibrant colors, cementing its status as a top-tier camera phone.\n\nHowever, beneath this polished exterior lies the familiar, thorny issue of performance. While the Pura 90s Pro Max undoubtedly offers a premium user experience in many aspects, it grapples with the underlying challenges that have constrained Huawei's hardware and software ecosystem. For power users and those accustomed to the uncompromised velocity of competing flagships, the 'performance' narrative might not quite align with its otherwise stellar premium aspirations. It’s a powerful device, to be sure, but one that operates within its own set of parameters, often leaving a subtle, lingering question mark in scenarios demanding peak computational grunt.\n\nUltimately, the Huawei Pura 90s Pro Max is a fascinating paradox. It's a gorgeous, capable machine that delivers an excellent display and a world-class camera system, reaffirming Huawei's prowess in critical areas. Yet, its journey back to the very top is still punctuated by significant caveats, particularly when it comes to raw processing power and the broader software landscape. It's a beautiful return, but one that reminds us the fight for market dominance is far from over for the Chinese tech giant.",
     "keyTakeaways": [
-      "Android car head units are being compromised by a supply-chain attack via fake update apps.",
-      "Malware turns infected car systems into proxy botnet members or uses them for ad fraud, often silently.",
-      "Connected car owners must be vigilant about software sources and updates to protect against hidden digital threats."
+      "The Huawei Pura 90s Pro Max showcases a distinctive design and excellent anti-reflective display.",
+      "Its main and telephoto cameras deliver top-tier photographic performance.",
+      "Despite its premium features, the phone faces performance challenges that temper its overall appeal."
     ],
-    "source": "BleepingComputer",
-    "author": "Bill Toulas",
-    "publishedAt": "2026-08-22 14:14",
+    "source": "Yanko Design",
+    "author": "Aki Ukita",
+    "publishedAt": "2026-08-22 15:20",
     "category": "Technology",
-    "image": "https://www.bleepstatic.com/content/hl-images/2026/08/21/car.jpg",
-    "originalUrl": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/",
+    "image": "https://www.yankodesign.com/images/design_news/2026/08/huawei-pura-90s-pro-max-review-a-beautiful-comeback-with-caveats/huawei-pura-90s-pro-max-review-05.jpg",
+    "originalUrl": "https://www.yankodesign.com/2026/08/22/huawei-pura-90s-pro-max-review-a-beautiful-comeback-with-caveats/",
     "tags": [
       "Technology",
-      "Hackers",
-      "infect"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mt5wcy1x-001",
-    "title": "From Cool Gadget to Creepy Camera: The Unsettling Truth About Smart Glasses",
-    "summary": "As smart glasses transition from niche tech to mainstream wearables, their discreet recording capabilities are sparking significant privacy alarm. Individuals are reporting deeply invasive experiences of being filmed without consent, highlighting a critical tension between innovation and personal boundaries.",
-    "content": "For Shaili Lodariya, what began as an impressive glimpse into the future of wearable technology quickly soured into a chilling realization. She had been recorded without her knowledge or consent by someone wearing smart glasses, transforming a cool gadget into a stark symbol of unseen surveillance. It's a scenario increasingly familiar as these sophisticated spectacles leave the realm of science fiction and enter our daily lives.\n\nThis isn't merely an inconvenience; it's a profound invasion of personal space. The very design of many smart glasses, which often lack clear indicators that recording is active, fosters an environment ripe for surreptitious filming. Imagine navigating a public park, a cafe, or even a private gathering, unknowingly becoming content for someone else's digital archive. It creates a pervasive sense of vulnerability, an invisible eye always potentially watching.\n\nIndeed, the implications are particularly acute for certain demographics. As one PR professional from Gujarat articulated, \"As a woman, the thought of someone being able to record me without my knowledge or consent is deeply invasive.\" This sentiment underscores a broader anxiety where the convenience for one individual directly compromises the safety and autonomy of another.\n\nThe rapid mainstreaming of smart glasses demands urgent attention from both manufacturers and society at large. While the technology offers undeniable benefits, the ethical framework around its use is severely lagging. It's time for clear, unambiguous recording indicators, robust public awareness campaigns, and a candid discussion about the social norms and perhaps even regulations needed to ensure that our pursuit of technological advancement doesn't come at the unbearable cost of fundamental privacy.",
-    "keyTakeaways": [
-      "Smart glasses are increasingly raising significant privacy concerns due to their ability to record discreetly without the knowledge or consent of those being filmed.",
-      "The lack of obvious recording indicators on many smart glasses creates a feeling of vulnerability and compromises personal boundaries for individuals in public and private spaces.",
-      "Addressing these privacy challenges requires a multi-faceted approach, including ethical design principles from manufacturers, greater public awareness, and potentially new social norms or regulations."
-    ],
-    "source": "BusinessLine",
-    "author": "Sanjana B",
-    "publishedAt": "2026-08-22 14:12",
-    "category": "Technology",
-    "image": "https://bl-i.thgim.com/public/incoming/ftrj2p/article71378103.ece/alternates/LANDSCAPE_1200/IMG_iStock-1257555417.jp_2_1_1SG7FACN.jpg",
-    "originalUrl": "https://www.thehindubusinessline.com/info-tech/as-smart-glasses-go-mainstream-privacy-concerns-follow/article71377912.ece",
-    "tags": [
-      "Technology",
-      "glasses",
-      "mainstream"
+      "Huawei",
+      "Review"
     ],
     "readingTime": "2 min"
   }
