@@ -1,70 +1,185 @@
 [
   {
-    "id": "article-tec-mt6r3u3w-000",
-    "title": "Taming the Machine: Five Essential Frameworks for Agentic AI Development",
-    "summary": "The rise of truly autonomous AI agents exposes a critical \"requirements gap\" in traditional software engineering, where systems act independently rather than passively executing commands. New practitioner frameworks are emerging to address this, providing essential tools for specifying, managing, and ensuring accountability in agentic AI development.",
-    "content": "For decades, software requirements engineering operated on a foundational, unspoken premise: software does what it’s told. It's a passive entity, executing commands within predefined boundaries. But a seismic shift is underway. The advent of \"agentic AI\" — systems designed to act autonomously, make decisions, and interact with the world on their own — has shattered that assumption, leaving a gaping void in how we define, build, and govern these powerful new entities. This isn't just about bigger, faster algorithms; it's about machines that think and *do*.\n\nThis \"requirements gap\" isn't merely an academic concern; it’s a critical challenge with profound implications. Without clear specifications for their autonomy, boundaries, and decision-making processes, agentic systems risk becoming unpredictable, uncontrollable, and even dangerous. Imagine an AI agent tasked with optimizing supply chains that, without proper guardrails, autonomously diverts resources based on unforeseen criteria, or a customer service agent that escalates issues inappropriately. The complexity demands a new paradigm, one that acknowledges and structures the inherent agency of these systems.\n\nTo bridge this crucial chasm, a groundbreaking suite of five practitioner frameworks has emerged. These aren't abstract theories but practical tools for engineers and analysts grappling with the unique demands of autonomous AI, offering a much-needed blueprint for navigating this new frontier.\n\nLeading the charge is the **Agentic Requirements Stack**, providing a layered view of autonomy. The **Autonomy Boundary Canvas** helps define the very limits of an agent's self-directed action, crucial for safety and ethics. For agents interacting with external tools, the **Tool Contract Specification** ensures predictable integration. And when things inevitably go awry, the **Escalation and Handoff Matrix** provides clear protocols for human intervention. Finally, the **Agentic Traceability Ledger** promises to bring accountability, offering a transparent record of an agent's decisions and actions.\n\nTogether, these frameworks offer a robust foundation for building agentic AI responsibly and effectively. They represent a pivotal moment in our technological evolution, moving beyond simply building intelligent software to engineering intelligent *agents* with foresight and control. By embracing these structured approaches, we can unlock the immense potential of autonomous systems while ensuring they remain aligned with human intent and values.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Traditional software requirements engineering is inadequate for specifying truly autonomous (agentic) AI systems, creating a critical \"requirements gap.\"",
-      "Five new practitioner frameworks (Agentic Requirements Stack, Autonomy Boundary Canvas, Tool Contract Specification, Escalation and Handoff Matrix, and Agentic Traceability Ledger) have been introduced to address this challenge.",
-      "These frameworks provide essential tools for defining an agent's autonomy, setting boundaries, managing tool interactions, handling exceptions, and ensuring accountability in agentic AI development."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Modernanalyst.com",
-    "author": "adrian",
-    "publishedAt": "2026-08-23 04:41",
-    "category": "Technology",
-    "image": "https://www.modernanalyst.com/Portals/0/Public Uploads/pic/Agentic-AI-Requirements-350.png",
-    "originalUrl": "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/7213/The-Business-Analysts-Guide-to-Agentic-AI-Requirements.aspx",
-    "tags": [
-      "Technology",
-      "Business",
-      "Analysts"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mt6r449m-001",
-    "title": "Beyond Battles: America's 25-Year War on Terror Nears a Staggering $10 Trillion Price Tag",
-    "summary": "The U.S. War on Terror, now spanning 25 years since 9/11, is projected to cost American taxpayers nearly $10 trillion. This monumental sum includes over $8 trillion spent on initial conflicts in Iraq and Afghanistan, with an additional $2 trillion allocated for ongoing expenses like veteran care and homeland security.",
-    "content": "A quarter-century has passed since the world shifted irrevocably on September 11th, 2001. Now, as the U.S. War on Terror marks this somber anniversary, a new, equally staggering figure dominates the conversation: nearly $10 trillion. This isn't just a historical footnote; it's a colossal financial burden borne by American taxpayers, a sum that continues to balloon even as the direct conflicts in Iraq and Afghanistan have largely faded from daily headlines.\n\nInitially, the kinetic phases of these wars—from boots on the ground to advanced military hardware and extensive logistical support—accounted for an astronomical $8 trillion. That figure alone represents an unprecedented expenditure for two principal overseas engagements, reflecting the immense scale and complexity of the operations undertaken. However, the 'war' proved far more expansive and enduring than conventional warfare.\n\nThe additional $2 trillion now projected includes a complex web of ongoing expenses: veteran care, intelligence operations, homeland security initiatives, and smaller, often less-publicized deployments across various global hotspots. This isn't just about bullets and bombs; it's about the pervasive infrastructure built to counter a decentralized threat, a structure that demands constant funding. The sheer scale of this quarter-century commitment offers a stark illustration of how protracted global conflicts ripple through national economies, shaping budgets and diverting resources for generations.\n\nFor context, this monumental sum represents an almost unfathomable investment. What else could $10 trillion have funded? Infrastructure upgrades, scientific research, healthcare advancements, or education reform—the opportunity costs are immense. As the nation grapples with future fiscal challenges, the enduring financial shadow of the War on Terror serves as a powerful, sobering reminder of the long-term price of conflict.",
-    "keyTakeaways": [
-      "The U.S. War on Terror is projected to cost American taxpayers nearly $10 trillion over 25 years.",
-      "Over $8 trillion of this total was spent on initial conflicts in Iraq and Afghanistan.",
-      "An additional $2 trillion is anticipated for ongoing expenses, including veteran care, homeland security, and intelligence operations."
-    ],
-    "source": "Freerepublic.com",
-    "author": "The Center Square",
-    "publishedAt": "2026-08-23 04:17",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-24 01:41",
     "category": "Technology",
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://freerepublic.com/focus/f-bloggers/4392825/posts",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Americas",
-      "Terror"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-sci-mt6r692g-009",
-    "title": "Mars' Thin Air Just Got a Breath of Life: NASA's MOXIE Paves Way for Human Colonization",
-    "summary": "In 2021, NASA's MOXIE experiment aboard the Perseverance rover made history by extracting oxygen from Mars' carbon-dioxide atmosphere, marking the first time a usable resource was produced from another planet's environment. This groundbreaking achievement is a pivotal step toward enabling future human missions and potentially permanent settlements on the Red Planet.",
-    "content": "Just as humanity was marveling at the first powered flight on another world, courtesy of the Ingenuity helicopter on April 19, 2021, a quieter, yet equally profound, revolution was unfolding aboard NASA's Perseverance rover. The very next day, a compact instrument, no bigger than a car battery (or a microwave oven, depending on your comparison), performed an act that rewrote the playbook for future deep-space exploration: it created oxygen on Mars.\n\nThis remarkable device, known as MOXIE (Mars Oxygen In-Situ Resource Utilization Experiment), successfully converted a small amount of the Martian atmosphere's abundant carbon dioxide into 5.4 grams of breathable oxygen. While that might seem like a mere whisper, enough to sustain an astronaut for about 10 minutes, its significance is monumental. For the first time, a human-made technology proved that we don't have to haul every single life-sustaining resource across millions of miles of space. We can, in fact, \"live off the land\" on another planet.\n\nMOXIE’s achievement isn't just about breathing. Oxygen is a critical component for rocket propellant, meaning future return missions from Mars could refuel directly on the Red Planet, dramatically reducing payload requirements for launch from Earth. This radical shift in strategy, known as In-Situ Resource Utilization (ISRU), transforms the economics and feasibility of long-duration human missions, paving a clearer path for astronauts to not only visit Mars but potentially establish permanent settlements.\n\nThe successful demonstration by MOXIE isn't merely an experiment; it's a blueprint. It validated a core technology crucial for transforming human presence from fleeting visits to sustained habitation beyond Earth. The whisper of 5.4 grams of Martian oxygen on April 20, 2021, truly marked the dawn of a new era where other planets become sources, not just destinations.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "NASA's MOXIE experiment successfully extracted 5.4 grams of oxygen from Mars' carbon-dioxide atmosphere in April 2021.",
-      "This marked the first-ever demonstration of producing a usable resource from the environment of another planet, a crucial step for space exploration.",
-      "MOXIE's achievement validates In-Situ Resource Utilization (ISRU), essential for human life support and rocket propellant production on future Mars missions and settlements."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Space Daily",
-    "author": "Space Daily Editorial Team",
-    "publishedAt": "2026-08-23 03:30",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-23 21:41",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "keyTakeaways": [
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-08-23 17:41",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "tags": [
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-08-23 13:41",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-001",
+    "title": "Latest developments in Space showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
+    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Space experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-23 09:41",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "tags": [
+      "Space",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sci-001",
+    "title": "Latest developments in Science showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
+    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Science experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-23 05:41",
     "category": "Science",
-    "image": "https://spacedaily.com/wp-content/uploads/2026/08/nasa-spacedaily-moxie-all-tucked-in-pia24203.jpg",
-    "originalUrl": "https://spacedaily.com/t-moxie-first-oxygen-mars-2021-isru/",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
     "tags": [
       "Science",
-      "microwaveovensized",
-      "experiment"
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-001",
+    "title": "Latest developments in Startups showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
+    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Startups experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-23 01:41",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-001",
+    "tags": [
+      "Startups",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-bus-001",
+    "title": "Latest developments in Business showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
+    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Business experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-08-22 21:41",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-001",
+    "tags": [
+      "Business",
+      "Trends"
     ],
     "readingTime": "2 min"
   }

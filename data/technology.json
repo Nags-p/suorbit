@@ -1,47 +1,49 @@
 [
   {
-    "id": "article-tec-mt6r3u3w-000",
-    "title": "Taming the Machine: Five Essential Frameworks for Agentic AI Development",
-    "summary": "The rise of truly autonomous AI agents exposes a critical \"requirements gap\" in traditional software engineering, where systems act independently rather than passively executing commands. New practitioner frameworks are emerging to address this, providing essential tools for specifying, managing, and ensuring accountability in agentic AI development.",
-    "content": "For decades, software requirements engineering operated on a foundational, unspoken premise: software does what it’s told. It's a passive entity, executing commands within predefined boundaries. But a seismic shift is underway. The advent of \"agentic AI\" — systems designed to act autonomously, make decisions, and interact with the world on their own — has shattered that assumption, leaving a gaping void in how we define, build, and govern these powerful new entities. This isn't just about bigger, faster algorithms; it's about machines that think and *do*.\n\nThis \"requirements gap\" isn't merely an academic concern; it’s a critical challenge with profound implications. Without clear specifications for their autonomy, boundaries, and decision-making processes, agentic systems risk becoming unpredictable, uncontrollable, and even dangerous. Imagine an AI agent tasked with optimizing supply chains that, without proper guardrails, autonomously diverts resources based on unforeseen criteria, or a customer service agent that escalates issues inappropriately. The complexity demands a new paradigm, one that acknowledges and structures the inherent agency of these systems.\n\nTo bridge this crucial chasm, a groundbreaking suite of five practitioner frameworks has emerged. These aren't abstract theories but practical tools for engineers and analysts grappling with the unique demands of autonomous AI, offering a much-needed blueprint for navigating this new frontier.\n\nLeading the charge is the **Agentic Requirements Stack**, providing a layered view of autonomy. The **Autonomy Boundary Canvas** helps define the very limits of an agent's self-directed action, crucial for safety and ethics. For agents interacting with external tools, the **Tool Contract Specification** ensures predictable integration. And when things inevitably go awry, the **Escalation and Handoff Matrix** provides clear protocols for human intervention. Finally, the **Agentic Traceability Ledger** promises to bring accountability, offering a transparent record of an agent's decisions and actions.\n\nTogether, these frameworks offer a robust foundation for building agentic AI responsibly and effectively. They represent a pivotal moment in our technological evolution, moving beyond simply building intelligent software to engineering intelligent *agents* with foresight and control. By embracing these structured approaches, we can unlock the immense potential of autonomous systems while ensuring they remain aligned with human intent and values.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Traditional software requirements engineering is inadequate for specifying truly autonomous (agentic) AI systems, creating a critical \"requirements gap.\"",
-      "Five new practitioner frameworks (Agentic Requirements Stack, Autonomy Boundary Canvas, Tool Contract Specification, Escalation and Handoff Matrix, and Agentic Traceability Ledger) have been introduced to address this challenge.",
-      "These frameworks provide essential tools for defining an agent's autonomy, setting boundaries, managing tool interactions, handling exceptions, and ensuring accountability in agentic AI development."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Modernanalyst.com",
-    "author": "adrian",
-    "publishedAt": "2026-08-23 04:41",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-24 01:41",
     "category": "Technology",
-    "image": "https://www.modernanalyst.com/Portals/0/Public Uploads/pic/Agentic-AI-Requirements-350.png",
-    "originalUrl": "https://www.modernanalyst.com/Resources/Articles/tabid/115/ID/7213/The-Business-Analysts-Guide-to-Agentic-AI-Requirements.aspx",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Business",
-      "Analysts"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mt6r449m-001",
-    "title": "Beyond Battles: America's 25-Year War on Terror Nears a Staggering $10 Trillion Price Tag",
-    "summary": "The U.S. War on Terror, now spanning 25 years since 9/11, is projected to cost American taxpayers nearly $10 trillion. This monumental sum includes over $8 trillion spent on initial conflicts in Iraq and Afghanistan, with an additional $2 trillion allocated for ongoing expenses like veteran care and homeland security.",
-    "content": "A quarter-century has passed since the world shifted irrevocably on September 11th, 2001. Now, as the U.S. War on Terror marks this somber anniversary, a new, equally staggering figure dominates the conversation: nearly $10 trillion. This isn't just a historical footnote; it's a colossal financial burden borne by American taxpayers, a sum that continues to balloon even as the direct conflicts in Iraq and Afghanistan have largely faded from daily headlines.\n\nInitially, the kinetic phases of these wars—from boots on the ground to advanced military hardware and extensive logistical support—accounted for an astronomical $8 trillion. That figure alone represents an unprecedented expenditure for two principal overseas engagements, reflecting the immense scale and complexity of the operations undertaken. However, the 'war' proved far more expansive and enduring than conventional warfare.\n\nThe additional $2 trillion now projected includes a complex web of ongoing expenses: veteran care, intelligence operations, homeland security initiatives, and smaller, often less-publicized deployments across various global hotspots. This isn't just about bullets and bombs; it's about the pervasive infrastructure built to counter a decentralized threat, a structure that demands constant funding. The sheer scale of this quarter-century commitment offers a stark illustration of how protracted global conflicts ripple through national economies, shaping budgets and diverting resources for generations.\n\nFor context, this monumental sum represents an almost unfathomable investment. What else could $10 trillion have funded? Infrastructure upgrades, scientific research, healthcare advancements, or education reform—the opportunity costs are immense. As the nation grapples with future fiscal challenges, the enduring financial shadow of the War on Terror serves as a powerful, sobering reminder of the long-term price of conflict.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "The U.S. War on Terror is projected to cost American taxpayers nearly $10 trillion over 25 years.",
-      "Over $8 trillion of this total was spent on initial conflicts in Iraq and Afghanistan.",
-      "An additional $2 trillion is anticipated for ongoing expenses, including veteran care, homeland security, and intelligence operations."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Freerepublic.com",
-    "author": "The Center Square",
-    "publishedAt": "2026-08-23 04:17",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-23 21:41",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://freerepublic.com/focus/f-bloggers/4392825/posts",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
     "tags": [
-      "Technology",
-      "Americas",
-      "Terror"
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
