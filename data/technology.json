@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-mt7t2d2v-000",
-    "title": "Micron's Bold Bet: The End of the Memory Cycle as We Know It?",
-    "summary": "Micron's CEO is asserting that the historically volatile memory chip market has fundamentally changed, moving past its traditional boom-and-bust cycles. This bold claim suggests a new era of stability for the industry, departing from past patterns of oversupply and undersupply that have long dictated its fortunes.",
-    "content": "Every so often, an industry executive steps forward to utter the unthinkable, to declare that the fundamental laws governing their business no longer apply. Micron's CEO finds himself in that very spotlight, championing a future where the relentless, often brutal, memory chip cycle is finally broken. It’s a pronouncement that flies in the face of decades of history, including Micron’s own, a narrative riddled with dramatic swings between feast and famine.\n\nFor generations, the memory industry has been defined by its cyclical nature. Periods of soaring demand and tight supply brought booming profits, only to be inevitably followed by overproduction, price crashes, and deep losses. This boom-and-bust rhythm was an almost gravitational force, shaping investment, innovation, and ultimately, corporate survival. To declare it obsolete isn't merely optimistic; it's a profound challenge to conventional wisdom.\n\nWhat, then, fuels this audacious claim? While the details remain nuanced, the underlying belief points to structural shifts. The insatiable hunger of AI, the relentless expansion of data centers, and the pervasive integration of memory into everything from autonomous vehicles to IoT devices are creating a more diversified and sustained demand profile. This, combined with greater industry consolidation and arguably more disciplined capital expenditure by major players, could indeed temper the wild swings of the past. It's a vision where demand troughs are less severe, and recovery is quicker, creating a more predictable revenue stream.\n\nOf course, such declarations are often met with a healthy dose of skepticism. The financial graveyard is full of companies that bet against the cyclical beast only to be devoured. Yet, sometimes, the machine *does* change. If Micron's assessment proves true, it heralds a new, more stable era for an industry long considered volatile, potentially reshaping investment strategies and long-term growth prospects for memory giants and the tech world at large. It's a high-stakes gamble, but one that could redefine the very economics of digital memory.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Micron's CEO controversially claims the memory chip industry has escaped its traditional boom-and-bust cycle.",
-      "This bold assertion points to fundamental structural shifts, driven by new, diversified demand from AI and data centers, alongside industry discipline.",
-      "The outcome of this 'cycle-free' future will significantly impact investment, growth, and the overall stability of the memory and broader tech sectors."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "TheStreet",
-    "author": "Tobi Opeyemi Amure",
-    "publishedAt": "2026-08-23 22:07",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-08-24 19:25",
     "category": "Technology",
-    "image": "https://s.yimg.com/lo/mysterio/api/A8CADFDF6247217876D93E16E1E6427759E0489375E1C881C6104F7F018AE151/subgraphmysterio/resizefill_w1200_h800;quality_80;format_webp/https:%2F%2Fmedia.zenfs.com%2Fen%2Fthestreet_881%2Fa95d2416b4a8d30281716698d3f8fed5.jpg",
-    "originalUrl": "https://www.thestreet.com/technology/micron-ceo-doubling-down-cycle-free-future",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Micron",
-      "doubling"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-08-24 15:25",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
