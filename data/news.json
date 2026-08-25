@@ -1,69 +1,24 @@
 [
   {
-    "id": "article-tec-mt8gxqfc-000",
-    "title": "Nvidia's Perplexity Play: Chip Titan Makes $30 Billion Bet on AI Search, Reshaping the AI Stack",
-    "summary": "Nvidia is reportedly in advanced discussions to invest in Perplexity AI at a staggering valuation exceeding $30 billion, marking a significant strategic shift for the GPU powerhouse. This move signals a blurring of lines between infrastructure providers and application layers, extending Nvidia's influence directly into consumer-facing AI services like search.",
-    "content": "The lines between the titans who build the foundational tech and the innovators who craft its consumer-facing applications have never been blurrier. And now, a seismic shift could be underway. On August 23, 2026, a bombshell report from The Information revealed that Nvidia, the undisputed king of AI compute, is in advanced discussions to make a colossal investment in Perplexity AI, a burgeoning AI-powered search engine. This isn't just a casual cash injection; sources suggest a valuation for Perplexity AI exceeding an eye-watering $30 billion.\n\nFor years, Nvidia has reigned as the 'compute landlord,' providing the indispensable GPUs that power the artificial intelligence revolution. Their strategy has largely been to sell the picks and shovels, not dig for gold themselves. However, this potential stake in Perplexity AI signals a profound pivot, extending their influence squarely into the application layer. It's a clear move to integrate vertically, ensuring that their hardware remains central not just to training large language models, but also to how these models deliver value directly to end-users through innovative services like AI search.\n\nPerplexity AI, known for its conversational, citation-rich answers, represents the bleeding edge of how we might interact with information in the future, moving beyond traditional search result pages. For Nvidia, backing such a high-profile application provides a crucial strategic foothold, creating an ecosystem where their hardware not only underpins development but also powers the leading consumer-facing AI experiences. It’s a compelling play that solidifies Nvidia’s indispensable role, extending its grip from the silicon up to the user interface.\n\nThis massive investment underscores a pivotal moment in the AI landscape: the rapid convergence of infrastructure and application. It suggests a future where the foundational layers of AI are inextricably linked with the services built upon them. The potential $30 billion+ valuation also sends a stark message about the immense value perceived in AI-native applications that can redefine core internet functions. As these discussions unfold, the tech world watches closely to see if Nvidia’s latest power play will redefine the very architecture of the AI economy.",
+    "id": "article-spa-mt8j1ktl-006",
+    "title": "Kyoto Breakthrough: Chips That Laugh at Hellfire, Running at 600°C",
+    "summary": "Researchers at Kyoto University have engineered a silicon carbide transistor capable of operating reliably at an astonishing 600°C, leveraging standard ion implantation techniques. This breakthrough is not only a marvel of high-temperature electronics but also critically compatible with existing commercial chip manufacturing, paving the way for robust technology in extreme environments.",
+    "content": "Imagine electronics durable enough to brave the scorching surface of Venus or the inferno inside a jet engine. A groundbreaking achievement from a research team at Kyoto University has brought this vision significantly closer to reality. They've developed a silicon carbide (SiC) transistor that doesn't just survive, but actively operates at a blistering 600°C (that's 873 Kelvin!), a temperature that would render conventional silicon chips utterly useless.\n\nWhat makes this breakthrough particularly potent is not just the extreme temperature tolerance, but how it was achieved. The Kyoto team utilized ion implantation, a doping step that is standard across commercial chip fabrication facilities worldwide. This crucial detail means their innovation isn't a bespoke, hard-to-scale lab curiosity. By adopting a bottom-gate design, they've also ingeniously tackled persistent issues like leakage currents and voltage drift that plague high-temperature semiconductor performance, ensuring the transistor maintains its stability and functionality under duress.\n\nThe implications are profound. This isn't merely an academic curiosity; it’s a foundational step towards electronics that can function reliably in environments previously deemed impossible. Think of robust sensor networks for geothermal energy systems, control units inside nuclear reactors, or highly durable components for future spacecraft exploring hostile planetary atmospheres. The ability to integrate such extreme-temperature devices using existing manufacturing processes could drastically accelerate their adoption, opening new frontiers for exploration, industrial efficiency, and critical infrastructure.",
     "keyTakeaways": [
-      "Nvidia's potential investment in Perplexity AI marks a strategic shift from pure infrastructure provider to an active player in the application layer, signaling vertical integration.",
-      "The staggering $30 billion+ valuation for Perplexity AI underscores the massive perceived value and market potential of AI-powered search solutions.",
-      "This move further blurs the traditional boundaries between hardware companies and software applications, suggesting a deeper intertwining of the AI technology stack."
+      "Kyoto University developed a silicon carbide transistor operational at an extreme 600°C.",
+      "The new transistor uses standard ion implantation, making it compatible with existing commercial chip fabrication facilities.",
+      "This innovation opens doors for electronics in hostile environments like space, jet engines, and nuclear reactors."
     ],
-    "source": "Forkast.news",
-    "author": "Lena Park",
-    "publishedAt": "2026-08-24 09:33",
-    "category": "Technology",
-    "image": "https://forkast.news/wp-content/uploads/2026/08/nvidia-perplexity-compute-landlord-1024x687.jpg",
-    "originalUrl": "https://forkast.news/nvidias-30b-perplexity-bet-extends-the-compute-landlord-thesis-into-ai-search/",
+    "source": "Tom's Hardware UK",
+    "author": "Luke James",
+    "publishedAt": "2026-08-24 10:30",
+    "category": "Space",
+    "image": "https://cdn.mos.cms.futurecdn.net/YdZbVjBsghJp5q9fsqEwpT-1920-80.png",
+    "originalUrl": "https://www.tomshardware.com/tech-industry/kyoto-university-demonstrates-a-sic-transistor-that-runs-at-600c-using-standard-ion-implantation",
     "tags": [
-      "Technology",
-      "Nvidias",
-      "Perplexity"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mt8gy0hd-001",
-    "title": "The Original Earthrise: How a Robot Camera Showed Humanity Its Home, 60 Years Ago",
-    "summary": "Sixty years ago, NASA's robotic Lunar Orbiter 1 spacecraft captured the first-ever 'Earthrise' photo, a groundbreaking image that redefined humanity's perspective of its home planet. This iconic photograph, taken on film and later reprocessed, paved the way for future lunar missions and continues to inspire, recently recreated by the Artemis II crew.",
-    "content": "It was August 23, 1966, a pivotal moment in the space race, when a robotic pioneer, NASA's Lunar Orbiter 1, turned its lens back towards Earth from the desolate expanse of the Moon. What it captured wasn't just a photograph; it was a profound shift in human perspective, the first-ever 'Earthrise' — a stunning portrait of our vibrant, fragile blue marble suspended against the inky blackness of space. For the first time, humanity saw its home not from the ground up, but as a distant, serene oasis.\n\nThis isn't merely a historical footnote; it’s a testament to audacious engineering and scientific vision. Lunar Orbiter 1’s primary mission was to scout safe landing sites for the upcoming Apollo missions. Yet, in a stroke of genius, mission controllers commanded the spacecraft to snap images of Earth as it orbited the Moon. The camera itself was a marvel of its time: an analog film system that developed images onboard, then scanned and transmitted them back to Earth. The raw transmissions, initially grainy, underwent meticulous reprocessing years later, unveiling the breathtaking detail we now associate with this iconic shot.\n\nThe photograph's impact was immediate and enduring. It transcended its scientific origins, becoming a powerful cultural artifact. Before this, Earth was a concept, a solid ground beneath our feet. After 'Earthrise,' it became a singular, shared vessel, inspiring environmental movements and fostering a global consciousness. It set the stage for later, equally iconic images like 'The Blue Marble,' cementing our planet’s image as a unified whole.\n\nFast forward sixty years, and the echoes of that first 'Earthrise' are still reverberating. Earlier this year, the Artemis II crew recreated a similar awe-inspiring view, a poignant reminder of how far we’ve come and the enduring allure of lunar exploration. The image from that intrepid robotic probe remains a powerful symbol of our collective journey, a cosmic mirror reflecting both our technological prowess and our humble place in the universe.",
-    "keyTakeaways": [
-      "The first-ever 'Earthrise' photo was captured on August 23, 1966, by NASA's robotic Lunar Orbiter 1 spacecraft.",
-      "The image was taken on an analog film camera onboard the spacecraft, developed in space, and later reprocessed on Earth to reveal its full detail.",
-      "This groundbreaking photograph profoundly influenced human perception of Earth, inspiring environmental awareness and setting a precedent for future lunar and deep-space imaging missions, recently echoed by the Artemis II crew."
-    ],
-    "source": "PetaPixel",
-    "author": "Matt Growcoot",
-    "publishedAt": "2026-08-24 09:33",
-    "category": "Technology",
-    "image": "https://petapixel.com/assets/uploads/2026/08/Lunar-Orbirter-1-Earthrise.jpg",
-    "originalUrl": "https://petapixel.com/2026/08/24/the-first-ever-earthrise-photo-was-taken-60-years-ago-on-a-film-camera-by-a-robot-spacecraft/",
-    "tags": [
-      "Technology",
-      "FirstEver",
-      "Earthrise"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-mt8gz2wu-005",
-    "title": "NAVA Unleashed: A Personal AI Operating System Lands on PyPI, Promising Governed Autonomy",
-    "summary": "A new autonomous personal agent operating system, NAVA, has just made its debut on PyPI, offering a comprehensive platform for integrating AI into daily digital life. It emphasizes 'governed execution' and multi-agent capabilities to ensure secure, deterministic AI operations for research, collaboration, and personal workspace management.",
-    "content": "The dream of a truly autonomous personal AI assistant has long hovered on the horizon, often tempered by concerns over control and security. Now, a significant step towards realizing that vision has arrived with NAVA, a novel autonomous personal agent operating system, making its official debut on PyPI.\n\nNAVA isn't just another AI tool; it's an ambitious framework designed to serve as a personal OS for artificial intelligence itself. Billed as a deterministic, multi-agent system, it’s built from the ground up to orchestrate a suite of AI functions, from autonomous workspace execution to deep research synthesis and persistent human-AI collaboration. This isn't about isolated bots; it's about a cohesive, intelligent environment living within your digital space.\n\nWhat truly sets NAVA apart is its foundational commitment to “governed execution.” In an era where AI safety and oversight are paramount, this feature promises a controlled environment for AI operations, ensuring secure computer use and predictable outcomes. Developers and advanced users can now leverage AI's vast potential without sacrificing peace of mind, fostering deeper trust in autonomous processes.\n\nIts availability on PyPI, the Python Package Index, marks a pivotal moment. It means NAVA is now readily accessible to a global community of developers, researchers, and early adopters. This open-source approach not only democratizes access to advanced personal AI infrastructure but also invites collaborative innovation, allowing the community to build upon and refine its capabilities.\n\nBy offering a rich Cowork Studio alongside its robust core, NAVA is poised to redefine how we interact with intelligent agents, moving beyond simple commands to a more integrated and collaborative digital existence. This isn't just software; it’s an invitation to a future where personal AI operates with purpose, precision, and unparalleled governance.",
-    "keyTakeaways": [
-      "NAVA is a new autonomous personal agent operating system now available on PyPI, designed for comprehensive AI integration.",
-      "It features 'governed execution' to ensure secure, deterministic, and controlled AI operations, addressing critical safety concerns.",
-      "The system supports multi-agent collaboration, deep research, and autonomous workspace execution, positioning it as a foundational AI OS for advanced users."
-    ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-08-24 09:33",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/nava-agent/",
-    "tags": [
-      "AI",
-      "navaagent"
+      "Space",
+      "University",
+      "builds"
     ],
     "readingTime": "2 min"
   }
