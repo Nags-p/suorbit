@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-ai-mtkk3p9x-004",
-    "title": "Geothermal's Moment: Google Powers AI's Future with Earth's Own Energy",
-    "summary": "As the demand for AI infrastructure skyrockets, putting immense pressure on traditional energy grids, Google has struck a landmark deal with a leading geothermal energy provider. This partnership signals a pivotal shift towards sustainable power for data centers, sparking a surge in geothermal stock and offering a blueprint for greener AI development.",
-    "content": "The insatiable appetite of artificial intelligence is pushing global energy grids to their limits, turning data centers into an unexpected flashpoint in communities across the U.S. and beyond. As major tech players race to build the vast infrastructure needed for generative and agentic AI, the question of how to power these energy-guzzling behemoths sustainably has become critically urgent.\n\nTraditional power sources are struggling to keep pace, leading to concerns about reliability, environmental impact, and the sheer scale of future energy demand. This challenge has sparked innovative solutions, and today, one geothermal energy stock is soaring after a significant move from Google that could redefine AI's energy landscape.\n\nGoogle has reportedly inked a substantial deal with a pioneering geothermal energy company, signaling a powerful commitment to cleaner, more stable power for its burgeoning AI operations. Unlike intermittent renewables, geothermal power provides a constant, reliable baseload supply, making it an ideal candidate for the round-the-clock energy demands of massive data centers. This strategic partnership isn't just about sustainability; it's about securing a predictable and resilient energy future for AI.\n\nThe market’s enthusiastic response to the geothermal provider's stock underscores the broader investor confidence in renewable, always-on energy solutions for the tech sector. This move by Google serves as a powerful validation of geothermal technology and could catalyze further investment and adoption across the industry, particularly as companies face increasing scrutiny over their carbon footprint and resource consumption.\n\nUltimately, this deal represents more than just a power purchase agreement. It’s a blueprint for a future where AI development is inextricably linked to sustainable energy, addressing both the computational demands of cutting-edge technology and the environmental imperatives of our planet. It’s a clear signal that the race for AI dominance can, and must, be run on green energy.",
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
     "keyTakeaways": [
-      "Google's major deal with a geothermal company highlights a critical industry shift towards sustainable energy solutions for powering AI data centers.",
-      "Geothermal energy offers a reliable, constant power source, making it an ideal alternative to traditional or intermittent renewables for the demanding 24/7 needs of AI infrastructure.",
-      "This partnership is expected to drive further investment in geothermal technology and sets a precedent for how the tech industry can address its growing energy consumption sustainably."
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Biztoc.com",
-    "author": "barchart.com",
-    "publishedAt": "2026-09-01 20:33",
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-09-02 11:04",
     "category": "AI",
-    "image": "https://biztoc.com/cdn/8fc0c0596ea83bef_s.webp",
-    "originalUrl": "https://biztoc.com/x/8fc0c0596ea83bef",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "Geothermal",
-      "Soaring"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-09-02 07:04",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
     ],
     "readingTime": "2 min"
   }

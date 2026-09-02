@@ -1,70 +1,185 @@
 [
   {
-    "id": "article-tec-mtkk2olg-000",
-    "title": "Two Decades of Dystopian Visions: Peter Watts Continues to Challenge Sci-Fi Norms",
-    "summary": "Veteran speculative fiction author Peter Watts has consistently delivered critically acclaimed narratives for over twenty years, earning prestigious awards like the Aurora and Hugo. His unique voice continues to captivate readers with intellectually rigorous and often unsettling explorations of humanity's future.",
-    "content": "For over two decades, Peter Watts has been a formidable and uncompromising voice in the realm of speculative fiction, consistently delivering narratives that challenge, provoke, and resonate long after the final page. His impressive staying power in a genre constantly evolving speaks volumes about the depth and originality of his work, cementing his status as a true heavyweight in contemporary science fiction.\n\nWatts's prolific career is not merely defined by its longevity but by a continuous stream of critical recognition. He has garnered a host of esteemed awards, shining a spotlight on his masterful storytelling. Among these accolades is the Aurora Award for his poignant short story “A Niche,” alongside the highly coveted Hugo Award for his novelette “The Island.” These honors are a testament to his ability to craft both expansive, thought-provoking narratives and incisive, tightly woven tales that capture the imagination and dissect complex ideas.\n\nWhat truly sets Watts apart is his unflinching gaze into the darker, more unsettling corners of our potential future. His fiction often delves into hard science and philosophical quandaries, inviting readers to grapple with the consequences of technological advancement and humanity's inherent flaws. Far from offering easy answers, Watts forces a confrontation with existential questions, painting vivid, often bleak, but always intellectually stimulating pictures of worlds that feel terrifyingly plausible.\n\nAs he crosses the twenty-year mark, Peter Watts remains a vital and necessary storyteller, his distinctive brand of apocalyptic wonder continuing to push the boundaries of what speculative fiction can achieve. He’s not just imagining the future; he’s dissecting it with a surgeon’s precision and a poet’s soul.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Peter Watts has maintained a prominent and influential career in speculative fiction for over twenty years.",
-      "His work has received significant critical acclaim, including an Aurora Award for “A Niche” and a Hugo Award for “The Island.”",
-      "Watts is known for his intellectually rigorous, often dystopian narratives that explore complex technological and philosophical themes."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Clarkesworldmagazine.com",
-    "author": "Arley Sorg",
-    "publishedAt": "2026-09-01 20:35",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-09-02 19:04",
     "category": "Technology",
-    "image": "https://clarkesworldmagazine.com/covers/cw_240_800.jpg?3",
-    "originalUrl": "https://clarkesworldmagazine.com/watts_interview_2026/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Apocalypse",
-      "Conversation"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-mtkk3p9x-004",
-    "title": "Geothermal's Moment: Google Powers AI's Future with Earth's Own Energy",
-    "summary": "As the demand for AI infrastructure skyrockets, putting immense pressure on traditional energy grids, Google has struck a landmark deal with a leading geothermal energy provider. This partnership signals a pivotal shift towards sustainable power for data centers, sparking a surge in geothermal stock and offering a blueprint for greener AI development.",
-    "content": "The insatiable appetite of artificial intelligence is pushing global energy grids to their limits, turning data centers into an unexpected flashpoint in communities across the U.S. and beyond. As major tech players race to build the vast infrastructure needed for generative and agentic AI, the question of how to power these energy-guzzling behemoths sustainably has become critically urgent.\n\nTraditional power sources are struggling to keep pace, leading to concerns about reliability, environmental impact, and the sheer scale of future energy demand. This challenge has sparked innovative solutions, and today, one geothermal energy stock is soaring after a significant move from Google that could redefine AI's energy landscape.\n\nGoogle has reportedly inked a substantial deal with a pioneering geothermal energy company, signaling a powerful commitment to cleaner, more stable power for its burgeoning AI operations. Unlike intermittent renewables, geothermal power provides a constant, reliable baseload supply, making it an ideal candidate for the round-the-clock energy demands of massive data centers. This strategic partnership isn't just about sustainability; it's about securing a predictable and resilient energy future for AI.\n\nThe market’s enthusiastic response to the geothermal provider's stock underscores the broader investor confidence in renewable, always-on energy solutions for the tech sector. This move by Google serves as a powerful validation of geothermal technology and could catalyze further investment and adoption across the industry, particularly as companies face increasing scrutiny over their carbon footprint and resource consumption.\n\nUltimately, this deal represents more than just a power purchase agreement. It’s a blueprint for a future where AI development is inextricably linked to sustainable energy, addressing both the computational demands of cutting-edge technology and the environmental imperatives of our planet. It’s a clear signal that the race for AI dominance can, and must, be run on green energy.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "Google's major deal with a geothermal company highlights a critical industry shift towards sustainable energy solutions for powering AI data centers.",
-      "Geothermal energy offers a reliable, constant power source, making it an ideal alternative to traditional or intermittent renewables for the demanding 24/7 needs of AI infrastructure.",
-      "This partnership is expected to drive further investment in geothermal technology and sets a precedent for how the tech industry can address its growing energy consumption sustainably."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Biztoc.com",
-    "author": "barchart.com",
-    "publishedAt": "2026-09-01 20:33",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-09-02 15:04",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "keyTakeaways": [
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-09-02 11:04",
     "category": "AI",
-    "image": "https://biztoc.com/cdn/8fc0c0596ea83bef_s.webp",
-    "originalUrl": "https://biztoc.com/x/8fc0c0596ea83bef",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "Geothermal",
-      "Soaring"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mtkk35r2-002",
-    "title": "California's Tech Reckoning: Newsom Holds the Pen on AI, Data, and Social Media's Future",
-    "summary": "California lawmakers have concluded a legislative session marked by ambitious tech-focused bills, now awaiting Governor Gavin Newsom's signature. These proposals target critical areas like AI-powered workplace monitoring, the environmental impact of data centers, and the pervasive influence of social media.",
-    "content": "As the clock struck midnight on Monday, California's legislative session drew to a close, leaving a significant docket of bills on Governor Gavin Newsom's desk. Among them, a collection of tech-focused proposals stands out, poised to reshape the digital landscape for millions and potentially set a precedent nationwide.\n\nThese aren't mere tweaks; they represent a concerted effort to rein in some of the most pressing challenges posed by rapid technological advancement. From tackling the pervasive creep of AI-powered workplace surveillance to addressing the environmental footprint of ever-expanding data centers, lawmakers have clearly signaled a readiness to hold Silicon Valley accountable. Another critical front is the battle against addictive social media features, a topic resonating deeply with parents and mental health advocates.\n\nThe legislative package also includes measures addressing the transparency and ethical deployment of AI systems, a nod to the growing influence of chatbots and automated decision-making. The stakes are undeniably high. Should Newsom sign these bills into law, California could solidify its position as a global leader in tech regulation, impacting everything from how companies monitor their employees to how data is stored and consumed.\n\nGovernor Newsom now faces a crucial decision point. His choices in the coming weeks will determine whether California leans further into a future of stringent tech oversight or allows existing frameworks to persist. Whatever his final call, these bills underscore a pivotal moment where the raw power of innovation meets the undeniable demand for ethical governance in the digital age.",
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
     "keyTakeaways": [
-      "California lawmakers passed significant bills targeting AI surveillance, data center impact, and social media addiction.",
-      "Governor Newsom holds the power to sign these bills into law, potentially setting national precedents for tech regulation.",
-      "The legislation reflects a growing push to balance rapid technological innovation with ethical governance and accountability."
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "KQED",
-    "author": "Gilare Zada",
-    "publishedAt": "2026-09-01 20:26",
-    "category": "Technology",
-    "image": "https://cdn.kqed.org/wp-content/uploads/sites/10/2025/09/GettyImages-183300309.jpg",
-    "originalUrl": "https://www.kqed.org/news/12097632/chatbots-data-centers-and-surveillance-5-silicon-valley-bills-land-on-newsoms-desk",
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-09-02 07:04",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
     "tags": [
-      "Technology",
-      "Chatbots",
-      "Centers"
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-001",
+    "title": "Latest developments in Space showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
+    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Space experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-02 03:04",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "tags": [
+      "Space",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sci-001",
+    "title": "Latest developments in Science showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
+    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Science experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-01 23:04",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "tags": [
+      "Science",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-001",
+    "title": "Latest developments in Startups showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
+    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Startups experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-01 19:04",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-001",
+    "tags": [
+      "Startups",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-bus-001",
+    "title": "Latest developments in Business showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
+    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Business experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-01 15:04",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-001",
+    "tags": [
+      "Business",
+      "Trends"
     ],
     "readingTime": "2 min"
   }
