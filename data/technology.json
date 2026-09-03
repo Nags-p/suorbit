@@ -1,49 +1,24 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-tec-mtm4nvkc-000",
+    "title": "CrowdStrike Unleashes Next-Gen AI Security for Enterprise Defense",
+    "summary": "CrowdStrike is rolling out significant enhancements to its Falcon platform, introducing an identity provider for AI agents, a parallel investigation layer for its Charlotte AI, and a new package blocking feature. These updates aim to fortify enterprise defenses by securing AI operations, accelerating threat investigations, and preventing malicious software from infiltrating systems.",
+    "content": "AI is rapidly becoming the bedrock of modern enterprise, but with great power comes new vulnerabilities. Recognizing this evolving threat landscape, cybersecurity stalwart CrowdStrike Holdings Inc. has just pulled back the curtain on a trio of potent enhancements to its flagship Falcon platform, designed to fortify defenses in an increasingly AI-driven world. These additions underscore a clear strategic pivot towards securing AI itself, while simultaneously leveraging it for more agile and comprehensive threat detection.\n\nAt the forefront of these innovations is a dedicated identity provider meticulously crafted for artificial intelligence agents. In an era where AI systems often interact with sensitive data and critical infrastructure, establishing secure identities for these digital workers is paramount. This pivotal enhancement ensures that only authenticated and authorized AI agents can access specific resources, effectively neutralizing the risk of impersonation or unauthorized command execution – a critical step in safeguarding AI operations from sophisticated attackers.\n\nComplementing this, CrowdStrike has profoundly rebuilt Falcon’s investigation layer, allowing its renowned Charlotte AI agents to operate with unprecedented parallelism. Imagine a security operations center (SOC) where multiple AI investigators can simultaneously delve into disparate security domains – from endpoints to cloud environments and identity systems – to piece together a complete picture of a complex incident. This isn't just about speed; it's about depth and coordination, enabling security teams to resolve threats with far greater efficiency and insight than ever before.\n\nFinally, the platform gains a crucial package blocking feature, a proactive measure aimed at stemming the tide of malicious software at its source. Whether it's preventing the accidental installation of rogue packages in development pipelines or thwarting sophisticated supply chain attacks, this capability provides an essential layer of pre-execution defense, significantly reducing the attack surface for organizations.\n\nTaken together, these three advancements represent more than just incremental updates. They signal CrowdStrike’s ambitious vision to not only protect against threats but to also secure the very AI infrastructure that powers modern business. As enterprises increasingly rely on AI, Falcon’s new capabilities aim to ensure that this reliance is built on a foundation of unshakeable security.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "CrowdStrike introduced an identity provider to secure AI agents, preventing unauthorized access and bolstering AI system integrity.",
+      "The Falcon platform now features a revamped Charlotte AI investigation layer, enabling multiple AI agents to conduct parallel, cross-domain security inquiries for faster threat resolution.",
+      "A new package blocking feature has been added, offering proactive defense against malicious software installations and enhancing supply chain security."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-09-03 16:38",
+    "source": "SiliconANGLE News",
+    "author": "Duncan Riley",
+    "publishedAt": "2026-09-02 22:49",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2025/09/crowdstrike2023.jpg",
+    "originalUrl": "https://siliconangle.com/2026/09/02/crowdstrike-gives-ai-agents-an-identity-provider-parallel-soc-investigations-and-package-blocking/",
     "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
-    "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-09-03 12:38",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
-    "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
+      "Technology",
+      "CrowdStrike",
+      "agents"
     ],
     "readingTime": "2 min"
   }
