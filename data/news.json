@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mtm4nvkc-000",
-    "title": "CrowdStrike Unleashes Next-Gen AI Security for Enterprise Defense",
-    "summary": "CrowdStrike is rolling out significant enhancements to its Falcon platform, introducing an identity provider for AI agents, a parallel investigation layer for its Charlotte AI, and a new package blocking feature. These updates aim to fortify enterprise defenses by securing AI operations, accelerating threat investigations, and preventing malicious software from infiltrating systems.",
-    "content": "AI is rapidly becoming the bedrock of modern enterprise, but with great power comes new vulnerabilities. Recognizing this evolving threat landscape, cybersecurity stalwart CrowdStrike Holdings Inc. has just pulled back the curtain on a trio of potent enhancements to its flagship Falcon platform, designed to fortify defenses in an increasingly AI-driven world. These additions underscore a clear strategic pivot towards securing AI itself, while simultaneously leveraging it for more agile and comprehensive threat detection.\n\nAt the forefront of these innovations is a dedicated identity provider meticulously crafted for artificial intelligence agents. In an era where AI systems often interact with sensitive data and critical infrastructure, establishing secure identities for these digital workers is paramount. This pivotal enhancement ensures that only authenticated and authorized AI agents can access specific resources, effectively neutralizing the risk of impersonation or unauthorized command execution – a critical step in safeguarding AI operations from sophisticated attackers.\n\nComplementing this, CrowdStrike has profoundly rebuilt Falcon’s investigation layer, allowing its renowned Charlotte AI agents to operate with unprecedented parallelism. Imagine a security operations center (SOC) where multiple AI investigators can simultaneously delve into disparate security domains – from endpoints to cloud environments and identity systems – to piece together a complete picture of a complex incident. This isn't just about speed; it's about depth and coordination, enabling security teams to resolve threats with far greater efficiency and insight than ever before.\n\nFinally, the platform gains a crucial package blocking feature, a proactive measure aimed at stemming the tide of malicious software at its source. Whether it's preventing the accidental installation of rogue packages in development pipelines or thwarting sophisticated supply chain attacks, this capability provides an essential layer of pre-execution defense, significantly reducing the attack surface for organizations.\n\nTaken together, these three advancements represent more than just incremental updates. They signal CrowdStrike’s ambitious vision to not only protect against threats but to also secure the very AI infrastructure that powers modern business. As enterprises increasingly rely on AI, Falcon’s new capabilities aim to ensure that this reliance is built on a foundation of unshakeable security.",
+    "id": "article-tec-mtm8s07v-000",
+    "title": "AI's New Sheriff: Capsule Security Taps Nvidia to Corral Rogue Agents",
+    "summary": "Capsule Security has launched an 'AI circuit breaker' system designed to detect and neutralize rogue AI agents. Leveraging fine-tuned Nvidia Nemotron models, this innovation aims to provide critical guardrails for autonomous AI systems.",
+    "content": "As autonomous AI agents increasingly permeate our digital landscapes, the dream of hyper-efficient digital assistants often comes with a looming nightmare: the potential for these powerful systems to go rogue. Enter Capsule Security, a startup stepping into the breach with a formidable new defense system it's aptly dubbed an \"AI circuit breaker.\"\n\nToday marks the release of this innovative detection system, engineered to identify and halt AI agents that deviate from their intended directives or pose a risk. At its core are two sophisticated Nvidia Corp. Nemotron models, which Capsule Security has meticulously fine-tuned. This bespoke calibration allows the system to acutely judge an agent's real-time actions and intent, acting as a crucial first line of defense against unforeseen or malicious behaviors.\n\nThe concept of an \"AI circuit breaker\" is not merely a catchy phrase; it signifies a proactive, real-time safety mechanism essential for the burgeoning field of agentic AI. As these autonomous entities are granted more latitude and responsibility, the ability to rapidly detect and contain aberrant behavior becomes paramount for maintaining trust and operational integrity. Capsule's solution aims to prevent minor glitches from escalating into catastrophic failures, or intentional misdirection from causing widespread harm.\n\nThis development underscores a critical turning point in AI security. It’s no longer just about protecting AI from external threats, but also about building internal safeguards that ensure the technology itself remains aligned with human interests and ethical boundaries. By harnessing the advanced capabilities of Nemotron and applying its own specialized expertise, Capsule Security is laying down foundational infrastructure for a safer, more predictable future where AI agents can operate with greater assurance.\n\nThe deployment of such systems will be crucial as industries increasingly rely on AI to perform complex tasks. Capsule Security's move represents a significant stride toward embedding safety-by-design principles into the very fabric of autonomous AI, offering a much-needed layer of control in an ever-evolving technological frontier.",
     "keyTakeaways": [
-      "CrowdStrike introduced an identity provider to secure AI agents, preventing unauthorized access and bolstering AI system integrity.",
-      "The Falcon platform now features a revamped Charlotte AI investigation layer, enabling multiple AI agents to conduct parallel, cross-domain security inquiries for faster threat resolution.",
-      "A new package blocking feature has been added, offering proactive defense against malicious software installations and enhancing supply chain security."
+      "Capsule Security launched an 'AI circuit breaker' system to detect and stop rogue AI agents.",
+      "The system is built on two Nvidia Nemotron models that Capsule Security independently fine-tuned.",
+      "This innovation provides a critical real-time safety mechanism for autonomous AI, addressing potential risks of agent misbehavior."
     ],
     "source": "SiliconANGLE News",
     "author": "Duncan Riley",
-    "publishedAt": "2026-09-02 22:49",
+    "publishedAt": "2026-09-03 00:24",
     "category": "Technology",
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2025/09/crowdstrike2023.jpg",
-    "originalUrl": "https://siliconangle.com/2026/09/02/crowdstrike-gives-ai-agents-an-identity-provider-parallel-soc-investigations-and-package-blocking/",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/capsulenvidia-800x418.png",
+    "originalUrl": "https://siliconangle.com/2026/09/02/capsule-security-fine-tunes-nvidia-nemotron-models-to-stop-rogue-ai-agents/",
     "tags": [
       "Technology",
-      "CrowdStrike",
-      "agents"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sta-mtm4rj1m-014",
-    "title": "Beyond the Screen: TechCrunch Disrupt Unveils 'Real World AI' Stage, Bridging Digital Intelligence and Physical Innovation",
-    "summary": "TechCrunch Disrupt is launching an ambitious new 'Real World AI Stage' dedicated to exploring the profound convergence of digital intelligence and physical applications. This dedicated platform will showcase groundbreaking innovations, from advanced robotics and autonomous systems to the surprisingly tangible frontier of de-extinction efforts, featuring industry giants like Nvidia.",
-    "content": "TechCrunch Disrupt has always been at the forefront of showcasing technological evolution, with Artificial Intelligence consistently holding a prime spot. However, as AI rapidly transcends the purely digital realm to reshape our physical world, the upcoming Disrupt event is making a bold statement with the introduction of its brand-new ‘Real World AI Stage’.\n\nThis isn't just another panel; it's a dedicated arena designed to dive deep into the fascinating intersection where algorithms meet atoms. The tech world is witnessing an unprecedented blending of the virtual and the tangible, moving AI from our screens and servers directly into our homes, factories, and even, remarkably, into the biological sciences. It's a recognition that AI's most profound impacts are now manifesting in physical forms and interactions.\n\nAttendees can anticipate a truly diverse and electrifying lineup. Expect to see industry heavyweights like Nvidia, whose hardware powers much of this real-world AI revolution, alongside groundbreaking startups pushing the boundaries of robotics – from nimble automated systems to advanced manipulators. But the intrigue doesn't stop there. The stage promises to explore cutting-edge applications in areas as unexpected as the de-extinction of animals, highlighting how AI-driven genetic engineering and synthetic biology are blurring the lines between what's possible and what was once confined to science fiction.\n\nThe 'Real World AI Stage' promises to be more than a showcase; it's a vital platform for understanding the implications, challenges, and immense opportunities that arise when AI leaves the lab and enters our daily lives. For startups, investors, and enthusiasts alike, it offers an unparalleled glimpse into the future where the digital and physical realms are not just connected, but intrinsically intertwined.",
-    "keyTakeaways": [
-      "TechCrunch Disrupt is introducing a new 'Real World AI Stage' at its upcoming event.",
-      "The stage focuses on the convergence of digital AI with physical applications, ranging from robotics to innovative projects like de-extinction.",
-      "It will feature presentations from key industry players like Nvidia and highlight startups driving practical AI implementations in the physical world."
-    ],
-    "source": "TechCrunch",
-    "author": "Techcrunch Events",
-    "publishedAt": "2026-09-02 22:24",
-    "category": "Startups",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Real-World-AI-Promo.png?w=1200",
-    "originalUrl": "https://techcrunch.com/2026/09/02/techcrunch-disrupt-2026s-new-real-world-ai-stage-features-nvidia-robots-and-extinct-animals/",
-    "tags": [
-      "Startups",
-      "TechCrunch",
-      "Disrupt"
+      "Capsule",
+      "Security"
     ],
     "readingTime": "2 min"
   }
