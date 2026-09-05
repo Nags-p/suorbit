@@ -1,46 +1,47 @@
 [
   {
-    "id": "article-tec-mtok6aiw-000",
-    "title": "The Invisible Glue: Unpacking the Psychology of Shared Reality",
-    "summary": "Many seemingly objective facts, from physical measurements to social norms, emerge from initially arbitrary human agreements. This collective consensus transforms those choices into universal standards, enabling cooperation and shared understanding across vast populations.",
-    "content": "Imagine you’re trying to describe the length of something in your living room to a friend over the phone. Easy, right? You grab a ruler, measure it, and simply relay the number. But pause for a moment. How is it so \"easy\"? The remarkable simplicity of this act hides a profound, often overlooked mechanism: the incredible human capacity for collective agreement.\n\nWhat we perceive as an objective \"fact\"���like a certain length being 30 centimeters—is, at its root, a social construct. Scientists didn't discover the meter; they *defined* it. Initially, these definitions were arbitrary choices. Someone, somewhere, decided a certain platinum-iridium bar would represent a meter, or that a specific atomic transition would dictate the length of a second. Yet, through widespread adoption, rigorous standardization, and institutional consensus, these arbitrary starting points morph into the bedrock of our shared reality. They become the \"objective facts\" that allow engineers to build bridges, doctors to prescribe precise dosages, and yes, you to effortlessly communicate a measurement.\n\nThis phenomenon extends far beyond the realm of physical units. Our entire societal fabric is woven from these agreed-upon conventions. Consider currency: a piece of paper or a digital ledger entry holds value only because we collectively agree it does. Traffic laws, digital communication protocols, even the very concept of \"time\" itself—all are sophisticated systems built upon layers of shared, often unspoken, agreements that began as arbitrary distinctions.\n\nThe psychology at play is fascinating. Humans inherently seek coordination and predictability. When faced with the infinite possibilities of how to define or categorize the world, we gravitate towards consensus. This drive allows millions of strangers to operate within a cohesive framework, turning individual, subjective perceptions into a unified, functional reality. It’s the invisible glue that holds our complex, interconnected world together, transforming initial arbitrary choices into the undeniable truths we navigate daily.",
+    "id": "article-ai-mtoorf06-004",
+    "title": "Fueling the Future: Micron and Western Digital's SanDisk Battle for AI Memory Dominance",
+    "summary": "As the AI revolution intensifies, demand for specialized memory chips is skyrocketing, creating a fierce competition between industry leaders like Micron Technology and Western Digital's SanDisk brand. This article explores how both companies are positioned to capitalize on the insatiable need for high-performance memory and storage in the burgeoning AI landscape.",
+    "content": "The artificial intelligence revolution isn't just about groundbreaking algorithms or powerful GPUs; it’s fundamentally powered by memory. As data centers worldwide rush to deploy the infrastructure needed to train and run increasingly complex AI models, the demand for high-bandwidth, high-capacity memory chips has exploded, putting immense strain on global supply chains. At the heart of this memory gold rush are titans like Micron Technology and SanDisk, a pivotal brand under Western Digital, each vying for supremacy in a market vital to AI's future.\n\nMicron Technology (NASDAQ: MU) finds itself in a particularly sweet spot. Known for its dynamic random-access memory (DRAM) and NAND flash products, Micron is heavily invested in High-Bandwidth Memory (HBM), the specialized DRAM essential for powering advanced AI accelerators. Its strategic pivot towards these high-value, high-performance solutions positions it as a direct enabler of cutting-edge AI computation. With demand for HBM skyrocketing and supply remaining tight, Micron’s ability to ramp up production and innovate in this critical segment is a significant advantage.\n\nMeanwhile, SanDisk, a brand synonymous with flash memory and a cornerstone of Western Digital (NASDAQ: WDC), plays a crucial role in the broader AI ecosystem, particularly in data storage and enterprise SSDs. While less focused on the ultra-high-speed HBM segment, SanDisk's extensive portfolio of NAND flash solutions is indispensable for storing the vast datasets that AI models consume and generate. As data centers scale, reliable and high-performance flash storage becomes paramount, securing SanDisk's position as an indirect but critical beneficiary of the AI boom.\n\nThe current landscape is defined by tight supplies across the board, pushing memory prices higher and creating a challenging but lucrative environment for both players. While Micron’s direct exposure to the high-margin HBM market gives it a distinct advantage in the immediate AI processing space, Western Digital's SanDisk brand maintains a robust foothold in the foundational storage layer that underpins all AI operations. Investors are left to weigh the specialized, high-growth potential of HBM against the broad, essential utility of advanced flash storage.",
     "keyTakeaways": [
-      "Many \"objective facts,\" from scientific measurements to social norms, begin as arbitrary human agreements.",
-      "Through widespread adoption and standardization, these initial choices transform into universally accepted standards, fostering shared reality.",
-      "This fundamental human drive for consensus acts as \"invisible glue,\" enabling complex societal coordination and communication across diverse populations."
+      "The AI revolution is driving unprecedented demand for high-performance memory chips, straining global supplies and pushing prices higher.",
+      "Micron Technology is a direct beneficiary, especially through its focus on High-Bandwidth Memory (HBM), crucial for powering advanced AI accelerators.",
+      "SanDisk, a key brand under Western Digital, is essential for AI's data storage needs with its strong portfolio of NAND flash and enterprise SSDs, underpinning vast AI datasets."
     ],
-    "source": "Psychology Today",
-    "author": "Richard Dancsi",
-    "publishedAt": "2026-09-04 15:47",
-    "category": "Technology",
-    "image": "https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/teaser_image/blog_entry/2026-09/photo_by_vasilis_chatzopoulos_on_unsplash.jpg?h=d806557a&itok=LT6dpox7",
-    "originalUrl": "https://www.psychologytoday.com/us/blog/dear-life-please-improve/202609/how-do-we-agree-on-anything",
+    "source": "Biztoc.com",
+    "author": "finance.yahoo.com",
+    "publishedAt": "2026-09-04 17:49",
+    "category": "AI",
+    "image": "https://biztoc.com/cdn/c74238cebd5ac091_s.webp",
+    "originalUrl": "https://biztoc.com/x/c74238cebd5ac091",
     "tags": [
-      "Technology",
-      "Anything"
+      "AI",
+      "Micron",
+      "Sandisk"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-ai-mtok7laz-005",
-    "title": "RAG's Reality Check: Why Demos Often Lie About True Performance",
-    "summary": "The dazzling performance of RAG (Retrieval Augmented Generation) pipelines in controlled demos often masks their true capabilities, revealing a significant gap when facing real-world complexity. Robust measurement using metrics like precision and recall is essential to bridge this divide and ensure RAG solutions provide consistently correct and trustworthy answers.",
-    "content": "The world of AI development often thrives on dazzling demonstrations, and Retrieval Augmented Generation (RAG) pipelines are no exception. We’ve all seen the impressive showcases: a chatbot flawlessly pulling obscure facts from a vast knowledge base, generating coherent and contextually relevant answers on the fly. It's a vision of intelligent information retrieval brought to life.\n\nYet, beneath the surface of these carefully curated demos lies a stark reality: a RAG pipeline that smoothly answers questions in a staged environment is fundamentally different from one that consistently delivers correct answers when deployed in the wild. This isn't just a nuance; it's a critical chasm that separates proof-of-concept from practical utility. The slick demo, designed to highlight potential, rarely exposes the intricate failures that emerge when facing the chaotic, unpredictable nature of real-world queries and diverse data.\n\nThis crucial gap only truly comes into focus once developers and evaluators move beyond superficial observation and begin to apply rigorous measurement. We’re talking about diving deep into metrics like precision and recall – the bread and butter of information retrieval evaluation. Precision asks: of all the answers retrieved, how many were actually correct? Recall, on the other hand, queries: of all the correct answers that *could* have been retrieved, how many *were*? These metrics, alongside others like F1-score, faithfulness, and contextual relevance, provide an objective lens to gauge true performance.\n\nWithout such a structured approach to evaluation, organizations risk deploying systems that, while superficially impressive, are prone to 'hallucinations,' incorrect factual recall, or simply failing to retrieve the most pertinent information. This not only erodes user trust but also undermines the very purpose of integrating advanced AI systems. The transition from a promising demo to a reliable, value-generating tool hinges entirely on a commitment to transparent, data-driven assessment.\n\nUltimately, the future of effective RAG implementation lies not in chasing the next viral demo, but in meticulously building robust evaluation frameworks. Only then can we ensure these powerful AI tools evolve from captivating showcases into dependable engines of knowledge and productivity.",
+    "id": "article-tec-mtooqh5o-000",
+    "title": "Dixon Technologies Sets Ambitious Sights on Skies, Hospitals, and Battlefields",
+    "summary": "Indian electronics giant Dixon Technologies is making a significant strategic pivot, announcing plans to diversify its manufacturing prowess into high-value segments like aerospace, defense, and medical electronics. This move signals a bold ambition to ascend the technology value chain and drive its next major phase of growth.",
+    "content": "Dixon Technologies (India) Ltd., a name synonymous with consumer electronics manufacturing, is gearing up for a dramatic leap, signaling its intent to enter advanced, high-value product segments across aerospace, defense, automotive, medical, and industrial verticals. This strategic pivot, revealed by the company's Director and Chief Financial Officer, Saurabh Gupta, marks an audacious next chapter for the manufacturing powerhouse.\n\nFor years, Dixon has been a cornerstone in India's electronics ecosystem, churning out everything from smartphones to washing machines. Now, the company is aiming squarely at sectors characterized by stringent quality controls, complex manufacturing processes, and significantly higher profit margins. Venturing into aerospace and defense electronics implies tackling intricate avionics, communication systems, and critical instrumentation – a far cry from assembling televisions.\n\nSimilarly, the push into medical electronics positions Dixon to contribute to life-saving diagnostic equipment, monitoring devices, and therapeutic tools. The automotive and industrial segments also present opportunities to engage with sophisticated embedded systems, smart factory solutions, and power electronics, reflecting a clear ambition to move beyond mass-market consumer goods into specialized, critical applications.\n\nThis diversification isn't just about expanding a product portfolio; it’s a calculated move to capture a larger share of the global electronics value chain. By targeting these technically demanding fields, Dixon Technologies aims to leverage its deep manufacturing expertise to meet the evolving needs of these critical industries, both domestically and internationally. It's a clear statement that the company is prepared to invest in the R&D and infrastructure required to compete at the highest echelons of tech manufacturing, positioning itself as a key player in India's journey towards self-reliance in advanced manufacturing.",
     "keyTakeaways": [
-      "RAG demos often misrepresent real-world performance; true capabilities are only revealed through rigorous testing.",
-      "Measuring precision and recall is critical to assessing RAG pipeline accuracy and reliability beyond superficial demonstrations.",
-      "Robust evaluation frameworks are essential to prevent RAG systems from generating incorrect information and to build user trust."
+      "Dixon Technologies is strategically expanding beyond consumer electronics into high-value segments like aerospace, defense, automotive, medical, and industrial verticals.",
+      "This move represents a significant shift towards more complex and critical manufacturing processes, aiming for higher profit margins and a larger share of the global electronics value chain.",
+      "The diversification is poised to drive Dixon's next phase of growth, leveraging its manufacturing expertise for specialized and technically demanding applications."
     ],
-    "source": "Studyyourdata.com",
-    "author": "epivaral",
-    "publishedAt": "2026-09-04 15:44",
-    "category": "AI",
-    "image": "https://www.sqlservercentral.com/wp-content/uploads/2026/09/16084d7e-f8e4-488f-a4c6-911cfbf69637.png",
-    "originalUrl": "https://www.studyyourdata.com/2026/09/measuring-rag-solutions-are-we.html",
+    "source": "Business Standard",
+    "author": "Press Trust of India",
+    "publishedAt": "2026-09-04 17:38",
+    "category": "Technology",
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2023-01/27/thumb/featurecrop/1200X628/1674837382-7098.jpg",
+    "originalUrl": "https://www.business-standard.com/technology/tech-news/dixon-technologies-eyes-foray-into-aerospace-defence-medical-electronics-126090401114_1.html",
     "tags": [
-      "AI",
-      "Measuring",
-      "Solutions"
+      "Technology",
+      "Technologies",
+      "aerospace"
     ],
     "readingTime": "2 min"
   }
