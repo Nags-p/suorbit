@@ -1,49 +1,24 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-tec-mts8syt8-000",
+    "title": "Liquid Network Stunned: $320 Million Bitcoin Vanishes in 'White Hat' Security Breach",
+    "summary": "The Liquid Network, a prominent Bitcoin sidechain, unexpectedly paused operations after self-proclaimed 'white-hat' hackers withdrew approximately $320 million in Bitcoin from its federation wallet. These actors claim to have exposed a critical vulnerability and have pledged to return most of the funds once the security flaw is fixed.",
+    "content": "The digital asset world held its breath this past weekend as the Liquid Network, a prominent Bitcoin sidechain, unexpectedly halted operations following a dramatic security incident. In a move that sent ripples through the crypto community, self-proclaimed \"white-hat\" hackers reportedly siphoned off a staggering 4,000 Bitcoin, valued at approximately $320 million, directly from the network’s federation wallet. The audacious withdrawal has plunged the sidechain into an indefinite pause, sparking urgent questions about its security architecture.\n\nAccording to statements from Liquid, a subsidiary of Blockstream, the actors behind the massive withdrawal claim their actions were a benevolent, albeit forceful, demonstration of a critical vulnerability. This incident echoes a growing trend where ethical hackers expose flaws in decentralized systems, often by temporarily \"seizing\" assets to force a fix. The purported white hats have pledged to return the vast majority of the withdrawn funds once the underlying security flaw responsible for the breach is thoroughly identified and patched, aiming to safeguard the network against malicious exploitation.\n\nThe immediate consequence for Liquid Network users is the inability to transfer or bridge assets, effectively freezing activity on the sidechain. This pause underscores the inherent risks and complexities involved in maintaining the integrity of interconnected blockchain systems, especially those designed to facilitate high-value asset transfers like Bitcoin. While the intention of the white hats may be constructive, the sheer scale of the funds involved — $320 million — has inevitably raised eyebrows and amplified calls for robust security audits across the entire crypto landscape.\n\nAs Liquid’s engineering teams work around the clock to diagnose and rectify the vulnerability, the crypto world watches closely. The promised return of funds offers a glimmer of hope, but the episode serves as a stark reminder that even mature projects are not immune to sophisticated exploits. This event will undoubtedly prompt a deeper re-evaluation of security protocols and operational resilience within the broader blockchain ecosystem, pushing developers and users alike towards greater vigilance.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "The Bitcoin sidechain Liquid Network has paused all operations following a security breach.",
+      "Self-proclaimed 'white-hat' hackers withdrew approximately 4,000 BTC, valued at $320 million, from the network's federation wallet.",
+      "The actors claim to have exposed a critical vulnerability and pledged to return most funds once the flaw is patched."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-09-07 21:02",
+    "source": "Cointelegraph",
+    "author": "Cointelegraph by Ezra Reguerra",
+    "publishedAt": "2026-09-07 05:40",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "image": "https://s3-images.ctmedia.io/media/article-covers/2026/09/01M1X62TPQZQS0CSZKDBXWAKDQ/btc.png",
+    "originalUrl": "https://cointelegraph.com/news/liquid-network-pauses-320m-bitcoin-withdrawal",
     "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
-    "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-09-07 17:02",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
-    "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
+      "Technology",
+      "Bitcoin",
+      "sidechain"
     ],
     "readingTime": "2 min"
   }
