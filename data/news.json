@@ -1,70 +1,69 @@
 [
   {
-    "id": "article-tec-mtu4vnqy-000",
-    "title": "Artisan Partners Places Bold Bet on Guardant Health's Future in Cancer Diagnostics",
-    "summary": "Investment giant Artisan Partners has spotlighted Guardant Health as a top pick for its Mid Cap Fund, citing the company's revolutionary liquid biopsy technology. The firm's Q2 2026 letter underscores Guardant's potential to disrupt traditional cancer detection and capture significant market share.",
-    "content": "As global equities rebounded with vigor in the second quarter of 2026, eyes are turning to the discerning picks of seasoned investment firms. Among the notable disclosures from this period, Artisan Partners’ latest investor letter for its esteemed Mid Cap Fund has pinpointed a particularly compelling play: Guardant Health. The firm, known for its deep dive into promising growth stories, has articulated a strong case for why Guardant Health isn't just another biotech stock, but a foundational bet on the future of personalized medicine.\n\nAt the core of Artisan Partners’ conviction lies Guardant Health's pioneering work in liquid biopsy. This cutting-edge technology promises to revolutionize cancer detection and management, moving beyond invasive procedures to simple blood tests for early diagnosis, treatment selection, and recurrence monitoring. The investment management powerhouse views Guardant’s proprietary platform as a significant disruptor, capable of unlocking immense value by addressing critical unmet needs in oncology. Their letter suggests that Guardant’s robust clinical validation and expanding commercial footprint position it uniquely to capture a substantial segment of what's projected to be a multi-billion dollar market.\n\nFor Artisan Partners, Guardant Health embodies the ideal mid-cap investment: a company with established innovation, a clear growth trajectory, and the potential to scale dramatically. The firm's analysis likely highlights Guardant's strong patent portfolio, its strategic collaborations, and the ever-increasing demand for less invasive, more accurate diagnostic tools. This endorsement from a reputable player like Artisan Partners serves as a potent signal to the broader market, underscoring Guardant Health's potential as a long-term winner in the race for advanced healthcare technology.",
+    "id": "article-tec-mtudrebb-000",
+    "title": "AWS Taps Qualcomm: A Strategic Play for Next-Gen AI and Hyperscale Networking",
+    "summary": "Amazon Web Services is partnering with mobile chip titan Qualcomm in a multi-generational effort to develop custom silicon. These specialized chips will power AI inference workloads and ultra-fast 1.6 Tbps optical networking within AWS's data centers, solidifying its vertical integration strategy.",
+    "content": "In a move poised to reshape the future of cloud infrastructure, Amazon Web Services (AWS) has thrown its formidable weight behind mobile chip giant Qualcomm, announcing a multi-generational collaboration to develop bespoke silicon.\n\nThis isn't just a handshake; it's a deep dive into creating custom chips specifically tailored for AI inference workloads and incredibly fast 1.6 terabit-per-second (Tbps) optical networking gear. This partnership aims to integrate these critical components directly into AWS’s sprawling data centers, optimizing performance and efficiency from the ground up.\n\nFor AWS, this collaboration signifies a continued drive towards vertical integration and optimized performance. The cloud titan has consistently invested in its own custom silicon, from Graviton processors to Inferentia and Trainium AI accelerators, aiming to offer superior performance-per-watt and cost efficiency tailored precisely to its colossal operations. This new venture with Qualcomm extends that strategy into even more specialized domains.\n\nFor Qualcomm, traditionally a powerhouse in mobile computing, this represents a significant legitimization of its ambitions within the datacenter arena. While they’ve been making inroads, a direct, multi-year engagement with the world's largest cloud provider is a game-changer, demonstrating immense confidence in their design prowess beyond smartphones and consumer devices.\n\nThe focus on AI inference chips is particularly telling. As AI adoption explodes, the demand for efficient, high-performance inference at scale is paramount. Coupling this with bleeding-edge 1.6 Tbps optical networking infrastructure underscores AWS's commitment to building a future-proof backbone capable of handling the unprecedented data flows required by tomorrow's AI-driven applications and services.\n\nWhile initial announcements might lean on industry buzzwords, the implications of such a strategic alliance are profound, promising to deliver optimized, custom hardware that could redefine the benchmarks for cloud-based AI and networking performance for years to come.",
     "keyTakeaways": [
-      "Artisan Partners identified Guardant Health as a compelling investment in its Q2 2026 Mid Cap Fund letter.",
-      "The investment firm sees Guardant's liquid biopsy technology as a key disruptor in cancer diagnostics.",
-      "Guardant Health is positioned for significant long-term growth by addressing critical unmet needs in oncology."
+      "AWS is deepening its commitment to custom silicon, diversifying its supply chain for critical AI and networking components.",
+      "Qualcomm gains a significant foothold and validation in the hyperscale datacenter market through this multi-generational partnership.",
+      "The collaboration targets high-performance AI inference and cutting-edge 1.6 Tbps optical networking, essential for future cloud infrastructure demands."
     ],
-    "source": "Yahoo Entertainment",
-    "author": "Soumya Eswaran",
-    "publishedAt": "2026-09-08 13:22",
+    "source": "Theregister.com",
+    "author": "Tobias Mann",
+    "publishedAt": "2026-09-08 17:29",
     "category": "Technology",
-    "image": "https://s.yimg.com/lo/mysterio/api/e94b07bb9439a70ca15f0235051443d9a6147f652eec494ff258ec2466c29347/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Finsidermonkey.com%2F0a1d927ffb6bc4d75f23993da9186cdd.jpg",
-    "originalUrl": "https://finance.yahoo.com/markets/stocks/articles/makes-guardant-health-gh-compelling-132246436.html",
+    "image": "https://image.theregister.com/5249938.jpg?imageId=5249938&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
+    "originalUrl": "https://www.theregister.com/off-prem/2026/09/08/amazon-ropes-qualcomm-into-something-something-ai-networking-chips/5295071",
     "tags": [
       "Technology",
-      "Guardant",
-      "Health"
+      "Amazon",
+      "Qualcomm"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mtu4vvbg-001",
-    "title": "Meta's AI Pods: A Double-Edged Sword for Engineering Productivity",
-    "summary": "Meta's experiment with AI \"pods\" aimed to revolutionize its software engineering process by significantly boosting code output. While the initiative did achieve a dramatic increase in code changes, it concurrently led to a modest gain in shipped features and a concerning spike in system incidents.",
-    "content": "Meta, a company synonymous with pushing technological boundaries, recently embarked on an ambitious experiment to integrate artificial intelligence directly into its software engineering workflows. The goal: to create highly efficient \"AI pods\" designed to dramatically accelerate development cycles and potentially streamline its vast engineering teams. It's a vision that sounds almost utopian for productivity-focused tech giants.\n\nInitial reports on this initiative reveal a fascinating, if complex, picture. On the surface, the numbers painted a compelling story of accelerated output. Data showed a staggering 220% increase in code changes attributed to these AI-augmented pods. For any engineering leader, such a boost in raw output might seem like an unmitigated win, promising faster iterations and quicker market deployment.\n\nHowever, a deeper dive into the metrics uncovers a significant disconnect between sheer output and tangible progress. While code changes soared, the actual number of *shipped features* — the real measure of user-facing value — saw a comparatively modest rise of just 36%. Even more concerning was a parallel trend: system incidents, often indicators of bugs, instability, or quality control issues, jumped by a substantial 40%. This suggests that while AI facilitated a deluge of new code, it didn't necessarily translate into more stable, higher-quality, or readily shippable products.\n\nThis outcome prompts crucial questions about the effective integration of AI in complex human systems. Was the increased code output primarily refactoring, experimental features that never saw the light of day, or simply a greater volume of changes that introduced new complexities and errors? Meta's experience underscores a vital lesson: raw productivity metrics, especially when influenced by powerful AI tools, need to be carefully balanced against quality, stability, and the ultimate goal of delivering impactful, reliable features. The future of AI in engineering isn't just about speed, but about intelligent acceleration that enhances, rather than compromises, the overall product lifecycle.",
+    "id": "article-tec-mtudrncc-001",
+    "title": "Cybersecurity Gets Smarter: Tenable Taps Anthropic's Claude Mythos 5 for Next-Gen Threat Prediction",
+    "summary": "Tenable is integrating Anthropic's advanced AI, Claude Mythos 5, into its Tenable One platform to power a new \"Adversary View.\" This move aims to equip enterprise security teams with cutting-edge adversarial reasoning, allowing them to proactively anticipate and defend against potential cyber breaches.",
+    "content": "Cybersecurity has always been a high-stakes game of cat and mouse, but the mouse just got a whole lot smarter. Tenable, a key player in exposure management, is making a significant leap forward by integrating Anthropic’s frontier AI model, Claude Mythos 5, directly into its Tenable One platform. This isn't just another feature; it's a fundamental shift, powering a new \"Adversary View\" designed to anticipate how attackers might breach an organization's digital walls.\n\nImagine having a crystal ball that predicts a hacker's next move before they even make it. That's the promise of Tenable's latest innovation. By harnessing Claude Mythos 5’s sophisticated adversarial reasoning, the Tenable One platform can now model complex attack paths with unprecedented depth. It’s about moving beyond simply identifying vulnerabilities to truly understanding how a determined adversary would chain them together, exploit them, and ultimately compromise an environment. This capability provides a proactive edge, enabling security teams to patch not just individual holes, but entire attack routes.\n\nThe inclusion of Claude Mythos 5 signals a new era for enterprise security, where advanced AI isn't just analyzing logs but actively thinking like an attacker. This allows Tenable One to generate highly accurate, actionable insights into potential breach scenarios. For stretched security operations centers, this means a dramatic improvement in prioritization, focusing resources where they matter most and preempting threats that might otherwise slip through the cracks. It's about turning hypothetical risks into concrete, preventable actions, fundamentally changing the defensive playbook.\n\nThis strategic integration positions Tenable at the forefront of AI-driven cybersecurity. As the digital threat landscape continues to evolve with alarming speed and complexity, leveraging AI to gain a predictive advantage isn't just beneficial—it's becoming essential. The \"Adversary View\" powered by Claude Mythos 5 could very well set a new industry standard for how enterprises manage their cyber risk and stay one step ahead of the bad actors.",
     "keyTakeaways": [
-      "Meta's AI \"pods\" dramatically boosted code changes by 220% in engineering workflows.",
-      "Despite increased code output, shipped features only rose by 36%, while system incidents jumped a concerning 40%.",
-      "The initiative highlights the critical challenge of translating AI-driven raw output into tangible, stable product value."
+      "Tenable is integrating Anthropic's advanced Claude Mythos 5 AI into its Tenable One exposure management platform.",
+      "This integration powers a new \"Adversary View\" feature, designed to provide frontier adversarial reasoning.",
+      "The new capabilities will help enterprise customers proactively anticipate potential cyberattack paths and strengthen their defenses."
     ],
-    "source": "Leaddev.com",
-    "author": "Chris Stokel-Walker",
-    "publishedAt": "2026-09-08 13:22",
+    "source": "Tenable.com",
+    "author": "Eric Doerr",
+    "publishedAt": "2026-09-08 17:21",
     "category": "Technology",
-    "image": "https://res.cloudinary.com/leaddev/image/upload/f_auto/q_auto/dpr_auto/c_limit,w_1920,h_1080/next/2026/05/layoffs-07.jpg",
-    "originalUrl": "https://leaddev.com/ai/meta-tried-to-shrink-engineering-teams-around-ai",
+    "image": "https://www.tenable.com/sites/default/files/styles/640x360/public/images/articles/Claude%20Mythos%205%20is%20coming%20to%20Tenable%20One%2C%20powering%20the%20new%20%E2%80%9CAdversary%20View%E2%80%9D_2.png?itok=Vni2UQvI",
+    "originalUrl": "https://www.tenable.com/blog/tenable-one-claude-mythos-5-adversary-view-ai-exposure-management",
     "tags": [
       "Technology",
-      "shrink",
-      "engineering"
+      "Claude",
+      "Mythos"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mtu4w834-002",
-    "title": "Uncle Sam's Quantum Bet: CHIPS Act Funds Ignite Rigetti, D-Wave with Strategic Equity Stakes",
-    "summary": "The U.S. Commerce Department has made a significant move into the quantum computing sector, securing minority equity stakes in Rigetti Computing and D-Wave Quantum Inc. This strategic investment, totaling $200 million via CHIPS Act funding, has sent shares of both companies soaring and signals a heightened governmental commitment to the burgeoning quantum industry.",
-    "content": "In a move that could redefine the quantum computing landscape, the U.S. Commerce Department has stepped beyond grants and into the role of investor, taking minority equity stakes in two leading quantum firms: Rigetti Computing (RGTI) and D-Wave Quantum Inc. (QBTS). Each company has secured a substantial $100 million injection from the CHIPS and Science Act, a clear signal of Washington's strategic commitment to nurturing domestic prowess in this pivotal, next-generation technology.\n\nThe market reacted immediately, with Rigetti's shares surging by 8% and D-Wave climbing 5% on the news. This isn't merely a government handout; it's a calculated investment, positioning the U.S. government as a literal stakeholder in the future of quantum. For companies operating in the often capital-intensive and long-horizon world of quantum development, this kind of backing is transformative. It not only provides critical funding but also offers a powerful stamp of validation, potentially de-risking future private investments.\n\nThis strategic pivot reflects a broader understanding within government that controlling the intellectual property and manufacturing capabilities for advanced technologies like quantum computing is crucial for national security and economic competitiveness. The CHIPS Act, primarily known for semiconductor development, clearly extends its vision to encompass the foundational technologies poised to drive the next wave of innovation. By taking equity, the government gains a seat at the table, offering a degree of oversight and alignment with national interests that pure grants might not provide.\n\nWhile the specific terms of these minority stakes—including any potential influence on company strategy or intellectual property—will be scrutinized, the immediate impact is undeniable. It's a significant vote of confidence in Rigetti and D-Wave's respective approaches to building scalable quantum systems and underscores the urgent race among global powers to master a technology that promises to revolutionize everything from medicine to cryptography.",
+    "id": "article-tec-mtuds4s4-002",
+    "title": "SMA Devices Get a Pythonic Upgrade: New sma-modbus Library Hits PyPI",
+    "summary": "A new asynchronous Python library, `sma-modbus`, has landed on PyPI, offering developers an open-source tool to interface with SMA energy devices via Modbus TCP. While currently in developer preview, this release promises enhanced control and integration for smart energy systems once production-ready.",
+    "content": "The world of smart energy management just got a significant boost for Python developers. A brand-new asynchronous Python library, aptly named `sma-modbus`, has officially debuted on PyPI, opening up a direct and streamlined channel to interface with SMA devices via Modbus TCP. This arrival marks a notable step forward for those looking to integrate or automate their SMA-powered energy systems using one of the most popular programming languages.\n\nBuilt upon the reliable `modbus-connection` foundation, `sma-modbus` provides a robust, async framework, allowing developers to communicate with SMA inverters, battery storage systems, and other smart energy components with efficiency and responsiveness. For anyone building custom monitoring dashboards, home automation scripts, or advanced energy management applications, this library offers the much-needed programmatic access to real-time data and control capabilities that were previously more cumbersome to achieve. Its asynchronous nature means applications can interact with devices without blocking, leading to more fluid and performant solutions.\n\nHowever, enthusiasts eager to dive in should heed a crucial note: `sma-modbus` is currently labeled as a \"Developer Preview.\" This means while functional and actively developed, the creators explicitly caution against its use in mission-critical production environments just yet. This pre-release status is a testament to the collaborative heart of the open-source movement, inviting the broader developer community to test, experiment, and contribute by diligently reporting any issues they encounter. Their feedback is not just welcome, it’s invaluable in refining the library and hardening it for eventual stable releases. This collective effort ensures that when `sma-modbus` finally sheds its preview tag, it will emerge as a truly robust and reliable tool, empowering a new generation of smart energy applications.",
     "keyTakeaways": [
-      "The U.S. Commerce Department has invested $100 million each in quantum computing companies Rigetti and D-Wave through the CHIPS Act.",
-      "The government took minority equity stakes in both firms, a significant shift from traditional grant funding.",
-      "This strategic move signals a strong governmental commitment to domestic quantum technology, boosting market confidence and attracting further investment."
+      "`sma-modbus` is a new asynchronous Python library now available on PyPI.",
+      "It enables programmatic interaction with SMA energy devices using the Modbus TCP interface, built on `modbus-connection`.",
+      "The library is currently a \"Developer Preview,\" functional but not recommended for production, with developers seeking community feedback."
     ],
-    "source": "24/7 Wall St.",
-    "author": "David Moadel",
-    "publishedAt": "2026-09-08 13:20",
+    "source": "Pypi.org",
+    "author": "61958704+burmistrzak@users.noreply.github.com",
+    "publishedAt": "2026-09-08 17:20",
     "category": "Technology",
-    "image": "https://s.yimg.com/lo/mysterio/api/6a4856196626f7a2341e690c933732e3b1e3dd196b37fe69f962a3da65eda64c/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2F24_7_wall_st__718%2F8f0b8c6aa54c3917a8ef7d559fd5df82.jpg",
-    "originalUrl": "https://247wallst.com/investing/2026/09/08/quantum-stocks-rally-as-commerce-department-takes-equity-stakes-rigetti-surges-6-d-wave-climbs-5/",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/sma-modbus/",
     "tags": [
       "Technology",
-      "Quantum",
-      "Stocks"
+      "smamodbus"
     ],
     "readingTime": "2 min"
   }
