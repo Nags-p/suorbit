@@ -1,69 +1,24 @@
 [
   {
-    "id": "article-tec-mtudrebb-000",
-    "title": "AWS Taps Qualcomm: A Strategic Play for Next-Gen AI and Hyperscale Networking",
-    "summary": "Amazon Web Services is partnering with mobile chip titan Qualcomm in a multi-generational effort to develop custom silicon. These specialized chips will power AI inference workloads and ultra-fast 1.6 Tbps optical networking within AWS's data centers, solidifying its vertical integration strategy.",
-    "content": "In a move poised to reshape the future of cloud infrastructure, Amazon Web Services (AWS) has thrown its formidable weight behind mobile chip giant Qualcomm, announcing a multi-generational collaboration to develop bespoke silicon.\n\nThis isn't just a handshake; it's a deep dive into creating custom chips specifically tailored for AI inference workloads and incredibly fast 1.6 terabit-per-second (Tbps) optical networking gear. This partnership aims to integrate these critical components directly into AWS’s sprawling data centers, optimizing performance and efficiency from the ground up.\n\nFor AWS, this collaboration signifies a continued drive towards vertical integration and optimized performance. The cloud titan has consistently invested in its own custom silicon, from Graviton processors to Inferentia and Trainium AI accelerators, aiming to offer superior performance-per-watt and cost efficiency tailored precisely to its colossal operations. This new venture with Qualcomm extends that strategy into even more specialized domains.\n\nFor Qualcomm, traditionally a powerhouse in mobile computing, this represents a significant legitimization of its ambitions within the datacenter arena. While they’ve been making inroads, a direct, multi-year engagement with the world's largest cloud provider is a game-changer, demonstrating immense confidence in their design prowess beyond smartphones and consumer devices.\n\nThe focus on AI inference chips is particularly telling. As AI adoption explodes, the demand for efficient, high-performance inference at scale is paramount. Coupling this with bleeding-edge 1.6 Tbps optical networking infrastructure underscores AWS's commitment to building a future-proof backbone capable of handling the unprecedented data flows required by tomorrow's AI-driven applications and services.\n\nWhile initial announcements might lean on industry buzzwords, the implications of such a strategic alliance are profound, promising to deliver optimized, custom hardware that could redefine the benchmarks for cloud-based AI and networking performance for years to come.",
+    "id": "article-tec-mtuk151n-000",
+    "title": "Your Stage Awaits: .NET Conf 2026 Community Days Kicks Off Call for Speakers",
+    "summary": "Microsoft's beloved .NET Conf Community Days 2026 has officially opened its call for presenters, inviting developers globally to share their invaluable insights and expertise. This grassroots, community-driven event offers a prime opportunity to contribute to the vibrant .NET ecosystem by submitting session proposals between September 8 and October 6, 2026.",
+    "content": "The pulse of the .NET community quickens today as the much-anticipated .NET Conf 2026 Community Days officially launches its call for presenters. This isn't just another tech conference; it's a global celebration of developer ingenuity, powered entirely by the community itself. For aspiring and seasoned speakers alike, the opportunity to step onto this international stage and share hard-earned knowledge is now live.\n\nFrom September 8 until October 6, 2026, developers, architects, and innovators across the globe are invited to submit their session proposals. This narrow window is your chance to showcase what you've learned, whether it's a groundbreaking application, a deep dive into a niche feature, practical tips for everyday coding, or insights into the future of the platform. The beauty of Community Days lies in its diversity, fostering an environment where real-world experiences and unique perspectives shine brightest.\n\nContributing as a presenter to .NET Conf Community Days offers more than just a speaking slot. It’s an unparalleled opportunity for professional growth, allowing you to establish yourself as a thought leader, network with peers, and directly impact the learning journey of countless fellow developers. Imagine the ripple effect of your insights reaching corners of the world where that specific piece of knowledge could unlock a new solution or inspire a fresh wave of innovation.\n\nMicrosoft's .NET team champions this community-led initiative, providing the platform and framework for a truly organic exchange of ideas. So, if you've been nurturing a brilliant presentation, experimenting with cutting-edge .NET features, or have a compelling story of problem-solving to tell, now is the time to finalize your pitch. Don't let this limited window slip by; seize the chance to shape the discourse and inspire the next generation of .NET development.",
     "keyTakeaways": [
-      "AWS is deepening its commitment to custom silicon, diversifying its supply chain for critical AI and networking components.",
-      "Qualcomm gains a significant foothold and validation in the hyperscale datacenter market through this multi-generational partnership.",
-      "The collaboration targets high-performance AI inference and cutting-edge 1.6 Tbps optical networking, essential for future cloud infrastructure demands."
+      "The call for presenters for .NET Conf 2026 Community Days is officially open.",
+      "Developers can submit their session proposals between September 8 and October 6, 2026.",
+      "This community-led event offers a global platform for sharing .NET knowledge and fostering ecosystem growth."
     ],
-    "source": "Theregister.com",
-    "author": "Tobias Mann",
-    "publishedAt": "2026-09-08 17:29",
+    "source": "Microsoft.com",
+    "author": "Javier Lozano, Chris Sfanos, Jon Galloway",
+    "publishedAt": "2026-09-08 20:30",
     "category": "Technology",
-    "image": "https://image.theregister.com/5249938.jpg?imageId=5249938&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-    "originalUrl": "https://www.theregister.com/off-prem/2026/09/08/amazon-ropes-qualcomm-into-something-something-ai-networking-chips/5295071",
+    "image": "https://devblogs.microsoft.com/dotnet/wp-content/uploads/sites/10/2026/09/net-conf-2026-community-days-scaled.webp",
+    "originalUrl": "https://devblogs.microsoft.com/dotnet/dotnet-conf-2026-community-days-call-for-presenters/",
     "tags": [
       "Technology",
-      "Amazon",
-      "Qualcomm"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mtudrncc-001",
-    "title": "Cybersecurity Gets Smarter: Tenable Taps Anthropic's Claude Mythos 5 for Next-Gen Threat Prediction",
-    "summary": "Tenable is integrating Anthropic's advanced AI, Claude Mythos 5, into its Tenable One platform to power a new \"Adversary View.\" This move aims to equip enterprise security teams with cutting-edge adversarial reasoning, allowing them to proactively anticipate and defend against potential cyber breaches.",
-    "content": "Cybersecurity has always been a high-stakes game of cat and mouse, but the mouse just got a whole lot smarter. Tenable, a key player in exposure management, is making a significant leap forward by integrating Anthropic’s frontier AI model, Claude Mythos 5, directly into its Tenable One platform. This isn't just another feature; it's a fundamental shift, powering a new \"Adversary View\" designed to anticipate how attackers might breach an organization's digital walls.\n\nImagine having a crystal ball that predicts a hacker's next move before they even make it. That's the promise of Tenable's latest innovation. By harnessing Claude Mythos 5’s sophisticated adversarial reasoning, the Tenable One platform can now model complex attack paths with unprecedented depth. It’s about moving beyond simply identifying vulnerabilities to truly understanding how a determined adversary would chain them together, exploit them, and ultimately compromise an environment. This capability provides a proactive edge, enabling security teams to patch not just individual holes, but entire attack routes.\n\nThe inclusion of Claude Mythos 5 signals a new era for enterprise security, where advanced AI isn't just analyzing logs but actively thinking like an attacker. This allows Tenable One to generate highly accurate, actionable insights into potential breach scenarios. For stretched security operations centers, this means a dramatic improvement in prioritization, focusing resources where they matter most and preempting threats that might otherwise slip through the cracks. It's about turning hypothetical risks into concrete, preventable actions, fundamentally changing the defensive playbook.\n\nThis strategic integration positions Tenable at the forefront of AI-driven cybersecurity. As the digital threat landscape continues to evolve with alarming speed and complexity, leveraging AI to gain a predictive advantage isn't just beneficial—it's becoming essential. The \"Adversary View\" powered by Claude Mythos 5 could very well set a new industry standard for how enterprises manage their cyber risk and stay one step ahead of the bad actors.",
-    "keyTakeaways": [
-      "Tenable is integrating Anthropic's advanced Claude Mythos 5 AI into its Tenable One exposure management platform.",
-      "This integration powers a new \"Adversary View\" feature, designed to provide frontier adversarial reasoning.",
-      "The new capabilities will help enterprise customers proactively anticipate potential cyberattack paths and strengthen their defenses."
-    ],
-    "source": "Tenable.com",
-    "author": "Eric Doerr",
-    "publishedAt": "2026-09-08 17:21",
-    "category": "Technology",
-    "image": "https://www.tenable.com/sites/default/files/styles/640x360/public/images/articles/Claude%20Mythos%205%20is%20coming%20to%20Tenable%20One%2C%20powering%20the%20new%20%E2%80%9CAdversary%20View%E2%80%9D_2.png?itok=Vni2UQvI",
-    "originalUrl": "https://www.tenable.com/blog/tenable-one-claude-mythos-5-adversary-view-ai-exposure-management",
-    "tags": [
-      "Technology",
-      "Claude",
-      "Mythos"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mtuds4s4-002",
-    "title": "SMA Devices Get a Pythonic Upgrade: New sma-modbus Library Hits PyPI",
-    "summary": "A new asynchronous Python library, `sma-modbus`, has landed on PyPI, offering developers an open-source tool to interface with SMA energy devices via Modbus TCP. While currently in developer preview, this release promises enhanced control and integration for smart energy systems once production-ready.",
-    "content": "The world of smart energy management just got a significant boost for Python developers. A brand-new asynchronous Python library, aptly named `sma-modbus`, has officially debuted on PyPI, opening up a direct and streamlined channel to interface with SMA devices via Modbus TCP. This arrival marks a notable step forward for those looking to integrate or automate their SMA-powered energy systems using one of the most popular programming languages.\n\nBuilt upon the reliable `modbus-connection` foundation, `sma-modbus` provides a robust, async framework, allowing developers to communicate with SMA inverters, battery storage systems, and other smart energy components with efficiency and responsiveness. For anyone building custom monitoring dashboards, home automation scripts, or advanced energy management applications, this library offers the much-needed programmatic access to real-time data and control capabilities that were previously more cumbersome to achieve. Its asynchronous nature means applications can interact with devices without blocking, leading to more fluid and performant solutions.\n\nHowever, enthusiasts eager to dive in should heed a crucial note: `sma-modbus` is currently labeled as a \"Developer Preview.\" This means while functional and actively developed, the creators explicitly caution against its use in mission-critical production environments just yet. This pre-release status is a testament to the collaborative heart of the open-source movement, inviting the broader developer community to test, experiment, and contribute by diligently reporting any issues they encounter. Their feedback is not just welcome, it’s invaluable in refining the library and hardening it for eventual stable releases. This collective effort ensures that when `sma-modbus` finally sheds its preview tag, it will emerge as a truly robust and reliable tool, empowering a new generation of smart energy applications.",
-    "keyTakeaways": [
-      "`sma-modbus` is a new asynchronous Python library now available on PyPI.",
-      "It enables programmatic interaction with SMA energy devices using the Modbus TCP interface, built on `modbus-connection`.",
-      "The library is currently a \"Developer Preview,\" functional but not recommended for production, with developers seeking community feedback."
-    ],
-    "source": "Pypi.org",
-    "author": "61958704+burmistrzak@users.noreply.github.com",
-    "publishedAt": "2026-09-08 17:20",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/sma-modbus/",
-    "tags": [
-      "Technology",
-      "smamodbus"
+      "Community",
+      "Presenters"
     ],
     "readingTime": "2 min"
   }
