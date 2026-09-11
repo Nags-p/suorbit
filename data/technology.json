@@ -1,24 +1,70 @@
 [
   {
-    "id": "article-tec-mtwe2fg0-000",
-    "title": "Certinia Charts a Course for Autonomous Enterprise with 'System of Action'",
-    "summary": "Professional services and financial software firm Certinia Inc. has launched its \"System of Action,\" a new operational paradigm designed to accelerate the adoption of autonomous AI agents in enterprise settings. This foundational layer aims to transform business processes by enabling intelligent automation and automated decision-making, moving companies closer to fully autonomous service operations.",
-    "content": "Certinia Inc., a prominent name in professional services automation and financial management software, has just unveiled what it calls a “System of Action.” This isn't merely an update; it’s positioned as a foundational shift, designed to significantly accelerate the integration and practical application of autonomous artificial intelligence agents within the enterprise.\n\nAt its core, the “System of Action” represents an operational blueprint, a new way for businesses to orchestrate their processes with intelligent automation as the driving force. It’s about moving beyond simply processing data to empowering AI agents to make decisions and execute tasks independently across professional services and financial operations. Imagine project management, resource allocation, and even complex financial reconciliations largely self-managing.\n\nThis strategic launch arrives at a pivotal moment, as businesses worldwide grapple with how to effectively harness the burgeoning power of AI. Certinia’s offering aims to bridge the gap between theoretical AI capabilities and tangible business outcomes, providing the structured environment necessary for these autonomous agents to thrive and deliver measurable value. It’s about injecting true autonomy into the operational heartbeat of an organization.\n\nThe ultimate vision is to enable what Certinia terms “autonomous service operations.” By embedding this system, companies can anticipate faster decision-making, drastically reduced manual workloads, and enhanced scalability. This frees human professionals to focus on strategic initiatives, creativity, and high-value interactions, while the routine, yet critical, operational heavy lifting is handled with unprecedented efficiency by intelligent systems. It marks a significant step towards a future where enterprise software doesn't just manage, but actively *runs* key business functions.",
+    "id": "article-tec-mtwpf5sw-000",
+    "title": "\"Zuckoff\": The Maverick App Fighting Back Against Meta's Smart Glass Privacy Blinders",
+    "summary": "Developer Pawel Szydlowski's \"Zuckoff\" app, which detects nearby Meta smart glasses via Bluetooth, has quickly gained thousands of users, highlighting widespread privacy concerns over wearable recording devices. The app's rapid adoption underscores a public demand for greater transparency and control over personal data in the face of increasingly ubiquitous smart tech.",
+    "content": "Pawel Szydlowski, a developer fed up with the potential for surreptitious recordings, has unleashed \"Zuckoff\" – an app designed to alert users to nearby Meta smart glasses. Far from a niche curiosity, \"Zuckoff\" has rapidly become a digital vigilante for thousands, reflecting a growing unease surrounding the pervasive nature of wearable technology.\n\nThe app, named with a clear nod to Meta's CEO, leverages Bluetooth signals to identify the presence of Meta's smart glasses. Szydlowski's motivation stemmed from personal experiences witnessing these devices being used, prompting him to create a tool that offers a measure of control and awareness in an increasingly surveilled world. Its swift adoption by thousands of users speaks volumes about the public's anxiety over privacy in the age of always-on cameras and microphones.\n\nMeta’s smart glasses, while offering innovative features, have consistently faced scrutiny over their potential to record interactions without explicit consent or clear visual indicators. While Meta has implemented a small LED light to signal recording, critics argue it's often too subtle or easily obscured. \"Zuckoff\" directly addresses this blind spot, empowering individuals to know when an unseen recording device might be in their vicinity.\n\nThis burgeoning popularity of \"Zuckoff\" isn't merely about one app or one company; it's a potent indicator of the broader privacy firestorm brewing around consumer wearables. Szydlowski asserts that Meta needs to \"do more\" – a sentiment echoed by many who believe tech giants must prioritize robust privacy safeguards and transparent communication over convenience. As smart glasses become more ubiquitous, the development of counter-technologies like \"Zuckoff\" highlights an escalating arms race between innovation and personal space, pushing the conversation about digital ethics further into the mainstream.",
     "keyTakeaways": [
-      "Certinia's \"System of Action\" is a new operational framework designed for enterprise AI integration.",
-      "It aims to accelerate the adoption and effectiveness of autonomous AI agents in business processes.",
-      "The platform seeks to enable self-managing service operations and financial management for enhanced efficiency."
+      "The \"Zuckoff\" app uses Bluetooth to detect nearby Meta smart glasses.",
+      "Created by Pawel Szydlowski, it addresses user privacy concerns about covert recording by wearable tech.",
+      "Its rapid user adoption signals a strong public demand for tools that enhance personal privacy in the age of smart devices."
     ],
-    "source": "SiliconANGLE News",
-    "author": "Mike Wheatley",
-    "publishedAt": "2026-09-10 03:01",
+    "source": "Business Insider",
+    "author": "Truman Dickerson",
+    "publishedAt": "2026-09-10 08:34",
     "category": "Technology",
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Screenshot-from-2026-09-10-09-59-02.png",
-    "originalUrl": "https://siliconangle.com/2026/09/09/certinia-launches-new-system-of-action-as-the-foundation-of-autonomous-service-operations/",
+    "image": "https://s.yimg.com/lo/mysterio/api/fc77182b7d6c45b77bbc07da95ebe95342364e48f7286fde48bebe07681aa7d4/lightyear_networkapi/resizefill_w1200%3Bquality_80%3Bformat_jpg/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fbusiness_insider_consolidated_articles_886%2Ff1ecd0477c3cab077fe5dafcd06fa323.jpg",
+    "originalUrl": "https://www.businessinsider.com/zuckoff-app-detects-meta-ai-smart-glasses-recording-privacy-2026-9",
     "tags": [
       "Technology",
-      "Certinia",
-      "launches"
+      "developer",
+      "created"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mtwpfepo-001",
+    "title": "Zuckoff: The Stealth App Alerting You to Nearby Meta Smart Glasses",
+    "summary": "Prompted by concerns over surreptitious recording, Polish developer Pawel Szydlowski created Zuckoff, an app designed to detect Meta's smart glasses in your vicinity using Bluetooth signals. The app has rapidly gained thousands of users, highlighting a growing public appetite for tools that address the privacy implications of wearable technology.",
+    "content": "The subtle glow of a recording indicator on smart glasses might be easy to miss, but for Polish software developer Pawel Szydlowski, the implications were stark. Spooked by videos circulating online of people unknowingly being recorded and identified by strangers wearing these devices, the 30-year-old decided to take matters into his own hands.\n\nHis solution? Zuckoff, a clever new app that taps into the Bluetooth signals emitted by Meta’s Ray-Ban smart glasses. Think of it as a personal privacy guardian, quietly scanning the airwaves and alerting you when a pair of these discreet recording devices is nearby. It’s a low-tech answer to a high-tech problem, and its rapid adoption speaks volumes about growing public apprehension.\n\nWithin a short span, Zuckoff has already amassed thousands of users, reflecting a palpable demand for greater transparency around wearable tech. Szydlowski isn't just building an app; he's amplifying a crucial conversation about consent in public spaces. He believes companies like Meta, who are pushing these powerful recording devices into the mainstream, have a greater responsibility to implement more robust privacy safeguards.\n\nThe debate isn't about halting technological progress, but rather ensuring it respects personal boundaries. As smart glasses become more ubiquitous, the line between casual observation and unwanted surveillance blurs. Zuckoff serves as a timely reminder that while tech companies innovate, individuals will also innovate to protect their privacy, often filling gaps left by corporate policies.",
+    "keyTakeaways": [
+      "Pawel Szydlowski developed the 'Zuckoff' app to detect nearby Meta Ray-Ban smart glasses using Bluetooth signals.",
+      "The app's rapid adoption by thousands of users underscores significant public concern about privacy and unsolicited recording by wearable tech.",
+      "Szydlowski argues that Meta needs to implement more robust privacy features in its smart glasses to address user anxieties."
+    ],
+    "source": "Business Insider",
+    "author": "tdickerson@businessinsider.com (Truman Dickerson)",
+    "publishedAt": "2026-09-10 08:34",
+    "category": "Technology",
+    "image": "https://i.insider.com/6aa17add9b8974787b1c9f12?width=1200&format=jpeg",
+    "originalUrl": "https://www.businessinsider.com/zuckoff-app-detects-meta-ai-smart-glasses-recording-privacy-2026-9#article",
+    "tags": [
+      "Technology",
+      "developer",
+      "created"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mtwpfnam-002",
+    "title": "Central Asia's Tech Awakening: Kazakhstan's Venture Market Looks East for Growth",
+    "summary": "Kazakhstan's nascent venture capital ecosystem is actively seeking a path to maturity, with leaders like Askar Bilisbekov advocating for greater institutional investment and robust international partnerships. The nation is particularly keen on forging deeper ties with China to accelerate its journey into a vibrant tech hub.",
+    "content": "Kazakhstan, often recognized for its vast energy reserves and strategic geographic position, is quietly but confidently laying the groundwork for a new frontier: a dynamic venture capital market. While still in its infancy, the Central Asian nation’s tech scene is buzzing with ambition, spearheaded by figures like Askar Bilisbekov, CEO and board member of Alem Capital Management. Bilisbekov envisions a future where Kazakhstan's startups thrive, propelled by a trio of essential ingredients.\n\nAt the heart of this vision lies the need for more institutional capital. Shifting away from reliance on individual high-net-worth investors, the ecosystem is striving to attract larger, more stable funding sources — pension funds, endowments, and corporate venture arms — that can provide the sustained investment crucial for scaling innovative ideas. This institutional backing isn't just about money; it brings sophisticated due diligence, governance, and long-term perspectives that are vital for a maturing market.\n\nEqually important are stronger international links. Kazakhstan's burgeoning startups need global exposure, access to diverse markets, and the invaluable mentorship from established tech ecosystems. This internationalization isn't just a luxury; it's a necessity for fostering competitive companies ready to tackle global challenges. Crucially, a significant part of this global strategy points eastward. Deeper ties with China are seen as a cornerstone of Kazakhstan's venture future, offering not only substantial capital but also access to a vast, rapidly evolving tech market, expertise in scaling, and a potential gateway to the broader Asian innovation landscape. As Kazakhstan builds its venture future, it’s clear the steppe is fertile for growth, ready to cultivate a new generation of tech pioneers with an eye firmly on global collaboration.",
+    "keyTakeaways": [
+      "Kazakhstan's venture capital market, though young, is actively pursuing significant growth and maturity.",
+      "Key strategies for development include attracting more institutional capital and building stronger international partnerships.",
+      "Forging deeper links with China is considered a crucial element for the ecosystem's expansion and access to capital and markets."
+    ],
+    "source": "TechNode",
+    "author": "TechNode Staff",
+    "publishedAt": "2026-09-10 08:33",
+    "category": "Technology",
+    "image": "https://technode.com/wp-content/uploads/2026/09/alem-capital-cover.jpeg",
+    "originalUrl": "https://technode.com/2026/09/10/kazakhstans-venture-market-is-growing-up-and-looking-to-china/",
+    "tags": [
+      "Technology",
+      "Kazakhstans",
+      "Venture"
     ],
     "readingTime": "2 min"
   }
