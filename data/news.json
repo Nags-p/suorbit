@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mtyw4a57-000",
-    "title": "Beyond the Dashboard: AI Transforms Enterprise Observability from Detection to Action",
-    "summary": "Artificial intelligence is fundamentally reshaping enterprise observability, moving it past simple problem detection toward proactive, actionable insights. This evolution is critical for managing complex AI-driven applications and empowering operations teams with tools for intelligent response and automation.",
-    "content": "The landscape of enterprise technology is undergoing a seismic shift, with artificial intelligence now not just powering the applications businesses rely on, but also fundamentally redefining how we monitor their health. Observability, once a realm primarily focused on detecting what went wrong, is rapidly evolving into a proactive engine for intelligent action, driven by AI’s pervasive influence.\n\nTraditional observability platforms, often built on deterministic rules and dashboards, are increasingly overwhelmed by the sheer complexity and dynamic nature of modern, AI-infused systems. These new applications don't just generate more data; they produce intricate, often subtle patterns that humans struggle to discern. This is where AI steps in, acting as both the subject of observation and the crucial lens through which we understand it, processing petabytes of data to surface anomalies and predict potential issues long before they escalate.\n\nThis transformation represents a critical pivot: from simply spotting a problem to understanding its root cause and, crucially, orchestrating an immediate, intelligent response. It’s no longer enough to know that a service is down; businesses need to know *why*, *what impact it's having*, and *what automated steps can be taken* to mitigate or resolve it. Leading platforms are now integrating sophisticated AI models to provide actionable insights, automate diagnostics, and even trigger self-healing mechanisms, moving operations teams beyond firefighting into a more strategic, preventative role.\n\nThe implications for enterprise IT are profound. This new era of AI-augmented observability promises not only faster mean time to resolution and enhanced system reliability but also a significant competitive advantage. By enabling organizations to predict and preempt performance degradations, secure their complex digital ecosystems, and maintain seamless user experiences, AI is not just changing how we monitor – it’s changing how businesses operate and innovate.",
+    "id": "article-tec-mtz1bjh3-000",
+    "title": "Salesforce Unleashes AI Agents to Supercharge Enterprise Sales and Support",
+    "summary": "Salesforce has unveiled a suite of new AI agents designed to significantly boost the productivity of sales and technical support teams. These intelligent tools integrate deeply with the updated Agentforce Coworker platform, promising a new era of automated efficiency in customer relationship management.",
+    "content": "Salesforce, the undisputed champion of customer relationship management, is once again charting new territory in enterprise software. Today, the tech giant unveiled a robust new suite of artificial intelligence agents, specifically engineered to inject a substantial productivity boost into sales and technical support operations. This isn't merely an upgrade; it's a strategic pivot designed to fundamentally redefine daily workflows for millions of professionals across the globe.\n\nThese aren't your run-of-the-mill chatbots; Salesforce's new AI agents promise deep integration and proactive assistance across the entire customer lifecycle. They are launching hand-in-hand with a significantly enhanced version of Agentforce Coworker, Salesforce's powerful automation platform that underpins much of its AI strategy. Envision a world where AI agents meticulously handle initial lead qualification, draft personalized outreach emails, or even autonomously resolve a significant portion of common customer support queries. This revolutionary automation frees human teams from tedious, repetitive tasks, allowing them to channel their expertise into more complex, high-value engagements that truly require a human touch.\n\nThis strategic rollout marks a pivotal moment in Salesforce’s unwavering commitment to embedding sophisticated generative AI throughout its vast ecosystem. By meticulously automating repetitive and time-consuming processes – from initial sales outreach to intricate support ticketing – these new agents aim to dramatically slash response times, significantly improve data accuracy, and ultimately elevate the entire customer experience. This ambitious push firmly places Salesforce at the vanguard of delivering truly intelligent, assistive AI within the enterprise space, painting a vivid picture of a future where your CRM platform doesn't just manage data, but actively collaborates to propel your business forward. It’s a definitive statement: the era of the AI-powered coworker isn't just arriving; it's here, ready to transform how we work.",
     "keyTakeaways": [
-      "AI is profoundly transforming enterprise observability, changing both the applications being monitored and the methods of monitoring them.",
-      "The focus of observability is shifting from reactive problem detection to proactive, intelligent action, driven by AI's analytical capabilities.",
-      "This evolution empowers IT operations teams, improves system reliability, and offers a crucial competitive advantage in managing complex digital infrastructures."
+      "Salesforce introduced new AI agents to significantly boost productivity for sales and technical support teams.",
+      "These intelligent agents integrate with an updated version of Salesforce's Agentforce Coworker platform, enabling deeper automation.",
+      "The initiative aims to free human employees from repetitive tasks, allowing them to focus on high-value interactions and enhance the overall customer experience."
     ],
     "source": "SiliconANGLE News",
-    "author": "Sam Weston",
-    "publishedAt": "2026-09-11 21:17",
+    "author": "Maria Deutscher",
+    "publishedAt": "2026-09-11 23:40",
     "category": "Technology",
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Header-Image.png",
-    "originalUrl": "https://siliconangle.com/2026/09/11/observability-ai-agents-dynatrace-arize-appdevangle/",
+    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/salesforce.png",
+    "originalUrl": "https://siliconangle.com/2026/09/11/salesforce-introduces-new-ai-agents-to-automate-sales-support-tasks/",
     "tags": [
       "Technology",
-      "Dynatrace",
-      "observability"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mtyw4jvg-001",
-    "title": "Security Hole: Android's 'Always-On' VPN Has a Leaky Secret",
-    "summary": "Researchers have uncovered a critical vulnerability in Android's 'Always-on VPN' feature, allowing certain traffic to bypass the VPN tunnel despite user settings. This bypass, involving NAT-T keepalive offload, compromises user privacy and security, as sensitive data could be inadvertently exposed.",
-    "content": "Android's 'Always-on VPN' feature is a crucial security promise for countless users worldwide. Designed to funnel all network traffic through a designated VPN, ensuring no data ever leaves an unencrypted connection, it's a cornerstone for those demanding robust privacy. However, a recent technical report from Supuk.ch has cast a shadow on this critical safeguard, revealing a concerning vulnerability that allows certain data to completely bypass the VPN tunnel.\n\nThe core of the problem lies with something called NAT-T keepalive offload. In simple terms, VPNs like IPSec often need to send small, regular 'keepalive' packets to maintain their connection, especially when behind a Network Address Translator (NAT). These packets are supposed to go through the VPN, but the report indicates Android's handling of these specific NAT-T keepalives allows them to be 'offloaded' – meaning they are sent directly over the public internet, completely sidestepping the active VPN.\n\nThis isn't just a minor technical glitch; it's a significant privacy and security lapse. Users who enable 'Always-on VPN' and, critically, 'Block connections without VPN' do so with the explicit expectation that *no* application traffic, regardless of its nature, will ever traverse an unsecured pathway. The discovery means sensitive metadata, connection timing information, and potentially even more could be inadvertently exposed, undermining the very purpose of employing a VPN. For individuals relying on this feature for heightened anonymity or to circumvent oppressive network restrictions, the implications are particularly grim.\n\nWhile the report is highly technical, its message is clear: the user-visible assurance provided by Android's VPN lockdown settings doesn't entirely hold water. This vulnerability highlights a critical gap between user expectation and technical reality, demanding urgent attention from Google. Until a fix is implemented, those who depend heavily on Android's VPN features for their digital security should be aware that their 'always-on' protection might, in fact, have a leaky secret.",
-    "keyTakeaways": [
-      "Android's 'Always-on VPN' feature, designed to block all non-VPN traffic, can be bypassed.",
-      "The bypass occurs due to the offloading of NAT-T keepalive packets, which are sent outside the VPN tunnel.",
-      "This vulnerability compromises user privacy and security by exposing sensitive data that users expect to be protected by their VPN."
-    ],
-    "source": "Supuk.ch",
-    "author": "Armin Šupuk",
-    "publishedAt": "2026-09-11 21:16",
-    "category": "Technology",
-    "image": "https://supuk.ch/images/headers/android-natt-keepalive-post.jpg",
-    "originalUrl": "https://supuk.ch/papers/android-natt-keepalive-vpn-bypass",
-    "tags": [
-      "Technology",
-      "Android",
-      "keepalive"
+      "Salesforce",
+      "introduces"
     ],
     "readingTime": "2 min"
   }
