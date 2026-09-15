@@ -1,23 +1,70 @@
 [
   {
-    "id": "article-tec-mu1z7uab-000",
-    "title": "JPEG XL: A Technical Marvel Caught in the Web's Adoption Crossfire",
-    "summary": "JPEG XL emerges as a technically superior image codec, promising significant upgrades over older formats like JPEG and WebP through advanced compression and versatility. Despite its prowess, it faces a tough battle for widespread adoption, encountering resistance from major browser vendors and an already crowded web image ecosystem.",
-    "content": "JPEG XL, the ambitious next-generation image codec, has been hailed by many as a technical marvel, promising a definitive leap forward in web imagery. With its superior compression efficiency, rich feature set, and remarkable versatility, it's designed to outclass legacy formats like JPEG and even surpass the capabilities of WebP. Its ability to deliver stunning visuals at significantly smaller file sizes, coupled with features like lossless recompression of existing JPEGs, wide color gamut support, and progressive decoding, positions it as an ideal candidate for the modern web.\n\nYet, despite its undeniable prowess, the path for JPEG XL to become the web's default image standard is anything but clear. The \"case against\" JPEG XL isn't about its technical merits; it's about the formidable hurdles of ecosystem adoption. Major players like Google Chrome have expressed reluctance to integrate it, citing concerns about the burden of maintaining yet another codec alongside WebP and AVIF, potential fragmentation, and a perceived lack of overwhelming demand to justify the significant implementation effort.\n\nIndeed, JPEG XL's toolkit is impressive. It offers both lossy and lossless compression, handles animations, and provides a robust framework built for speed and quality. It's a format meticulously engineered to address many of the shortcomings of its predecessors in one elegant package, making a strong technical argument for its widespread use.\n\nHowever, the reality of web standards is less about technical perfection and more about consensus and momentum. In a landscape already populated by widely adopted codecs like WebP and the emerging AVIF, gaining traction without universal browser support proves incredibly difficult. While JPEG XL undeniably holds the keys to a more efficient visual web, its journey from technical triumph to universal implementation remains a contentious, uphill battle, leaving many to wonder if its full potential will ever be truly realized.",
+    "id": "article-tec-mu2c8kdg-000",
+    "title": "Battlefield Brain Transplant: Aitech's New Board Supercharges Legacy Military Tech",
+    "summary": "Aitech's new C165 rugged single board computer offers a critical upgrade path for aging VME systems in defense programs, integrating modern Intel computing and graphics. This innovative solution optimizes power and space while preserving existing infrastructure, drastically reducing the risks and costs associated with full system overhauls.",
+    "content": "In the high-stakes world of defense, where reliability can mean the difference between mission success and failure, a quiet but critical battle is perpetually waged against obsolescence. Legacy systems, while proven workhorses, often struggle to keep pace with the accelerating demands of modern warfare and evolving cyber threats. Swapping out these deeply embedded infrastructures is a logistical and financial nightmare.\n\nEnter Aitech's new C165, a robust 6U VME single board computer (SBC) designed to tackle this very challenge head-on. Far from a mere component, the C165 is a formidable processing powerhouse, packing modern Intel computing and graphics into a battle-hardened form factor. This isn't just about faster calculations; it’s about giving existing military hardware a serious brain transplant, enabling sophisticated real-time data processing and high-definition visualization essential for today's complex operations.\n\nThe true genius of the C165 lies in its ability to bridge eras. Defense programs often grapple with the monumental cost and disruption of completely replacing well-established VME systems. Aitech’s approach bypasses this dilemma, allowing critical infrastructure to remain in place while significantly upgrading its core intelligence. This 'rip and replace' aversion minimizes modernization risk, accelerates deployment, and frees up crucial budget for other priorities. Add in its optimized Size, Weight, and Power (SWaP) footprint and secure, high-capacity storage, and you have a solution tailored for environments where every watt and every byte counts.\n\nFor military planners, this means extending the operational lifespan of vital equipment—from radar systems to command-and-control units—without sacrificing cutting-edge performance or robust security. It's about ensuring our fielded systems can keep pace with evolving threats and technological advancements, offering a competitive edge without a complete logistical overhaul. Aitech’s C165 isn't just a new product; it’s a strategic enabler, helping defense agencies maximize their investments and maintain technological superiority on a dynamic global stage.",
     "keyTakeaways": [
-      "JPEG XL is a technically advanced image codec, offering superior compression, versatility, and features compared to JPEG and WebP.",
-      "Despite its technical advantages, JPEG XL faces significant challenges for widespread web adoption due to browser vendor hesitations and the burden of integrating another codec.",
-      "Its future as a dominant web image standard is uncertain, grappling with ecosystem inertia and competition from existing formats like WebP and AVIF."
+      "Aitech's C165 is a rugged 6U VME single board computer designed to modernize existing defense systems.",
+      "It integrates modern Intel computing and graphics, enhancing performance and security without requiring a full system replacement.",
+      "The solution optimizes Size, Weight, and Power (SWaP) while significantly reducing modernization risks and costs for military programs."
     ],
-    "source": "Giannirosato.com",
+    "source": "PRNewswire",
     "author": "Staff Writer",
-    "publishedAt": "2026-09-14 01:02",
+    "publishedAt": "2026-09-14 07:05",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://giannirosato.com/blog/post/case-against-jxl/",
+    "image": "https://mmx.prnewswire.com/media/MS1968298/Aitech-Logo_original.jpg?id=OA2940287&p=facebook",
+    "originalUrl": "https://www.prnewswire.com/news-releases/aitech-introduces-new-c165-rugged-single-board-computer-to-help-defense-programs-build-and-modernize-fielded-vme-systems-302874941.html",
     "tags": [
       "Technology",
-      "against"
+      "Aitech",
+      "Introduces"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mu2c8s4j-001",
+    "title": "Retrofit Revolution: Aitech's New Board Breathes Modern Life into Legacy Military Tech",
+    "summary": "Aitech's new C165 rugged single board computer offers defense programs a critical upgrade path for their entrenched VME systems. This innovative 6U SBC integrates modern Intel computing and graphics with robust security, allowing for significant performance enhancements without the costly, high-risk overhaul of existing infrastructure.",
+    "content": "The gears of defense technology often grind against a formidable challenge: how to inject bleeding-edge capabilities into decades-old, mission-critical infrastructure without a complete, costly rip-and-replace. Enter Aitech, a veteran in rugged embedded systems, which has just unveiled a compelling answer for the military's pervasive VME architecture. Their new C165 single board computer isn't just another piece of hardware; it’s a strategic bridge to the future.\n\nAnnounced at NATIONAL HARBOR, Aitech’s 6U VME SBC is designed to be the modern brain inside legacy bodies. It packs a punch with contemporary Intel computing and integrated graphics, delivering the processing power and visual fidelity crucial for today’s sophisticated defense applications, from real-time data analysis to advanced situational awareness. This means warfighters can leverage next-gen algorithms and rich interfaces directly within their trusted VME frameworks.\n\nBeyond raw power, the C165 is engineered for the unforgiving realities of the field. It boasts impressive SWaP (Size, Weight, and Power) optimization, a critical consideration for aerospace and tactical deployments where every watt and ounce counts. Coupled with secure, high-capacity storage, this board ensures sensitive operational data is protected and readily accessible, even in the most demanding environments, reinforcing system integrity.\n\nWhat truly sets the C165 apart is its elegant approach to modernization. By fitting seamlessly into existing VME system architectures, Aitech empowers defense programs to sidestep the monumental risks and prohibitive costs associated with wholesale infrastructure overhauls. This strategy not only preserves significant prior investments but also dramatically shortens deployment times, allowing for quicker adaptation to evolving threats and technological landscapes.\n\nIn essence, Aitech's C165 represents more than just a component; it’s a commitment to smart, incremental evolution for defense systems. It offers a lifeline to programs seeking to extend the operational lifespan and enhance the capabilities of their fielded VME equipment, ensuring they remain relevant, secure, and performant for years to come without breaking the bank or compromising mission readiness.",
+    "keyTakeaways": [
+      "Aitech's new C165 is a rugged 6U VME Single Board Computer aimed at modernizing defense programs.",
+      "It integrates modern Intel computing and graphics, along with secure, high-capacity storage, into existing VME infrastructure.",
+      "The C165 offers SWaP optimization, reduces modernization risk, and preserves significant prior investments for defense systems."
+    ],
+    "source": "PRNewswire",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-14 07:05",
+    "category": "Technology",
+    "image": "https://mmx.prnewswire.com/media/MS1968298/Aitech-Logo_original.jpg?id=OA2939796&p=facebook",
+    "originalUrl": "https://www.prnewswire.com/news-releases/aitech-introduces-new-c165-rugged-single-board-computer-to-help-defense-programs-build-and-modernize-fielded-vme-systems-302874413.html",
+    "tags": [
+      "Technology",
+      "Aitech",
+      "Introduces"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-mu2c94mh-002",
+    "title": "Aitech's C165: Giving Legacy Military Systems a Vital Brain Transplant",
+    "summary": "Aitech has unveiled its new C165 Rugged Single Board Computer, a critical upgrade for defense programs. This innovative 6U VME SBC allows military systems to integrate modern Intel computing and secure storage while preserving existing, mission-critical infrastructure, thereby dramatically reducing modernization risks and costs.",
+    "content": "NATIONAL HARBOR, Md. — The ever-accelerating pace of technological innovation often leaves critical infrastructure, particularly in defense, grappling with a stark choice: embark on a costly, risky overhaul or fall behind. Aitech, a leader in rugged embedded systems, is tackling this formidable challenge head-on with the introduction of its new C165 Rugged Single Board Computer (SBC), announced this week.\n\nDesigned specifically for defense programs, the C165 is a 6U VME SBC that promises to bridge the chasm between decades-old VME infrastructure and the demands of modern computing. Military systems, often built to last for decades, frequently rely on VME backplanes — robust, reliable, but inherently dated. Ripping out these deeply integrated systems for an entirely new architecture is not only financially prohibitive but also introduces significant operational downtime and inherent risk, especially for platforms crucial to national security.\n\nAitech’s C165 cleverly sidesteps this dilemma. It delivers cutting-edge Intel computing and graphics capabilities, along with secure, high-capacity storage, directly into existing VME slots. This means defense contractors and military branches can inject new life into their fielded assets, enhancing performance with capabilities like advanced signal processing and AI at the edge, all without the logistical nightmare of a full system replacement. Furthermore, its SWaP (Size, Weight, and Power) optimization ensures that these upgrades are efficient, demanding less physical space and power – critical considerations for deployed hardware.\n\nBy preserving the proven VME chassis and backplane, the C165 dramatically reduces the financial burden and technical risks associated with modernization. It’s a pragmatic, powerful solution for extending the operational lifespan of vital defense equipment, ensuring they remain relevant and capable in an increasingly complex global landscape. For armed forces facing tight budgets and complex operational requirements, Aitech's latest offering isn't just an upgrade; it’s a strategic enabler.",
+    "keyTakeaways": [
+      "Aitech's new C165 is a rugged 6U VME Single Board Computer designed for defense applications.",
+      "It allows military programs to integrate modern Intel computing, advanced graphics, and secure storage into existing VME infrastructure.",
+      "The C165 reduces the cost and risk of modernizing critical defense systems by preserving legacy hardware while enhancing capabilities and optimizing SWaP."
+    ],
+    "source": "PR Newswire UK",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-14 07:05",
+    "category": "Technology",
+    "image": "https://mmx.prnewswire.com/media/MS1968298/Aitech-Logo_original.jpg?id=OA2940287&p=facebook",
+    "originalUrl": "https://www.prnewswire.co.uk/news-releases/aitech-introduces-new-c165-rugged-single-board-computer-to-help-defense-programs-build-and-modernize-fielded-vme-systems-302874941.html",
+    "tags": [
+      "Technology",
+      "Aitech",
+      "Introduces"
     ],
     "readingTime": "2 min"
   }
