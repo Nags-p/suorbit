@@ -1,24 +1,24 @@
 [
   {
-    "id": "article-tec-muehxuwe-000",
-    "title": "Apple's Stealth Move: A Screen-less Tracker to Challenge Whoop's Elite Fitness Crown",
-    "summary": "Apple is reportedly developing a new screen-less fitness tracker, poised to directly challenge Whoop's highly valued and specialized market for elite health monitoring. This strategic pivot signals Apple's intent to capture a segment of users prioritizing deep biometric data and discreet wearability over traditional smartwatch features.",
-    "content": "Cupertino, CA – Apple, a company synonymous with sleek screens and intuitive interfaces, is reportedly charting a surprising new course in the fitness tech arena. Sources suggest the tech giant is deep in development on a screen-less fitness tracker, a move that would squarely position it against Whoop, the rapidly expanding company whose valuation recently surged past a staggering $10 billion.\n\nThis potential foray into a minimalist, data-centric wearable marks a significant strategic pivot for Apple, whose ubiquitous Apple Watch has long been the gold standard for mainstream smartwatches and fitness tracking. While the Watch offers a comprehensive suite of features, Whoop has carved out a premium niche by focusing intently on continuous biometric monitoring, recovery insights, and a subscription-based model. Their discreet, screen-less band emphasizes raw data and actionable coaching delivered via a companion app, appealing specifically to serious athletes and wellness enthusiasts who prioritize deep health metrics and unobtrusive wearability over smartwatch functionality.\n\nIf these reports, primarily from Bloomberg, hold true, Apple’s screen-less device could signal a direct challenge to Whoop's specialized market, aiming to capture a segment of users who value discretion and intensive biometric data. This strategy could allow Apple to design for extended battery life and a less intrusive user experience, further expanding its reach into more specialized, professional-grade monitoring. It’s a curious gambit, considering the Apple Watch already boasts formidable health tracking capabilities. However, a dedicated, screen-less device might offer a focused approach, potentially integrating more advanced sensors or delivering a distinct data interpretation model tailored for peak performance and recovery. The move would undoubtedly validate the high-end fitness tracking market and intensify an already vibrant wearables landscape.",
+    "id": "article-tec-mueow6zk-000",
+    "title": "The Quantum Countdown: Why Your Data Needs Post-Quantum Protection Now",
+    "summary": "Quantum computing's imminent arrival threatens to shatter current encryption standards, leaving sensitive data vulnerable. To combat this looming crisis, Cisco has released \"PQC for Dummies,\" an essential guide empowering IT teams to understand and implement robust post-quantum cryptography solutions.",
+    "content": "Quantum computing, once the stuff of science fiction, is rapidly materializing, promising revolutionary breakthroughs from drug discovery to artificial intelligence. Yet, with this incredible power comes a profound digital reckoning. The very algorithms safeguarding our online lives – from banking transactions to secure communications – are fundamentally vulnerable to the quantum era. This isn't a distant threat; it's a looming reality demanding immediate attention.\n\nAt the heart of this looming crisis lies the quantum computer's ability to efficiently solve problems considered intractable for classical machines. Specifically, algorithms like Shor's could effortlessly break public-key cryptography (e.g., RSA and ECC) that underpins modern digital security. Imagine a world where every encrypted message, every secure login, every piece of sensitive data exchanged today could one day be decrypted by a powerful enough quantum machine. The implications for national security, corporate secrets, and personal privacy are catastrophic.\n\nThe answer isn't to halt quantum progress, but to adapt our defenses. Post-Quantum Cryptography (PQC) represents a critical paradigm shift, introducing new cryptographic algorithms designed to withstand even the most potent quantum attacks. Developing and deploying these quantum-resistant solutions is a monumental undertaking, requiring not just theoretical understanding but practical, systemic integration across vast IT infrastructures.\n\nRecognizing the immense complexity facing IT professionals, Cisco has published \"PQC for Dummies—Cisco Special Edition.\" This isn't just another white paper; it's a vital, accessible resource crafted to demystify the intricacies of PQC. It serves as an indispensable starting point, breaking down complex concepts and outlining actionable steps for IT teams to begin their journey toward quantum-safe security. The transition to PQC is an urgent, multi-year endeavor, and resources like this guide are crucial for equipping organizations to navigate the impending cryptographic migration with confidence.",
     "keyTakeaways": [
-      "Apple is reportedly developing a new screen-less fitness tracker.",
-      "The device aims to directly compete with Whoop, a company valued over $10 billion.",
-      "This move suggests Apple is targeting a niche market of serious athletes and wellness enthusiasts focused on deep biometric data and discreet wearables."
+      "Quantum computing poses an existential threat to current encryption standards, capable of breaking widely used algorithms like RSA and ECC.",
+      "Post-Quantum Cryptography (PQC) is the urgent, essential solution, introducing new algorithms designed to resist quantum attacks.",
+      "Cisco's \"PQC for Dummies\" provides IT teams with an accessible, practical starting point to understand and implement quantum-safe security measures."
     ],
-    "source": "TechCrunch",
-    "author": "Lucas Ropek",
-    "publishedAt": "2026-09-22 19:27",
+    "source": "Cisco.com",
+    "author": "Albert Chiang",
+    "publishedAt": "2026-09-22 22:41",
     "category": "Technology",
-    "image": "https://techcrunch.com/wp-content/uploads/2026/08/Screenshot-2026-08-26-at-12.45.18-PM.png?resize=1200,927",
-    "originalUrl": "https://techcrunch.com/2026/09/22/apple-could-take-on-whoop-with-a-new-fitness-tracker-report-says/",
+    "image": "https://blogs.cisco.com/gcs/ciscoblogs/1/2026/09/dummies-cover.png",
+    "originalUrl": "https://blogs.cisco.com/networking/pqc-for-dummies-cisco-special-edition-why-we-wrote-it",
     "tags": [
       "Technology",
-      "fitness",
-      "tracker"
+      "DummiesCisco",
+      "Special"
     ],
     "readingTime": "2 min"
   }
