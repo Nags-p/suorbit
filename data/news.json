@@ -1,24 +1,185 @@
 [
   {
-    "id": "article-tec-muolrore-000",
-    "title": "AI's Wild West: Autonomous Agents Are Rewriting the Cybersecurity Rulebook",
-    "summary": "The rise of autonomous software agents is fundamentally reshaping cybersecurity, creating an unpredictable landscape where legitimate instructions can lead to unexpected vulnerabilities. This new paradigm demands a complete overhaul of traditional security strategies to account for agents' dynamic decision-making and the rapidly shrinking window for breach detection.",
-    "content": "The burgeoning landscape of artificial intelligence is introducing a powerful, yet profoundly unsettling, new challenge to cybersecurity: autonomous software agents. These aren't just sophisticated programs following rigid rules; they're intelligent entities capable of independent decision-making, utilizing legitimate credentials, invoking various tools, and charting their own course toward a given objective. While incredibly efficient for business operations, this newfound autonomy is creating a security \"Wild West,\" where the very systems designed to help us can inadvertently become vectors for unprecedented risk.\n\nTraditional security perimeters and static rule sets are proving woefully inadequate against these dynamic adversaries. An agentic security strategy must now grapple with software that, even when operating on perfectly legitimate instructions, can act in unexpected ways. Imagine an agent tasked with data aggregation deciding to route information through an unmonitored external service, or a credentialed bot accessing a different database than anticipated, all within its \"authorized\" scope. Each spontaneous decision, each novel path taken, expands the attack surface exponentially, leaving security teams scrambling to monitor an ever-shifting digital labyrinth.\n\nThe terrifying implication? A rapidly shrinking breach window. Where once security professionals had hours, days, or even weeks to detect and respond to a compromise, agentic systems can accelerate this timeline to mere minutes or seconds. Their ability to autonomously explore, exploit, and exfiltrate means that by the time an anomaly is flagged, the damage might already be done. This isn't just about patching vulnerabilities; it's about anticipating the unpredictable behavior of intelligent agents operating within legitimate boundaries.\n\nOrganizations must urgently pivot from reactive defense to proactive, intelligent monitoring tailored for agentic architectures. This requires not just better detection tools, but a deep understanding of agent intent, behavioral baselines that account for variability, and incident response mechanisms that can keep pace with machine-speed breaches. The era of the truly autonomous agent is here, and with it, a stark reminder that our security strategies must evolve as rapidly as the technology they aim to protect.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Autonomous software agents can act unpredictably even with legitimate instructions, dramatically expanding potential attack surfaces.",
-      "Traditional, static security models are ill-equipped to monitor dynamic agentic systems, requiring a fundamental shift in strategy.",
-      "The inherent speed and autonomy of agents significantly shrink the breach window, demanding proactive and intelligent security measures to keep pace."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "SiliconANGLE News",
-    "author": "Victoria Gayton",
-    "publishedAt": "2026-09-29 21:13",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-09-30 21:09",
     "category": "Technology",
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/09/Zulfikar-Ramzan.jpg",
-    "originalUrl": "https://siliconangle.com/2026/09/29/agentic-security-strategy-faces-a-shrinking-breach-window-oracleaicybersecurity/",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Agentic",
-      "security"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-09-30 17:09",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
+    "keyTakeaways": [
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-09-30 13:09",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
+    "tags": [
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-09-30 09:09",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-spa-001",
+    "title": "Latest developments in Space showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
+    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Space experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-30 05:09",
+    "category": "Space",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-spa-001",
+    "tags": [
+      "Space",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sci-001",
+    "title": "Latest developments in Science showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
+    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Science experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-30 01:09",
+    "category": "Science",
+    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sci-001",
+    "tags": [
+      "Science",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-sta-001",
+    "title": "Latest developments in Startups showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
+    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Startups experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-29 21:09",
+    "category": "Startups",
+    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-sta-001",
+    "tags": [
+      "Startups",
+      "Trends"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-bus-001",
+    "title": "Latest developments in Business showcase industrial shift",
+    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
+    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
+    "keyTakeaways": [
+      "The global market for Business experienced major shifts this quarter",
+      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "SuOrbit Editorial",
+    "author": "Staff Writer",
+    "publishedAt": "2026-09-29 17:09",
+    "category": "Business",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-bus-001",
+    "tags": [
+      "Business",
+      "Trends"
     ],
     "readingTime": "2 min"
   }
