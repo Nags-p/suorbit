@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-musrdfd3-000",
-    "title": "RatHat Rises: AI-Powered Android Malware Targets Your Bank Account and PIN",
-    "summary": "A menacing new Android malware, dubbed RatHat, is actively exploiting AI to pilfer sensitive financial data, including banking credentials and two-factor authentication codes. Uniquely, RatHat can even reconstruct your device's PIN by analyzing your screen touch inputs, posing a significant threat to user security.",
-    "content": "Your Android smartphone, a seemingly innocuous device in your pocket, likely holds the keys to your entire digital life – banking details, personal communications, and sensitive credentials. Now, a newly identified and particularly insidious threat, dubbed RatHat, is actively targeting this digital vault, leveraging artificial intelligence to compromise your financial security in alarming ways.\n\nRatHat isn't your garden-variety malware. This sophisticated assailant has been engineered to pilfer banking credentials and intercept crucial two-factor authentication (2FA) codes, effectively bypassing a significant layer of modern security. But what truly sets RatHat apart, and makes it a uniquely dangerous adversary, is its uncanny ability to reconstruct your device's PIN. By subtly analyzing the touch inputs you make on your screen, this AI-powered menace can decipher your unlock pattern or numeric code, gaining unfettered access to your device.\n\nThe implications are chilling. Imagine losing control not just of a single app, but potentially every financial service linked to your phone. This malware typically propagates through malicious apps downloaded from unofficial stores or via phishing attacks, tricking users into granting broad permissions. Once entrenched, it operates silently in the background, a digital predator patiently collecting your most guarded secrets.\n\nProtecting yourself requires vigilance. Always download apps exclusively from the Google Play Store and meticulously review the permissions requested by any new application. Be wary of suspicious links or unsolicited messages, and ensure your device's operating system and security patches are consistently up to date. In an era where AI is increasingly a tool for both good and ill, understanding threats like RatHat is paramount to safeguarding your digital well-being.",
+    "id": "article-tec-musz9gws-000",
+    "title": "Premium Phone, Primitive Problem: iPhone 18 Pro Max Owners on AT&T Can't Make Calls, Apple to Replace Devices",
+    "summary": "Some early adopters of Apple's new iPhone 18 Pro Max on AT&T are experiencing a critical issue where their devices are unable to make or receive calls. Apple has acknowledged the problem, which stems from a software and carrier settings anomaly, and is offering free device replacements to all affected customers.",
+    "content": "The gleaming iPhone 18 Pro Max, hailed for its revolutionary camera system and impressive battery endurance, has stumbled into an embarrassing predicament for a specific cohort of its early adopters. While many are immersing themselves in its advanced capabilities, AT&T subscribers are discovering a deeply frustrating reality: their cutting-edge device is failing at its most fundamental task — making and receiving calls.\n\nReports have rapidly accumulated detailing an intermittent yet critical inability for these premium handsets to establish a stable cellular connection. Essentially, these pocket-sized supercomputers are being rendered mute, transforming them into glorified Wi-Fi-only devices, a far cry from the always-connected promise of a modern smartphone. This isn't merely an inconvenience; it's a significant functional impairment for a product whose very name implies communication. Apple has since acknowledged the issue, pinpointing it as a complex interplay between software and carrier settings rather than a widespread hardware defect.\n\nIn a rapid move to address user distress, Apple has announced a comprehensive replacement program for all confirmed affected iPhone 18 Pro Max units operating on AT&T's network. While a forthcoming software and carrier settings update is slated to prevent future occurrences, current users grappling with \"no service\" messages or dropped calls will require a physical device swap. This decisive, albeit inconvenient, solution highlights the severity of the connectivity glitch and Apple's determination to maintain user trust, even as it forces customers to navigate the process of exchanging their newly purchased flagship.\n\nFor a device positioned at the apex of mobile technology, a failure of such basic utility is a potent reminder that even the most sophisticated innovations hinge on foundational reliability. Affected AT&T customers are advised to promptly contact Apple support or visit an authorized Apple Store to facilitate their device replacement. This glitch, while hopefully a temporary blip, offers a critical examination of Apple's post-launch incident response and its ongoing commitment to seamless user experience.",
     "keyTakeaways": [
-      "RatHat is a new AI-powered Android malware designed to steal sensitive financial information.",
-      "It can pilfer banking credentials, intercept two-factor authentication codes, and uniquely reconstruct your device's PIN from touch inputs.",
-      "Users should download apps only from official stores, review permissions, and keep their software updated to mitigate risk."
+      "iPhone 18 Pro Max users on AT&T are facing a critical issue preventing them from making or receiving calls.",
+      "Apple has confirmed the problem is software/carrier settings related and is offering free device replacements for affected devices.",
+      "A future software update is expected to prevent further occurrences, but current affected users need a physical phone swap."
     ],
-    "source": "Fox News",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-02 19:00",
+    "source": "CNET",
+    "author": "Jeff Carlson",
+    "publishedAt": "2026-10-02 22:37",
     "category": "Technology",
-    "image": "https://static.foxnews.com/foxnews.com/content/uploads/2026/09/android-motion-sickness-2.jpg",
-    "originalUrl": "https://www.foxnews.com/tech/android-malware-steal-pin-bank-logins",
+    "image": "https://www.cnet.com/wp-content/uploads/sites/2/IMG_0585.jpeg",
+    "originalUrl": "https://www.cnet.com/tech/mobile/iphone-18-pro-max-att-cant-make-call-free-replacement/",
     "tags": [
       "Technology",
-      "Android",
-      "malware"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-musrdohx-001",
-    "title": "Peeking Behind the Pixels: Unearthing the N64's Secret Weapon",
-    "summary": "A recently highlighted PARTNER-N64 PC development kit offers a rare glimpse into the intricate process of creating games for Nintendo's iconic 64-bit console. This specialized hardware, crafted by Kyoto Microcomputer, was essential for developers to build and refine the groundbreaking titles that defined a generation of gaming.",
-    "content": "The digital archaeologists at Behindthecode.ca have pulled back the curtain on a truly fascinating relic: the PARTNER-N64 PC development kit for the Nintendo 64. For fans and historians of gaming, this isn't just another piece of hardware; it's a window into the arcane secrets and meticulous craftsmanship that brought beloved classics like Super Mario 64 and The Legend of Zelda: Ocarina of Time to life.\n\nDeveloped by Kyoto Microcomputer (KMC) specifically for Nintendo, the PARTNER-N64 was essentially a souped-up PC interface that allowed developers to write, compile, and debug code for the N64’s unique architecture. In an era before ubiquitous internet updates and massive digital storage, this kit was the digital crucible where developers wrestled with the N64’s ambitious 3D capabilities and the inherent limitations of cartridge-based games. It provided the vital bridge between a programmer's ideas and the complex silicon of the console, streamlining a development process that was, by modern standards, incredibly challenging.\n\nIts recent showcase, complete with an in-depth video demo, offers a rare, hands-on look at the foundational tools that empowered a generation of game designers. This machine allowed studios to iterate rapidly, test game builds directly on hardware, and fine-tune every pixel and polygon before a game ever hit store shelves. Without such a robust and integrated system, the N64's legacy of innovative gameplay and immersive worlds might have been a very different story.\n\nUltimately, the PARTNER-N64 PC dev kit stands as a testament to the unsung heroes of game development and the crucial, often overlooked, technology that makes groundbreaking entertainment possible. It’s a powerful reminder that behind every legendary console lies a suite of equally legendary, albeit less glamorous, tools that forged its enduring impact.",
-    "keyTakeaways": [
-      "The PARTNER-N64 PC development kit was a crucial piece of hardware for creating games for the Nintendo 64.",
-      "Manufactured by Kyoto Microcomputer (KMC) for Nintendo, it served as a powerful interface for developers.",
-      "This dev kit enabled the writing, debugging, and testing of N64 game code, fundamentally shaping the console's iconic titles."
-    ],
-    "source": "Behindthecode.ca",
-    "author": "paulgerhardt",
-    "publishedAt": "2026-10-02 18:53",
-    "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://www.behindthecode.ca/partner-n64pc-dev-kit/",
-    "tags": [
-      "Technology",
-      "Nintendo",
-      "PartnerN"
+      "iPhone",
+      "Replace"
     ],
     "readingTime": "2 min"
   }
