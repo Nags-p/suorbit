@@ -1,185 +1,47 @@
 [
   {
-    "id": "article-tec-001",
-    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
-    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
-    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
+    "id": "article-tec-muwa06xu-000",
+    "title": "Your Forecast, Smarter: This ESP32 Display Only Wakes When You’re Near",
+    "summary": "A new ESP32-powered weather display is revolutionizing how we access daily forecasts by incorporating a millimeter-wave human presence radar.\nThis innovative feature ensures the screen activates only when someone is in its vicinity, dramatically reducing power consumption and offering a more intuitive user experience.",
+    "content": "In an era saturated with always-on screens, a new ESP32-based weather display is making waves by embracing a refreshingly intelligent approach: it only illuminates when you actually need it. Ditching the constant glow that plagues many smart devices, this ingenious gadget integrates a millimeter-wave human presence radar, a seemingly minor addition that ushers in a significant leap in efficiency and user interaction.\n\nCrafted around the versatile ESP32 microcontroller, the display isn't just about showing the time; it's a comprehensive portal to your local environment. It meticulously pulls real-time and upcoming forecast data from Open-Meteo, presenting everything from current temperatures to multi-day outlooks in a clear, digestible format. But its true brilliance lies beneath the surface, or rather, within its unique sensor.\n\nThe inclusion of a millimeter-wave radar is a game-changer. Instead of relying on passive infrared (PIR) sensors that can be prone to false positives or delays, this advanced radar precisely detects human presence, distinguishing between an empty room and someone approaching. The screen remains dormant, a sleek, dark rectangle, conserving precious power until its radar ‘sees’ a user. Only then does it spring to life, instantly displaying the requested weather information without a button press or voice command.\n\nThis thoughtful design isn't just about power savings, though that's a considerable benefit in a world striving for greener tech. It's about crafting a less intrusive, more context-aware device. Imagine a display that blends seamlessly into your home, never demanding attention until you walk by, offering a glimpse of the day ahead precisely when you're ready for it. It's a subtle but powerful shift towards smarter, more considerate technology.",
     "keyTakeaways": [
-      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
-      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
-      "Industry experts predict long-term changes to market dynamics."
+      "The ESP32 weather display uses a millimeter-wave human presence radar to activate its screen.",
+      "This innovative feature significantly reduces power consumption by keeping the display off when no one is nearby.",
+      "It provides a seamless and intuitive user experience, showing real-time and upcoming Open-Meteo forecasts only when detected."
     ],
-    "source": "TechPulse",
-    "author": "Sarah Jenkins",
-    "publishedAt": "2026-10-05 20:02",
+    "source": "XDA Developers",
+    "author": "Simon Batt",
+    "publishedAt": "2026-10-05 06:04",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-001",
+    "image": "https://static0.xdaimages.com/wordpress/wp-content/uploads/2026/10/weather-display-human-radar.jpg?w=1600&h=900&fit=crop",
+    "originalUrl": "https://www.xda-developers.com/this-esp32-weather-display-uses-a-human-presence-radar-to-light-the-screen-when-someones-close/",
     "tags": [
-      "AR",
-      "Hardware",
-      "Apple",
-      "SpatialComputing"
+      "Technology",
+      "weather",
+      "display"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-002",
-    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
-    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
-    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "id": "article-tec-muwa0cz8-001",
+    "title": "The Tablet Tug-of-War: When 'No Screens' Meets Homework",
+    "summary": "Parents are increasingly caught in a paradox: battling daily to limit children's recreational screen time while simultaneously being pressured by schools to embrace educational apps and tablets for learning. This creates significant cognitive dissonance and practical challenges as they navigate the blurry line between beneficial digital engagement and potentially harmful overuse. The article explores this modern parenting dilemma, highlighting the complexities of balancing academic needs with concerns over a screen-saturated childhood.",
+    "content": "For countless parents, the daily ritual of prying children away from glowing screens has become a modern parenting battleground. Whether it’s negotiating five more minutes of gaming or the incessant demand for another Netflix episode, the struggle against digital entertainment is real and exhausting. Yet, just as parents attempt to enforce boundaries, a new, equally pervasive force emerges from the education system: the imperative to embrace screens for learning.\n\nThis creates a peculiar cognitive dissonance. How does one preach the virtues of outdoor play and face-to-face interaction while simultaneously being urged to download the latest math app or ensure a child has a tablet for homework? Schools, keen to integrate digital literacy, prepare students for a tech-driven future, and leverage innovative teaching tools, often present educational apps and online platforms as non-negotiable components of modern schooling. Suddenly, the very device previously deemed a distraction transforms into an essential learning aid, blurring the lines between productive engagement and passive consumption in a way that’s incredibly difficult for parents to police consistently.\n\nThe pressure isn't just ideological; it's often practical and financial. Parents find themselves navigating app store subscriptions, ensuring devices are up-to-date, and troubleshooting Wi-Fi issues—all while attempting to explain why \"educational\" screen time is inherently different from \"recreational\" screen time. This evolving landscape leaves many feeling caught between a rock and a hard place: wanting to support their child's academic success and equip them with essential digital skills, yet deeply wary of contributing further to a screen-saturated childhood and the potential developmental drawbacks.\n\nAs our children hurtle towards tweenhood in an increasingly digital world, the challenge isn't simply about saying 'no' to screens. It’s a nuanced and often contradictory task for even the most tech-savvy parent, requiring constant discernment over *which* screens, *when*, and for *what purpose*—a battle far more complex than just setting a timer.",
     "keyTakeaways": [
-      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
-      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
-      "Industry experts predict long-term changes to market dynamics."
+      "Parents face a growing paradox: enforcing screen time limits for entertainment while simultaneously being pressured by schools to utilize screens for educational purposes.",
+      "The integration of educational apps and tablets into curricula creates cognitive dissonance for parents and introduces practical challenges, including financial strain and the difficulty of distinguishing between 'good' and 'bad' screen time.",
+      "Navigating the digital age requires parents to find a delicate balance between preparing children for a tech-driven future and mitigating concerns about excessive screen exposure and its potential impact on development."
     ],
-    "source": "Quantum Horizon",
-    "author": "Dr. Kenji Tanaka",
-    "publishedAt": "2026-10-05 16:02",
+    "source": "TheJournal.ie",
+    "author": "Niamh O'Reilly",
+    "publishedAt": "2026-10-05 06:00",
     "category": "Technology",
-    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "image": "https://img2.thejournal.ie/article/7179713/river/?height=400&version=7179729",
+    "originalUrl": "https://www.thejournal.ie/readme/parenting-with-apps-7179713-Oct2026/",
     "tags": [
-      "Quantum",
-      "Physics",
-      "Computing",
-      "Hardware"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-001",
-    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
-    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
-    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
-    "keyTakeaways": [
-      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
-      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "AI Chronicle",
-    "author": "Elena Rostov",
-    "publishedAt": "2026-10-05 12:02",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-001",
-    "tags": [
-      "GPT6",
-      "OpenAI",
-      "LLM",
-      "Reasoning"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-ai-002",
-    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
-    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
-    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
-    "keyTakeaways": [
-      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
-      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "DevTech Weekly",
-    "author": "Devin O'Connor",
-    "publishedAt": "2026-10-05 08:02",
-    "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-ai-002",
-    "tags": [
-      "AIAgents",
-      "Coding",
-      "SoftwareEngineering",
-      "LegacyCode"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-spa-001",
-    "title": "Latest developments in Space showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Space market.",
-    "content": "The global market for Space experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Space experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-05 04:02",
-    "category": "Space",
-    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-spa-001",
-    "tags": [
-      "Space",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sci-001",
-    "title": "Latest developments in Science showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Science market.",
-    "content": "The global market for Science experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Science experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-05 00:02",
-    "category": "Science",
-    "image": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sci-001",
-    "tags": [
-      "Science",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sta-001",
-    "title": "Latest developments in Startups showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Startups market.",
-    "content": "The global market for Startups experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Startups experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-04 20:02",
-    "category": "Startups",
-    "image": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-sta-001",
-    "tags": [
-      "Startups",
-      "Trends"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-bus-001",
-    "title": "Latest developments in Business showcase industrial shift",
-    "summary": "Analytical summary report detailing current trends and corporate shifts inside the global Business market.",
-    "content": "The global market for Business experienced major shifts this quarter. Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption. Experts indicate that these investments will redefine standard practices over the next 18 months, triggering structural consolidation.",
-    "keyTakeaways": [
-      "The global market for Business experienced major shifts this quarter",
-      "Leading teams announced partnerships, venture updates, and advanced hardware implementations aimed at capturing enterprise adoption",
-      "Industry experts predict long-term changes to market dynamics."
-    ],
-    "source": "SuOrbit Editorial",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-04 16:02",
-    "category": "Business",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://example.com/mock-news/article-bus-001",
-    "tags": [
-      "Business",
-      "Trends"
+      "Technology",
+      "screen",
+      "homework"
     ],
     "readingTime": "2 min"
   }
