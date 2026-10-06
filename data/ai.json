@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-ai-muvk16b3-003",
-    "title": "Elon Musk Crowns 'Super Intelligence': A Company Rebrand Looms",
-    "summary": "Elon Musk is fully embracing the term 'Super Intelligence' for advanced AI, moving beyond familiar acronyms like AGI. He's reportedly so committed to this vision that he intends to rename one of his companies accordingly, signaling a significant shift in his AI nomenclature and strategic focus.",
-    "content": "Elon Musk, never one to shy away from grand pronouncements or a good rebrand, is making headlines once again with his latest linguistic pivot in the world of artificial intelligence. The tech mogul has declared his full embrace of the term “Super Intelligence,” signaling a distinct shift from the more commonly used “AGI” (Artificial General Intelligence) or simply “AI.” What truly amplifies this commitment, however, is his intention to rename one of his companies to align with this new preferred terminology.\n\nWhile details remain scarce on which particular venture will bear the new moniker, speculation naturally gravitates towards his AI-focused endeavors like xAI or perhaps even a future, yet-unannounced project. This isn't just a rhetorical flourish; for Musk, the move underscores a profound philosophical leaning regarding the future of artificial intelligence. “Super Intelligence” implies a leap beyond merely human-level cognitive ability, suggesting a form of intellect that vastly surpasses our own in every conceivable way.\n\nThis terminology shift isn't merely semantic; it frames the conversation around AI's ultimate potential and its most profound implications. Musk has long voiced concerns about the existential risks of advanced AI, often framing his own projects as a necessary counterweight to ensure humanity's beneficial future. By adopting “Super Intelligence,” he effectively fast-forwards the narrative, pushing the industry to confront the very pinnacle of AI capability.\n\nWhether this rebrand marks a genuine strategic pivot or is another masterclass in brand building from the notoriously unpredictable tech mogul, it undeniably steers the conversation towards the outer limits of AI capability. It ensures that “Super Intelligence” will now be firmly cemented into the lexicon of cutting-edge technology, with one of Musk's ventures standing as a testament to this ambitious vision.",
+    "id": "article-ai-001",
+    "title": "GPT-6 Achieves Human-Level Reasoning in Formal Logic and Mathematics",
+    "summary": "OpenAI's latest model, GPT-6, has achieved scoring parity with university professors on advanced logic, chemistry, and physics benchmarks. The model incorporates a dynamic tree-of-thought search mechanism.",
+    "content": "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities. Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'. This method evaluates multiple reasoning trees, running internal verification steps before presenting answers. In standard testing, GPT-6 scored 98% on the Putnam Mathematical Competition problems, indicating a deep capability to formulate logic paths rather than just mimic patterns.",
     "keyTakeaways": [
-      "Elon Musk is fully endorsing 'Super Intelligence' as his preferred term for advanced AI, moving away from 'AGI'.",
-      "He plans to rename one of his companies to reflect this commitment, highlighting the term's significance to his vision.",
-      "This shift in terminology underscores a profound philosophical stance on AI's future, aiming beyond human-level intelligence."
+      "OpenAI has officially launched GPT-6, setting a new standard for artificial intelligence reasoning capabilities",
+      "Unlike its predecessors, which generated text token-by-token linearly, GPT-6 utilizes a reasoning architecture called 'LogicFlow'",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Gizmodo.com",
-    "author": "Mike Pearl",
-    "publishedAt": "2026-10-04 17:58",
+    "source": "AI Chronicle",
+    "author": "Elena Rostov",
+    "publishedAt": "2026-10-05 12:02",
     "category": "AI",
-    "image": "https://gizmodo.com/app/uploads/2025/03/Elon-Musk-Donald-Trump-March-22-2025-GettyImages-2206428974-copy-1200x675.jpg",
-    "originalUrl": "https://gizmodo.com/elon-musk-fully-surrenders-to-trump-on-super-intelligence-2000821314",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780efad99a?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-001",
     "tags": [
-      "AI",
-      "Surrenders",
-      "Intelligence"
+      "GPT6",
+      "OpenAI",
+      "LLM",
+      "Reasoning"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-ai-002",
+    "title": "Autonomous AI Software Engineers Take Over Monotonous Legacy Migration Tasks",
+    "summary": "Enterprises are deploying AI agents that can read, comprehend, refactor, and migrate legacy codebases from COBOL to TypeScript in a fraction of the time.",
+    "content": "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents. Companies are using platforms like DevOS and CodePilot to translate legacy systems directly. One Fortune 500 bank recently migrated their entire core banking system from COBOL to a modern microservices architecture in TypeScript over a single weekend. The AI agent identified dependencies, rewrote modules, added unit tests, and resolved compilation errors autonomously, completing a task estimated to cost $40M and take 5 years.",
+    "keyTakeaways": [
+      "Legacy software migrations, long considered the bane of enterprise IT, are being transformed by autonomous AI software development agents",
+      "Companies are using platforms like DevOS and CodePilot to translate legacy systems directly",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "DevTech Weekly",
+    "author": "Devin O'Connor",
+    "publishedAt": "2026-10-05 08:02",
+    "category": "AI",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-ai-002",
+    "tags": [
+      "AIAgents",
+      "Coding",
+      "SoftwareEngineering",
+      "LegacyCode"
     ],
     "readingTime": "2 min"
   }
