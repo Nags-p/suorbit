@@ -1,24 +1,49 @@
 [
   {
-    "id": "article-tec-mv19vq1n-001",
-    "title": "The Irony of Insecurity: Cybercriminals Betray Each Other, Expose Their Own Blunders",
-    "summary": "Recent reports highlight the pervasive lack of security and trust within the cybercriminal underworld, exposing a surprising level of internal strife and operational incompetence. From ransomware affiliates pocketing illicit gains to attackers leaving their own tools and traces vulnerable on exposed servers, these incidents reveal that even those who exploit security flaws are often plagued by them.",
-    "content": "In a surprising twist of irony, the shadowy world of cybercrime is proving to be as susceptible to internal strife and operational blunders as the legitimate organizations it targets. Recent intelligence paints a vivid picture of a landscape where trust is a commodity as scarce as ethical conduct, and even the most nefarious players are falling victim to their own glaring security lapses.\n\nTake, for instance, the emerging trend of ransomware affiliate betrayal. In a scene straight out of a mob movie, reports indicate a growing problem where affiliates, integral cogs in large-scale ransomware operations, are siphoning off profits for themselves. This internal fraud strikes at the very heart of the illicit business model, undermining the already fragile 'honor among thieves' and threatening the operational integrity of these criminal enterprises. For organizations on the defensive, such internal conflicts within hacker groups could hint at new vulnerabilities or shifts in their attack methodologies.\n\nThe incompetence doesn't stop at financial double-crossing. In a separate, yet equally telling incident, a sophisticated attacker inadvertently left a critical server completely exposed. This wasn't just a misconfigured database; it was a digital treasure trove of their own making, complete with the tools they used for intrusions and undeniable traces of their past activities. It’s a stark reminder that even those who routinely breach robust defenses can overlook basic operational security, leaving a breadcrumb trail that could offer invaluable insights to law enforcement and cybersecurity researchers.\n\nThese incidents collectively underscore a profound paradox: while cybercriminals tirelessly seek vulnerabilities in others, they often struggle with their own fundamental security protocols and internal ethics. It serves as a potent reminder that the human element, with all its flaws—greed, carelessness, and mistrust—remains the weakest link, whether you’re defending a corporate network or orchestrating a global cyberattack.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "Cybercriminal operations are plagued by internal trust issues and financial betrayal, undermining their own business models.",
-      "Even sophisticated attackers frequently commit basic operational security blunders, exposing their tools and activities.",
-      "The human element of greed and carelessness remains a critical vulnerability, even within the cybercrime underworld."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Internet",
-    "author": "info@thehackernews.com (The Hacker News)",
-    "publishedAt": "2026-10-08 17:58",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-10-09 19:06",
     "category": "Technology",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgR_DE5ORKWCpLgZgXBuH-MFmuqfxFNnkGQxremc0ffY4dopMHnx-2HvgZTMh48BvVr8k22lGaM__jTS83DuXnLpF4NC9u4bsQF-8_K34gZU0kJS_-10pUSL7WNxecJG0pCiHyNFiqxXEqWP7NqUK2-uvwzo8-ETqwZkPWdNOjhNn5S1Y0uFQX2HGBE5_5J/s1700-nu-rw-lo-l85-e365/t-day.jpg",
-    "originalUrl": "https://thehackernews.com/2026/10/threatsday-ransomware-affiliate.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "ThreatsDay",
-      "Ransomware"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
+    ],
+    "readingTime": "2 min"
+  },
+  {
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
+    "keyTakeaways": [
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
+    ],
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-10-09 15:06",
+    "category": "Technology",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
+    "tags": [
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
