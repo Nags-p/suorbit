@@ -1,70 +1,49 @@
 [
   {
-    "id": "article-tec-mv9jyub2-000",
-    "title": "Beyond the Scoreboard: MADD Sports Tapped for Anthem Award, Championing Safety Through Athletics",
-    "summary": "MADD Sports has been named a finalist in the 6th Annual Anthem Awards, recognized for its exceptional community engagement. The initiative leverages the influential power of athletes, coaches, and sports communities to inspire safer choices and ultimately save lives.",
-    "content": "In an era where the influence of sports extends far beyond the arena, MADD Sports is making waves, having been named a finalist in the prestigious 6th Annual Anthem Awards. This isn't just about trophies; it's a testament to their groundbreaking approach in harnessing the vibrant energy of athletic communities to foster safer, more responsible choices. The nod from the Anthem Awards, known for celebrating excellence in purpose and mission-driven work, shines a spotlight on an initiative that’s redefining community engagement.\n\nAt its core, MADD Sports isn't just another awareness campaign. It's a dynamic platform built on the premise that athletes, coaches, and the broader sports ecosystem possess a unique power to influence peers and fans. By tapping into this inherent credibility and leadership, the program actively works to instill life-saving messages about impaired driving and other critical safety choices. From youth leagues to professional organizations, MADD Sports provides resources and inspiration, turning role models on the field into champions for safety off it.\n\nTheir growing initiative stands out for its tangible impact. Imagine a star player speaking directly about responsible decisions, or a coach integrating crucial safety discussions into team talks. This direct, relatable engagement creates a ripple effect, inspiring younger generations and entire communities to make informed choices that prevent tragedies. It’s a smart, strategic move that understands the deep connection people have with their favorite sports figures, translating that admiration into meaningful behavioral change. This innovative strategy transcends traditional advocacy, embedding critical public health messaging within the fabric of sports culture itself.\n\nNow, the ball is in the public's court. As MADD Sports vies for an Anthem Community Voice Award, public voting is currently open until October 29th. This is an opportunity for anyone who believes in the power of sports for good to cast their vote and help elevate an initiative that's genuinely making a difference. Their recognition by the Anthem Awards underscores a powerful truth: when passion meets purpose, the potential for positive social change is limitless.",
+    "id": "article-tec-001",
+    "title": "Apple Unveils Neural Glasses: The Post-Smartphone Era Officially Begins",
+    "summary": "Apple has announced its long-rumored Neural Glasses, a AR wearable powered by a new localized Apple Silicon chip. Running on glassOS, the device overlays context-aware AI elements directly onto the user's field of view.",
+    "content": "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones. Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life. Early testers report that the spatial tracking is flawless and the contextual AI integration feels magic, showing maps, message details, and live translations contextually without blocking vision. Critics, however, raise concerns about privacy and social etiquette in public spaces.",
     "keyTakeaways": [
-      "MADD Sports has been named a finalist in the 6th Annual Anthem Awards for excellence in community engagement.",
-      "The initiative effectively leverages athletes, coaches, and sports communities to inspire safer choices and save lives.",
-      "Public voting is open until October 29th for the Anthem Community Voice Award, allowing the public to support MADD Sports."
+      "Apple today shocked the tech world by launching Neural Glasses, an ultra-lightweight augmented reality device that promises to untether users from their smartphones",
+      "Powered by the M6 chip, the glasses weigh only 75 grams and boast an 8-hour battery life",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "PRNewswire",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-14 13:05",
+    "source": "TechPulse",
+    "author": "Sarah Jenkins",
+    "publishedAt": "2026-10-15 14:05",
     "category": "Technology",
-    "image": "https://mmx.prnewswire.com/media/MS2012627/Mothers-Against-Drunk-Driving-Logo.jpg?id=OA3016955&p=facebook",
-    "originalUrl": "https://www.prnewswire.com/news-releases/madd-sports-named-finalist-in-the-6th-annual-anthem-awards-for-excellence-in-community-engagement-302908121.html",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-001",
     "tags": [
-      "Technology",
-      "Sports",
-      "Finalist"
+      "AR",
+      "Hardware",
+      "Apple",
+      "SpatialComputing"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mv9jz1ed-001",
-    "title": "Atlassian's Data Center Under Siege: Critical Flaw Actively Exploited",
-    "summary": "A critical arbitrary file access vulnerability, CVE-2026-21589, is actively being exploited across several Atlassian Data Center products. This high-severity flaw, scoring 9.3 on the CVSS, presents an immediate and significant risk to enterprise data and system integrity.",
-    "content": "A severe vulnerability (CVE-2026-21589) impacting multiple Atlassian Data Center products is currently under active exploitation, posing an immediate threat to organizations relying on these widely-used enterprise tools. This critical flaw, an arbitrary file access vulnerability [CWE-552] with a staggering CVSS score of 9.3, has been confirmed by security researchers and signals a perilous landscape for unpatched systems.\n\nThe vulnerability grants attackers the ability to access arbitrary files on the compromised server. For Atlassian's suite of products — including Jira Service Management Data Center, Jira Software Data Center, Confluence Data Center, Bitbucket Data Center, and Bamboo Data Center — this means a pathway to sensitive data exposure, system configuration manipulation, and potentially even full remote code execution. Given the critical role these platforms play in project management, collaboration, and code hosting for countless businesses, the implications are dire.\n\nWhat makes this particularly urgent is the \"actively exploited\" status, reinforced by an Exploit Prediction Scoring System (EPSS) percentile of 78, indicating a high probability that the flaw will be weaponized by threat actors. This isn't a theoretical risk; it's a present danger. Cybercriminals are actively leveraging this weakness to breach corporate networks, underscoring the need for rapid response.\n\nOrganizations utilizing any of the affected Atlassian Data Center products must prioritize patching immediately. Atlassian typically provides clear guidance and security advisories for such critical vulnerabilities. Ignoring this alert could leave sensitive intellectual property, operational data, and customer information vulnerable to theft or destruction. Proactive security measures, including applying all available updates and monitoring for suspicious activity, are paramount to defending against this pervasive threat.",
+    "id": "article-tec-002",
+    "title": "Quantum Computing Reaches 10,000 Logical Qubits in Landmark Breakthrough",
+    "summary": "Physicists have successfully demonstrated error-corrected computation on a 10,000 logical qubit processor, paving the way for commercial cryptanalysis and advanced molecular simulation within the decade.",
+    "content": "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits. By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records. This breakthrough moves quantum computing out of the experimental lab and into the realm of practical application, threatening RSA encryption and promising a revolution in pharmaceutical drug discovery.",
     "keyTakeaways": [
-      "CVE-2026-21589, a critical arbitrary file access vulnerability, is actively being exploited across several Atlassian Data Center products.",
-      "The flaw (CVSS 9.3, EPSS 78th pctl) allows attackers to read or write files, risking data breaches and potential remote code execution.",
-      "Organizations must immediately patch affected Jira, Confluence, Bitbucket, and Bamboo Data Center instances to mitigate the severe and active threat."
+      "A consortium of quantum physicists and computer scientists have achieved a historic milestone by demonstrating stable computation on a quantum computer featuring 10,000 logical qubits",
+      "By implementing advanced topological error-correction codes, the system maintained coherence for over three hours, a thousandfold increase over previous records",
+      "Industry experts predict long-term changes to market dynamics."
     ],
-    "source": "Greenbone.net",
-    "author": "Joseph Lee",
-    "publishedAt": "2026-10-14 13:04",
+    "source": "Quantum Horizon",
+    "author": "Dr. Kenji Tanaka",
+    "publishedAt": "2026-10-15 10:05",
     "category": "Technology",
-    "image": "https://www.greenbone.net/wp-content/uploads/EN_atlassian-data-center-actively-exploited-file-read.jpeg",
-    "originalUrl": "https://www.greenbone.net/en/blog/atlassian-data-center-vulnerability/",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://example.com/mock-news/article-tec-002",
     "tags": [
-      "Technology",
-      "GreenboneOS",
-      "Multiple"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mv9jzetg-002",
-    "title": "Starlink's Stealth Slowdown: Ukraine Accuses SpaceX of Crippling Critical Drone Missions",
-    "summary": "Ukrainian officials have accused SpaceX of secretly imposing speed restrictions on Starlink services, significantly disrupting military and combat drone operations. The unannounced limitations on \"military-grade\" terminals are reportedly forcing the cancellation of crucial missions, highlighting the complex role of civilian tech in wartime.",
-    "content": "Ukrainian officials are voicing sharp accusations against SpaceX, alleging that the satellite internet provider has quietly imposed new speed limitations on its Starlink services within the war-torn nation. This unexpected move, reportedly enacted without prior warning, is said to be severely disrupting crucial military and combat drone missions that have become increasingly reliant on the high-speed connectivity offered by Starlink terminals.\n\nThe unannounced throttling of service, specifically affecting what officials describe as \"military-grade\" Starlink terminals, has thrown a wrench into key operational plans. Reports suggest that logistics missions are facing significant hurdles, and some combat drone operations — vital for reconnaissance, targeting, and even direct engagement — have been forced into cancellation. In a conflict where technological superiority and real-time data are paramount, such restrictions could have profound strategic implications.\n\nWhile SpaceX has not publicly commented on these latest allegations, the situation highlights a recurring tension surrounding the use of civilian-grade technology in active conflict zones. Starlink, initially deployed to provide vital communications for defensive and humanitarian efforts, has proven invaluable. However, its increasingly sophisticated application for military purposes, particularly with high-speed drones, has previously prompted discussions about the company's policy on offensive weapon guidance and direct combat support, with SpaceX CEO Elon Musk stating intentions to prevent such uses. This alleged restriction appears to align with a more cautious approach to the technology's deployment.\n\nFor Ukraine, the sudden curtailment of a critical technological lifeline without notice poses a significant challenge, potentially forcing a rapid re-evaluation of their reliance on commercial satellite networks for sensitive operations. The incident underscores the complex ethical and operational dilemmas faced by private corporations whose innovations become indispensable tools in global conflicts.",
-    "keyTakeaways": [
-      "Ukrainian officials allege SpaceX imposed unannounced speed limitations on Starlink services for military use.",
-      "These restrictions are reportedly disrupting critical combat drone and logistics missions, forcing some operations to be canceled.",
-      "The incident underscores the challenges and tensions surrounding the use of commercial satellite technology in active war zones."
-    ],
-    "source": "Tom's Hardware UK",
-    "author": "Etiido Uko",
-    "publishedAt": "2026-10-14 13:04",
-    "category": "Technology",
-    "image": "https://cdn.mos.cms.futurecdn.net/fkdiGpuweaPpKhBGq6dtDL-2000-80.jpg",
-    "originalUrl": "https://www.tomshardware.com/tech-industry/drones/spacex-limits-starlink-service-for-ukraines-high-speed-military-drones-without-prior-warning-ukrainian-officials-say-limitation-significantly-complicates-logistics-and-drone-operations",
-    "tags": [
-      "Technology",
-      "SpaceX",
-      "limits"
+      "Quantum",
+      "Physics",
+      "Computing",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
