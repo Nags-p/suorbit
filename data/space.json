@@ -1,46 +1,24 @@
 [
   {
-    "id": "article-spa-mvejj12e-006",
-    "title": "Cosmic Oasis? Astronomers Pinpoint Super-Earth With Intriguing Atmosphere",
-    "summary": "New analysis of data from the distant exoplanet Kepler-174d suggests a potentially habitable \"super-Earth\" with an unexpectedly complex atmosphere. This revelation, including tentative hints of biosignatures, significantly energizes the global scientific quest for life beyond our solar system.",
-    "content": "The cosmic canvas continues to reveal its secrets, and the latest brushstroke has painted a truly compelling picture for the search for life beyond Earth. New analysis of data from a distant exoplanet, designated Kepler-174d, has sent ripples of excitement through the astrobiological community, suggesting a potentially habitable \"super-Earth\" with an unexpectedly complex atmosphere.\n\nInitially cataloged as just another rocky world orbiting a red dwarf star some 300 light-years away, a deeper dive into archival observations, combined with cutting-edge atmospheric modeling, has unveiled a trove of intriguing chemical signatures. Researchers, utilizing advanced spectroscopic techniques, detected not just water vapor – a promising start – but also tentative hints of gases that could be byproducts of biological processes, like an unusual concentration of oxygen and methane, in a state of disequilibrium. While far from a definitive confirmation of life, these findings are precisely what scientists hope to spot when hunting for biosignatures.\n\nThe planet, estimated to be about 1.8 times the size of Earth and nearly five times its mass, appears to reside comfortably within its star's habitable zone, where temperatures could allow for liquid water on its surface. What truly sets Kepler-174d apart is the proposed atmospheric activity, hinting at geological processes or, more tantalizingly, biological activity capable of sustaining such a dynamic chemical environment.\n\nThis revelation underscores the power of persistent data analysis and evolving observational capabilities. While the current findings are based on re-evaluating older telescope data, they provide a compelling target for the James Webb Space Telescope (JWST) and future next-generation instruments like the European Extremely Large Telescope (ELT). Confirming these atmospheric markers and further characterizing Kepler-174d will be a monumental task, but one that promises to push the boundaries of our understanding of alien worlds and our place in the universe. The hunt for life just got a whole lot more thrilling.",
+    "id": "article-spa-mveu2xjk-007",
+    "title": "Phobos First: Japan Ventures to Mars' Mysterious Moon for Origin Samples",
+    "summary": "Japan's aerospace agency is gearing up for a pioneering mission to retrieve samples from Phobos, one of Mars' enigmatic moons. This ambitious five-year endeavor aims to uncover critical insights into the moon's origins and the early solar system.",
+    "content": "Japan's aerospace prowess is once again set to capture the world's attention, as its space agency, JAXA, gears up for an audacious mission: the first-ever sample return from Phobos, one of Mars' two enigmatic moons. This pioneering five-year journey isn't just a technical marvel; it represents a bold leap into understanding the very origins of our solar system.\n\nPhobos, a diminutive, potato-shaped celestial body, has long been a cosmic mystery. Unlike Earth’s relatively large and geologically active moon, Phobos and its sibling Deimos are small, dark, and irregularly shaped, prompting scientists to debate their genesis. Are they captured asteroids, gravitationally snared by Mars? Or are they remnants, formed from debris ejected after a colossal impact on the Red Planet itself? The samples JAXA aims to retrieve could finally provide definitive answers to these enduring questions.\n\nExpected to launch in the coming years, this complex mission will involve navigating to Phobos, carefully landing on its rugged surface, collecting precious material, and then making the long voyage back to Earth. The scientific bounty from these Martian moon rocks could offer unprecedented insights not only into Phobos's formation but also into the early tumultuous history of Mars and the broader inner solar system. By studying the composition and characteristics of these ancient samples, researchers hope to piece together a clearer picture of planetary accretion and evolution.\n\nSuccess would solidify Japan’s position at the forefront of deep-space exploration and open new avenues for understanding the diverse celestial bodies within our cosmic neighborhood. It’s a testament to human ingenuity and our insatiable curiosity, pushing the boundaries of what's possible in the relentless quest to unravel the universe's grand narrative.",
     "keyTakeaways": [
-      "New analysis of exoplanet Kepler-174d suggests it's a \"super-Earth\" with a surprisingly complex atmosphere.",
-      "Researchers have identified tentative chemical signatures, including unusual oxygen and methane levels, that could indicate biological processes.",
-      "This discovery makes Kepler-174d a prime candidate for future detailed observations by advanced telescopes like JWST in the search for extraterrestrial life."
+      "Japan is launching the world's first mission to bring samples back from Phobos, one of Mars' two moons.",
+      "The five-year mission aims to resolve the enduring scientific mystery of Phobos's formation and origin.",
+      "Retrieving Phobos samples could unlock crucial data about the solar system's early history and Mars itself."
     ],
-    "source": "Sporting News",
-    "author": "David Suggs",
-    "publishedAt": "2026-10-18 00:48",
+    "source": "Business Standard",
+    "author": "AP",
+    "publishedAt": "2026-10-18 04:27",
     "category": "Space",
-    "image": "https://s.yimg.com/lo/mysterio/api/7578347a1f177cedc676c355c11a4ec035880fd151341fe4bd314d08709cf69d/lightyear_networkapi/resizefill_w1200_h675%3Bquality_80%3Bformat_webp/https%3A%2F%2Fmedia.zenfs.com%2Fen%2Fthe_sporting_news_articles_584%2Fedec2bf8427e3bc8b74e93014e7bf665",
-    "originalUrl": "https://www.sportingnews.com/us/ncaa-football/news/steve-sarkisian-arch-manning-revelation-texas-florida/24f7b343ef714cf3d07cf498",
+    "image": "https://bsmedia.business-standard.com/_media/bs/img/article/2024-01/10/thumb/featurecrop/1200X628/1704910198-7646.jpg",
+    "originalUrl": "https://www.business-standard.com/world-news/japan-to-launch-spacecraft-on-a-mission-to-get-samples-from-a-martian-moon-126101800082_1.html",
     "tags": [
       "Space",
-      "Sarkisian",
-      "Manning"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-spa-mvejjnhs-008",
-    "title": "Unlocking the AI's Playbook: New Tool Lets You Peek Inside Rocket League Bots' Brains",
-    "summary": "A groundbreaking new PyTorch library, `cds-interpret`, promises unprecedented insight into the complex decision-making of Rocket League AI bots. This innovative tool offers real-time visualization and deep analytical features, moving us closer to truly explainable artificial intelligence.",
-    "content": "The opaque world of artificial intelligence just got a little more transparent, at least for fans of high-flying vehicular soccer. A new open-source library, `cds-interpret 0.1.0`, has emerged from the depths of PyPI, promising an unprecedented look *inside* the digital minds of PyTorch-powered Rocket League bots. This isn't just about debugging; it's about genuine understanding.\n\nFor years, even the creators of complex AI models have struggled to articulate exactly *why* their creations make specific choices. `cds-interpret` aims to dismantle this \"black box\" problem with a suite of sophisticated tools. It introduces concept labels, allowing researchers to tag and track high-level ideas the AI might be processing, alongside robust probes that can extract detailed information at various layers of the neural network. Furthermore, sparse-autoencoder features and causal tests offer novel ways to pinpoint exactly which internal representations and inputs are driving the bot's actions, providing a much clearer picture of its internal logic.\n\nPerhaps the most compelling feature is the \"live in-game thoughts overlay.\" Imagine watching a Rocket League bot execute a perfect aerial shot, while simultaneously seeing its \"thought process\" rendered directly on screen. This real-time visualization transforms abstract data into actionable insight, making the AI’s moment-to-moment decision-making visible to the human eye. This capability is not just a neat trick; it’s a powerful step forward for the burgeoning field of Explainable AI (XAI).\n\nThe implications of `cds-interpret` stretch far beyond the virtual pitch. While its initial application focuses on Rocket League, the principles of deep AI introspection it embodies are critical for any complex AI system. Researchers can use it to refine models, game developers can build more engaging and fair AI opponents, and competitive players might even gain an edge by understanding opponent AI patterns. Ultimately, `cds-interpret` offers a glimpse into a future where AI isn't just intelligent, but also inherently understandable, fostering greater trust and control over our most advanced technologies.",
-    "keyTakeaways": [
-      "The `cds-interpret` 0.1.0 library provides deep introspection into PyTorch-based Rocket League AI bots.",
-      "It features concept labeling, robust probes, sparse-autoencoder analysis, causal testing, and a unique real-time in-game \"thoughts\" overlay.",
-      "This tool represents a significant advancement for Explainable AI (XAI), making complex AI decisions more transparent for researchers, developers, and enthusiasts."
-    ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-18 00:24",
-    "category": "Space",
-    "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/cds-interpret/0.1.0/",
-    "tags": [
-      "Space",
-      "cdsinterpret"
+      "launch",
+      "spacecraft"
     ],
     "readingTime": "2 min"
   }
