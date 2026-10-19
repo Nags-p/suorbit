@@ -1,116 +1,46 @@
 [
   {
-    "id": "article-ai-mvfmi9re-003",
-    "title": "Tehran Sounds Alarm: Iran Warns Region Against Funding 'War-AI' Firms",
-    "summary": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf has issued a stark warning to regional governments and businesses against financially supporting artificial intelligence and data firms tied to military operations. This move signals a growing apprehension in the Middle East regarding the ethical implications and potential for an AI arms race driven by private sector innovation.",
-    "content": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf has issued a pointed warning, urging regional governments and businesses to steer clear of financially backing artificial intelligence (AI) and data companies that are entangled in military operations. This isn't just a casual remark; it's a significant statement from a key political figure, underscoring Tehran's growing concern over the burgeoning intersection of advanced technology and warfare within an already volatile region.\n\nGhalibaf’s admonition highlights a critical geopolitical anxiety: the rapid development and deployment of AI in military contexts. The concern isn't merely about data privacy or corporate ethics in a general sense, but specifically about the weaponization of intelligent systems. This warning targets entities — both state-backed and private — that might contribute to an AI-driven arms race, potentially destabilizing the Middle East further and introducing unpredictable elements into future conflicts. For many, the idea of autonomous weapons making battlefield decisions without human intervention raises profound ethical questions that transcend national borders.\n\nThe call from Tehran suggests a proactive stance to preempt what Iran views as a dangerous trend, urging regional actors to exercise caution. It implies that funding these dual-use technologies, even with ostensibly civilian applications, carries the inherent risk of military diversion. This position aligns, in part, with a broader international dialogue among ethicists, technologists, and policymakers worldwide who are grappling with the governance and control of AI in warfare. As investment pours into AI globally, Ghalibaf’s statement serves as a stark reminder that in geopolitically sensitive areas, every byte of data and every algorithmic advance can carry profound security implications, urging a more responsible approach to technological patronage.\n\nUltimately, Ghalibaf's warning transcends simple economic advice, positioning itself as a cautionary tale for regional stability. It’s a call for discernment in a landscape where technological progress outpaces ethical frameworks, reminding stakeholders that unchecked innovation, particularly in military AI, could have devastating and unintended consequences across the Middle East.",
+    "id": "article-ai-mvfvqdrn-005",
+    "title": "Reclaiming Prompt Control: prompt-pivot Offers Lean LLM Management",
+    "summary": "A new tool, prompt-pivot, has landed on PyPI, promising to revolutionize how developers manage Large Language Model prompts. It enables seamless storage, versioning, editing, and publishing of prompts directly within FastAPI applications, leveraging existing PostgreSQL or MySQL databases without additional infrastructure.",
+    "content": "The burgeoning world of Large Language Models (LLMs) brings incredible power, but often, it also introduces a silent workflow headache: prompt management. Developers frequently grapple with hardcoding prompts, wrestling with version control systems not built for dynamic text, and enduring cumbersome deployment cycles just to tweak a few words. This often leads to fragmented prompt strategies, inconsistent user experiences, and a slow iteration pace.\n\nEnter `prompt-pivot`, a new open-source library that just landed on PyPI, aiming to inject much-needed sanity into the LLM development lifecycle. This ingenious tool offers a refreshingly direct approach: it allows developers to store, version, edit, and publish their LLM prompts *at runtime* from inside their FastAPI applications. Imagine the agility – no more redeploying an entire service just to fine-tune a prompt's nuance.\n\nWhat truly sets `prompt-pivot` apart is its minimalist philosophy. Unlike other solutions that demand dedicated servers, third-party cloud integrations, or complex background workers, `prompt-pivot` simply plugs into your existing FastAPI application and utilizes the PostgreSQL or MySQL database you already have. This \"no extra baggage\" approach translates directly into reduced operational overhead, lower costs, and enhanced security, as your sensitive prompt data remains within your controlled environment.\n\nThis means developers can rapidly iterate on prompt designs, A/B test different phrasings in real-time, and ensure consistent prompt delivery across various application features without ever leaving their existing stack. For teams building sophisticated LLM-powered applications, `prompt-pivot` isn't just a convenience; it's a strategic advantage, streamlining workflows and accelerating innovation. Its availability on PyPI makes it readily accessible, signaling a welcome shift towards more efficient and integrated LLM development practices.",
     "keyTakeaways": [
-      "Iran's Parliament Speaker warns regional governments and businesses against supporting AI and data firms involved in military operations.",
-      "The warning reflects Iran's deep concern over the weaponization of AI and its potential to destabilize the Middle East through an arms race.",
-      "This move adds a significant regional voice to the global debate surrounding the ethical governance and military applications of artificial intelligence."
+      "prompt-pivot simplifies LLM prompt management by integrating directly into FastAPI applications.",
+      "It allows real-time storage, versioning, editing, and publishing of prompts using existing PostgreSQL or MySQL databases.",
+      "The tool boasts a lean architecture, requiring no additional servers, vendor cloud, or background workers, reducing operational overhead."
     ],
-    "source": "Biztoc.com",
-    "author": "breakingthenews.net",
-    "publishedAt": "2026-10-18 19:02",
+    "source": "Pypi.org",
+    "author": "Staff Writer",
+    "publishedAt": "2026-10-18 23:20",
     "category": "AI",
-    "image": "https://biztoc.com/cdn/4398c9ba8d78cb9a_s.webp",
-    "originalUrl": "https://biztoc.com/x/4398c9ba8d78cb9a",
+    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
+    "originalUrl": "https://pypi.org/project/prompt-pivot/",
     "tags": [
       "AI",
-      "region",
-      "against"
+      "promptpivot"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-spa-mvfmj78r-006",
-    "title": "Ukraine Accuses SpaceX: Starlink Throttling for Military Use Is 'Deliberate Operation'",
-    "summary": "Ukrainian President Volodymyr Zelenskyy has publicly accused SpaceX of deliberately restricting Starlink's satellite internet service for military use within Ukraine, asserting these slowdowns are not technical failures. This claim follows tests showing Starlink vehicles operated normally outside Ukrainian territory, leading Kyiv to conclude the limitations are intentional.",
-    "content": "The digital battlefield in Ukraine just got another layer of complexity, as President Volodymyr Zelenskyy has leveled a serious accusation against SpaceX. According to Kyiv, the recent, debilitating slowdowns of Starlink satellite internet for military operations across Ukraine aren't technical glitches, but rather a calculated, deliberate throttling by the company.\n\nThis isn't mere speculation. Ukrainian officials reportedly conducted extensive speed checks using vehicles equipped with Starshield terminals – the government-grade version of Starlink – sending them across Europe. The crucial finding: these systems operated normally and at full capacity outside Ukraine's borders. \"Restrictions are on the territory of Ukraine — so it is a planned operation,\" Zelenskyy stated, leaving little room for ambiguity regarding his government’s conclusion.\n\nThe Starlink network, provided by Elon Musk's SpaceX, has been a lifeline for Ukraine's military since the early days of the full-scale invasion, enabling crucial communications, drone operations, and intelligence gathering. Any intentional degradation of this service poses a significant strategic challenge, potentially hamstringing critical defense capabilities at a time when they are most needed. The accusation reignites past controversies surrounding Musk's sometimes erratic control over the vital satellite network, including previous reports of his refusal to activate Starlink in certain regions or for specific offensive uses.\n\nZelenskyy’s outspoken denouncement points to a deepening rift and raises uncomfortable questions about the extent of private corporate influence on geopolitical conflicts. If proven true, the deliberate restriction of a critical communication backbone could represent a profound shift in the dynamics of modern warfare, forcing nations to reconsider their reliance on privately-owned infrastructure during times of crisis. The world now awaits SpaceX's response to these grave allegations.",
+    "id": "article-tec-mvfvp2tj-000",
+    "title": "Cold Storage Heats Up: Ledger's $90 Million Breach Rocks Crypto Security Faith",
+    "summary": "Leading cryptocurrency hardware wallet provider, Ledger, is investigating a staggering $90 million hack, shattering the long-held belief in the invulnerability of cold storage solutions. This major incident forces a critical re-evaluation of security protocols for digital assets, impacting user trust across the entire crypto ecosystem.",
+    "content": "For years, cryptocurrency hardware wallets have been championed as the ironclad vaults of the digital asset world. The promise: impenetrable cold storage, impervious to the online threats plaguing software wallets and exchanges. Then came last week’s bombshell: Ledger, a titan in the hardware wallet space, confirmed it was investigating a massive hack that reportedly siphoned an astounding $90 million from its devices. This wasn't a phishing scam targeting individual users, but a breach striking at the very heart of what was considered the safest haven for crypto.\n\nHardware wallets like Ledger derive their security from isolating private keys offline. They function like secure USB drives, requiring physical interaction to approve transactions, theoretically making them immune to remote attacks. This fundamental design principle has instilled a deep sense of trust among crypto holders looking to secure significant assets. The recent breach, however, shatters that illusion, transforming what was once seen as an unassailable fortress into yet another potential entry point for sophisticated attackers.\n\nThe implications are profound. With $90 million allegedly drained, the incident sends a chilling message across the entire cryptocurrency ecosystem. It forces a stark re-evaluation of security protocols and the inherent vulnerabilities, even in solutions designed specifically to mitigate risk. Ledger is currently investigating, but the sheer scale of the theft has ignited widespread panic and a renewed sense of vigilance among users who now question the bedrock principles of cold storage. This isn't just about a financial loss; it's a significant erosion of confidence.\n\nAs the crypto world grapples with this unsettling development, one thing is clear: the notion of 'unhackable' security is a myth that needs to be permanently retired. Whether through supply chain compromise, firmware vulnerabilities, or some as-yet-undisclosed exploit, this incident underscores that no system, however robust, is entirely immune. For crypto enthusiasts, the message is stark: perpetual vigilance and a healthy skepticism remain your most powerful defenses, even against the guardians themselves.",
     "keyTakeaways": [
-      "Ukrainian President Zelenskyy alleges that Starlink's speed restrictions for military use in Ukraine are deliberate, not technical issues.",
-      "Evidence for this claim comes from tests showing Starlink-equipped vehicles operating normally outside Ukraine's borders.",
-      "The accusation raises critical questions about private corporate control over essential wartime infrastructure and its impact on military operations."
+      "Ledger, a leading hardware wallet provider, is investigating a $90 million hack, challenging the perceived security of cold storage.",
+      "The incident reveals that even advanced hardware solutions designed for offline key isolation are susceptible to sophisticated breaches.",
+      "This significant security lapse demands a re-evaluation of crypto security practices and underscores the ongoing need for vigilance in the digital asset space."
     ],
-    "source": "The Times of India",
-    "author": "Bloomberg",
-    "publishedAt": "2026-10-18 19:01",
-    "category": "Space",
-    "image": "https://img.etimg.com/thumb/msid-135034523,width-1200,height-900,imgsize-99656,overlay-economictimes/articleshow.jpg",
-    "originalUrl": "https://economictimes.indiatimes.com/news/international/world-news/starlink-speed-restrictions-seem-deliberate-volodymyr-zelenskyy/articleshow/135034524.cms",
-    "tags": [
-      "Space",
-      "Starlink",
-      "restrictions"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mvfmh0gt-000",
-    "title": "NVIDIA's Vera CPU: How Agentic AI is Forcing a Radical Rethink of Chip Design",
-    "summary": "NVIDIA's upcoming Vera CPU is poised to fundamentally redefine computing architecture, shifting from traditional task processing to an orchestrated 'agentic intelligence' ecosystem. This dramatic pivot, driven by the demands of advanced AI, necessitates a reversal of prior chiplet strategies that prioritized core counts over critical single-threaded performance.",
-    "content": "A seismic shift is underway in the very foundations of computing, and at its epicenter lies NVIDIA's forthcoming Vera CPU. This isn't just another incremental upgrade; it heralds a complete redefinition of architectural philosophy, moving computing away from a traditional, task-isolated paradigm into what NVIDIA's Vera team describes as an 'orchestrated, agentic intelligence ecosystem.' In essence, the central processing unit's venerable role as a general-purpose multitasker is being fundamentally reshaped to meet the voracious demands of AI.\n\nFor years, chip design trends, particularly with the advent of chiplets, leaned heavily into maximizing core counts. This strategy, while boosting raw parallel processing power, often came at the cost of single-threaded performance – a sacrifice deemed acceptable for a broad range of workloads. The prevailing wisdom was 'more cores, more power,' pushing CPUs towards handling a multitude of disparate tasks rather than excelling at intensely focused, sequential computations.\n\nHowever, the rapid ascent of agentic AI has thrown a wrench into this established trajectory. These intelligent agents, designed to operate autonomously and make decisions in complex environments, require more than just a high core count. They demand exceptional single-threaded performance for critical decision-making processes, efficient coordination across diverse computational units, and a holistic, integrated approach to processing. The agentic AI revolution, it turns out, is not just pushing the limits of GPUs but is now compelling a strategic reversal in how CPUs themselves are conceived and engineered.\n\nNVIDIA's Vera CPU is emerging as a direct response to this call, signifying a conscious pivot back towards optimizing for quality of execution rather than sheer quantity of cores in certain critical areas. This architectural evolution underscores a critical insight: for true artificial general intelligence to flourish, the underlying hardware must transcend mere number-crunching and become an agile, intelligently orchestrated brain, capable of dynamically allocating its resources to foster a truly 'agentic' future.",
-    "keyTakeaways": [
-      "NVIDIA's Vera CPU signifies a fundamental shift from traditional task-isolated computing to an 'agentic intelligence ecosystem.'",
-      "The rise of agentic AI is compelling a reversal in chip design, moving away from prioritizing core counts over single-threaded performance.",
-      "The new architecture aims to provide exceptional single-threaded performance and efficient coordination, crucial for advanced AI decision-making."
-    ],
-    "source": "Wccftech",
-    "author": "Rohail Saleem",
-    "publishedAt": "2026-10-18 19:00",
+    "source": "pymnts.com",
+    "author": "PYMNTS",
+    "publishedAt": "2026-10-18 23:15",
     "category": "Technology",
-    "image": "https://cdn.wccftech.com/wp-content/uploads/2026/05/NVIDIA-Vera-CPUs-1920x1078.jpg",
-    "originalUrl": "https://wccftech.com/exclusive-nvidia-vera-team-says-chiplet-designs-sacrificed-single-threaded-performance-for-core-counts-and-agentic-ai-is-now-forcing-a-reversal/",
+    "image": "https://www.pymnts.com/wp-content/uploads/2026/10/Ledger-crypto-wallet-1.jpg",
+    "originalUrl": "https://www.pymnts.com/cryptocurrency/2026/crypto-hardware-wallets-become-new-entry-point-for-hackers/",
     "tags": [
       "Technology",
-      "Exclusive",
-      "NVIDIAs"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-sta-mvfmlefo-012",
-    "title": "Forging the Future: Bronner Bros. Awards Celebrate Black Beauty's Next Wave of Innovators",
-    "summary": "The 2nd Annual Bronner Bros. 'Midnight Bloom' Beauty Icon Awards recently celebrated a vibrant class of Black entrepreneurs, artists, and innovators who are not only reshaping the multi-billion dollar beauty industry but also inspiring the next generation. The event highlighted trailblazers like Olamide Olowe, who defied skepticism to secure significant funding, alongside initiatives such as Spelman College's Cosmetic Science Program, which is actively cultivating future leaders.",
-    "content": "The dazzling lights of the 2nd Annual Bronner Bros. 'Midnight Bloom' Beauty Icon Awards recently illuminated a significant moment in the beauty industry: the unequivocal recognition of Black entrepreneurs, innovators, and artists who are not just participating in, but actively redefining its landscape. More than just a gala, this event served as a powerful testament to the resilience, creativity, and economic might of Black-led ventures, celebrating both established royalty and the audacious new guard poised to take the reins. It underscores a crucial shift where heritage meets innovation, forging a path towards an inclusive and forward-thinking beauty future.\n\nAt the heart of this celebration were figures like Olamide Olowe, a young entrepreneur whose journey embodies the spirit of breaking barriers. Despite facing age and gender skepticism—common hurdles in the traditionally entrenched beauty and venture capital spheres—Olowe has successfully secured pivotal funding for her ventures. Her story isn't an anomaly; it's emblematic of a burgeoning movement where Black founders are leveraging ingenuity and grit to disrupt existing paradigms, introduce novel products, and capture market share in an industry increasingly responsive to authentic representation and diverse needs.\n\nCrucially, the awards also cast a spotlight on the infrastructure supporting this burgeoning ecosystem. Initiatives like Spelman College's innovative Cosmetic Science Program are proving instrumental in empowering the next generation of Black leaders. By equipping students with rigorous scientific knowledge alongside an entrepreneurial mindset, these programs are cultivating a pipeline of talent ready to innovate, develop, and lead. It’s a strategic investment in intellectual capital, ensuring that the future of beauty is not only diverse in its products but also in the brilliant minds behind their creation.\n\nWhat emerged from the 'Midnight Bloom' celebration was a clear message: Black beauty is a formidable economic force, rich in innovation and primed for exponential growth. The Bronner Bros. awards, in their second year, are fast becoming a vital platform for validation, networking, and inspiration, cementing the legacy of those who have paved the way while energizing a new cohort of disruptors. This ongoing evolution promises not just new products, but a fundamentally more equitable and dynamic global beauty industry.",
-    "keyTakeaways": [
-      "The Bronner Bros. 'Midnight Bloom' Awards serve as a crucial platform for recognizing and validating Black excellence and innovation in the beauty industry.",
-      "Young Black entrepreneurs, like Olamide Olowe, are successfully breaking barriers and securing funding, driving significant disruption and growth.",
-      "Academic programs, such as Spelman College's Cosmetic Science Program, are actively nurturing the next generation of Black leaders and innovators, ensuring a future pipeline of talent."
-    ],
-    "source": "Bossip",
-    "author": "Lauryn Bass",
-    "publishedAt": "2026-10-18 18:53",
-    "category": "Startups",
-    "image": "https://bossip.com/wp-content/uploads/sites/28/2026/10/17923403822422.jpg?quality=80&strip=all&crop=0px%2C31px%2C697px%2C399px&resize=1680%2C960",
-    "originalUrl": "https://bossip.com/4645182/bronner-bros-midnight-bloom-beauty-icon-awards/",
-    "tags": [
-      "Startups",
-      "Beauty",
-      "Royalty"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mvfmhubt-002",
-    "title": "When Surveillance Tech Gets Personal: Savannah Cop Fired Over Unauthorized ICE Access",
-    "summary": "A Savannah, Georgia, police officer was terminated for providing her Flock Safety license plate reader login credentials to her husband, an ICE agent, who subsequently conducted hundreds of unauthorized vehicle searches. This incident highlights critical data privacy concerns and the risks inherent in unchecked access to powerful surveillance technologies, especially when city policy explicitly forbids such sharing.",
-    "content": "In a stark reminder of the delicate balance between public safety and personal privacy, a Savannah, Georgia, police officer has been terminated for a serious breach involving advanced surveillance technology.\n\nThe officer, whose name has not been publicly released, was fired after it was discovered she had provided her login credentials for Flock Safety's automated license plate reader (ALPR) system to her husband, an agent with Immigration and Customs Enforcement (ICE). He then reportedly used this access to conduct hundreds of unauthorized license plate searches.\n\nFlock Safety’s ALPRs are increasingly ubiquitous in cities across the U.S., designed to help law enforcement identify stolen vehicles or suspects in criminal investigations by capturing and storing images of every passing license plate. The vast databases generated by these systems raise significant questions about data governance, who has access, and for what purpose.\n\nWhat makes this incident particularly thorny is the context of local policy. While Georgia state law might appear to permit local police departments to share ALPR data with federal agencies like ICE, the City of Savannah had explicitly *not* entered into such an agreement. This means the officer's act of sharing her login, and her husband's subsequent use of it, constituted a clear violation of city protocol and an unauthorized backdoor into sensitive citizen data.\n\nThis isn't merely an internal disciplinary matter; it's a critical spotlight on the vulnerabilities of powerful surveillance tools and the potential for misuse when proper safeguards are bypassed. The hundreds of unauthorized searches represent a significant breach of trust for Savannah residents, raising alarms about accountability and data integrity. Furthermore, the involvement of an ICE agent, an agency often at the center of immigration debates, amplifies concerns about the potential for such data to be used for purposes beyond initial community safety objectives. This incident underscores the urgent need for robust oversight and clear, enforceable policies governing access to and use of ALPR data.",
-    "keyTakeaways": [
-      "A Savannah police officer was fired for allowing her ICE agent husband unauthorized access to the city's Flock Safety license plate reader system.",
-      "The incident exposed a critical breach of city protocol, as Savannah had no agreement to share ALPR data with federal immigration authorities despite state law ambiguities.",
-      "This case underscores the severe privacy implications and governance challenges posed by the widespread deployment of powerful surveillance technologies like ALPRs when access is not rigorously controlled."
-    ],
-    "source": "Gizmodo.com",
-    "author": "Kyle Torpey",
-    "publishedAt": "2026-10-18 18:06",
-    "category": "Technology",
-    "image": "https://gizmodo.com/app/uploads/2026/07/flock-camera-shutterstock-1200x675.jpg",
-    "originalUrl": "https://gizmodo.com/cop-fired-for-letting-her-ice-agent-husband-use-her-flock-login-2000827428",
-    "tags": [
-      "Technology",
-      "Letting",
-      "Husband"
+      "Crypto",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }

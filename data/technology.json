@@ -1,47 +1,24 @@
 [
   {
-    "id": "article-tec-mvfmh0gt-000",
-    "title": "NVIDIA's Vera CPU: How Agentic AI is Forcing a Radical Rethink of Chip Design",
-    "summary": "NVIDIA's upcoming Vera CPU is poised to fundamentally redefine computing architecture, shifting from traditional task processing to an orchestrated 'agentic intelligence' ecosystem. This dramatic pivot, driven by the demands of advanced AI, necessitates a reversal of prior chiplet strategies that prioritized core counts over critical single-threaded performance.",
-    "content": "A seismic shift is underway in the very foundations of computing, and at its epicenter lies NVIDIA's forthcoming Vera CPU. This isn't just another incremental upgrade; it heralds a complete redefinition of architectural philosophy, moving computing away from a traditional, task-isolated paradigm into what NVIDIA's Vera team describes as an 'orchestrated, agentic intelligence ecosystem.' In essence, the central processing unit's venerable role as a general-purpose multitasker is being fundamentally reshaped to meet the voracious demands of AI.\n\nFor years, chip design trends, particularly with the advent of chiplets, leaned heavily into maximizing core counts. This strategy, while boosting raw parallel processing power, often came at the cost of single-threaded performance – a sacrifice deemed acceptable for a broad range of workloads. The prevailing wisdom was 'more cores, more power,' pushing CPUs towards handling a multitude of disparate tasks rather than excelling at intensely focused, sequential computations.\n\nHowever, the rapid ascent of agentic AI has thrown a wrench into this established trajectory. These intelligent agents, designed to operate autonomously and make decisions in complex environments, require more than just a high core count. They demand exceptional single-threaded performance for critical decision-making processes, efficient coordination across diverse computational units, and a holistic, integrated approach to processing. The agentic AI revolution, it turns out, is not just pushing the limits of GPUs but is now compelling a strategic reversal in how CPUs themselves are conceived and engineered.\n\nNVIDIA's Vera CPU is emerging as a direct response to this call, signifying a conscious pivot back towards optimizing for quality of execution rather than sheer quantity of cores in certain critical areas. This architectural evolution underscores a critical insight: for true artificial general intelligence to flourish, the underlying hardware must transcend mere number-crunching and become an agile, intelligently orchestrated brain, capable of dynamically allocating its resources to foster a truly 'agentic' future.",
+    "id": "article-tec-mvfvp2tj-000",
+    "title": "Cold Storage Heats Up: Ledger's $90 Million Breach Rocks Crypto Security Faith",
+    "summary": "Leading cryptocurrency hardware wallet provider, Ledger, is investigating a staggering $90 million hack, shattering the long-held belief in the invulnerability of cold storage solutions. This major incident forces a critical re-evaluation of security protocols for digital assets, impacting user trust across the entire crypto ecosystem.",
+    "content": "For years, cryptocurrency hardware wallets have been championed as the ironclad vaults of the digital asset world. The promise: impenetrable cold storage, impervious to the online threats plaguing software wallets and exchanges. Then came last week’s bombshell: Ledger, a titan in the hardware wallet space, confirmed it was investigating a massive hack that reportedly siphoned an astounding $90 million from its devices. This wasn't a phishing scam targeting individual users, but a breach striking at the very heart of what was considered the safest haven for crypto.\n\nHardware wallets like Ledger derive their security from isolating private keys offline. They function like secure USB drives, requiring physical interaction to approve transactions, theoretically making them immune to remote attacks. This fundamental design principle has instilled a deep sense of trust among crypto holders looking to secure significant assets. The recent breach, however, shatters that illusion, transforming what was once seen as an unassailable fortress into yet another potential entry point for sophisticated attackers.\n\nThe implications are profound. With $90 million allegedly drained, the incident sends a chilling message across the entire cryptocurrency ecosystem. It forces a stark re-evaluation of security protocols and the inherent vulnerabilities, even in solutions designed specifically to mitigate risk. Ledger is currently investigating, but the sheer scale of the theft has ignited widespread panic and a renewed sense of vigilance among users who now question the bedrock principles of cold storage. This isn't just about a financial loss; it's a significant erosion of confidence.\n\nAs the crypto world grapples with this unsettling development, one thing is clear: the notion of 'unhackable' security is a myth that needs to be permanently retired. Whether through supply chain compromise, firmware vulnerabilities, or some as-yet-undisclosed exploit, this incident underscores that no system, however robust, is entirely immune. For crypto enthusiasts, the message is stark: perpetual vigilance and a healthy skepticism remain your most powerful defenses, even against the guardians themselves.",
     "keyTakeaways": [
-      "NVIDIA's Vera CPU signifies a fundamental shift from traditional task-isolated computing to an 'agentic intelligence ecosystem.'",
-      "The rise of agentic AI is compelling a reversal in chip design, moving away from prioritizing core counts over single-threaded performance.",
-      "The new architecture aims to provide exceptional single-threaded performance and efficient coordination, crucial for advanced AI decision-making."
+      "Ledger, a leading hardware wallet provider, is investigating a $90 million hack, challenging the perceived security of cold storage.",
+      "The incident reveals that even advanced hardware solutions designed for offline key isolation are susceptible to sophisticated breaches.",
+      "This significant security lapse demands a re-evaluation of crypto security practices and underscores the ongoing need for vigilance in the digital asset space."
     ],
-    "source": "Wccftech",
-    "author": "Rohail Saleem",
-    "publishedAt": "2026-10-18 19:00",
+    "source": "pymnts.com",
+    "author": "PYMNTS",
+    "publishedAt": "2026-10-18 23:15",
     "category": "Technology",
-    "image": "https://cdn.wccftech.com/wp-content/uploads/2026/05/NVIDIA-Vera-CPUs-1920x1078.jpg",
-    "originalUrl": "https://wccftech.com/exclusive-nvidia-vera-team-says-chiplet-designs-sacrificed-single-threaded-performance-for-core-counts-and-agentic-ai-is-now-forcing-a-reversal/",
+    "image": "https://www.pymnts.com/wp-content/uploads/2026/10/Ledger-crypto-wallet-1.jpg",
+    "originalUrl": "https://www.pymnts.com/cryptocurrency/2026/crypto-hardware-wallets-become-new-entry-point-for-hackers/",
     "tags": [
       "Technology",
-      "Exclusive",
-      "NVIDIAs"
-    ],
-    "readingTime": "2 min"
-  },
-  {
-    "id": "article-tec-mvfmhubt-002",
-    "title": "When Surveillance Tech Gets Personal: Savannah Cop Fired Over Unauthorized ICE Access",
-    "summary": "A Savannah, Georgia, police officer was terminated for providing her Flock Safety license plate reader login credentials to her husband, an ICE agent, who subsequently conducted hundreds of unauthorized vehicle searches. This incident highlights critical data privacy concerns and the risks inherent in unchecked access to powerful surveillance technologies, especially when city policy explicitly forbids such sharing.",
-    "content": "In a stark reminder of the delicate balance between public safety and personal privacy, a Savannah, Georgia, police officer has been terminated for a serious breach involving advanced surveillance technology.\n\nThe officer, whose name has not been publicly released, was fired after it was discovered she had provided her login credentials for Flock Safety's automated license plate reader (ALPR) system to her husband, an agent with Immigration and Customs Enforcement (ICE). He then reportedly used this access to conduct hundreds of unauthorized license plate searches.\n\nFlock Safety’s ALPRs are increasingly ubiquitous in cities across the U.S., designed to help law enforcement identify stolen vehicles or suspects in criminal investigations by capturing and storing images of every passing license plate. The vast databases generated by these systems raise significant questions about data governance, who has access, and for what purpose.\n\nWhat makes this incident particularly thorny is the context of local policy. While Georgia state law might appear to permit local police departments to share ALPR data with federal agencies like ICE, the City of Savannah had explicitly *not* entered into such an agreement. This means the officer's act of sharing her login, and her husband's subsequent use of it, constituted a clear violation of city protocol and an unauthorized backdoor into sensitive citizen data.\n\nThis isn't merely an internal disciplinary matter; it's a critical spotlight on the vulnerabilities of powerful surveillance tools and the potential for misuse when proper safeguards are bypassed. The hundreds of unauthorized searches represent a significant breach of trust for Savannah residents, raising alarms about accountability and data integrity. Furthermore, the involvement of an ICE agent, an agency often at the center of immigration debates, amplifies concerns about the potential for such data to be used for purposes beyond initial community safety objectives. This incident underscores the urgent need for robust oversight and clear, enforceable policies governing access to and use of ALPR data.",
-    "keyTakeaways": [
-      "A Savannah police officer was fired for allowing her ICE agent husband unauthorized access to the city's Flock Safety license plate reader system.",
-      "The incident exposed a critical breach of city protocol, as Savannah had no agreement to share ALPR data with federal immigration authorities despite state law ambiguities.",
-      "This case underscores the severe privacy implications and governance challenges posed by the widespread deployment of powerful surveillance technologies like ALPRs when access is not rigorously controlled."
-    ],
-    "source": "Gizmodo.com",
-    "author": "Kyle Torpey",
-    "publishedAt": "2026-10-18 18:06",
-    "category": "Technology",
-    "image": "https://gizmodo.com/app/uploads/2026/07/flock-camera-shutterstock-1200x675.jpg",
-    "originalUrl": "https://gizmodo.com/cop-fired-for-letting-her-ice-agent-husband-use-her-flock-login-2000827428",
-    "tags": [
-      "Technology",
-      "Letting",
-      "Husband"
+      "Crypto",
+      "Hardware"
     ],
     "readingTime": "2 min"
   }
