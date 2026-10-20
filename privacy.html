@@ -1,63 +1,90 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy - SuOrbit</title>
-  <meta name="description" content="SuOrbit Privacy Policy. Read about how we secure user privacy and maintain a cookie-free, serverless experience.">
+  <title>Privacy Policy - SuOrbit QR Studio</title>
+  <meta name="description" content="SuOrbit QR Studio Privacy Policy. Learn about our 100% client-side, zero-tracking architecture.">
   <link rel="canonical" href="https://suorbit.top/privacy.html">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .legal-content-wrap {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 2.5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+    }
+    .legal-content-wrap h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .legal-content-wrap h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+    .legal-content-wrap p {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    .legal-tag {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Sticky Header & Navigation Placeholder -->
-  <div id="header-placeholder"></div>
-
-  <!-- Breaking News Ticker -->
-  <section class="ticker-wrapper" aria-label="Breaking News">
-    <div class="container ticker-container">
-      <span class="ticker-label">Breaking</span>
-      <div class="ticker-scroll" id="ticker-headlines">
-        Loading breaking news feed...
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/images/logo.svg" alt="SuOrbit Logo" class="brand-logo-img">
+        <span class="brand-text">SuOrbit <span class="brand-badge">QR STUDIO</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Back to Generator</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- Main Content -->
-  <main class="container editorial-page">
-    <div class="editorial-layout">
-      <div style="border-bottom: 1px solid var(--border); padding-bottom: 2rem; margin-bottom: 1rem;">
-        <span class="eyebrow">Legal</span>
-        <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 0.5rem;">Privacy Policy</h1>
-        <p style="font-size: 1.15rem; color: var(--text-secondary);">Last updated: June 20, 2026</p>
-      </div>
+  <main class="container">
+    <div class="legal-content-wrap">
+      <span class="legal-tag">Security & Privacy First</span>
+      <h1>Privacy Policy</h1>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">Last updated: October 2026</p>
 
-      <section class="editorial-content">
-        <p>At SuOrbit, we take user privacy seriously. Since our website is built entirely as a static portal hosted on GitHub Pages, we operate under a zero-tracking framework. We do not use cookies, run analytical trackers, or maintain backend servers to capture your IP address or query history.</p>
+      <h2>1. Complete Client-Side Generation</h2>
+      <p>SuOrbit QR Studio is architected with a strict privacy-by-design model. Every QR code generated or scanned through our platform is rendered directly inside your device's browser using JavaScript and HTML5 Canvas / SVG technologies.</p>
+      <p>We do not operate any backend database or ingestion pipeline that stores your input payloads, Wi-Fi credentials, personal contact information, or scanned media.</p>
 
-        <h2>1. Data Collection</h2>
-        <p>We do not collect personal identifiers, email addresses (except when explicitly submitted to our newsletter form), search trends, or geographical positions. Browsing our pages is entirely anonymous.</p>
-        
-        <h2>2. Third-Party Hosting</h2>
-        <p>SuOrbit is hosted on GitHub Pages. Any connection to this website is served under SSL encryption. GitHub may collect basic infrastructure logs (such as IP addresses and requests metadata) to prevent abuse and maintain server uptime. These logs are managed strictly under GitHub's Privacy Statement and are not visible to SuOrbit operators.</p>
+      <h2>2. No Analytical Cookies or Trackers</h2>
+      <p>We do not use tracking cookies, commercial ad-trackers, or cross-site profiling scripts. Your interactions with the tool are completely confidential and unmonitored.</p>
 
-        <h2>3. Newsletter Subscription</h2>
-        <p>When you subscribe to our newsletter, you voluntarily supply your email address. We use this address solely to distribute weekly simplified news summaries. We do not sell, rent, or lease our list to external corporations. You can unsubscribe at any time by clicking the hyperlink at the bottom of our emails.</p>
+      <h2>3. Camera Access for QR Scanning</h2>
+      <p>When you choose to use the live QR Code scanner, your browser requests permission to access your device camera. Video frames captured by your camera are analyzed solely within your browser memory using the native BarcodeDetector API or local WebAssembly/JS routines. No video feed or snapshot is ever uploaded or transmitted.</p>
 
-        <h2>4. External Hyperlinks</h2>
-        <p>Our summaries include references to the original reporting channels (e.g. Wired, Reuters, TechCrunch). We are not responsible for the privacy procedures or content standards of these external portals.</p>
+      <h2>4. Local Storage Library</h2>
+      <p>Any QR codes saved via the "Save to Library" feature are stored strictly in your browser's local storage (`localStorage`). This data stays on your machine and can be cleared at any time with a single click of the "Clear All" button.</p>
 
-        <h2>5. Revisions</h2>
-        <p>We may modify this privacy document from time to time. Any modifications will be posted directly to this page with an updated timestamp.</p>
-      </section>
+      <h2>5. Hosting Infrastructure</h2>
+      <p>This static website is deployed on GitHub Pages. Any standard connection to this domain is delivered via end-to-end SSL/TLS encryption.</p>
     </div>
   </main>
 
-  <!-- Footer Placeholder -->
-  <div id="footer-placeholder"></div>
-
-  <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-disclaimer">
+        &copy; 2026 SuOrbit QR Studio. Designed for privacy, speed, and creative freedom.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

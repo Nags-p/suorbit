@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>404 - Orbit Not Found - SuOrbit</title>
-  <meta name="description" content="Page not found. The orbit you are looking for does not exist on SuOrbit.">
+  <title>404 - Page Not Found - SuOrbit QR Studio</title>
+  <meta name="description" content="The QR code or page you requested could not be located. Return to SuOrbit QR Studio.">
   <link rel="canonical" href="https://suorbit.top/404.html">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .error-wrapper {
+      min-height: calc(100vh - 180px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 3rem 1.5rem;
+    }
+    .error-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 3.5rem 2.5rem;
+      max-width: 520px;
+      box-shadow: var(--shadow-lg);
+    }
+    .error-code {
+      font-family: var(--font-display);
+      font-size: 5rem;
+      font-weight: 900;
+      background: var(--gradient-brand);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+    .error-title {
+      font-size: 1.75rem;
+      margin-bottom: 0.75rem;
+    }
+    .error-desc {
+      color: var(--text-secondary);
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Sticky Header & Navigation Placeholder -->
-  <div id="header-placeholder"></div>
-
-  <!-- Breaking News Ticker -->
-  <section class="ticker-wrapper" aria-label="Breaking News">
-    <div class="container ticker-container">
-      <span class="ticker-label">Breaking</span>
-      <div class="ticker-scroll" id="ticker-headlines">
-        Loading breaking news feed...
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/images/logo.svg" alt="SuOrbit Logo" class="brand-logo-img">
+        <span class="brand-text">SuOrbit <span class="brand-badge">QR STUDIO</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Back to Generator</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- Error display page -->
-  <main class="error-page-wrapper">
+  <main class="error-wrapper">
     <div class="error-card">
       <div class="error-code">404</div>
-      <h1 class="error-title">Orbit Decay Detected</h1>
-      <p class="error-desc">The coordinates you entered led to an empty region of space. The article or sub-page might have been archived or deleted.</p>
-      <a href="index.html" class="error-btn">Return to Homepage</a>
+      <h1 class="error-title">Unscannable Coordinates</h1>
+      <p class="error-desc">The page or QR link you are looking for does not exist, or has moved to an alternate orbit.</p>
+      <a href="index.html" class="btn btn-primary">Return to QR Studio</a>
     </div>
   </main>
 
-  <!-- Footer Placeholder -->
-  <div id="footer-placeholder"></div>
-
-  <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-disclaimer">
+        &copy; 2026 SuOrbit QR Studio. Designed for privacy and creative freedom.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

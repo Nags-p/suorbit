@@ -1,60 +1,83 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Terms of Service - SuOrbit</title>
-  <meta name="description" content="SuOrbit Terms of Service. Learn about usage criteria, intellectual property ownership, and disclaimer notices.">
+  <title>Terms of Service - SuOrbit QR Studio</title>
+  <meta name="description" content="SuOrbit QR Studio Terms of Service. Free, open, and unrestricted QR code generation.">
   <link rel="canonical" href="https://suorbit.top/terms.html">
-  <link rel="stylesheet" href="assets/css/style.css">
   <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .legal-content-wrap {
+      max-width: 800px;
+      margin: 4rem auto;
+      padding: 2.5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-md);
+    }
+    .legal-content-wrap h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .legal-content-wrap h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+      color: var(--text-primary);
+    }
+    .legal-content-wrap p {
+      color: var(--text-secondary);
+      margin-bottom: 1rem;
+      line-height: 1.7;
+    }
+    .legal-tag {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Sticky Header & Navigation Placeholder -->
-  <div id="header-placeholder"></div>
-
-  <!-- Breaking News Ticker -->
-  <section class="ticker-wrapper" aria-label="Breaking News">
-    <div class="container ticker-container">
-      <span class="ticker-label">Breaking</span>
-      <div class="ticker-scroll" id="ticker-headlines">
-        Loading breaking news feed...
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-wrapper">
+        <img src="assets/images/logo.svg" alt="SuOrbit Logo" class="brand-logo-img">
+        <span class="brand-text">SuOrbit <span class="brand-badge">QR STUDIO</span></span>
+      </a>
+      <div class="nav-actions">
+        <a href="index.html" class="btn btn-primary" style="font-size: 0.85rem; padding: 0.5rem 1rem;">Back to Generator</a>
       </div>
     </div>
-  </section>
+  </header>
 
-  <!-- Main Content -->
-  <main class="container editorial-page">
-    <div class="editorial-layout">
-      <div style="border-bottom: 1px solid var(--border); padding-bottom: 2rem; margin-bottom: 1rem;">
-        <span class="eyebrow">Legal</span>
-        <h1 style="font-size: 3rem; font-weight: 900; margin-bottom: 0.5rem;">Terms of Service</h1>
-        <p style="font-size: 1.15rem; color: var(--text-secondary);">Last updated: June 20, 2026</p>
-      </div>
+  <main class="container">
+    <div class="legal-content-wrap">
+      <span class="legal-tag">Usage Guidelines</span>
+      <h1>Terms of Service</h1>
+      <p style="color: var(--text-muted); font-size: 0.9rem;">Last updated: October 2026</p>
 
-      <section class="editorial-content">
-        <p>Welcome to SuOrbit. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. If you do not agree, please do not use this site.</p>
+      <h2>1. Permitted Use & Ownership</h2>
+      <p>SuOrbit QR Studio is provided free of charge for both personal and commercial use. Any QR codes created using this tool, including downloaded PNG, SVG, or WEBP assets, belong entirely to you. You may use them freely on packaging, marketing materials, merchandise, websites, and business stationery without attribution or royalties.</p>
 
-        <h2>1. Informational Purposes Only</h2>
-        <p>The content presented on SuOrbit, including AI-generated summaries, key takeaways, and curated insights, is provided for general informational purposes only. While we endeavor to keep the information accurate, we make no representations or warranties of any kind regarding its completeness or suitability.</p>
+      <h2>2. Prohibited Uses</h2>
+      <p>You agree not to generate QR codes intended to facilitate malicious activities, such as phishing scams, deceptive URL redirects, malware distribution, or unlawful harassment.</p>
 
-        <h2>2. Intellectual Property</h2>
-        <p>The structure, UI design, code, logos, and custom articles on SuOrbit are the property of SuOrbit Media Group. Simplified news summaries are compiled from public feeds under fair use principles, with full attribution and direct links pointing to the original publications. All rights to the full articles and original names belong to their respective copyright holders.</p>
-
-        <h2>3. Prohibited Conduct</h2>
-        <p>You agree not to use bots, scrapers, or other automated mechanisms to query this site excessively or attempt to flood the static hosting infrastructure. You also agree not to hotlink to our JSON databases for external application use without explicit consent.</p>
-
-        <h2>4. Disclaimers and Limitation of Liability</h2>
-        <p>In no event shall SuOrbit, its operators, or contributors be held liable for any decisions made, actions taken, or losses incurred based on the summaries provided on this portal. Readers are always encouraged to cross-reference statements with the original reporting links provided.</p>
-      </section>
+      <h2>3. Disclaimer of Warranty</h2>
+      <p>SuOrbit QR Studio is provided on an "as-is" and "as-available" basis without warranties of any kind. While we utilize modern error-correction algorithms, users are strongly advised to perform test scans with multiple devices before initiating commercial print runs.</p>
     </div>
   </main>
 
-  <!-- Footer Placeholder -->
-  <div id="footer-placeholder"></div>
-
-  <!-- Scripts -->
-  <script src="assets/js/main.js"></script>
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-disclaimer">
+        &copy; 2026 SuOrbit QR Studio. Designed for privacy, speed, and creative freedom.
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
