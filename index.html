@@ -116,7 +116,20 @@
 
   <!-- Main Generator App Container -->
   <main class="container app-container" id="generator-app">
-    <div class="studio-grid">
+
+    <!-- Mobile Studio View Switcher Tabs (< 1024px) -->
+    <div class="mobile-view-toggle-bar" id="mobile-view-switcher">
+      <button class="mobile-toggle-btn active" id="btn-mobile-edit" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>
+        <span>1. Content &amp; Style</span>
+      </button>
+      <button class="mobile-toggle-btn" id="btn-mobile-preview" type="button">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/></svg>
+        <span>2. Live Preview &amp; Export</span>
+      </button>
+    </div>
+
+    <div class="studio-grid" id="main-studio-grid" data-mobile-view="edit">
 
       <!-- Left Column: Settings, Type Selector & Customizations -->
       <section class="card-panel" aria-label="QR Code Generator Configuration">
@@ -858,7 +871,7 @@
           </div>
 
           <!-- Interactive Simulator & A4 Sticker Sheet Studio -->
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.5rem;">
+          <div class="preview-simulator-bar" style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.5rem;">
             <button class="btn btn-secondary" id="btn-simulate-scan" title="Simulate real smartphone camera scanning">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><line x1="12" x2="12.01" y1="18" y2="18"/></svg>
               Simulate Scan
@@ -871,6 +884,23 @@
         </div>
       </aside>
 
+    </div>
+
+    <!-- Mobile Floating Quick Preview Pill (< 1024px) -->
+    <div class="mobile-floating-preview-bar" id="mobile-floating-bar">
+      <div style="display: flex; align-items: center; gap: 0.6rem; min-width: 0;">
+        <div class="floating-qr-mini" id="floating-qr-mini-thumb">
+          <canvas id="mini-floating-canvas" width="36" height="36" style="width: 36px; height: 36px; border-radius: 6px; display: block; background: #fff;"></canvas>
+        </div>
+        <div style="display: flex; flex-direction: column; min-width: 0;">
+          <span style="font-size: 0.76rem; font-weight: 700; color: var(--text-primary); white-space: nowrap;">Live QR Code</span>
+          <span style="font-size: 0.66rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="floating-type-label">Tap to view HD download</span>
+        </div>
+      </div>
+      <button class="btn btn-primary" id="btn-floating-view-qr" type="button" style="padding: 0.5rem 0.9rem; font-size: 0.78rem; border-radius: var(--radius-full); white-space: nowrap;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/></svg>
+        View &amp; Export
+      </button>
     </div>
   </main>
 
