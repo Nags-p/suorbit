@@ -134,7 +134,6 @@
     setupPhoneSimulator();
     setupStickerSheet();
     setupBatchGenerator();
-    setupMobileViewSwitcher();
     updateQRFromInputs();
     renderHistory();
   }
@@ -395,9 +394,6 @@
 
     if (state.qrCode) {
       state.qrCode.update(updateObj);
-      setTimeout(() => {
-        if (window.syncMiniPreview) window.syncMiniPreview();
-      }, 50);
     }
   }
 
@@ -2040,59 +2036,6 @@
       });
     }
   }
-
-  /**
-   * Mobile Studio View Switcher & Floating Quick Preview
-   */
-  function setupMobileViewSwitcher() {
-    const editBtn = document.getElementById('btn-mobile-edit');
-    const previewBtn = document.getElementById('btn-mobile-preview');
-    const floatingBtn = document.getElementById('btn-floating-view-qr');
-    const studioGrid = document.getElementById('main-studio-grid');
-    const floatingTypeLabel = document.getElementById('floating-type-label');
-    const miniCanvas = document.getElementById('mini-floating-canvas');
-
-    if (!editBtn || !previewBtn || !studioGrid) return;
-
-    function setMobileView(view) {
-      studioGrid.setAttribute('data-mobile-view', view);
-      editBtn.classList.toggle('active', view === 'edit');
-      previewBtn.classList.toggle('active', view === 'preview');
-
-      if (view === 'preview') {
-        const previewWrap = document.querySelector('.preview-sticky-wrap');
-        if (previewWrap) {
-          previewWrap.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      } else {
-        const formPanel = document.querySelector('.card-panel');
-        if (formPanel) {
-          formPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      }
-    }
-
-    editBtn.addEventListener('click', () => setMobileView('edit'));
-    previewBtn.addEventListener('click', () => setMobileView('preview'));
-    if (floatingBtn) {
-      floatingBtn.addEventListener('click', () => setMobileView('preview'));
-    }
-
-    // Sync mini floating canvas & label when QR updates
-    window.syncMiniPreview = function() {
-      if (floatingTypeLabel) {
-        floatingTypeLabel.textContent = `${getTitleForType(state.currentType)} Ready`;
-      }
-      if (!miniCanvas) return;
-      const mainCanvas = document.querySelector('#qr-canvas-container canvas');
-      if (mainCanvas && mainCanvas.width > 0) {
-        const ctx = miniCanvas.getContext('2d');
-        ctx.clearRect(0, 0, 36, 36);
-        ctx.drawImage(mainCanvas, 0, 0, 36, 36);
-      }
-    };
-  }
-
   // Run on DOM ready
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', init);
