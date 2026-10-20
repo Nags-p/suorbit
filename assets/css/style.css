@@ -1893,3 +1893,457 @@ textarea.input-field {
   max-width: 100px;
 }
 
+/* ==========================================================================
+   Comprehensive Mobile & Tablet Responsive Optimizations
+   ========================================================================== */
+
+/* Tablets & Small Laptops (< 1024px) */
+@media (max-width: 1024px) {
+  .studio-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .preview-sticky-wrap {
+    order: -1;
+    position: relative;
+    top: 0;
+    margin-bottom: 1.25rem;
+    width: 100%;
+  }
+
+  .preview-card {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+
+/* Tablet & Mobile Nav Strip (< 860px) */
+@media (max-width: 860px) {
+  .site-header {
+    padding: 0;
+  }
+
+  .nav-container {
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    gap: 0.5rem;
+  }
+
+  .brand-text {
+    font-size: 1.15rem;
+  }
+
+  .brand-badge {
+    display: none;
+  }
+
+  nav[aria-label="Main Navigation"] {
+    order: 3;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+
+  nav[aria-label="Main Navigation"]::-webkit-scrollbar {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 0.35rem;
+    width: max-content;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.65rem;
+    white-space: nowrap;
+    border-radius: var(--radius-full);
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+/* Mobile Screens (< 768px) */
+@media (max-width: 768px) {
+  :root {
+    --max-width: 100%;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* Prevent iOS Safari auto-zoom on form inputs */
+  input[type="text"],
+  input[type="url"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="datetime-local"],
+  input[type="password"],
+  textarea,
+  select {
+    font-size: 16px !important;
+  }
+
+  /* Hero Section */
+  .hero-section {
+    padding: 2.25rem 0 1.5rem;
+  }
+
+  .hero-pill {
+    font-size: 0.74rem;
+    padding: 0.3rem 0.75rem;
+    max-width: 100%;
+    white-space: normal;
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .hero-title {
+    font-size: clamp(1.85rem, 7vw, 2.4rem);
+    letter-spacing: -0.02em;
+    margin-bottom: 0.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
+  }
+
+  .hero-features-chips {
+    gap: 0.4rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-chip {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.65rem;
+  }
+
+  /* Card Panels */
+  .card-panel {
+    padding: 1.25rem 1rem;
+    border-radius: var(--radius-lg);
+  }
+
+  /* Preview Card */
+  .preview-card {
+    padding: 1.5rem 1rem;
+    border-radius: var(--radius-lg);
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .preview-stage {
+    padding: 0.75rem 0;
+  }
+
+  .qr-frame-wrapper {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .qr-canvas-holder {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  .qr-canvas-holder canvas,
+  .qr-canvas-holder svg {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  .download-actions-grid {
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .download-actions-grid .btn {
+    padding: 0.75rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .secondary-actions-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.35rem;
+  }
+
+  .secondary-actions-bar .btn {
+    padding: 0.55rem 0.2rem;
+    font-size: 0.75rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  /* Content Type Selector Buttons: Touch-friendly 4-column grid */
+  .type-buttons-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.4rem;
+  }
+
+  .type-btn {
+    padding: 0.6rem 0.25rem;
+    font-size: 0.72rem;
+    min-height: 58px;
+    border-radius: var(--radius-sm);
+  }
+
+  .type-btn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  /* Form Panels */
+  .form-section {
+    padding: 1rem;
+    border-radius: var(--radius-md);
+  }
+
+  .input-row {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  /* Customization Subtabs */
+  .custom-tabs-nav {
+    gap: 0.35rem;
+    padding-bottom: 0.4rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .tab-nav-btn {
+    font-size: 0.78rem;
+    padding: 0.5rem 0.75rem;
+    gap: 0.35rem;
+  }
+
+  .tab-nav-btn svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Color Pickers */
+  .color-picker-grid {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .color-picker-item {
+    padding: 0.65rem 0.85rem;
+  }
+
+  /* Shape Buttons */
+  .shape-options-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 0.4rem;
+  }
+
+  .shape-btn {
+    padding: 0.65rem 0.4rem;
+    font-size: 0.74rem;
+  }
+
+  /* Frame Buttons */
+  .frame-options-grid {
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 0.4rem;
+  }
+
+  .frame-btn {
+    padding: 0.65rem 0.4rem;
+    font-size: 0.72rem;
+  }
+
+  /* Scanner Container */
+  .scanner-container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .scanner-dropzone {
+    padding: 1.75rem 1rem;
+    border-radius: var(--radius-lg);
+  }
+
+  .camera-scanner-wrapper {
+    border-radius: var(--radius-lg);
+    aspect-ratio: 1/1;
+  }
+
+  /* Batch Generator Section */
+  .batch-box {
+    padding: 1.25rem 1rem;
+    border-radius: var(--radius-lg);
+  }
+
+  .batch-results-grid {
+    grid-template-columns: repeat(auto-fill, minmax(105px, 1fr));
+    gap: 0.65rem;
+    padding: 0.65rem;
+    max-height: 320px;
+  }
+
+  .batch-thumb-item img {
+    width: 75px;
+    height: 75px;
+  }
+
+  /* History Grid */
+  .history-grid {
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .history-card {
+    padding: 0.85rem;
+  }
+
+  /* Presets Grid */
+  .presets-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .preset-card {
+    padding: 0.85rem 0.5rem;
+  }
+
+  .preset-preview-mini {
+    width: 52px;
+    height: 52px;
+  }
+
+  .preset-title {
+    font-size: 0.82rem;
+  }
+
+  .preset-desc {
+    font-size: 0.68rem;
+  }
+
+  /* Features Grid */
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .feature-box {
+    padding: 1.25rem;
+  }
+
+  .section-head-centered {
+    margin-bottom: 2rem;
+  }
+
+  .section-head-centered h2 {
+    font-size: 1.75rem;
+  }
+
+  /* FAQ List */
+  .faq-question {
+    padding: 1rem;
+    font-size: 0.95rem;
+  }
+
+  .faq-answer {
+    padding: 0 1rem 1rem;
+    font-size: 0.88rem;
+  }
+
+  /* Footer */
+  .site-footer {
+    padding: 2.5rem 0 1.5rem;
+  }
+
+  .footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  /* Modals on Mobile */
+  .modal-overlay {
+    padding: 0.75rem;
+  }
+
+  .phone-simulator-chassis {
+    width: min(320px, calc(100vw - 24px));
+    height: min(580px, calc(100dvh - 32px));
+    border-radius: 36px;
+    border-width: 3px;
+  }
+
+  .print-sheet-modal-body {
+    padding: 1.25rem 0.85rem;
+    border-radius: var(--radius-lg);
+    max-height: 94dvh;
+  }
+
+  .print-sheet-preview-a4 {
+    padding: 10px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .sticker-grid-layout {
+    min-width: 280px;
+    gap: 8px;
+  }
+
+  .sticker-tile {
+    padding: 6px;
+  }
+
+  .sticker-tile img {
+    max-width: 70px;
+  }
+
+  .grid-2x3 .sticker-tile img {
+    max-width: 100px;
+  }
+
+  /* Toast Notification */
+  .toast-container {
+    bottom: 1rem;
+    right: 1rem;
+    left: 1rem;
+  }
+
+  .toast {
+    font-size: 0.82rem;
+    padding: 0.75rem 1rem;
+  }
+}
+
+/* Extra Small Phones (< 380px) */
+@media (max-width: 380px) {
+  .type-buttons-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .secondary-actions-bar {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .presets-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
