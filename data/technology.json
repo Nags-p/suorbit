@@ -1,70 +1,70 @@
 [
   {
-    "id": "article-tec-mvggrz84-000",
-    "title": "The AI Economy's Tightrope Walk: Why Deceleration, Not Decline, Is the Danger",
-    "summary": "The remarkable surge in S&P 500 earnings growth this year is overwhelmingly fueled by corporate AI capital expenditure, particularly in cutting-edge chips and servers. This deep dependency means that a mere slowdown in the *rate of acceleration* of AI spending, rather than an outright cut, could significantly impact overall market profits.",
-    "content": "The narrative around artificial intelligence often centers on revolutionary breakthroughs and unprecedented potential. Yet, beneath the hype, a more immediate and profound reality is shaping the financial markets: AI capital expenditure (capex) has become an astonishingly potent, and perhaps precarious, driver of earnings growth.\n\nIndeed, an analysis of the S&P 500 reveals a startling truth: nearly half of this year's earnings growth can be directly traced back to a singular activity – companies pouring vast sums into AI infrastructure, acquiring advanced chips, servers, and the underlying hardware essential for machine learning deployments. This isn't just a trend; it's the engine powering a substantial portion of the market's current upswing.\n\nThe implications of this tight coupling between AI spending and corporate profits are critical, particularly for investors. The conventional wisdom often suggests that a decline in spending is the harbinger of trouble. However, in the current AI-fueled landscape, the risk isn't necessarily a fall in capex, but rather a simple deceleration. That's right: spending doesn't have to shrink to hurt profits; it only needs to stop accelerating at its current breakneck pace.\n\nThis nuanced vulnerability highlights the delicate balance upon which much of the tech sector, and by extension the broader market, now operates. Should the rapid, year-over-year acceleration of AI infrastructure investment begin to level off, even if total spending remains robust, the ripple effect on earnings could be profound. It’s a tightrope walk where the perception of perpetual exponential growth is almost as vital as the growth itself, making the future trajectory of AI investment a critical watchpoint for the entire economy.",
+    "id": "article-tec-mvgsmpjx-000",
+    "title": "AI Unleashed: Autonomous Agents Now Leading the Charge in Cybercrime",
+    "summary": "A groundbreaking investigation by cybersecurity firm NorForge reveals a troubling surge in the deployment of AI-powered hacking systems across the cybercrime landscape. These autonomous agents are fundamentally transforming how digital attacks are executed, posing an unprecedented challenge to traditional defenses.",
+    "content": "The digital battleground just got a whole lot smarter, and far more insidious. New research has peeled back the curtain on a disturbing trend: cybercriminals are increasingly outsourcing their dirty work to sophisticated AI agents, effectively arming themselves with autonomous digital weapons. This profound shift, revealed in a comprehensive investigation by cybersecurity firm NorForge and published just this week, paints a stark picture of an evolving threat landscape.\n\nNo longer content with manual intrusions, hackers are deploying AI systems to perform tasks that once required significant human effort and expertise. These AI agents are reportedly capable of everything from conducting highly efficient reconnaissance – meticulously mapping out vulnerabilities in target networks and identifying key personnel – to crafting hyper-realistic phishing campaigns that are almost impossible for humans to detect. They can even generate bespoke malware variants on the fly, adapting to defensive measures with chilling speed and exploiting zero-day vulnerabilities with remarkable precision.\n\nNorForge's deep dive into public and private cybercrime forums unveiled a burgeoning ecosystem where these AI tools are traded, refined, and deployed, democratizing advanced attack capabilities. This isn't just about automation; it’s about autonomous decision-making, allowing attacks to scale rapidly, bypass traditional human-centric defenses, and probe for weaknesses relentlessly, 24/7. It significantly lowers the barrier to entry for aspiring cybercriminals while simultaneously escalating the sophistication and volume of attacks faced by organizations worldwide.\n\nThe implications are profound for cybersecurity professionals. Defenders are no longer just fighting human adversaries; they're up against algorithms that learn, adapt, and execute with machine precision, often outpacing human response times. This accelerating arms race demands a radical rethink of cybersecurity strategies, necessitating an embrace of defensive AI, machine learning-driven threat intelligence, and a continuous evolution of human expertise to counter these increasingly intelligent threats. The era of the truly autonomous cyber attack is no longer a futuristic concept – it's here, and it’s growing at an alarming pace.",
     "keyTakeaways": [
-      "Nearly half of the S&P 500's current earnings growth is directly attributable to corporate AI capital expenditure, primarily on chips and servers.",
-      "The market's reliance on AI spending growth means that a *deceleration* in the rate of investment acceleration, not just an outright drop, poses a significant risk to profits.",
-      "This tight link between AI capex and earnings creates a delicate market balance, where sustained rapid growth in AI investment is crucial for continued market performance."
+      "AI agents are now actively employed by cybercriminals, performing autonomous hacking tasks from reconnaissance to malware generation.",
+      "The rise of AI-powered agents significantly escalates the efficiency, scale, and sophistication of cyber attacks, lowering entry barriers for criminals.",
+      "This new era of autonomous cyber threats necessitates a fundamental shift in cybersecurity defenses, emphasizing defensive AI and continuous human expertise evolution."
     ],
-    "source": "Realinvestmentadvice.com",
-    "author": "Lance Roberts",
-    "publishedAt": "2026-10-19 09:08",
+    "source": "pymnts.com",
+    "author": "PYMNTS",
+    "publishedAt": "2026-10-19 14:35",
     "category": "Technology",
-    "image": "https://realinvestmentadvice.com/wp-content/uploads/2026/10/AI-Capex-and-Earnings-e1790511229766.png",
-    "originalUrl": "https://realinvestmentadvice.com/resources/blog/ai-capex-and-earnings-what-happens-when-growth-slows/",
+    "image": "https://www.pymnts.com/wp-content/uploads/2024/08/cybersecurity-hackers-data-breach.jpg",
+    "originalUrl": "https://www.pymnts.com/news/artificial-intelligence/2026/hackers-use-ai-agents-to-do-hacking-for-them/",
     "tags": [
       "Technology",
-      "Earnings",
-      "Happens"
+      "Hackers",
+      "Agents"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mvggs5lw-001",
-    "title": "BeyondTrust Remote Support Under Siege: Critical Flaw Actively Exploited by Attackers",
-    "summary": "A severe authentication bypass flaw (CVE-2026-102764) has been discovered in BeyondTrust Remote Support, allowing unauthenticated attackers to gain unauthorized access. This critical vulnerability, stemming from improper origin validation, is actively being exploited in the wild, posing an urgent threat to organizations.",
-    "content": "A critical vulnerability shaking the foundations of enterprise security has been identified in BeyondTrust Remote Support (RS), a widely-used solution for remote access and assistance. Dubbed CVE-2026-102764, this authentication-bypass flaw isn't just a theoretical threat; it's actively being exploited by malicious actors, forcing organizations to scramble for patches.\n\nThe heart of the problem lies in 'improper origin validation' within an internal messaging component of the RS software. Essentially, the system fails to correctly verify the source of certain communications, creating a gaping hole. This oversight allows unauthenticated attackers to bypass security measures entirely, potentially gaining deep access to systems and sensitive data without needing any legitimate credentials.\n\nWith a staggering CVSS score of 9.3 and an Exploit Prediction Scoring System (EPSS) percentile exceeding 67, the severity of CVE-2026-102764 cannot be overstated. This isn't a future concern; it's a present danger demanding immediate attention. For any organization relying on BeyondTrust Remote Support, the message is clear: patch your systems without delay. Vendors are urged to push out updates, and administrators must prioritize their deployment to mitigate the risk of compromise.\n\nThis incident serves as yet another stark reminder of the relentless cat-and-mouse game in cybersecurity. Even trusted enterprise tools, designed to facilitate operations, can become vectors for sophisticated attacks when overlooked flaws emerge. Staying vigilant, applying timely updates, and maintaining a proactive security posture are no longer optional, but fundamental requirements in today's interconnected world.",
+    "id": "article-tec-mvgsmyjc-001",
+    "title": "Forget Remasters: This Oblivion Modder Just Vibe-Coded a 60 FPS Miracle",
+    "summary": "A dedicated modder has achieved a significant breakthrough for The Elder Scrolls IV: Oblivion Remastered, introducing a \"vibe-coded\" fix that dramatically improves performance. This community-driven effort promises up to a 40% boost in open-world framerates and a stable 60 FPS even in bustling cities, breathing new life into the beloved classic.",
+    "content": "For many, The Elder Scrolls IV: Oblivion remains a nostalgic touchstone, a sprawling epic whose iconic \"Arrows fly true!\" echoes through gaming history. Yet, revisiting the game, especially with ambitious remaster mods, often means wrestling with frame rate drops, stuttering open-world exploration, and frustrating performance hiccups that betray its age. The dream of a truly smooth, high-fidelity return to Cyrodiil often felt just out of reach.\n\nEnter a dedicated modder who, with an almost alchemical touch, has seemingly \"vibe-coded\" a revolutionary fix. This isn't just a patch; it's a deep-dive optimization that tackles Oblivion's engine quirks head-on, promising to transform the experience. The claims are bold, yet the results speak for themselves: up to a staggering 40% improvement in open-world performance. Imagine the lush Gold Coast, the mystical Kvatch ruins, or the perilous Valenwood wilds rendered with unprecedented fluidity.\n\nBeyond the expansive outdoor vistas, the mod addresses the notoriously taxing city environments. Players can now expect a stable 60 frames per second, even amidst the bustling markets of the Imperial City or the intricate architecture of Anvil. This isn't merely about higher numbers; it's about immersion. Smooth combat, seamless exploration, and an end to jarring stutters mean rediscovering Oblivion as it was always meant to be played – a truly unhindered journey through one of gaming's most iconic worlds.\n\nThis community-driven triumph underscores the enduring power of modders to not just enhance, but fundamentally revitalize classic titles. While official remasters often fall short, it's these passionate individuals who truly preserve and elevate gaming history, ensuring that masterpieces like Oblivion remain not just playable, but breathtaking for generations to come. It’s a testament to dedication, a love letter to Cyrodiil, and a game-changer for anyone looking to step back into the Gate to Oblivion with newfound grace.",
     "keyTakeaways": [
-      "BeyondTrust Remote Support (RS) is affected by a critical, actively exploited authentication-bypass vulnerability (CVE-2026-102764).",
-      "The flaw stems from improper origin validation in an internal messaging component, allowing unauthenticated attackers to gain unauthorized access.",
-      "Organizations using BeyondTrust RS must immediately apply available patches to prevent potential compromise due to active exploitation."
+      "A dedicated modder has released a \"vibe-coded\" performance fix for The Elder Scrolls IV: Oblivion Remastered.",
+      "The mod boasts a 40% improvement in open-world performance and a stable 60 FPS even in busy city environments.",
+      "This community effort highlights the significant role modders play in enhancing and preserving classic games beyond official support."
     ],
-    "source": "Greenbone.net",
-    "author": "Joseph Lee",
-    "publishedAt": "2026-10-19 09:01",
+    "source": "PCMag.com",
+    "author": "Jon Martindale",
+    "publishedAt": "2026-10-19 14:34",
     "category": "Technology",
-    "image": "https://www.greenbone.net/wp-content/uploads/EN_beyondtrust-rs-zero-day-under-attack.jpeg",
-    "originalUrl": "https://www.greenbone.net/en/blog/beyondtrust-remote-support-zero-day-cve-2026-102764/",
+    "image": "https://sm.pcmag.com/t/pcmag_uk/news/t/this-vibe-/this-vibe-coded-oblivion-remaster-mod-fixes-major-performanc_rye4.1200.jpg",
+    "originalUrl": "https://uk.pcmag.com/pc-games/168002/this-vibe-coded-oblivion-remaster-mod-fixes-major-performance-issues",
     "tags": [
       "Technology",
-      "GreenboneOS",
-      "BeyondTrust"
+      "VibeCoded",
+      "Oblivion"
     ],
     "readingTime": "2 min"
   },
   {
-    "id": "article-tec-mvggsffc-002",
-    "title": "Pax8's New OS Promises to Bring Order to SMBs' AI Chaos",
-    "summary": "Pax8 Inc. has launched 8os, an operating system designed to help IT service providers manage and govern AI agents within their small business clients' operations. Additionally, they introduced 8bot, a managed AI co-worker aimed at boosting productivity and streamlining tasks for these businesses.",
-    "content": "The explosion of AI has left many small and medium-sized businesses (SMBs) feeling overwhelmed, grappling with how to effectively integrate and manage these powerful tools without losing control. Enter Pax8 Inc., the formidable software marketplace, which just unveiled a duo of innovations poised to demystify AI for SMBs: 8os, an operating system for AI governance, and 8bot, a managed AI co-worker. This move signals a critical shift towards democratizing AI, placing robust control firmly in the hands of IT service providers.\n\nAt the heart of this launch is 8os, an operating system meticulously crafted to empower IT service providers. Imagine a central command center where every AI agent deployed across a client's business can be monitored, secured, and managed. 8os is precisely that, providing the crucial oversight needed to ensure AI tools operate within defined parameters, adhere to compliance standards, and maintain data integrity. For managed service providers (MSPs), this means they can now confidently guide their SMB clients through the complex AI landscape, offering not just integration but genuine governance and peace of mind.\n\nComplementing 8os is 8bot, an ingenious \"managed AI co-worker\" designed to tackle the everyday operational challenges faced by SMBs. Far from a mere chatbot, 8bot is envisioned as a virtual team member capable of automating mundane tasks, streamlining workflows, and even assisting with complex data analysis. Think of it as a plug-and-play AI assistant that can be deployed by IT partners to immediately boost productivity and free up human staff for more strategic initiatives, all while being governed by the overarching intelligence of 8os.\n\nTogether, 8os and 8bot represent a comprehensive strategy from Pax8 to make AI not just accessible, but truly governable and beneficial for the SMB market. By equipping IT partners with these tools, Pax8 is not just selling software; it's enabling a new era where small businesses can harness the power of artificial intelligence securely, efficiently, and without the prohibitive complexity often associated with advanced technology. This integrated approach ensures that as AI agents proliferate, their operations remain transparent, controlled, and ultimately, an asset rather than a liability.",
+    "id": "article-tec-mvgsna1w-002",
+    "title": "Silent Guardian, Big Returns: Capnography Equipment Market Poised for $870 Million Boom",
+    "summary": "The capnography equipment market, vital for monitoring respiratory health, is projected to hit $0.87 billion by 2031, growing from $0.67 billion in 2026. This robust expansion reflects a steady 5.5% compound annual growth rate, underscoring its escalating importance in modern medical diagnostics and patient safety.",
+    "content": "While often overshadowed by more familiar vital signs monitors, capnography equipment plays an unsung, yet critical, role in patient safety and diagnostics. A new, exclusive report by MarketsandMarkets™ confirms that this crucial medical technology sector is poised for substantial growth, projecting its market value to swell to an impressive $0.87 billion by 2031, a significant leap from its $0.67 billion valuation in 2026.\n\nThis steady march, marked by a compound annual growth rate (CAGR) of 5.5% over the forecast period, isn't just about market figures; it reflects a burgeoning recognition of capnography's indispensable value in healthcare. The surge is largely fueled by a confluence of factors: an aging global population leading to more surgical interventions, the escalating prevalence of chronic respiratory conditions like COPD and asthma, and an increasing demand for sophisticated patient monitoring solutions across various clinical settings.\n\nCapnography, which precisely measures carbon dioxide levels in a patient's breath, offers real-time insights into ventilation and perfusion. Its ability to detect respiratory distress early, confirm endotracheal tube placement, and guide resuscitation efforts makes it a game-changer in operating rooms, emergency departments, and intensive care units. As technology advances, smaller, more portable devices are expanding its reach into pre-hospital care and even general wards, pushing the market further into essential territory.\n\nThe trajectory for capnography equipment is clear: from a highly specialized tool to an increasingly essential component of modern medical practice. As healthcare systems globally prioritize patient safety and seek more precise diagnostic tools, this market’s projected growth underscores its pivotal, and increasingly profitable, role in saving lives.",
     "keyTakeaways": [
-      "Pax8 launched 8os, an operating system enabling IT partners to govern and secure AI agents for small businesses.",
-      "The company also introduced 8bot, a 'managed AI co-worker' designed to automate tasks and boost productivity for SMBs.",
-      "These offerings aim to empower IT service providers to deliver controlled, compliant, and highly beneficial AI solutions to their small business clients."
+      "The capnography equipment market is projected to reach $0.87 billion by 2031, growing from $0.67 billion in 2026 at a 5.5% CAGR.",
+      "This market expansion is driven by a rise in surgical procedures, increasing prevalence of chronic respiratory diseases, and a growing demand for advanced patient monitoring.",
+      "Capnography provides critical real-time insights into patient ventilation and perfusion, enhancing safety and outcomes across diverse medical settings like ORs, ICUs, and emergency care."
     ],
-    "source": "SiliconANGLE News",
-    "author": "Duncan Riley",
-    "publishedAt": "2026-10-19 09:00",
+    "source": "PRNewswire",
+    "author": "Staff Writer",
+    "publishedAt": "2026-10-19 14:30",
     "category": "Technology",
-    "image": "https://images.siliconangle.com/blogs.dir/1/files/2026/10/pax8-800x450.png",
-    "originalUrl": "https://siliconangle.com/2026/10/19/pax8-launches-8os-to-let-it-partners-govern-ai-agents-and-8bot-as-a-managed-ai-coworker/",
+    "image": "https://mmx.prnewswire.com/media/MS1173081/MarketsandMarkets-Logo.jpg?id=OA3025812&p=facebook",
+    "originalUrl": "https://www.prnewswire.com/news-releases/capnography-equipment-market-worth-0-87-billion-by-2031---exclusive-report-by-marketsandmarkets-302912529.html",
     "tags": [
       "Technology",
-      "launches",
-      "partners"
+      "Capnography",
+      "Equipment"
     ],
     "readingTime": "2 min"
   }
