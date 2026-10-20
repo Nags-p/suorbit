@@ -1,23 +1,24 @@
 [
   {
-    "id": "article-ai-mvfvqdrn-005",
-    "title": "Reclaiming Prompt Control: prompt-pivot Offers Lean LLM Management",
-    "summary": "A new tool, prompt-pivot, has landed on PyPI, promising to revolutionize how developers manage Large Language Model prompts. It enables seamless storage, versioning, editing, and publishing of prompts directly within FastAPI applications, leveraging existing PostgreSQL or MySQL databases without additional infrastructure.",
-    "content": "The burgeoning world of Large Language Models (LLMs) brings incredible power, but often, it also introduces a silent workflow headache: prompt management. Developers frequently grapple with hardcoding prompts, wrestling with version control systems not built for dynamic text, and enduring cumbersome deployment cycles just to tweak a few words. This often leads to fragmented prompt strategies, inconsistent user experiences, and a slow iteration pace.\n\nEnter `prompt-pivot`, a new open-source library that just landed on PyPI, aiming to inject much-needed sanity into the LLM development lifecycle. This ingenious tool offers a refreshingly direct approach: it allows developers to store, version, edit, and publish their LLM prompts *at runtime* from inside their FastAPI applications. Imagine the agility – no more redeploying an entire service just to fine-tune a prompt's nuance.\n\nWhat truly sets `prompt-pivot` apart is its minimalist philosophy. Unlike other solutions that demand dedicated servers, third-party cloud integrations, or complex background workers, `prompt-pivot` simply plugs into your existing FastAPI application and utilizes the PostgreSQL or MySQL database you already have. This \"no extra baggage\" approach translates directly into reduced operational overhead, lower costs, and enhanced security, as your sensitive prompt data remains within your controlled environment.\n\nThis means developers can rapidly iterate on prompt designs, A/B test different phrasings in real-time, and ensure consistent prompt delivery across various application features without ever leaving their existing stack. For teams building sophisticated LLM-powered applications, `prompt-pivot` isn't just a convenience; it's a strategic advantage, streamlining workflows and accelerating innovation. Its availability on PyPI makes it readily accessible, signaling a welcome shift towards more efficient and integrated LLM development practices.",
+    "id": "article-ai-mvg51g82-003",
+    "title": "China's Export Juggernaut Masks Domestic Stumbles in Q3 Growth",
+    "summary": "China's economy posted a 4.5% year-on-year growth in the third quarter, largely propelled by a surge in exports, bringing it closer to its annual target. However, this impressive external performance belies persistent challenges within its domestic market, including soft consumer spending and a struggling property sector.",
+    "content": "HONG KONG – China's economic engine roared a little louder in the third quarter, clocking in a respectable 4.5% year-on-year growth from July to September. This robust performance, announced Monday, nudges Beijing significantly closer to its official annual growth target, offering a much-needed boost of confidence as the year winds down amidst global economic jitters.\n\nThe primary fuel for this acceleration? A powerful wave of robust exports. Across diverse sectors, from cutting-edge electronics to heavy machinery and everyday manufactured goods, global demand continues to funnel substantial revenue into the Chinese economy. This external strength underscores China’s entrenched position as the world’s factory floor, demonstrating its remarkable ability to adapt and capitalize on shifting international consumption patterns, even amidst a complex global geopolitical landscape.\n\nYet, beneath the impressive headline export figures lies a more complex, and perhaps concerning, domestic reality. Internal demand within China remains stubbornly weak. Consumers, many still reeling from the lingering psychological and financial effects of past stringent lockdowns and an uncertain future, are exercising caution with their spending. Compounding this, the protracted crisis in the property sector continues to cast a long shadow, eroding household wealth and dampening overall investor confidence, creating a stark contrast with the booming international trade market.\n\nThis striking dual-track economy – a global powerhouse externally, grappling with significant internal headwinds – presents a formidable balancing act for Beijing. While exports offer a crucial lifeline, sustainable and equitable long-term growth fundamentally hinges on revitalizing its vast domestic market. Policymakers face the intricate challenge of effectively stimulating internal consumption and stabilizing crucial economic sectors without inadvertently overheating the economy or exacerbating existing imbalances. The Q3 numbers, while offering a moment of relief on the surface, ultimately underscore the imperative for a comprehensive and sustainable strategy to foster truly resilient growth in the years ahead.",
     "keyTakeaways": [
-      "prompt-pivot simplifies LLM prompt management by integrating directly into FastAPI applications.",
-      "It allows real-time storage, versioning, editing, and publishing of prompts using existing PostgreSQL or MySQL databases.",
-      "The tool boasts a lean architecture, requiring no additional servers, vendor cloud, or background workers, reducing operational overhead."
+      "China's Q3 economic growth hit 4.5% year-on-year, primarily driven by strong exports.",
+      "Despite export-fueled growth, China's domestic economy faces persistent weakness in consumer spending and the property sector.",
+      "Beijing confronts the challenge of balancing robust external trade with the critical need to stimulate internal demand for sustainable long-term growth."
     ],
-    "source": "Pypi.org",
-    "author": "Staff Writer",
-    "publishedAt": "2026-10-18 23:20",
+    "source": "Abcnews.com",
+    "author": "CHAN HO-HIM AP business writer",
+    "publishedAt": "2026-10-19 03:40",
     "category": "AI",
-    "image": "https://images.unsplash.com/photo-1680814907495-d8b8e0e7a1ad?w=800&auto=format&fit=crop&q=80",
-    "originalUrl": "https://pypi.org/project/prompt-pivot/",
+    "image": "https://i.abcnewsfe.com/a/220bc892-3708-46e3-8cfb-1cbf1f98e6c1/wirestory_71354a055a412ef13e4e2edad070b4a5_16x9.jpg?w=1600",
+    "originalUrl": "https://abcnews.com/Business/wireStory/chinas-economy-accelerates-robust-exports-domestic-weakness-persists-137369592",
     "tags": [
       "AI",
-      "promptpivot"
+      "Chinas",
+      "economy"
     ],
     "readingTime": "2 min"
   }
